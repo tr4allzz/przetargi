@@ -1,64 +1,81 @@
-"""Diagnostic round 3: Austria data.gv.at Kerndaten datasets -> KDQ -> Kerndaten XML; freelancermap project fields."""
-import html
+"""Probe round 4: historical depth (e-Zamówienia 2021–2025, TED legacy notices) and freelancermap detail rates."""
 import json
 import re
+import sys
 import time
 
 import requests
 
-H = {"User-Agent": "przetargi-probe/0.1 (+https://github.com/tr4allzz/przetargi)"}
+sys.path.insert(0, ".")
+from monitor.sources import ted  # noqa: E402
 
+H = {"User-Agent": "przetargi-probe/0.1 (+https://github.com/tr4allzz/przetargi)", "Accept": "application/json"}
 
-def get(url, **kw):
-    time.sleep(0.7)
-    try:
-        return requests.get(url, headers=H, timeout=60, **kw)
-    except Exception as e:  # noqa: BLE001
-        print(f"  ERR {url}: {type(e).__name__}: {str(e)[:150]}")
-        return None
+print("=== e-Zamowienia by year (OrderObject=walidac)")
+for y in range(2020, 2026):
+    for half, (a, b) in enumerate([(f"{y}-01-01", f"{y}-06-30"), (f"{y}-07-01", f"{y}-12-31")]):
+        time.sleep(1.5)
+        try:
+            r = requests.get("https://ezamowienia.gov.pl/mo-board/api/v1/notice", headers=H, timeout=60, params={
+                "NoticeType": "TenderResultNotice", "PublicationDateFrom": a, "PublicationDateTo": b,
+                "OrderObject": "walidac", "PageSize": 100})
+            js = r.json() if r.ok else None
+            n = len(js) if isinstance(js, list) else (js or {})
+            first = js[0] if isinstance(js, list) and js else {}
+            print(y, half, "HTTP", r.status_code, "n=", n if isinstance(n, int) else str(n)[:120],
+                  "| sample:", (first.get("orderObject") or "")[:80], first.get("publicationDate"),
+                  "| body len", len(first.get("htmlBody") or ""))
+        except Exception as e:  # noqa: BLE001
+            print(y, half, "ERR", e)
 
+print("\n=== TED legacy")
+for y in (2016, 2019, 2021, 2022, 2023):
+    q = f'FT~"computerised system validation" AND publication-date>={y}0101 AND publication-date<={y}1231'
+    time.sleep(1)
+    r = requests.post("https://api.ted.europa.eu/v3/notices/search", headers=H, timeout=60,
+                      json={"query": q, "fields": ted.FIELDS, "limit": 5, "page": 1, "scope": "ALL",
+                            "paginationMode": "PAGE_NUMBER"})
+    print(y, "HTTP", r.status_code, r.text[:200] if not r.ok else "")
+    if r.ok:
+        js = r.json()
+        print("  total", js.get("totalNoticeCount"))
+        for n in js.get("notices", [])[:3]:
+            filled = {k: v for k, v in n.items() if v not in (None, "", [], {})}
+            print("  ", json.dumps(filled, ensure_ascii=False)[:700])
+# legacy award notices with the generic validation/qualification query
+q = 'FT~"validation" AND FT~"GMP" AND notice-type IN (can-standard) AND publication-date>=20150101 AND publication-date<=20221231'
+r = requests.post("https://api.ted.europa.eu/v3/notices/search", headers=H, timeout=60,
+                  json={"query": q, "fields": ted.FIELDS + ["notice-type", "form-type"], "limit": 5, "page": 1,
+                        "scope": "ALL", "paginationMode": "PAGE_NUMBER"})
+print("legacy CAN:", r.status_code, r.text[:300] if not r.ok else r.json().get("totalNoticeCount"))
+if r.ok:
+    for n in r.json().get("notices", [])[:3]:
+        print("  ", json.dumps({k: v for k, v in n.items() if v not in (None, "", [], {})}, ensure_ascii=False)[:900])
 
-print("=== AT search counts")
-S = "https://www.data.gv.at/api/hub/search/search"
-for q in ["Kerndaten", "Kerndatenquelle", "Ausschreibung", "eForms"]:
-    r = get(S, params={"q": q, "limit": 1, "filter": "dataset"})
-    if r is not None and r.ok:
-        print(q, "->", r.json()["result"]["count"])
-r = get(S, params={"q": "Kerndatenquelle", "limit": 3, "filter": "dataset"})
-res = r.json()["result"]["results"] if r is not None and r.ok else []
-for d in res:
-    print("\nDATASET", d.get("resource"))
-    print("  title:", json.dumps(d.get("title"), ensure_ascii=False)[:200])
-    print("  publisher:", json.dumps(d.get("publisher"), ensure_ascii=False)[:200])
-    print("  keys:", sorted(d.keys()))
-    for dist in (d.get("distributions") or [])[:3]:
-        print("  dist:", json.dumps({k: dist.get(k) for k in ("format", "access_url", "download_url", "title")}, ensure_ascii=False)[:400])
-    # follow first distribution URL
-    for dist in (d.get("distributions") or [])[:1]:
-        url = dist.get("access_url") or dist.get("download_url")
-        if isinstance(url, list):
-            url = url[0]
-        if url:
-            rr = get(url)
-            if rr is not None:
-                print(f"  KDQ {url}: HTTP {rr.status_code} type={rr.headers.get('content-type')} len={len(rr.text)}")
-                print("  KDQ head:", rr.text[:1200].replace("\n", " "))
-                links = re.findall(r"<(?:url|link|loc)[^>]*>([^<]+)</", rr.text)[:2]
-                for l in links:
-                    r3 = get(l.strip())
-                    if r3 is not None:
-                        print(f"   KD {l.strip()}: HTTP {r3.status_code} len={len(r3.text)}")
-                        print("   KD head:", re.sub(r"\s+", " ", r3.text[:1500]))
-
-print("\n=== freelancermap project fields")
-r = get("https://www.freelancermap.de/projekte/gxp")
-m = re.search(r'data-component-name="ProjectSearch"[^>]*>(.*?)</script>', r.text, re.S) if r is not None else None
-if m:
-    data = json.loads(html.unescape(m.group(1)))
-    projects = data["initialState"]["result"]["projects"]
-    print("count:", len(projects), "| result keys:", sorted(data["initialState"]["result"].keys()))
-    p = projects[0]
-    for k, v in p.items():
-        if k in ("poster",):
-            continue
-        print(f"  {k} = {json.dumps(v, ensure_ascii=False)[:150]}")
+print("\n=== freelancermap detail pages")
+for slug in ["1085300-csv-experte-pharma", "senior-gxp-consultant", "freelancer-qualification-csv-specialist-gn-gmp-pharma",
+             "100-prozent-remote-nearshore-senior-gxp-consultant-m-f-d"]:
+    time.sleep(2)
+    r = requests.get(f"https://www.freelancermap.de/projekt/{slug}", headers={**H, "Accept": "text/html"}, timeout=60)
+    txt = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", r.text))
+    hits = sorted(set(m.group(0) for m in re.finditer(
+        r"(?i)(stundensatz|tagessatz|vergütung|budget|rate)[^.]{0,60}|\d{2,4}\s?(€|eur)[^.]{0,30}", txt)))[:8]
+    comps = re.findall(r'data-component-name="([^"]+)"', r.text)
+    print(slug, r.status_code, "components:", comps, "\n   hits:", hits)
+    m = re.search(r'data-component-name="ProjectShow"[^>]*>(.*?)</script>', r.text, re.S) or \
+        re.search(r'data-component-name="Project[^"]*"[^>]*>(.*?)</script>', r.text, re.S)
+    if m:
+        import html as h
+        try:
+            d = json.loads(h.unescape(m.group(1)))
+            def walk(o, p=""):
+                if isinstance(o, dict):
+                    for k, v in o.items():
+                        if re.search(r"(?i)rate|budget|salary|price|hour|satz", k):
+                            print("   key", p + k, "=", json.dumps(v, ensure_ascii=False)[:120])
+                        walk(v, p + k + ".")
+                elif isinstance(o, list) and o:
+                    walk(o[0], p + "[0].")
+            walk(d)
+        except Exception as e:  # noqa: BLE001
+            print("   json err", e)
