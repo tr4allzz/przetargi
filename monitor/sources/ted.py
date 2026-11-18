@@ -123,7 +123,7 @@ def _money(values, currencies) -> str:
 
 def _offers(n: dict) -> str:
     vals, codes = _list(n.get("received-submissions-type-val")), _list(n.get("received-submissions-type-code"))
-    if codes and len(codes) == len(vals):
+    if codes and len(codes) == len(vals) and "tenders" in codes:
         vals = [v for v, c in zip(vals, codes) if c == "tenders"]
     vals = [v for v in vals if v not in ("-1", "")]
     return " / ".join(vals[:5])

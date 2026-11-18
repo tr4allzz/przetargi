@@ -23,6 +23,14 @@ Każde źródło jest izolowane — awaria jednego nie zatrzymuje reszty; status
 - `data/ALL.md` — wszystkie trafienia: otwarte i zamknięte (z wygranymi, jeśli są)
 - `data/tenders.json` — baza (klucz `źródło:id`, `first_seen`, score, dopasowania)
 
+## Co jest w raporcie
+
+- **Otwarte — do rozważenia:** karta dla każdego otwartego postępowania: termin, tryb, umowa ramowa, czas realizacji, wartość szacunkowa, kryteria oceny (z wagami, jeśli są), wadium, skrót warunków udziału.
+- **Rozstrzygnięte — benchmark:** zamawiający, przedmiot, wartość szacunkowa, liczba ofert, najniższa–najwyższa oferta, kwota umowy, zwycięzca (kraj, wielkość firmy), kryteria, data. Ogłoszenie o zamówieniu i ogłoszenie o wyniku z BZP są łączone po `tenderId` w jeden wiersz.
+- **Wnioski do wyceny:** mediana liczby ofert i odsetek postępowań z jedną ofertą, mediana relacji kwota umowy / wartość szacunkowa, udział postępowań „tylko cena”.
+
+Źródła danych o wyniku: TED (pola eForms: BT-27, BT-710/711, BT-720, BT-759, zwycięzca) oraz treść ogłoszeń BZP (sekcje IV, VI, VIII). Baza Konkurencyjności nie udostępnia wyników przez API — tylko ogłoszenia.
+
 ## Score (0–10)
 
 Patrz `monitor/config.py`. Trafienie wymaga terminu walidacyjnego **i** (silnego terminu CSV albo kontekstu GxP/farmacja/krew/biobank/aseptyka). Bonus za CPV 72225000, kary za fałszywe trafienia (walidacja modeli ML, egzaminy zawodowe). Próg domyślny: 3.
