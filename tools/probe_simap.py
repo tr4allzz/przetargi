@@ -1,63 +1,45 @@
-"""Diagnostic: simap.ch public search API shape (endpoint seen in the site's own network traffic)."""
+"""Diagnostic: simap.ch detail structure (flattened key paths) for an award and an open tender."""
 import json
 import time
 
 import requests
 
 H = {"User-Agent": "przetargi-probe/0.1", "Accept": "application/json"}
-BASE = "https://www.simap.ch/rest/publications/v2/project/project-search"
-
-
-def show(label, params):
-    time.sleep(1.5)
-    r = requests.get(BASE, params=params, headers=H, timeout=60)
-    print(f"\n=== {label}: HTTP {r.status_code}")
-    try:
-        j = r.json()
-    except Exception:  # noqa: BLE001
-        print("not json:", r.text[:300])
-        return None
-    if isinstance(j, dict):
-        for k, v in j.items():
-            if isinstance(v, list):
-                print(f"list {k} len={len(v)}")
-                if v and isinstance(v[0], dict):
-                    print("item keys:", sorted(v[0].keys()))
-                    print("first:", json.dumps(v[0], ensure_ascii=False)[:2500])
-            else:
-                print(f"{k} = {json.dumps(v, ensure_ascii=False)[:400]}")
-    return j
-
-
+S = "https://www.simap.ch/rest/publications/v2/project/project-search"
+D = "https://www.simap.ch/rest/publications/v1/project/{pid}/publication-details/{pub}"
 langs = [("lang", x) for x in ("de", "fr", "it", "en")]
-j = show("search GMP", [("search", "GMP"), *langs, ("orderAddressCountryOnlySwitzerland", "false")])
-show("search Validierung", [("search", "Validierung"), *langs])
-show("search GAMP", [("search", "GAMP"), *langs])
 
-# pagination candidates
-if isinstance(j, dict):
-    pag = j.get("pagination") or {}
-    print("\npagination object:", pag)
-    last = pag.get("lastItem") or pag.get("lastItemId")
-    if last:
-        show("page 2 via lastItem", [("search", "GMP"), *langs, ("lastItem", last)])
 
-# detail endpoint candidates
-if isinstance(j, dict):
-    items = next((v for v in j.values() if isinstance(v, list) and v), [])
-    if items:
-        it = items[0]
-        pid = it.get("id") or it.get("projectId")
-        pubid = (it.get("publicationId") or (it.get("latestPublication") or {}).get("id")
-                 or (it.get("publication") or {}).get("id"))
-        for path in [f"https://www.simap.ch/rest/publications/v1/project/{pid}/publication-details/{pubid}",
-                     f"https://www.simap.ch/rest/publications/v2/project/{pid}/publication-details/{pubid}",
-                     f"https://www.simap.ch/rest/publications/v1/project/{pid}"]:
-            time.sleep(1.5)
-            r = requests.get(path, headers=H, timeout=60)
-            print(f"\nDETAIL {path}: HTTP {r.status_code}")
-            if r.status_code == 200:
-                d = r.json()
-                print("detail keys:", sorted(d.keys()) if isinstance(d, dict) else type(d))
-                print(json.dumps(d, ensure_ascii=False)[:3000])
-                break
+def flat(o, p=""):
+    if isinstance(o, dict):
+        for k, v in o.items():
+            yield from flat(v, f"{p}.{k}" if p else k)
+    elif isinstance(o, list):
+        if o:
+            yield from flat(o[0], p + "[0]")
+        else:
+            yield p + "[]", "[]"
+    else:
+        yield p, o
+
+
+r = requests.get(S, params=[("search", "Software"), *langs], headers=H, timeout=60).json()
+by_type = {}
+for it in r["projects"]:
+    by_type.setdefault(it["pubType"], it)
+print("pubTypes seen:", list(by_type))
+# also new-style filter params: try to find open tenders
+for extra in ([("newestPubTypes", "tender")], [("pubTypes", "tender")]):
+    time.sleep(1)
+    rr = requests.get(S, params=[("search", "Software"), *langs, *extra], headers=H, timeout=60)
+    print("filter", extra, rr.status_code, [p["pubType"] for p in rr.json().get("projects", [])][:10] if rr.ok else rr.text[:200])
+
+for t, it in by_type.items():
+    time.sleep(1.5)
+    d = requests.get(D.format(pid=it["id"], pub=it["publicationId"]), headers=H, timeout=60).json()
+    print(f"\n===== {t}: {it['title']}")
+    for k, v in flat(d):
+        sv = json.dumps(v, ensure_ascii=False)
+        if v in (None, "[]") or sv == "null":
+            continue
+        print(f"  {k} = {sv[:160]}")
