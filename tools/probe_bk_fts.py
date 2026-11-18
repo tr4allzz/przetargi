@@ -10,8 +10,9 @@ BK = "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/api/announcements/
 for label, params in {
     "bk published walidacja": {"page": 1, "limit": 5, "sort": "default", "query": "walidacja",
                                "status[0]": "PUBLISHED"},
-    "bk all-status walidacja": {"page": 1, "limit": 5, "sort": "default", "query": "walidacja"},
-    "bk page2": {"page": 2, "limit": 5, "sort": "default", "query": "walidacja"},
+    "bk page2": {"page": 2, "limit": 5, "sort": "default", "query": "walidacja", "status[0]": "PUBLISHED"},
+    "bk closed": {"page": 1, "limit": 2, "sort": "default", "query": "walidacja", "status[0]": "CLOSED"},
+    "bk resolved": {"page": 1, "limit": 2, "sort": "default", "query": "walidacja", "status[0]": "RESOLVED"},
 }.items():
     time.sleep(2)
     r = requests.get(BK, params=params, headers=H, timeout=60)
@@ -30,17 +31,10 @@ for label, params in {
             elif not isinstance(v, (list, dict)):
                 print(f"  {k} = {v}")
             elif isinstance(v, dict):
-                print(f"  dict '{k}':", json.dumps(v, ensure_ascii=False)[:400])
+                for k2, v2 in v.items():
+                    if isinstance(v2, list) and v2 and isinstance(v2[0], dict):
+                        print(f"  data.{k2} len={len(v2)} keys:", sorted(v2[0].keys()))
+                        print("  first:", json.dumps(v2[0], ensure_ascii=False)[:2500])
+                    else:
+                        print(f"  data.{k2} =", json.dumps(v2, ensure_ascii=False)[:300])
 
-FTS = "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages"
-for limit in (5, 50):
-    t0 = time.time()
-    try:
-        r = requests.get(FTS, params={"updatedFrom": "2026-11-17T00:00:00",
-                                      "updatedTo": "2026-11-18T00:00:00", "limit": limit},
-                         headers=H, timeout=180)
-        j = r.json()
-        print(f"fts limit={limit}: HTTP {r.status_code} in {time.time()-t0:.1f}s, "
-              f"releases={len(j.get('releases') or [])}, next={'next' in (j.get('links') or {})}")
-    except Exception as e:  # noqa: BLE001
-        print(f"fts limit={limit}: {type(e).__name__} after {time.time()-t0:.1f}s: {e}")
