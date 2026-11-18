@@ -28,7 +28,7 @@ SLEEP = 2.0
 COMPONENT = re.compile(r'data-component-name="ProjectSearch"[^>]*>(.*?)</script>', re.S)
 TAG = re.compile(r"<[^>]+>")
 CONTRACT = {"contracting": "kontrakt (freelance)", "employee_leasing": "ANÜ (leasing pracownika)",
-            "permanent": "etat", "freelance": "freelance"}
+            "permanent": "etat", "permanent_position": "etat", "freelance": "freelance"}
 
 
 def _clean(s: str) -> str:

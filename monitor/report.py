@@ -177,12 +177,23 @@ GIG_HEADER = ("| Score | Zlecenie | Firma / pośrednik | Kraj | Forma · miejsce
               "|---:|---|---|---|---|---|---|")
 
 
+ISO3 = {"DEU": "DE", "POL": "PL", "CHE": "CH", "AUT": "AT", "FRA": "FR", "GBR": "GB", "IRL": "IE", "DNK": "DK",
+        "BEL": "BE", "BGR": "BG", "CZE": "CZ", "NLD": "NL", "ITA": "IT", "ESP": "ES", "SWE": "SE", "FIN": "FI",
+        "NOR": "NO", "HUN": "HU", "SVK": "SK", "SVN": "SI", "ROU": "RO", "HRV": "HR", "LTU": "LT", "LVA": "LV",
+        "EST": "EE", "PRT": "PT", "GRC": "GR", "LUX": "LU", "MLT": "MT", "CYP": "CY", "UK": "GB"}
+
+
+def _cc(code: str) -> str:
+    code = (code or "").strip().upper()
+    return ISO3.get(code, code) or "?"
+
+
 def _country_table(groups: dict[str, list[dict]]) -> list[str]:
     cols = list(groups)
     countries: dict[str, list[int]] = {}
     for i, col in enumerate(cols):
         for c in groups[col]:
-            row = countries.setdefault(c["country"] or "?", [0] * len(cols))
+            row = countries.setdefault(_cc(c["country"]), [0] * len(cols))
             row[i] += 1
     if not countries:
         return []
@@ -207,8 +218,8 @@ def render_full(items: list[Tender], today: date, title: str, intro: list[str] |
 
     gigs_all = [c for c in cases if c["kind"] == config.KIND_FREELANCE]
     cutoff = date.fromordinal(today.toordinal() - gig_days).isoformat() if gig_days else ""
-    gigs = sorted([c for c in gigs_all if c["published"] >= cutoff], key=lambda c: (c["published"], c["score"]),
-                  reverse=True)
+    gigs = sorted([c for c in gigs_all if c["published"] >= cutoff],
+                  key=lambda c: (c["score"] >= 7, c["published"], c["score"]), reverse=True)
     tenders = [c for c in cases if c["kind"] != config.KIND_FREELANCE]
     open_ = sorted([c for c in tenders if _is_open(c, t_iso)], key=lambda c: (c["deadline"], -c["score"]))
     closed = [c for c in tenders if c not in open_]

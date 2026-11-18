@@ -9,6 +9,7 @@ from .models import Tender
 _TERMS = [(w, label, re.compile(rx, re.I | re.S)) for w, label, rx in config.TERMS]
 _NEG = [(w, label, re.compile(rx, re.I | re.S)) for w, label, rx in config.NEGATIVE]
 _STRONG_LABELS = config.SELF_SUFFICIENT_LABELS
+_GIG_TITLE = re.compile(config.RX_GIG_TITLE, re.I)
 
 
 _K = {name: re.compile(getattr(config, name), re.I | re.S) for name in
@@ -83,6 +84,9 @@ def score(t: Tender) -> Tender:
     if "-analytical method validation" in matched:
         t.kind = config.KIND_OTHER   # walidacja metod analitycznych to nie CSV
     raw += config.KIND_SCORE_ADJ.get(t.kind, 0.0)
+    if t.kind == config.KIND_FREELANCE and not _GIG_TITLE.search(t.title or ""):
+        raw -= config.GIG_TITLE_PENALTY
+        matched.append("-gig title off-topic")
 
     t.score = round(max(0.0, min(10.0, raw)), 1)
     t.matched = matched

@@ -133,3 +133,10 @@ RX_OTHER = (r"assurances?\b|insurance|versicherung\w*|neubau|ersatzneubau|baulei
             r"badawcz\w*|research|forschung|odczynnik\w*|reagent\w*|pożywk\w*|hodowl\w*|"
             r"pranie|wäsche|reinraumbekleidung|bekleidung|mopps|próbek|samples|antibody|przeciwciał")
 EQUIPMENT_CPV_PREFIXES = ("38", "33", "42", "39", "31", "44", "45")
+
+
+# Freelance gigs: long recruiter texts match many terms, so the title must name the core topic.
+RX_GIG_TITLE = (r"\bcsv\b|computer\s?system|validier|validat|walidac|qualifi|kwalifik|\bgxp\b|\bgmp\b|gamp|annex"
+                r"|part\s?11|\blims\b|\bmes\b|labware|pharmasuite|x-?steps|\bqa\b|quality|qualität|compliance"
+                r"|data integrity|regulatory")
+GIG_TITLE_PENALTY = 4.0
