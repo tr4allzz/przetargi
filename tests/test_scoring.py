@@ -84,3 +84,9 @@ def test_analytical_method_validation_is_not_csv():
     t = s("ZAPYTANIE OFERTOWE NR 23/2026", "Opracowanie, prewalidacja oraz pełna walidacja metody analitycznej",
           "Celon Pharma S.A.")
     assert t.score < DEFAULT_MIN_SCORE, t.matched
+
+
+def test_method_validation_service_is_other():
+    t = s("Realizacja usługi polegającej na opracowaniu i walidacji metody oznaczania nitrozoamin w produkcie",
+          "GMP", "Przedsiębiorstwo Farmaceutyczne LEK-AM")
+    assert t.kind == "inne"

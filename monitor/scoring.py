@@ -78,6 +78,8 @@ def score(t: Tender) -> Tender:
             matched.append(f"-{label}")
 
     t.kind = classify(t)
+    if "-analytical method validation" in matched:
+        t.kind = config.KIND_OTHER   # walidacja metod analitycznych to nie CSV
     raw += config.KIND_SCORE_ADJ.get(t.kind, 0.0)
 
     t.score = round(max(0.0, min(10.0, raw)), 1)
