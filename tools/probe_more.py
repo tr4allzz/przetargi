@@ -1,4 +1,4 @@
-"""Diagnostic round 2: freelancermap ProjectSearch JSON, CZ alternatives, AT data.gv.at/USP endpoints."""
+"""Diagnostic round 3: Austria data.gv.at Kerndaten datasets -> KDQ -> Kerndaten XML; freelancermap project fields."""
 import html
 import json
 import re
@@ -6,12 +6,11 @@ import time
 
 import requests
 
-H = {"User-Agent": "przetargi-probe/0.1 (+https://github.com/tr4allzz/przetargi)",
-     "Accept": "text/html,application/json"}
+H = {"User-Agent": "przetargi-probe/0.1 (+https://github.com/tr4allzz/przetargi)"}
 
 
 def get(url, **kw):
-    time.sleep(1)
+    time.sleep(0.7)
     try:
         return requests.get(url, headers=H, timeout=60, **kw)
     except Exception as e:  # noqa: BLE001
@@ -19,52 +18,47 @@ def get(url, **kw):
         return None
 
 
-def keys_tree(o, p="", depth=0, out=None, limit=80):
-    out = out if out is not None else []
-    if len(out) >= limit or depth > 6:
-        return out
-    if isinstance(o, dict):
-        for k, v in o.items():
-            keys_tree(v, f"{p}.{k}" if p else k, depth + 1, out, limit)
-    elif isinstance(o, list):
-        out.append(f"{p}[] len={len(o)}")
-        if o:
-            keys_tree(o[0], p + "[0]", depth + 1, out, limit)
-    else:
-        out.append(f"{p} = {json.dumps(o, ensure_ascii=False)[:100]}")
-    return out
+print("=== AT search counts")
+S = "https://www.data.gv.at/api/hub/search/search"
+for q in ["Kerndaten", "Kerndatenquelle", "Ausschreibung", "eForms"]:
+    r = get(S, params={"q": q, "limit": 1, "filter": "dataset"})
+    if r is not None and r.ok:
+        print(q, "->", r.json()["result"]["count"])
+r = get(S, params={"q": "Kerndatenquelle", "limit": 3, "filter": "dataset"})
+res = r.json()["result"]["results"] if r is not None and r.ok else []
+for d in res:
+    print("\nDATASET", d.get("resource"))
+    print("  title:", json.dumps(d.get("title"), ensure_ascii=False)[:200])
+    print("  publisher:", json.dumps(d.get("publisher"), ensure_ascii=False)[:200])
+    print("  keys:", sorted(d.keys()))
+    for dist in (d.get("distributions") or [])[:3]:
+        print("  dist:", json.dumps({k: dist.get(k) for k in ("format", "access_url", "download_url", "title")}, ensure_ascii=False)[:400])
+    # follow first distribution URL
+    for dist in (d.get("distributions") or [])[:1]:
+        url = dist.get("access_url") or dist.get("download_url")
+        if isinstance(url, list):
+            url = url[0]
+        if url:
+            rr = get(url)
+            if rr is not None:
+                print(f"  KDQ {url}: HTTP {rr.status_code} type={rr.headers.get('content-type')} len={len(rr.text)}")
+                print("  KDQ head:", rr.text[:1200].replace("\n", " "))
+                links = re.findall(r"<(?:url|link|loc)[^>]*>([^<]+)</", rr.text)[:2]
+                for l in links:
+                    r3 = get(l.strip())
+                    if r3 is not None:
+                        print(f"   KD {l.strip()}: HTTP {r3.status_code} len={len(r3.text)}")
+                        print("   KD head:", re.sub(r"\s+", " ", r3.text[:1500]))
 
-
-print("=== freelancermap ProjectSearch JSON")
-r = get("https://www.freelancermap.de/projekte/csv")
-if r is not None:
-    m = re.search(r'data-component-name="ProjectSearch"[^>]*>(.*?)</script>', r.text, re.S)
-    if m:
-        data = json.loads(html.unescape(m.group(1)))
-        for line in keys_tree(data, limit=120):
-            print("  ", line)
-
-print("\n=== CZ alternatives")
-for url in ["https://zakazky.gov.cz/", "https://nen.nipez.cz/", "https://vvz.nipez.cz/",
-            "https://www.hlidacstatu.cz/api/v2/verejnezakazky/hledat?dotaz=validace"]:
-    r = get(url)
-    if r is not None:
-        print(f"{url}: HTTP {r.status_code} len={len(r.text)} api-hints:",
-              sorted(set(re.findall(r'["\'](/api/[^"\']{3,80})["\']', r.text)))[:10])
-
-print("\n=== AT")
-for url, params in [
-    ("https://www.data.gv.at/api/hub/search/search", {"q": "Kerndaten", "limit": 2}),
-    ("https://www.data.gv.at/api/hub/search/search", {"q": "Vergabe", "limit": 2, "filter": "dataset"}),
-    ("https://www.usp.gv.at/ausschreibungssuche", {}),
-    ("https://www.usp.gv.at/foerderungen-ausschreibungen/ausschreibungssuche.html", {}),
-]:
-    r = get(url, params=params)
-    if r is None:
-        continue
-    print(f"{url} {params}: HTTP {r.status_code} type={r.headers.get('content-type')} len={len(r.text)}")
-    if "json" in (r.headers.get("content-type") or ""):
-        for line in keys_tree(r.json(), limit=40):
-            print("  ", line)
-    else:
-        print("  links:", sorted(set(re.findall(r'href="([^"]*(?:ausschreib|suche|kerndaten|api)[^"]*)"', r.text, re.I)))[:15])
+print("\n=== freelancermap project fields")
+r = get("https://www.freelancermap.de/projekte/gxp")
+m = re.search(r'data-component-name="ProjectSearch"[^>]*>(.*?)</script>', r.text, re.S) if r is not None else None
+if m:
+    data = json.loads(html.unescape(m.group(1)))
+    projects = data["initialState"]["result"]["projects"]
+    print("count:", len(projects), "| result keys:", sorted(data["initialState"]["result"].keys()))
+    p = projects[0]
+    for k, v in p.items():
+        if k in ("poster",):
+            continue
+        print(f"  {k} = {json.dumps(v, ensure_ascii=False)[:150]}")
