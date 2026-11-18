@@ -10,7 +10,7 @@ on:
         default: "2"
       sources:
         description: "Comma-separated sources (also available: fts — slow)"
-        default: "ted,simap,contracts_finder,ezamowienia,bk"
+        default: "ted,oev,simap,boamp,contracts_finder,ezamowienia,bk"
       min_score:
         description: "Minimum relevance score (0-10)"
         default: "3"
@@ -43,7 +43,7 @@ jobs:
         run: |
           python -m monitor \
             --days-back "${{ inputs.days_back || '2' }}" \
-            --sources "${{ inputs.sources || 'ted,simap,contracts_finder,ezamowienia,bk' }}" \
+            --sources "${{ inputs.sources || 'ted,oev,simap,boamp,contracts_finder,ezamowienia,bk' }}" \
             --min-score "${{ inputs.min_score || '3' }}"
 
       - name: Commit results

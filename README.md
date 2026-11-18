@@ -9,6 +9,8 @@ Działa w GitHub Actions (raz dziennie), wyniki commituje do repo, a przy nowych
 | Źródło | Zakres | Metoda | Status |
 |---|---|---|---|
 | `ted` | UE (TED, powyżej progów UE) | Oficjalne Search API v3, wyszukiwanie pełnotekstowe | stabilne |
+| `oev` | Niemcy — oeffentlichevergabe.de (Bekanntmachungsservice), także poniżej progów UE | dzienne/miesięczne eksporty OCDS (CC0), filtr lokalny; liczba oferentów, wartość umowy | działa |
+| `boamp` | Francja — BOAMP (DILA) | Opendatasoft API, wyszukiwanie pełnotekstowe | działa |
 | `simap` | Szwajcaria (simap.ch — większość przetargów CH nie trafia do TED) | REST API strony: wyszukiwanie + szczegóły (termin, zwycięzcy, ceny, liczba ofert) | działa |
 | `ezamowienia` | PL, BZP (ogłoszenia + wyniki) | API tablicy e-Zamówień: pełny skan 7 dni (kursor `SearchAfter`) + wyszukiwanie w tytułach po stronie serwera dla całego okna | działa |
 | `bk` | PL, Baza Konkurencyjności | API wyszukiwarki BK (`query`, statusy PUBLISHED/CLOSED/RESOLVED) | działa |

@@ -1,5 +1,5 @@
 """Source registry. Each fetcher: (session, since: date) -> list[Tender]."""
-from . import bk, ezamowienia, ocds, simap, ted
+from . import bk, boamp, ezamowienia, ocds, oev, simap, ted
 
 SOURCES = {
     "ted": ted.fetch,
@@ -8,6 +8,8 @@ SOURCES = {
     "ezamowienia": ezamowienia.fetch,
     "bk": bk.fetch,
     "simap": simap.fetch,
+    "oev": oev.fetch,
+    "boamp": boamp.fetch,
 }
 
 # Sources without server-side keyword search scan everything in the window;
@@ -19,7 +21,9 @@ MAX_DAYS_BACK = {
     "ezamowienia": 365,
     "bk": 365,
     "simap": 730,
+    "oev": 400,
+    "boamp": 730,
 }
 
 # Sources run by the daily schedule (FTS is too slow for daily runs; see ocds.py).
-DEFAULT_SOURCES = ["ted", "simap", "contracts_finder", "ezamowienia", "bk"]
+DEFAULT_SOURCES = ["ted", "oev", "simap", "boamp", "contracts_finder", "ezamowienia", "bk"]

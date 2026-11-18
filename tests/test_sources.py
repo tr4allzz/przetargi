@@ -206,3 +206,46 @@ def test_simap_without_detail_keeps_search_hit():
     from monitor.sources import simap
     t = simap.to_tender(SIMAP_ITEM, None)
     assert t.source_id == "36360-02" and t.buyer == "FD - Steueramt (SST)"
+
+
+OEV_REL = {
+    "ocid": "ocds-mnwr74-1d0513df", "id": "f71b1b9a", "date": "2026-11-16T00:00:00+01:00", "tag": ["award"],
+    "buyer": {"name": "Universitätsklinikum X"},
+    "tender": {"id": "1d0513df", "title": "Validierung LIMS (GAMP 5)", "description": "GMP Labor",
+               "items": [{"classification": {"id": "72000000"}}], "procurementMethodDetails": "Open procedure",
+               "numberOfTenderers": 3, "tenderers": [{"name": "A GmbH"}],
+               "lots": [{"title": "Los 1", "description": "Computersystemvalidierung"}]},
+    "awards": [{"suppliers": [{"name": "A GmbH"}]}],
+    "contracts": [{"value": {"amount": 120000, "currency": "EUR"}, "dateSigned": "2026-09-13T22:00:00.000Z"}],
+}
+
+
+def test_oev_to_tender():
+    from monitor.sources import oev
+    t = oev.to_tender(OEV_REL, "f71b1b9a", "01")
+    assert t.key == "oev:f71b1b9a-01"
+    assert "noticeId=f71b1b9a&noticeVersion=01" in t.url
+    assert t.offers == "3" and t.award_value == "120 000 EUR" and t.contract_date == "2026-09-13"
+    assert t.winners == ["A GmbH"] and "Computersystemvalidierung" in t.description
+    assert t.tender_id == "oev:1d0513df"
+
+
+def test_oev_periods():
+    from datetime import date
+    from monitor.sources import oev
+    assert len(oev._periods(date(2026, 11, 16), date(2026, 11, 18))) == 3
+    m = oev._periods(date(2026, 1, 5), date(2026, 11, 18))
+    assert m[0] == {"pubMonth": "2026-01"} and m[-1] == {"pubMonth": "2026-11"}
+
+
+def test_boamp_to_tender():
+    from monitor.sources import boamp
+    r = {"idweb": "26-1", "objet": "Validation des systèmes informatisés BPF", "nomacheteur": "CHU de Lyon",
+         "dateparution": "2026-11-13", "datelimitereponse": "2026-12-09T12:00:00+00:00",
+         "titulaire": None, "procedure_libelle": "Procédure Ouverte", "nature_libelle": "Avis de marché",
+         "descripteur_libelle": ["Informatique (prestations de services)"],
+         "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:26-1",
+         "donnees": '{"FNSimple": {"objet": {"description": "Prestations de validation des systèmes informatisés selon GAMP 5 pour la pharmacie"}, "cpv": "72000000-5"}}'}
+    t = boamp.to_tender(r)
+    assert t.key == "boamp:26-1" and t.deadline == "2026-12-09 12:00"
+    assert "GAMP 5" in t.description and t.cpv == ["72000000"]

@@ -52,18 +52,19 @@ TERMS: list[tuple[float, str, str]] = [
     (STRONG, "walidacja systemu", r"walidacj\w*\s+(\w+\s+){0,2}system\w*|system\w*\s+(\w+\s+){0,3}walidacj\w*"),
     (STRONG, "Computersystemvalidierung", r"computersystemvalidierung|validierung\s+computergest|computergest\w+\s+system\w*\s+validier"),
     (STRONG, "CSV/CSA", r"\bcsv\b(?=.{0,60}(valid|walid|gmp|gxp))|\bcsa\b(?=.{0,60}(valid|software assurance))"),
+    (STRONG, "systèmes informatisés", r"validation des systèmes informatisés|systèmes? informatisés?"),
     (STRONG, "paperless validation", r"paperless validation|validation (lifecycle )?management (system|software)|digital validation"),
     # validation / qualification
     (VALIDATION, "validation", r"\bvalidat\w*|walidac\w*|validier\w*"),
-    (VALIDATION, "IQ/OQ/PQ", r"\biq\s?/\s?oq|\bi\.?q\.?,?\s+o\.?q\.?|kwalifikacj\w* (instalacyjn|operacyjn|procesow)|installation qualification|operational qualification|qualifizierung"),
+    (VALIDATION, "IQ/OQ/PQ", r"\biq\s?/\s?oq|\bi\.?q\.?,?\s+o\.?q\.?|kwalifikacj\w* (instalacyjn|operacyjn|procesow)|installation qualification|operational qualification|qualifizierung|qualification d.installation|qualification opérationnelle|\bqi\s?/\s?qo"),
     (VALIDATION, "data integrity", r"data integrity|integralno\w* danych|datenintegrit|alcoa"),
     # GxP context
-    (GXP, "GMP/GxP", r"\bgmp\b|\bgxp\b|\bgdp\b(?=.{0,40}(distribution|dystrybuc))|good manufacturing practice|dobrej praktyki wytwarzania|dobra praktyka wytwarzania|gute herstellungspraxis"),
+    (GXP, "GMP/GxP", r"\bbpf\b|bonnes pratiques de fabrication|\bgmp\b|\bgxp\b|\bgdp\b(?=.{0,40}(distribution|dystrybuc))|good manufacturing practice|dobrej praktyki wytwarzania|dobra praktyka wytwarzania|gute herstellungspraxis"),
     (GXP, "PQS/QMS", r"pharmaceutical quality system|\bpqs\b|\beqms\b|quality management system"),
     # domain context
-    (DOMAIN, "pharma", r"pharma\w*|farmac\w*|apothek\w*|apteka|aptek\w*"),
+    (DOMAIN, "pharma", r"pharma\w*|farmac\w*|apothek\w*|apteka|aptek\w*|pharmacie|pharmaceutique"),
     (DOMAIN, "radiopharmacy", r"radiofarm\w*|radiopharm\w*|cyklotron|cyclotron"),
-    (DOMAIN, "blood/biobank", r"krwiodaw\w*|krwiolecz\w*|blood (service|transfusion|bank)|blutspend\w*|biobank\w*|rckik"),
+    (DOMAIN, "blood/biobank", r"établissement français du sang|krwiodaw\w*|krwiolecz\w*|blood (service|transfusion|bank)|blutspend\w*|biobank\w*|rckik"),
     (DOMAIN, "aseptic/cleanroom", r"aseptic|aseptycz\w*|cleanroom|clean room|reinraum|pomieszcze\w* czyst\w*"),
     (DOMAIN, "LIMS/MES/CDS", r"\blims\b|\bmes\b|\bscada\b|chromatograph\w*|\bcds\b|\bbms\b|\bems\b"),
     (DOMAIN, "monitoring", r"monitoring\w* (temperatur|warunk|środowisk)|temperature monitoring|environmental monitoring|monitorowani\w* temperatur"),
@@ -71,7 +72,7 @@ TERMS: list[tuple[float, str, str]] = [
 
 # A tender needs at least one of these groups to be considered relevant at all.
 REQUIRE_ANY_LABEL = {
-    "computer system validation", "GAMP", "Annex 11", "Part 11", "walidacja systemu",
+    "computer system validation", "systèmes informatisés", "GAMP", "Annex 11", "Part 11", "walidacja systemu",
     "Computersystemvalidierung", "CSV/CSA", "paperless validation",
     "validation", "IQ/OQ/PQ", "data integrity",
 }
@@ -81,6 +82,7 @@ SELF_SUFFICIENT_LABELS = {
     "computer system validation", "GAMP", "Part 11", "Computersystemvalidierung",
     "CSV/CSA", "paperless validation",
 }
+# "systèmes informatisés" alone is any French IT system -> needs GxP context, so not self-sufficient
 # ... and at least one GxP/domain hit, unless a self-sufficient term matched.
 CONTEXT_LABELS = {"GMP/GxP", "PQS/QMS", "pharma", "radiopharmacy", "blood/biobank",
                   "aseptic/cleanroom", "LIMS/MES/CDS", "monitoring"}
@@ -108,10 +110,10 @@ CSV_KINDS = {KIND_SERVICE, KIND_SYSTEM}
 KIND_SCORE_ADJ = {KIND_SERVICE: 2.0, KIND_SYSTEM: 1.0, KIND_EQUIPMENT: -1.0,
                   KIND_DEVICE_SERVICE: -1.0, KIND_OTHER: -1.5}
 
-RX_DEVICE_SERVICE = (r"przegląd\w* techniczn|serwis\w*|usuwania awarii|konserwacj|"
+RX_DEVICE_SERVICE = (r"maintenance (des|d.)\s?(équipements|appareils|matériels)|przegląd\w* techniczn|serwis\w*|usuwania awarii|konserwacj|"
                      r"maintenance of (equipment|devices)|wartung|instandhaltung")
 RX_DELIVERY = (r"\bdostaw\w*|wdroż\w*|zakup\w*|wynaj\w*|leasing|lieferung|beschaffung|anschaffung|"
-               r"ersatzbeschaffung|\bsupply\b|purchase|procurement of|acquisition|delivery|aankoop|levering|закупуване|"
+               r"fourniture\w*|acquisition|ersatzbeschaffung|\bsupply\b|purchase|procurement of|acquisition|delivery|aankoop|levering|закупуване|"
                r"implementation of (a|the)? ?(system|software)|installation of")
 RX_SYSTEM = (r"\blims\b|\bmes\b|\bebr\b|electronic batch|\beqms\b|\bqms\b|quality management system|"
              r"system\w* (informatyczn|teleinformatyczn|monitor\w*|zarządzania)|monitoring\w* system|"
@@ -121,7 +123,7 @@ RX_EQUIPMENT = (r"aparatur\w*|urządze\w*|sprzęt\w*|equipment|apparatus|instrum
                 r"analizator|spektrofotometr|spectrophotometer|chromatograf|elektroporator|izolator|isolator|"
                 r"synthesizer|zellprozessierungssystem|wirów\w*|centrifug|zamrażar|lodówk|freezer|"
                 r"aqua purificata|water for injection|komor\w*|maszyn\w*|machine\w*")
-RX_SERVICE = (r"\busług\w*|dienstleistung\w*|\bservices?\b|consult\w*|beratung|doradztw\w*|"
+RX_SERVICE = (r"prestations?|assistance|accompagnement|\busług\w*|dienstleistung\w*|\bservices?\b|consult\w*|beratung|doradztw\w*|"
               r"begleitung|wsparci\w*|^\s*walidacj|^\s*validation|^\s*validierung")
 RX_OTHER = (r"architekt\w*|architect\w*|bauleitung|gesamtleitung|generalplaner|planerleistung|"
             r"badawcz\w*|research|forschung|odczynnik\w*|reagent\w*|pożywk\w*|hodowl\w*|"

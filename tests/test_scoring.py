@@ -90,3 +90,14 @@ def test_method_validation_service_is_other():
     t = s("Realizacja usługi polegającej na opracowaniu i walidacji metody oznaczania nitrozoamin w produkcie",
           "GMP", "Przedsiębiorstwo Farmaceutyczne LEK-AM")
     assert t.kind == "inne"
+
+
+def test_french_csv_service():
+    t = s("Prestations de validation des systèmes informatisés",
+          "conformément aux bonnes pratiques de fabrication (BPF) pour la pharmacie", "CHU de Lyon")
+    assert t.score >= 8 and t.kind == "usługa CSV", (t.score, t.kind, t.matched)
+
+
+def test_french_it_system_without_gxp_rejected():
+    t = s("Maintenance du système informatisé de gestion des ressources humaines", "", "Mairie de Paris")
+    assert t.score < DEFAULT_MIN_SCORE, t.matched
