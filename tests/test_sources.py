@@ -156,3 +156,17 @@ def test_ted_bid_fields():
 def test_ted_undisclosed_value():
     t = ted.to_tender(dict(TED_NOTICE, **{"tender-value": ["-1"], "tender-value-cur": ["EUR"]}))
     assert t.award_value == ""
+
+
+def test_ted_total_value_on_contract_notice_is_not_award():
+    t = ted.to_tender(dict(TED_NOTICE, **{"total-value": 375000, "estimated-value-cur-lot": ["EUR"],
+                                          "estimated-value-lot": ["375000"]}))
+    assert t.award_value == "" and t.estimated_value == "375 000 EUR"
+
+
+def test_ted_currency_falls_back_to_estimate_and_hides_minus_one_offers():
+    t = ted.to_tender(dict(TED_NOTICE, **{"winner-name": {"dan": ["Dot"]}, "total-value": 4800000,
+                                          "estimated-value-cur-lot": ["DKK"],
+                                          "received-submissions-type-val": ["-1", "-1"]}))
+    assert t.award_value == "4 800 000 DKK"
+    assert t.offers == ""

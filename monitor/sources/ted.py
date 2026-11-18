@@ -125,13 +125,17 @@ def _offers(n: dict) -> str:
     vals, codes = _list(n.get("received-submissions-type-val")), _list(n.get("received-submissions-type-code"))
     if codes and len(codes) == len(vals):
         vals = [v for v, c in zip(vals, codes) if c == "tenders"]
+    vals = [v for v in vals if v not in ("-1", "")]
     return " / ".join(vals[:5])
 
 
 def to_tender(n: dict) -> Tender:
     pn = n.get("publication-number") or ""
     deadline = _list(n.get("deadline-receipt-tender-date-lot"))
-    cur = n.get("tender-value-cur")
+    cur = n.get("tender-value-cur") or n.get("estimated-value-cur-lot")
+    has_winner = bool(_list(n.get("winner-name")))
+    # total-value on a contract notice is the estimate, not the contract amount
+    award_raw = n.get("tender-value") or (n.get("total-value") if has_winner else None)
     dur_v, dur_u = _list(n.get("duration-period-value-lot")), _list(n.get("duration-period-unit-lot"))
     crit_names = _list(n.get("award-criterion-name-lot")) or _list(n.get("award-criterion-type-lot"))
     sizes, ctry = _list(n.get("winner-size")), _list(n.get("winner-country"))
@@ -154,7 +158,7 @@ def to_tender(n: dict) -> Tender:
         winners=sorted(set(_list(n.get("winner-name"))))[:10],
         procedure=PROCEDURE_NAMES.get(_pick(n.get("procedure-type")), _pick(n.get("procedure-type"))),
         estimated_value=estimated,
-        award_value=_money(n.get("tender-value") or n.get("total-value"), cur),
+        award_value=_money(award_raw, cur),
         lowest_offer=_money(n.get("tender-value-lowest"), cur),
         highest_offer=_money(n.get("tender-value-highest"), cur),
         offers=_offers(n),
