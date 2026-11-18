@@ -22,7 +22,7 @@ Otwarte: **2** · rozstrzygnięte z danymi o wyniku: **14** · pozostałe: **24*
 ## Rozstrzygnięte — benchmark (kto, za ile, ile ofert)
 
 **Wnioski do wyceny:**
-- Liczba ofert: mediana **1**, jedna oferta w **8/12** postępowań (67%).
+- Liczba ofert: mediana **1**, jedna oferta w **8/13** postępowań (62%).
 - Kwota umowy / wartość szacunkowa: mediana **1.04** (min 0.98, max 1.23, n=6).
 - Wyłącznie cena jako kryterium: **2/9** postępowań ze znanymi kryteriami.
 
@@ -41,7 +41,7 @@ Otwarte: **2** · rozstrzygnięte z danymi o wyniku: **14** · pozostałe: **24*
 | Gdański Uniwersytet Medyczny | [Dostawa odczynników w 2 pakietach "W kierunku lepszej diagnostyki: walidacja zw…](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de2753-12a2-8e0c-592a-d100011513d9) | — | 2 / 1 | 14 604 PLN / 77 601 PLN – 32 545 PLN / 77 601 PLN | 14 604 PLN / 77 601 PLN | Merck Life Science Sp. z o.o., Symbios Sp. z o.o. | — | 2025-11-12 |
 | Uniwersytet Jagielloński - Collegium Medicum | [Dostawa elektroporatora wraz z kwalifikacją IQ/OQ (produkcja) (zgodny z GMP, pr…](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de2d8f-fc93-6ace-0560-49000118fc78) | 679 145 PLN | 2 | 835 348 PLN – 835 348 PLN | 835 348 PLN | Life Technologies Polska Sp. z o.o. | — | 2025-11-05 |
 | Universitätsmedizin der Johannes Gutenberg-U… | [Germany – Washing and dry-cleaning services – Belieferung von Reinraumbekleidun…](https://ted.europa.eu/en/notice/-/detail/771418-2025) | — | — | — | — | Elis Cleanroom GmbH (DEU, medium) | Angebotspreis, Ausfallkonzept, Qualität der Bekle… | 2025-10-24 |
-| AMGROS I/S | [Denmark – IT services: consulting, software development, Internet and support –…](https://ted.europa.eu/en/notice/-/detail/814489-2025) | 4 800 000 DKK | — | 2 142 286 DKK – 9 315 420 DKK | 4 800 000 DKK | Dot Compliance UK Limited (GBR, medium) | Pris, Solution, Implementation plan, Vendor Servi… | 2025-09-02 |
+| AMGROS I/S | [Denmark – IT services: consulting, software development, Internet and support –…](https://ted.europa.eu/en/notice/-/detail/814489-2025) | 4 800 000 DKK | 5 | 2 142 286 DKK – 9 315 420 DKK | 4 800 000 DKK | Dot Compliance UK Limited (GBR, medium) | Pris, Solution, Implementation plan, Vendor Servi… | 2025-09-02 |
 
 ## Pozostałe (zamknięte bez opublikowanego wyniku)
 
@@ -50,7 +50,7 @@ Otwarte: **2** · rozstrzygnięte z danymi o wyniku: **14** · pozostałe: **24*
 | Universitätsklinikum Heidelberg | [Germany – Medical equipments – Automatisiertes Zellprozessierungssystem](https://ted.europa.eu/en/notice/-/detail/676567-2026) | — | — | — | — | — | quality | 2026-10-01 |
 | Trinity College Dublin the University of Dub… | [Ireland – Machines and apparatus for testing and measuring – High-Resolution Pa…](https://ted.europa.eu/en/notice/-/detail/767582-2025) | 56 900 EUR | — | — | — | — | — | 2025-11-19 |
 | National Institute for Bioprocessing Researc… | [Ireland – Research laboratory services – High Throughput Transient Antibody Pro…](https://ted.europa.eu/en/notice/-/detail/523910-2026) | 375 000 EUR | — | — | — | — | — | 2026-07-29 |
-| National Institute for Bioprocessing Researc… | [Ireland – Research laboratory services – High Throughput Transient Antibody Pro…](https://ted.europa.eu/en/notice/-/detail/674744-2026) | 375 000 EUR | — | — | — | — | Price, Technical Capability, Flexibility | 2026-10-01 |
+| National Institute for Bioprocessing Researc… | [Ireland – Research laboratory services – High Throughput Transient Antibody Pro…](https://ted.europa.eu/en/notice/-/detail/674744-2026) | 375 000 EUR | 3 | — | — | — | Price, Technical Capability, Flexibility | 2026-10-01 |
 | National Institute for Bioprocessing Researc… | [Ireland – Research services – High Throughput Transient Antibody Production and…](https://ted.europa.eu/en/notice/-/detail/683167-2026) | 375 000 EUR | — | — | — | — | — | 2026-10-05 |
 | Universitätsklinikum Essen AÖR | [Germany – Electrical wiring and fitting work – NUM RC - Pharma-Monitoring](https://ted.europa.eu/en/notice/-/detail/564895-2026) | — | — | — | — | — | — | 2026-08-14 |
 | Universitätsklinikum Heidelberg | [Germany – Laboratory, optical and precision equipments (excl. glasses) – Bescha…](https://ted.europa.eu/en/notice/-/detail/688819-2026) | — | — | — | — | — | technische Wertung, Preis | 2026-10-06 |

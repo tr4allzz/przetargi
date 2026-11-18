@@ -244,7 +244,7 @@
   "award_value": "",
   "lowest_offer": "",
   "highest_offer": "",
-  "offers": "",
+  "offers": "3",
   "criteria": [
    "Price",
    "Technical Capability",
@@ -460,7 +460,7 @@
   "award_value": "4 800 000 DKK",
   "lowest_offer": "2 142 286 DKK",
   "highest_offer": "9 315 420 DKK",
-  "offers": "",
+  "offers": "5",
   "criteria": [
    "Pris",
    "Solution",
