@@ -30,10 +30,10 @@ def test_csv_consultant_gig():
     assert t.score >= DEFAULT_MIN_SCORE, t.matched
 
 
-def test_rckik_centrifuges_with_iq_oq_surfaces():
+def test_rckik_centrifuges_are_equipment_not_csv():
     t = s("Dostawa, instalacja i uruchomienie 8 wirówek z osprzętem wraz z kwalifikacją "
           "instalacyjną i operacyjną", buyer="Regionalne Centrum Krwiodawstwa i Krwiolecznictwa w Poznaniu")
-    assert t.score >= DEFAULT_MIN_SCORE, t.matched
+    assert t.kind == "sprzęt + IQ/OQ"
 
 
 def test_ml_model_validation_is_rejected():

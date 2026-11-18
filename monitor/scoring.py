@@ -11,6 +11,45 @@ _NEG = [(w, label, re.compile(rx, re.I | re.S)) for w, label, rx in config.NEGAT
 _STRONG_LABELS = config.SELF_SUFFICIENT_LABELS
 
 
+_K = {name: re.compile(getattr(config, name), re.I | re.S) for name in
+      ("RX_DEVICE_SERVICE", "RX_DELIVERY", "RX_SYSTEM", "RX_EQUIPMENT", "RX_SERVICE", "RX_OTHER")}
+
+
+def classify(t: Tender) -> str:
+    """Rule-based tender type. Title decides first; description only breaks ties."""
+    title = (t.title or "").lower()
+    full = t.text()
+    hit = lambda name, txt: bool(_K[name].search(txt))  # noqa: E731
+    equip_cpv = any(c.startswith(config.EQUIPMENT_CPV_PREFIXES) for c in t.cpv)
+
+    if hit("RX_DEVICE_SERVICE", title):
+        return config.KIND_DEVICE_SERVICE
+    if hit("RX_OTHER", title) and not hit("RX_SYSTEM", title):
+        return config.KIND_OTHER
+    delivery = hit("RX_DELIVERY", title)
+    if hit("RX_SYSTEM", title) and (delivery or not hit("RX_SERVICE", title)):
+        # "Walidacja i utrzymanie zainstalowanego systemu" = service on an existing system
+        if not delivery and re.match(r"\s*(walidacj|validat|validier)", title):
+            return config.KIND_SERVICE
+        return config.KIND_SYSTEM
+    if delivery and (hit("RX_EQUIPMENT", title) or equip_cpv):
+        return config.KIND_EQUIPMENT
+    if hit("RX_EQUIPMENT", title) and not hit("RX_SERVICE", title):
+        return config.KIND_EQUIPMENT
+    if hit("RX_SERVICE", title) or any(c.startswith(("72", "79", "71")) for c in t.cpv):
+        if hit("RX_OTHER", full) and not hit("RX_SYSTEM", full):
+            return config.KIND_OTHER
+        return config.KIND_SERVICE
+    # fall back to the description
+    if hit("RX_DEVICE_SERVICE", full):
+        return config.KIND_DEVICE_SERVICE
+    if hit("RX_SYSTEM", full) and hit("RX_DELIVERY", full):
+        return config.KIND_SYSTEM
+    if equip_cpv or hit("RX_EQUIPMENT", full):
+        return config.KIND_EQUIPMENT
+    return config.KIND_OTHER
+
+
 def score(t: Tender) -> Tender:
     text = t.text()
     raw = 0.0
@@ -24,7 +63,7 @@ def score(t: Tender) -> Tender:
     has_strong = bool(_STRONG_LABELS & set(matched))
     has_context = bool(config.CONTEXT_LABELS & set(matched))
     if not has_validation or not (has_strong or has_context):
-        t.score, t.matched = 0.0, matched
+        t.score, t.matched, t.kind = 0.0, matched, ""
         return t
 
     for prefix, bonus in config.CPV_BONUS.items():
@@ -37,6 +76,9 @@ def score(t: Tender) -> Tender:
         if rx.search(text):
             raw -= w
             matched.append(f"-{label}")
+
+    t.kind = classify(t)
+    raw += config.KIND_SCORE_ADJ.get(t.kind, 0.0)
 
     t.score = round(max(0.0, min(10.0, raw)), 1)
     t.matched = matched

@@ -5,6 +5,7 @@ import re
 import statistics
 from datetime import date
 
+from . import config
 from .models import Tender
 
 MERGE_FIELDS = ["estimated_value", "award_value", "lowest_offer", "highest_offer", "offers",
@@ -46,6 +47,7 @@ def merge_cases(items: list[Tender]) -> list[dict]:
             "winners": sorted({w for t in ts for w in t.winners}),
             "winner_info": next((t.winner_info for t in ts if t.winner_info), []),
             "criteria": next((t.criteria for t in ts if t.criteria), []),
+            "kind": main.kind or next((t.kind for t in ts if t.kind), "") or config.KIND_OTHER,
         }
         for f in MERGE_FIELDS:
             c[f] = next((getattr(t, f) for t in ts if getattr(t, f)), "")
@@ -58,7 +60,7 @@ def _is_open(c: dict, today: str) -> bool:
 
 
 def _card(c: dict) -> str:
-    lines = [f"### {c['score']:.1f} · [{_esc(c['title'], 160)}]({c['url']})", ""]
+    lines = [f"### {c['score']:.1f} · `{c['kind']}` · [{_esc(c['title'], 160)}]({c['url']})", ""]
     lines.append(f"- **Zamawiający:** {_esc(c['buyer'], 100)} ({c['country']}) · źródło: {c['source']} · "
                  f"publikacja {c['published']}")
     row = []
@@ -84,8 +86,8 @@ def _card(c: dict) -> str:
     return "\n".join(lines)
 
 
-BENCH_HEADER = ("| Zamawiający | Przedmiot | Szacunek | Ofert | Najniższa – najwyższa | Umowa | Zwycięzca | Kryteria | Data |\n"
-                "|---|---|---:|---:|---|---:|---|---|---|")
+BENCH_HEADER = ("| Typ | Zamawiający | Przedmiot | Szacunek | Ofert | Najniższa – najwyższa | Umowa | Zwycięzca | Kryteria | Data |\n"
+                "|---|---|---|---:|---:|---|---:|---|---|---|")
 
 
 def _bench_row(c: dict) -> str:
@@ -95,7 +97,7 @@ def _bench_row(c: dict) -> str:
     win = ", ".join(c["winners"])
     if c["winner_info"]:
         win += f" ({'; '.join(c['winner_info'])})"
-    return (f"| {_esc(c['buyer'], 45)} | [{_esc(c['title'], 80)}]({c['url']}) | {c['estimated_value'] or '—'} | "
+    return (f"| {c['kind']} | {_esc(c['buyer'], 45)} | [{_esc(c['title'], 80)}]({c['url']}) | {c['estimated_value'] or '—'} | "
             f"{c['offers'] or '—'} | {rng or '—'} | {c['award_value'] or '—'} | {_esc(win, 70) or '—'} | "
             f"{_esc(', '.join(c['criteria']), 50) or '—'} | {c['contract_date'] or c['result_published'] or c['published']} |")
 
@@ -132,28 +134,48 @@ def render_full(items: list[Tender], today: date, title: str, intro: list[str] |
     t_iso = today.isoformat()
     cases = merge_cases(items)
     open_ = sorted([c for c in cases if _is_open(c, t_iso)], key=lambda c: (c["deadline"], -c["score"]))
-    awarded = sorted([c for c in cases if c["winners"] or c["award_value"]],
-                     key=lambda c: (c["contract_date"] or c["result_published"] or c["published"]), reverse=True)
-    rest = sorted([c for c in cases if c not in open_ and c not in awarded],
-                  key=lambda c: -c["score"])
+    def _date(c):
+        return c["contract_date"] or c["result_published"] or c["published"]
+
+    closed = [c for c in cases if c not in open_]
+    csv_cases = sorted([c for c in closed if c["kind"] in config.CSV_KINDS], key=_date, reverse=True)
+    awarded = [c for c in csv_cases if c["winners"] or c["award_value"]]
+    adjacent = sorted([c for c in closed if c["kind"] in (config.KIND_EQUIPMENT, config.KIND_DEVICE_SERVICE)],
+                      key=_date, reverse=True)
+    rest = sorted([c for c in closed if c not in csv_cases and c not in adjacent], key=lambda c: -c["score"])
 
     out = [f"# {title}", ""]
     out += intro or []
-    out += [f"Otwarte: **{len(open_)}** · rozstrzygnięte z danymi o wyniku: **{len(awarded)}** · "
-            f"pozostałe: **{len(rest)}**", ""]
+    out += [f"Otwarte: **{len(open_)}** · zamknięte CSV (usługa / system + walidacja): **{len(csv_cases)}**, "
+            f"z czego z wynikiem: **{len(awarded)}** · sprzęt i serwis urządzeń: **{len(adjacent)}** · "
+            f"inne: **{len(rest)}**", ""]
     out += ["## Otwarte — do rozważenia", ""]
     out += ["\n\n".join(_card(c) for c in open_) if open_ else "_Brak otwartych._", ""]
-    out += ["## Rozstrzygnięte — benchmark (kto, za ile, ile ofert)", ""]
-    if awarded:
+
+    out += ["## CSV: usługi walidacji i systemy z walidacją (zamknięte)", "",
+            "_Jedyna część przydatna do wyceny usług CSV. W „system + walidacja” kwota obejmuje cały system; "
+            "walidację zwykle robi dostawca/integrator — szansa na podwykonawstwo._", ""]
+    if csv_cases:
         ins = _insights(awarded)
         if ins:
-            out += ["**Wnioski do wyceny:**", *ins, ""]
-        out += [BENCH_HEADER, *(_bench_row(c) for c in awarded), ""]
+            out += [f"**Wnioski do wyceny** (n={len(awarded)} z wynikiem):", *ins, ""]
+        out += [BENCH_HEADER, *(_bench_row(c) for c in csv_cases), ""]
     else:
         out += ["_Brak._", ""]
-    out += ["## Pozostałe (zamknięte bez opublikowanego wyniku)", ""]
+
+    out += ["## Sprzęt z IQ/OQ i serwis urządzeń (zamknięte)", "",
+            "_Kwalifikację robi producent/serwis na własnych protokołach; kwoty to głównie cena sprzętu — "
+            "nie używać do wyceny CSV._", ""]
+    if adjacent:
+        out += ["<details><summary>Pokaż " + str(len(adjacent)) + " pozycji</summary>", "", BENCH_HEADER,
+                *(_bench_row(c) for c in adjacent), "", "</details>", ""]
+    else:
+        out += ["_Brak._", ""]
+
+    out += ["## Inne / prawdopodobny szum", ""]
     if rest:
-        out += [BENCH_HEADER, *(_bench_row(c) for c in rest), ""]
+        out += ["<details><summary>Pokaż " + str(len(rest)) + " pozycji</summary>", "", BENCH_HEADER,
+                *(_bench_row(c) for c in rest), "", "</details>", ""]
     else:
         out += ["_Brak._", ""]
     if stats:

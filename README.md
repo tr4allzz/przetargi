@@ -31,6 +31,20 @@ Każde źródło jest izolowane — awaria jednego nie zatrzymuje reszty; status
 
 Źródła danych o wyniku: TED (pola eForms: BT-27, BT-710/711, BT-720, BT-759, zwycięzca) oraz treść ogłoszeń BZP (sekcje IV, VI, VIII). Baza Konkurencyjności nie udostępnia wyników przez API — tylko ogłoszenia.
 
+## Typy postępowań
+
+Każde trafienie dostaje typ (`monitor/scoring.py: classify`, reguły w `config.py`):
+
+| Typ | Znaczenie | Korekta score |
+|---|---|---:|
+| `usługa CSV` | sama usługa walidacji/kwalifikacji/QM | +2 |
+| `system + walidacja` | dostawa/wdrożenie systemu (LIMS, MES, EBR, QMS, monitoring) z walidacją — szansa na podwykonawstwo | +1 |
+| `sprzęt + IQ/OQ` | dostawa aparatury z kwalifikacją producenta | −1 |
+| `serwis urządzeń` | przeglądy techniczne + „walidacje” urządzeń | −1 |
+| `inne` | usługi badawcze, odczynniki, walidacja metod itp. | −1,5 |
+
+Wnioski do wyceny w raporcie liczone są tylko dla pierwszych dwóch typów.
+
 ## Score (0–10)
 
 Patrz `monitor/config.py`. Trafienie wymaga terminu walidacyjnego **i** (silnego terminu CSV albo kontekstu GxP/farmacja/krew/biobank/aseptyka). Bonus za CPV 72225000, kary za fałszywe trafienia (walidacja modeli ML, egzaminy zawodowe). Próg domyślny: 3.

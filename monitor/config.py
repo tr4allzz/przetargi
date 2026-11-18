@@ -95,3 +95,34 @@ NEGATIVE: list[tuple[float, str, str]] = [
 ]
 
 DEFAULT_MIN_SCORE = 3.0
+
+
+# --- Tender type classification (see scoring.classify) ------------------------------------
+KIND_SERVICE = "usługa CSV"
+KIND_SYSTEM = "system + walidacja"
+KIND_EQUIPMENT = "sprzęt + IQ/OQ"
+KIND_DEVICE_SERVICE = "serwis urządzeń"
+KIND_OTHER = "inne"
+# kinds that are a real fit for CSV work; pricing insights are computed only on these
+CSV_KINDS = {KIND_SERVICE, KIND_SYSTEM}
+KIND_SCORE_ADJ = {KIND_SERVICE: 2.0, KIND_SYSTEM: 1.0, KIND_EQUIPMENT: -1.0,
+                  KIND_DEVICE_SERVICE: -1.0, KIND_OTHER: -1.5}
+
+RX_DEVICE_SERVICE = (r"przegląd\w* techniczn|serwis\w*|usuwania awarii|konserwacj|"
+                     r"maintenance of (equipment|devices)|wartung|instandhaltung")
+RX_DELIVERY = (r"\bdostaw\w*|wdroż\w*|zakup\w*|wynaj\w*|leasing|lieferung|beschaffung|anschaffung|"
+               r"\bsupply\b|purchase|procurement of|acquisition|delivery|aankoop|levering|закупуване|"
+               r"implementation of (a|the)? ?(system|software)|installation of")
+RX_SYSTEM = (r"\blims\b|\bmes\b|\bebr\b|electronic batch|\beqms\b|\bqms\b|quality management system|"
+             r"system\w* (informatyczn|teleinformatyczn|monitor\w*|zarządzania)|monitoring\w* system|"
+             r"oprogramowani\w*|software|softwar\w*|\bscada\b|pharma-monitoring|"
+             r"system\w* służąc\w* monitorow|monitorowani\w* (sprzętu|temperatur)|dokumentacj\w* elektroniczn")
+RX_EQUIPMENT = (r"aparatur\w*|urządze\w*|sprzęt\w*|equipment|apparatus|instrument\w*|gerät\w*|ausstattung|"
+                r"analizator|spektrofotometr|spectrophotometer|chromatograf|elektroporator|izolator|isolator|"
+                r"synthesizer|zellprozessierungssystem|wirów\w*|centrifug|zamrażar|lodówk|freezer|"
+                r"aqua purificata|water for injection|komor\w*|maszyn\w*|machine\w*")
+RX_SERVICE = (r"\busług\w*|dienstleistung\w*|\bservices?\b|consult\w*|beratung|doradztw\w*|"
+              r"begleitung|wsparci\w*|^\s*walidacj|^\s*validation|^\s*validierung")
+RX_OTHER = (r"badawcz\w*|research|forschung|odczynnik\w*|reagent\w*|pożywk\w*|hodowl\w*|"
+            r"pranie|wäsche|reinraumbekleidung|bekleidung|mopps|próbek|samples|antibody|przeciwciał")
+EQUIPMENT_CPV_PREFIXES = ("38", "33", "42", "39", "31", "44", "45")

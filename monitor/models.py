@@ -35,6 +35,7 @@ class Tender:
     conditions: str = ""        # warunki udziału (skrót)
     winner_info: list[str] = field(default_factory=list)  # e.g. ["DEU, large"]
     # filled by scoring
+    kind: str = ""              # usługa CSV / system + walidacja / sprzęt + IQ/OQ / serwis urządzeń / inne
     score: float = 0.0
     matched: list[str] = field(default_factory=list)
 
