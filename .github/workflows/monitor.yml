@@ -1,0 +1,68 @@
+name: Tender monitor
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # daily 05:17 UTC (06:17/07:17 Warsaw)
+  workflow_dispatch:
+    inputs:
+      days_back:
+        description: "How many days back to scan (e.g. 365 for a historical backfill)"
+        default: "2"
+      sources:
+        description: "Comma-separated sources"
+        default: "ted,fts,contracts_finder,ezamowienia,bk"
+      min_score:
+        description: "Minimum relevance score (0-10)"
+        default: "3"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: tender-monitor
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - run: python -m pytest -q
+
+      - name: Scan sources
+        run: |
+          python -m monitor \
+            --days-back "${{ inputs.days_back || '2' }}" \
+            --sources "${{ inputs.sources || 'ted,fts,contracts_finder,ezamowienia,bk' }}" \
+            --min-score "${{ inputs.min_score || '3' }}"
+
+      - name: Commit results
+        run: |
+          git config user.name  "tender-monitor[bot]"
+          git config user.email "tender-monitor@users.noreply.github.com"
+          git add data reports
+          git diff --cached --quiet || git commit -m "Tender scan $(date -u +%F)"
+          git push
+
+      - name: Open issue for new hits
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(cat reports/NEW_COUNT)
+          if [ "$n" -gt 0 ]; then
+            gh label create tenders --color 2D5A3E 2>/dev/null || true
+            gh issue create \
+              --title "Nowe przetargi GxP/CSV: $n ($(date -u +%F))" \
+              --body-file reports/latest.md \
+              --label tenders
+          fi
