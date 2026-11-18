@@ -1,6 +1,6 @@
 # Przetargi GxP/CSV — 2026-11-18
 
-Nowe dziś (wszystkie przebiegi): **114**, w tym z ostatniego przebiegu: **8** (okno 2150 dni).
+Nowe dziś (wszystkie przebiegi): **114**, w tym z ostatniego przebiegu: **0** (okno 3 dni).
 
 > **W skrócie**
 > - Otwarte przetargi: **1** — najbliższy termin: **23.11.2026** (Tirol Kliniken GmbH)
@@ -90,7 +90,66 @@ Nowe dziś (wszystkie przebiegi): **114**, w tym z ostatniego przebiegu: **8** (
 
 </details>
 
-## 4. Sprzęt z IQ/OQ i serwis urządzeń
+## 4. Jak startować — wnioski z historii
+
+<sub>Z 18 rozstrzygniętych postępowań (wszystkie typy, poza freelance). Mała próba — traktuj jako orientację, nie cennik.</sub>
+
+- W postępowaniach CSV zwykle wpływa mało ofert (mediana 1, n=5) — start z poprawną ofertą ma realną szansę; śledź ogłoszenia, bo konkurencja jest nieliczna.
+- Kwota umowy to mediana 1.00 × wartości szacunkowej (n=5, poniżej szacunku: 20%) — wartość szacunkowa z ogłoszenia jest dobrym pułapem ceny.
+- Tylko cena: 8/21 postępowań ze znanymi kryteriami — przy pozostałych liczą się też jakość/doświadczenie/termin, więc warto przygotować opis metodyki i CV.
+- Najczęstszy warunek udziału to doświadczenie (wykonane usługi + referencje) — zbieraj protokoły odbioru i referencje z każdego projektu walidacyjnego.
+
+**Kwoty umów wg typu**
+
+| Typ | Waluta | n | min | mediana | max |
+|---|---|---:|---:|---:|---:|
+| CSV: usługa | PLN | 2 | 244 425 | 275 962 | 307 500 |
+| CSV: system + walidacja | DKK | 1 | 4 800 000 | 4 800 000 | 4 800 000 |
+| CSV: system + walidacja | PLN | 1 | 243 466 | 243 466 | 243 466 |
+| Serwis urządzeń | CHF | 1 | 771 094 | 771 094 | 771 094 |
+| Serwis urządzeń | PLN | 1 | 252 283 | 252 283 | 252 283 |
+| Sprzęt + IQ/OQ | EUR | 3 | 31 285 | 56 900 | 319 610 |
+| Sprzęt + IQ/OQ | CHF | 1 | 1 281 257 | 1 281 257 | 1 281 257 |
+| Sprzęt + IQ/OQ | PLN | 1 | 835 348 | 835 348 | 835 348 |
+
+**Liczba ofert**
+
+| Typ | n | mediana | 1 oferta | max |
+|---|---:|---:|---:|---:|
+| CSV: usługa | 3 | 1 | 67% | 5 |
+| CSV: system + walidacja | 2 | 3 | 50% | 5 |
+| Serwis urządzeń | 3 | 1 | 67% | 1 |
+| Sprzęt + IQ/OQ | 6 | 1.5 | 50% | 2 |
+
+**Kryteria** (n=21): tylko cena 8/21 · wagi ceny: 100% ×4, 60% ×1 · inne kryteria: quality ×6, най-ниска цена ×2, solution ×1, implementation plan ×1, vendor service ×1, technische wertung ×1, technical capability ×1, flexibility ×1
+
+**Warunki udziału** (n=1): doświadczenie (wykonane usługi/dostawy) 1
+
+**Kto wygrywa**
+
+| Firma | Wygrane | Typy | Kraje | Kwoty |
+|---|---:|---|---|---|
+| AW Hygiene-Service | 1 | serwis urządzeń | DEU | — |
+| Belimed Life Science | 1 | serwis urządzeń | CHE | 771 094 CHF |
+| Dot Compliance UK | 1 | system + walidacja | DNK | 4 800 000 DKK |
+| Elis Cleanroom | 1 | inne | DEU | — |
+| FLUODATA | 1 | usługa CSV | PL | 244 425 PLN |
+| Hamilton Germany | 1 | sprzęt + IQ/OQ | DEU | 319 610 EUR |
+| Heinz Burkhalter | 1 | sprzęt + IQ/OQ | CHE | 1 281 257 CHF |
+| Labplan | 1 | sprzęt + IQ/OQ | IRL | 56 900 EUR |
+| Life Technologies Polska | 1 | sprzęt + IQ/OQ | PL | 835 348 PLN |
+| Milteny Biotec | 1 | serwis urządzeń | DEU | — |
+| Miltenyi Biotec B.V. & Co.KG | 1 | sprzęt + IQ/OQ | DEU | — |
+| ProGrupa Technologie | 1 | system + walidacja | PL | 243 466 PLN |
+| RAS Reinraum-und Anlagenservice Jens Hünger | 1 | usługa CSV | DEU | — |
+| SPIE Building Solutions Sp.z o.o. | 1 | serwis urządzeń | PL | 252 283 PLN / 251 224 PLN |
+| STRABAG   PFS | 1 | serwis urządzeń | PL | 252 283 PLN / 251 224 PLN |
+| Wirth + Wirth | 1 | inne | CHE | 391 117 CHF |
+| eConsulting | 1 | usługa CSV | PL | 307 500 PLN |
+| eNeG Gesellschaft f. wirtsch. Energieeinsatz mbH | 1 | inne | DEU | — |
+| АСМ 2 ЕООД | 1 | sprzęt + IQ/OQ | BGR | 31 285 EUR |
+
+## 5. Sprzęt z IQ/OQ i serwis urządzeń
 
 <sub>Kwalifikację robi producent; kwoty to cena sprzętu — nie do wyceny CSV.</sub>
 
@@ -121,7 +180,7 @@ Nowe dziś (wszystkie przebiegi): **114**, w tym z ostatniego przebiegu: **8** (
 
 </details>
 
-## 5. Inne / prawdopodobny szum
+## 6. Inne / prawdopodobny szum
 
 <details><summary>Pokaż (15)</summary>
 
@@ -145,7 +204,7 @@ Nowe dziś (wszystkie przebiegi): **114**, w tym z ostatniego przebiegu: **8** (
 
 </details>
 
-## 6. Kraje i źródła
+## 7. Kraje i źródła
 
 <details><summary>Podsumowanie wg kraju i status źródeł</summary>
 
@@ -165,6 +224,6 @@ Nowe dziś (wszystkie przebiegi): **114**, w tym z ostatniego przebiegu: **8** (
 
 **Status źródeł (ostatni przebieg):**
 
-- **ezamowienia**: ok — przeskanowano 12278, istotnych 12, nowych 8 (okno 2150 dni)
+- **freelancermap**: ok — przeskanowano 44, istotnych 6, nowych 0 (okno 3 dni)
 
 </details>
