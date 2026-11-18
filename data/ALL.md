@@ -1,17 +1,69 @@
 # Wszystkie trafienia — baza
 
-Otwarte: **1** · zamknięte CSV (usługa / system + walidacja): **11**, z czego z wynikiem: **5** · sprzęt i serwis urządzeń: **16** · inne: **10**
+Otwarte: **1** · zlecenia freelance: **27** · zamknięte CSV (usługa / system + walidacja): **11**, z czego z wynikiem: **5** · sprzęt i serwis urządzeń: **16** · inne: **10**
 
-## Otwarte — do rozważenia
+**Spis:** 1. Podsumowanie wg kraju · 2. Otwarte przetargi (wg typu) · 3. Zlecenia freelance · 4. CSV — wyniki do wyceny · 5. Sprzęt i serwis · 6. Inne · 7. Status źródeł
 
-### 10.0 · `usługa CSV` · [IT- und QM-Dienstleistungen](https://ted.europa.eu/en/notice/-/detail/740084-2026)
+## 1. Podsumowanie wg kraju
+
+| Kraj | Otwarte | CSV zamknięte | Sprzęt/serwis | Inne | Freelance | Razem |
+|---|---:|---:|---:|---:|---:|---:|
+| DE | · | · | · | · | 27 | **27** |
+| DEU | · | 5 | 9 | 4 | · | **18** |
+| PL | · | 4 | 2 | 4 | · | **10** |
+| CHE | · | 1 | 2 | 1 | · | **4** |
+| IRL | · | · | 1 | 1 | · | **2** |
+| AUT | 1 | · | · | · | · | **1** |
+| DNK | · | 1 | · | · | · | **1** |
+| BEL | · | · | 1 | · | · | **1** |
+| BGR | · | · | 1 | · | · | **1** |
+
+## 2. Otwarte przetargi — do rozważenia
+
+### Usługi walidacji CSV (1)
+
+#### 10.0 · `usługa CSV` · [IT- und QM-Dienstleistungen](https://ted.europa.eu/en/notice/-/detail/740084-2026)
 
 - **Zamawiający:** Tirol Kliniken GmbH (AUT) · źródło: ted · publikacja 2026-10-26
 - **Termin ofert:** 2026-11-23 · **Tryb:** ograniczony · **Umowa ramowa:** tak · **Realizacja:** 48 month
 - **Kryteria oceny:** quality, price
 - _Dopasowania:_ GAMP, validation, IQ/OQ/PQ, CPV 72*
 
-## CSV: usługi walidacji i systemy z walidacją (zamknięte)
+## 3. Zlecenia freelance / kontrakty z ostatnich 45 dni
+
+_Ogłoszenia z portali freelance (nie przetargi publiczne): zwykle pośrednik, stawka do negocjacji, brak terminu składania — liczy się szybka odpowiedź._
+
+| Score | Zlecenie | Firma / pośrednik | Kraj | Forma · miejsce | Start · czas | Dodano |
+|---:|---|---|---|---|---|---|
+| 4.0 | [Automatisierungstechniker / SPS-Programmierer (w/m/d)](https://www.freelancermap.de/projekt/automatisierungstechniker-sps-programmierer-w-m-d) | Etengo GmbH | DE | kontrakt (freelance) · Lübeck, remote 0% | start: ASAP · 12 mies. | 2026-11-18 |
+| 8.5 | [DP Expert - Aseptic Fill-Finish (m/f/d)](https://www.freelancermap.de/projekt/dp-expert-aseptic-fill-finish-m-f-d) | SThree Germany | DE | ANÜ (leasing pracownika) · Alzey (55232), remote 0% | — | 2026-11-17 |
+| 6.5 | [Projektkoordination Elektro-TGA im Pharmaumfeld](https://www.freelancermap.de/projekt/projektkoordination-elektro-tga-im-pharmaumfeld) | FERCHAU Contract GmbH | DE | kontrakt (freelance) · Wuppertal, remote 0% | start: 04.01.2027 | 2026-11-17 |
+| 10.0 | [Qualification Engineer (m/w/d)](https://www.freelancermap.de/projekt/qualification-engineer-m-w-d-3074241) | SThree_Germany | DE | ANÜ (leasing pracownika) · Singen (78224), remote 10% | — | 2026-11-16 |
+| 10.0 | [Freelance: Senior GMP Manufacturing & AI Advisor für KI-Initiative im Pharmaumfeld](https://www.freelancermap.de/projekt/freelance-senior-gmp-manufacturing-und-ai-advisor-fuer-ki-initiative-im-pharmaumfeld) | Halian GmbH | DE | kontrakt (freelance) · remote, 100% remote | start: ab sofort · 1 mies. | 2026-11-16 |
+| 5.0 | [Consultant Manufacturing (m/w/d) Microsoft Dynamics 365 F&O - bundesweit](https://www.freelancermap.de/projekt/consultant-manufacturing-m-w-d-microsoft-dynamics-365-f-und-o-bundesweit) | b4dynamics | DE | kontrakt (freelance) · München, remote 40% | start: ab sofort · 12 mies. | 2026-11-16 |
+| 10.0 | [Senior IAM Teilprojektleitung (m/w/d) – SAP S/4HANA](https://www.freelancermap.de/projekt/senior-iam-teilprojektleitung-m-w-d-sap-s-4hana) | mindsquare AG | DE | kontrakt (freelance) · remote, Sachsen-Anhalt, remote 20% | 9 mies. | 2026-11-13 |
+| 8.5 | [Aseptic Manufacturing Expert](https://www.freelancermap.de/projekt/aseptic-manufacturing-expert) | Invenda GmbH | DE | kontrakt (freelance) · Frankfurt, remote 0% | start: ab sofort · 3 mies. | 2026-11-13 |
+| 9.5 | [QC Scientist (ANÜ)](https://www.freelancermap.de/projekt/qc-scientist-anue) | JCW Search GmbH | DE | ANÜ (leasing pracownika) · Nordrhein Westfalen, remote 0% | start: ab sofort · 14 mies. | 2026-11-12 |
+| 10.0 | [1085300 CSV-Experte (Pharma)](https://www.freelancermap.de/projekt/1085300-csv-experte-pharma) | SOLCOM GmbH | DE | kontrakt (freelance) · Zell (Kanton Luzern), remote 0% | start: 30.11.2026 | 2026-11-11 |
+| 10.0 | [1085339 CSV-Experte (Pharma) (m/w/d)](https://www.freelancermap.de/projekt/1085339-csv-experte-pharma-m-w-d) | SOLCOM GmbH | DE | kontrakt (freelance) · Zell (Kanton Luzern), remote 0% | start: 30.11.2026 | 2026-11-11 |
+| 10.0 | [SAP PP-PI XSteps Berater und Entwickler, S/4HANA im Pharma-GMP-Umfeld](https://www.freelancermap.de/projekt/sap-pp-pi-xsteps-berater-und-entwickler-s-4hana-im-pharma-gmp-umfeld) | Effection Network | DE | kontrakt (freelance) · Düsseldorf, 100% remote | start: ab sofort · 9 mies. | 2026-11-10 |
+| 10.0 | [SAP X-Steps EXPERTE (m/w/d) – Mehrf. Implementierungserfahrung zwingend erforderlich / S/…](https://www.freelancermap.de/projekt/sap-x-steps-experte-m-w-d-mehrf-implementierungserfahrung-zwingend-erforderlich-s-4hana-pp-pi) | JF-CONSULTING | DE | kontrakt (freelance) · Grossraum Aalen, remote 20% | start: ab sofort · 3 mies. | 2026-11-10 |
+| 8.5 | [1085301 Senior CSV-Spezialist Pharma](https://www.freelancermap.de/projekt/1085301-senior-csv-spezialist-pharma) | SOLCOM GmbH | DE | kontrakt (freelance) · Zell (Kanton Luzern), remote 0% | start: 30.11.2026 | 2026-11-10 |
+| 10.0 | [Senior GXP Consultant](https://www.freelancermap.de/projekt/senior-gxp-consultant) | Computer Futures, ein Geschäftszweig de… | DE | kontrakt (freelance) · München, 100% remote | start: ab sofort | 2026-11-09 |
+| 7.5 | [Oberbauleiter und Inbetriebnahmeleiter (m/w/d)](https://www.freelancermap.de/projekt/oberbauleiter-und-inbetriebnahmeleiter-m-w-d) | SThree_Germany | DE | kontrakt (freelance) · Bayern, remote 0% | — | 2026-11-07 |
+| 10.0 | [100% remote - Nearshore - Senior GXP Consultant (m/f/d)](https://www.freelancermap.de/projekt/100-prozent-remote-nearshore-senior-gxp-consultant-m-f-d) | nemensis AG | DE | kontrakt (freelance) · Hamburg, 100% remote | start: ab sofort · 6 mies. | 2026-11-06 |
+| 10.0 | [Requirements Engineer (m/f/d) – Laboratory & Logistics Integration](https://www.freelancermap.de/projekt/requirements-engineer-m-f-d-laboratory-und-logistics-integration) | percision services GmbH | DE | kontrakt (freelance) · GR München, remote 40% | start: ab sofort · 12 mies. | 2026-11-05 |
+| 10.0 | [Senior SAP X-Steps Expert / SAP PP-PI Consultant & Developer (m/w/d) – Festanstellung / P…](https://www.freelancermap.de/projekt/sap-s-4hana-pp-pi-x-steps-senior-consultant-und-developer-m-w-d-3068582) | JF-CONSULTING | DE | permanent_position · Raum Aalen + Umgebung, remote 0% | start: ab sofort | 2026-11-04 |
+| 10.0 | [LabWare LIMS (m/f/d)](https://www.freelancermap.de/projekt/labware-lims-m-f-d) | A-SAP | DE | kontrakt (freelance) · frankfurt, 100% remote | start: asap · 12 mies. | 2026-11-02 |
+| 7.5 | [Key User LIMS-System LabWare](https://www.freelancermap.de/projekt/key-user-lims-system-labware) | A-SAP | DE | kontrakt (freelance) · frankfurt, remote 20% | start: asap · 6 mies. | 2026-11-02 |
+| 10.0 | [Freelancer Qualification / CSV Specialist (gn) – GMP / Pharma](https://www.freelancermap.de/projekt/freelancer-qualification-csv-specialist-gn-gmp-pharma) | ageneo Life Science Experts Interim Sol… | DE | kontrakt (freelance) · Bremen, remote 0% | start: ab sofort · 12 mies. | 2026-10-29 |
+| 7.0 | [SPS-Entwickler (m/w/d) Simatic Structured Text](https://www.freelancermap.de/projekt/sps-entwickler-m-w-d-simatic-structured-text) | ALIESETI GmbH | DE | kontrakt (freelance) · PLZ 8, remote 40% | 3 mies. | 2026-10-29 |
+| 10.0 | [Scrum Master (m/f/x) with LIMS](https://www.freelancermap.de/projekt/scrum-master-m-f-x-with-lims) | Rezolve AI Limited | DE | kontrakt (freelance) · Frankfurt, 100% remote | 6 mies. | 2026-10-22 |
+| 10.0 | [Senior Projektingenieur (m/w/d) Automatisierung](https://www.freelancermap.de/projekt/senior-projektingenieur-m-w-d-automatisierung) | Randstad Professional GmbH (vorm. GULP) | DE | permanent_position · Heidelberg, remote 40% | start: ab sofort | 2026-10-21 |
+| 10.0 | [PharmaSuite MBR Designer](https://www.freelancermap.de/projekt/mbr-specialist) | JCW Search GmbH | DE | kontrakt (freelance) · Europe, 100% remote | 6 mies. | 2026-10-09 |
+| 6.5 | [EDX OR 3DEXPERIENCE Key User](https://www.freelancermap.de/projekt/edx-or-3dexperience-key-user) | A-SAP | DE | kontrakt (freelance) · FRANKFURT, 100% remote | start: asap · 24 mies. | 2026-10-08 |
+
+## 4. CSV: usługi walidacji i systemy z walidacją (zamknięte)
 
 _Jedyna część przydatna do wyceny usług CSV. W „system + walidacja” kwota obejmuje cały system; walidację zwykle robi dostawca/integrator — szansa na podwykonawstwo._
 
@@ -34,7 +86,7 @@ _Jedyna część przydatna do wyceny usług CSV. W „system + walidacja” kwot
 | usługa CSV | Wojskowe Centrum Krwiodawstwa i Krwiolecznic… | [Walidacja i utrzymanie zainstalowanego automatycznego systemu monitorującego te…](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de2b3b-4583-a817-8aeb-ba0001123800) | — | 1 | 244 425 PLN – 244 425 PLN | 244 425 PLN | FLUODATA Spółka z ograniczoną odpowiedzialnością | — | 2025-11-20 |
 | system + walidacja | AMGROS I/S | [Quality Management System](https://ted.europa.eu/en/notice/-/detail/814489-2025) | 4 800 000 DKK | 5 | 2 142 286 DKK – 9 315 420 DKK | 4 800 000 DKK | Dot Compliance UK Limited (GBR, medium) | Pris, Solution, Implementation plan, Vendor Servi… | 2025-09-02 |
 
-## Sprzęt z IQ/OQ i serwis urządzeń (zamknięte)
+## 5. Sprzęt z IQ/OQ i serwis urządzeń (zamknięte)
 
 _Kwalifikację robi producent/serwis na własnych protokołach; kwoty to głównie cena sprzętu — nie używać do wyceny CSV._
 
@@ -61,7 +113,7 @@ _Kwalifikację robi producent/serwis na własnych protokołach; kwoty to główn
 
 </details>
 
-## Inne / prawdopodobny szum
+## 6. Inne / prawdopodobny szum
 
 <details><summary>Pokaż 10 pozycji</summary>
 
