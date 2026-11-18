@@ -1,6 +1,6 @@
 # Wszystkie trafienia — baza
 
-Otwarte: **1** · zlecenia freelance: **23** · zamknięte CSV (usługa / system + walidacja): **11**, z czego z wynikiem: **5** · sprzęt i serwis urządzeń: **16** · inne: **10**
+Otwarte: **1** · zlecenia freelance: **23** · zamknięte CSV (usługa / system + walidacja): **16**, z czego z wynikiem: **6** · sprzęt i serwis urządzeń: **18** · inne: **13**
 
 **Spis:** 1. Podsumowanie wg kraju · 2. Otwarte przetargi (wg typu) · 3. Zlecenia freelance · 4. CSV — wyniki do wyceny · 5. Sprzęt i serwis · 6. Inne · 7. Status źródeł
 
@@ -8,14 +8,17 @@ Otwarte: **1** · zlecenia freelance: **23** · zamknięte CSV (usługa / system
 
 | Kraj | Otwarte | CSV zamknięte | Sprzęt/serwis | Inne | Freelance | Razem |
 |---|---:|---:|---:|---:|---:|---:|
-| DE | · | 5 | 9 | 4 | 23 | **41** |
+| DE | · | 5 | 9 | 6 | 23 | **43** |
 | PL | · | 4 | 2 | 4 | · | **10** |
 | CH | · | 1 | 2 | 1 | · | **4** |
+| FR | · | 2 | 1 | · | · | **3** |
+| BE | · | 1 | 1 | 1 | · | **3** |
+| BG | · | · | 2 | · | · | **2** |
 | IE | · | · | 1 | 1 | · | **2** |
 | AT | 1 | · | · | · | · | **1** |
+| MKD | · | 1 | · | · | · | **1** |
 | DK | · | 1 | · | · | · | **1** |
-| BE | · | · | 1 | · | · | **1** |
-| BG | · | · | 1 | · | · | **1** |
+| NO | · | 1 | · | · | · | **1** |
 
 ## 2. Otwarte przetargi — do rozważenia
 
@@ -62,7 +65,7 @@ _Ogłoszenia z portali freelance (nie przetargi publiczne): zwykle pośrednik, s
 
 _Jedyna część przydatna do wyceny usług CSV. W „system + walidacja” kwota obejmuje cały system; walidację zwykle robi dostawca/integrator — szansa na podwykonawstwo._
 
-**Wnioski do wyceny** (n=5 z wynikiem):
+**Wnioski do wyceny** (n=6 z wynikiem):
 - Liczba ofert: mediana **1**, jedna oferta w **4/5** postępowań (80%).
 - Kwota umowy / wartość szacunkowa: mediana **1.11** (min 1.00, max 1.22, n=2).
 - Wyłącznie cena jako kryterium: **1/2** postępowań ze znanymi kryteriami.
@@ -79,13 +82,18 @@ _Jedyna część przydatna do wyceny usług CSV. W „system + walidacja” kwot
 | usługa CSV | Hochstrasser Glaus & Partner Consulting AG /… | [249 Qualifizierung und Requalifizierung Reinräume](https://www.simap.ch/de/project-detail/c10f4e46-4bc2-45b4-bfef-6111a380fd82) | — | — | — | — | — | — | 2026-04-24 |
 | system + walidacja | INSTYTUT IMMUNOLOGII I TERAPII DOŚWIADCZALNE… | [Dostawa wraz z walidacją systemu służącego monitorowaniu sprzętu warunkującego …](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de80e5-1c3f-c11b-056e-e50001ac87a3) | 200 000 PLN | 1 | 243 466 PLN – 243 466 PLN | 243 466 PLN | ProGrupa Technologie Sp. z o.o. | Cena 100 | 2026-03-09 |
 | usługa CSV | Wojskowe Centrum Krwiodawstwa i Krwiolecznic… | [Walidacja i utrzymanie zainstalowanego automatycznego systemu monitorującego te…](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de2b3b-4583-a817-8aeb-ba0001123800) | — | 1 | 244 425 PLN – 244 425 PLN | 244 425 PLN | FLUODATA Spółka z ograniczoną odpowiedzialnością | — | 2025-11-20 |
+| usługa CSV | Ministry of internal affairs | [Service, maintenance, calibration and validation of various equipment](https://ted.europa.eu/en/notice/-/detail/677299-2025) | 6 000 000 MKD / 3 200 000 MKD / 2 360 000 MKD / 1 500 000 MKD / 600 000 MKD | — | — | — | — | price | 2025-10-15 |
+| usługa CSV | Centre hospitalier de Valenciennes | [AOO - 20250097 - PRESTATIONS DE TRANSPORT D'ECHANTILLONS BIOLOGIQUES, PHARMACEU…](https://www.boamp.fr/pages/avis/?q=idweb:25-110252) | — | — | — | — | — | — | 2025-10-05 |
 | system + walidacja | AMGROS I/S | [Quality Management System](https://ted.europa.eu/en/notice/-/detail/814489-2025) | 4 800 000 DKK | 5 | 2 142 286 DKK – 9 315 420 DKK | 4 800 000 DKK | Dot Compliance UK Limited (GBR, medium) | Pris, Solution, Implementation plan, Vendor Servi… | 2025-09-02 |
+| usługa CSV | aptaskil asbl | [Marché de services pour les prestations de formateurs externes pour formations …](https://ted.europa.eu/en/notice/-/detail/468509-2025) | — | — | — | — | — | cost | 2025-07-17 |
+| usługa CSV | SYKEHUSINNKJØP HF | [Consultancy services for the Hospital Pharmacies in Norway](https://ted.europa.eu/en/notice/-/detail/194547-2025) | 16 000 000 NOK / 24 000 000 NOK | — | — | — | — | — | 2025-03-26 |
+| usługa CSV | ASSISTANCE PUBLIQUE HÔPITAUX DE MARSEILLE | [2024-0851 PRESTATION DE REPARATION, MAINTENANCE ET FOURNITURE DE PIECES DETACHE…](https://www.boamp.fr/pages/avis/?q=idweb:25-2129) | — | — | — | — | DEENOVA | — | 2025-01-10 |
 
 ## 5. Sprzęt z IQ/OQ i serwis urządzeń (zamknięte)
 
 _Kwalifikację robi producent/serwis na własnych protokołach; kwoty to głównie cena sprzętu — nie używać do wyceny CSV._
 
-<details><summary>Pokaż 16 pozycji</summary>
+<details><summary>Pokaż 18 pozycji</summary>
 
 | Typ | Zamawiający | Przedmiot | Szacunek | Ofert | Najniższa – najwyższa | Umowa | Zwycięzca | Kryteria | Data |
 |---|---|---|---:|---:|---|---:|---|---|---|
@@ -104,17 +112,22 @@ _Kwalifikację robi producent/serwis na własnych protokołach; kwoty to główn
 | sprzęt + IQ/OQ | Universitätsklinikum Leipzig Anstalt des öff… | [Lieferung, Montage und Integration Radiopharmazeutischer Anlagen am Universität…](https://oeffentlichevergabe.de/ui/de/search/details?noticeId=17063448-4e17-47d6-ac9b-e8300c0ec079&noticeVersion=01) | — | — | — | — | — | — | 2025-11-27 |
 | sprzęt + IQ/OQ | Universitätsklinikum Köln AöR | [GMP-Produktion antibakterieller Antikörper](https://oeffentlichevergabe.de/ui/de/search/details?noticeId=36b27f32-6ca1-4362-b210-9206ab308918&noticeVersion=01) | — | — | — | — | — | — | 2025-11-23 |
 | sprzęt + IQ/OQ | Uniwersytet Jagielloński - Collegium Medicum | [Dostawa elektroporatora wraz z kwalifikacją IQ/OQ (produkcja) (zgodny z GMP, pr…](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de2d8f-fc93-6ace-0560-49000118fc78) | 679 145 PLN | 2 | 835 348 PLN – 835 348 PLN | 835 348 PLN | Life Technologies Polska Sp. z o.o. | — | 2025-11-05 |
+| sprzęt + IQ/OQ | УНИВЕРСИТЕТСКА МНОГОПРОФИЛНА БОЛНИЦА ЗА АКТИ… | [„Доставка на медицински изделия и консумативи за нуждите на УМБАЛ „Александровс…](https://ted.europa.eu/en/notice/-/detail/561083-2025) | 574 080 BGN / 36 460 BGN / 4 200 BGN / 8 960 BGN / 5 040 BGN | 0 / 0 / 0 / 0 / 0 | — | — | — | най- ниска цена, Най-ниска цена | 2025-08-28 |
+| sprzęt + IQ/OQ | CH UNIVERSITAIRE D ORLEANS | [Fourniture de trousses, générateurs, précurseurs et médicaments radiopharmaceut…](https://www.boamp.fr/pages/avis/?q=idweb:25-72365) | — | — | — | — | — | — | 2025-06-28 |
 | serwis urządzeń | Logistikbasis der Armee / LBA ; Armeeapotheke | [Erneuerung der Steuerungen in den 3 bestehenden GMP Sterilisatoren in der Pharm…](https://www.simap.ch/de/project-detail/f3e8968d-4c88-4d0b-9af1-470408705017) | — | — | — | 771 094 CHF | Belimed Life Science AG (CH) | — | 2025-01-16 |
 
 </details>
 
 ## 6. Inne / prawdopodobny szum
 
-<details><summary>Pokaż 10 pozycji</summary>
+<details><summary>Pokaż 13 pozycji</summary>
 
 | Typ | Zamawiający | Przedmiot | Szacunek | Ofert | Najniższa – najwyższa | Umowa | Zwycięzca | Kryteria | Data |
 |---|---|---|---:|---:|---|---:|---|---|---|
+| inne | Bundesamt für Bauwesen und Raumordnung, in V… | [Bundeswehrkrankenhaus Berlin - Neubau Apotheke mit Zentrallager - Pharmamonitor…](https://ted.europa.eu/en/notice/-/detail/710636-2023) | — | 3 | — | — | (DEU, large) | price | 2023-11-13 |
+| inne | UZ Leuven | [Document management systeem (eTMF en eISF) voor klinische studies](https://ted.europa.eu/en/notice/-/detail/301392-2025) | — | 6 | — | — | — | quality, cost | 2025-05-12 |
 | inne | National Institute for Bioprocessing Researc… | [High Throughput Transient Antibody Production and Characterisation Services](https://ted.europa.eu/en/notice/-/detail/683167-2026) | 375 000 EUR | 3 | — | — | — | Price, Technical Capability, Flexibility | 2026-10-05 |
+| inne | - Eigenerklärung zur Eignung FB 124 oder Prä… | [Neubau KRH-Zentralapotheke, Pharmamonitoring](https://ted.europa.eu/en/notice/-/detail/384734-2024) | — | 2 | — | — | eNeG Gesellschaft f. wirtsch. Energieeinsatz mbH (DEU, medium) | price | 2024-06-28 |
 | inne | Medizinische Universität Lausitz - Carl Thie… | [Rahmenbetriebsvereinbarung für die Reinigung/Prüfung der Zu- und Abluftauslässe…](https://oeffentlichevergabe.de/ui/de/search/details?noticeId=046bf4e6-56fa-4b40-88ee-5fcb617a1a4a&noticeVersion=01) | — | 1 | — | — | AW Hygiene-Service | — | 2026-05-06 |
 | inne | Narodowy Instytut Onkologii im. Marii Skłodo… | [Prace badawcze nad opracowaniem hodowli komórkowej mającej potencjalne zastosow…](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/267836) | — | — | — | — | — | — | 2026-03-19 |
 | inne | ASLab Science P.S.A. | [Zapytanie ofertowe na wynajem zestawu LC-HRMS-MS/MS na potrzeby firmy ASLAB SCI…](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/286214) | — | — | — | — | — | — | 2026-08-04 |

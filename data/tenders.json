@@ -666,6 +666,53 @@
   "key": "freelancermap:3074241",
   "first_seen": "2026-11-18"
  },
+ "ted:710636-2023": {
+  "source": "ted",
+  "source_id": "710636-2023",
+  "title": "Bundeswehrkrankenhaus Berlin - Neubau Apotheke mit Zentrallager - Pharmamonitoring - Vergabe 481/2023",
+  "url": "https://ted.europa.eu/en/notice/-/detail/710636-2023",
+  "description": "KKE 4478 - Pharmamonitoring - Lieferung und Installation eines Pharmamonitoringsystems für den Herstellbereich der BW-Apotheke am Standort Berlin - Zur Überwachung der Herstellräume (Reinraumbereich), der zugeordneten Laborräume außerhalb des Reinraumbereichs sowie der Nebenräume und Lagerräume verteilt auf EG, OG, DG Systemanforderungen - Marktetabliertes System - Erfüllung der Anforderungen nach 21 CFR Part 11 - Systemstruktur muss schrittweise erweiterbar sein - Partikelauswertung der Minuten Werte (cf ³) und Alarmierung dieser nach Vorgabe (Warnwert und Grenzwertverletzung) - Aufzeichnung der Minuten Werte mit automatischer m ³- Betrachtung überwachte Flächen (NGF) - Reinraumbereich: 412 m² - Labore außerhalb des Reinraumbereichs: 61 m² - Lagerflächen / Nebenräume: 885,70 m² Überwachung folgender Parameter: - Partikelzahlen in den A- Bereichen SWB / LF und in B - Bereich, - Raumdrücke - Raumtemperaturen - Raumfeuchten - Temperaturen in Kühlschränken - Strömungsgeschwindigkeit in den SWB und LF - Einheiten Erstellung der FAT, DQ-, IQ-, und OQ- Dokumentation im Projektablauf stellt einen wesentlichen Bestandteil der Qualifizierungs- /Validierungsdokumentation dar und muss aus diesem Grund den formalen und inhaltlichen GMP-Anforderungen hinsichtlich Planung, Freigabe, Durchführung und Genehmigung der Prüfungen entsprechen. Der Factory- Acceptance- Test (FAT) ist beim Lieferanten, auf Basis von durch den Auftraggeber genehmigten FAT-Protokollen, in Zusammenarbeit mit dem Auftraggeber durchzuführen. Instandhaltungsleistungen sind Bestandteil dieser Ausschreibung - Laufzeit 4 Jahre Ausführungsbeginn: 11/2023 Ausführungsende: 03/2025 Verbindliche Einzelfristen",
+  "buyer": "Bundesamt für Bauwesen und Raumordnung, in Vertretung für das Bundesministerium der Verteidigung",
+  "country": "DEU",
+  "published": "2023-11-22",
+  "deadline": "",
+  "notice_type": "can-standard",
+  "cpv": [
+   "45310000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "3",
+  "criteria": [
+   "price"
+  ],
+  "duration": "",
+  "contract_date": "2023-11-13",
+  "framework": "nie",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [
+   "DEU, large"
+  ],
+  "kind": "inne",
+  "score": 10.0,
+  "matched": [
+   "Part 11",
+   "validation",
+   "IQ/OQ/PQ",
+   "GMP/GxP",
+   "pharma",
+   "aseptic/cleanroom"
+  ],
+  "key": "ted:710636-2023",
+  "first_seen": "2026-11-18"
+ },
  "ted:740084-2026": {
   "source": "ted",
   "source_id": "740084-2026",
@@ -836,6 +883,136 @@
    "radiopharmacy"
   ],
   "key": "oev:cce0a95a-93c3-4038-8dee-ccbddbc1bff9-01",
+  "first_seen": "2026-11-18"
+ },
+ "ted:164237-2025": {
+  "source": "ted",
+  "source_id": "164237-2025",
+  "title": "Document management systeem (eTMF en eISF) voor klinische studies",
+  "url": "https://ted.europa.eu/en/notice/-/detail/164237-2025",
+  "description": "UZ Leuven wenst een elektronisch Trial Master File (eTMF) en Investigator Site File (eISF) systeem te gebruiken om essentiële documenten gegenereerd door een 700-tal klinische studies per jaar (+/- 1.000 unieke gebruikers) op te slaan, te beheren en te archiveren. Met een dergelijke digitale oplossing wordt gestreefd naar naleving van de regelgeving en gereedheid voor inspecties, aanzienlijke kostenbesparingen ten opzichte van papieren archivering, efficiëntiewinst, verbeterd overzicht door sponsor/onderzoeker, vereenvoudigde samenwerking tussen verschillende (interne & externe) belanghebbenden, effectieve toegangscontrole tot documenten, rapportage en algeheel verbeterd studiebeheer. De opbouw van de eTMF/eISF dient het internationaal erkende (DIA) TMF Reference Model te volgen. Het eTMF/eISF-systeem moet voldoen aan de toepasselijke regelgeving en industriestandaarden voor klinisch onderzoek, inclusief maar niet beperkt tot: - EU 2016/679: General Data Protection Regulation (GDPR) - EMA/INS/GCP/112288/2023: EMA-Guideline on computerized systems and electronic data in clinical trials - SANCO/C8/AM/sl/ares(2010)1064599: EU rules governing medicinal products in the European Union - Volume 4: Good Manufacturing Practice (GMP) for medicinal products for human and veterinary use - Annex 11: Computerized Systems - FDA 21 CFR part 11: Electronic records and electronic signatures - ISO/IEC 27018:2019 certification: Information technology — Security techniques — Code of practice for protection of personally identifiable information (PII) in public clouds acting as PII processors - ISO/IEC 27001:2022 certification: Information security, cybersecurity and privacy protection — Information security management systems - Requirements - ICH Good Clinical Practice (GCP) E6",
+  "buyer": "UZ Leuven",
+  "country": "BEL",
+  "published": "2025-03-13",
+  "deadline": "",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "48000000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "negocjacyjny z ogłoszeniem",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [
+   "quality",
+   "cost"
+  ],
+  "duration": "84 month",
+  "contract_date": "",
+  "framework": "nie",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "inne",
+  "score": 9.5,
+  "matched": [
+   "Annex 11",
+   "Part 11",
+   "GMP/GxP",
+   "CPV 48*"
+  ],
+  "key": "ted:164237-2025",
+  "first_seen": "2026-11-18"
+ },
+ "ted:21258-2025": {
+  "source": "ted",
+  "source_id": "21258-2025",
+  "title": "Quality Management System",
+  "url": "https://ted.europa.eu/en/notice/-/detail/21258-2025",
+  "description": "The Hospital Pharmacy of Region North Denmark has initiated a process of selecting a new Quality Management System (QMS). The Hospital Pharmacy is looking for a solution integrating document management and training with the most important quality processes such as deviations and CAPA management, change management, and complaints management. Furthermore, the solution must present dashboard-type key figures graphically with drill-down functionality to single registrations. The Hospital Pharmacy is looking for an eQMS solution that acts as the sole reference point across the enterprise—connecting quality business processes for better visibility, access, and control. The solution must be a cost effective GxP-compliant cloud-based SaaS solution that supports scalability, flexibility and mobility allowing real-time access through a web browser from different devices. Moreover, updates, validation and maintenance should be managed by the software vendor, a robust infrastructure ensuring availability and reliable per",
+  "buyer": "AMGROS I/S",
+  "country": "DNK",
+  "published": "2025-01-13",
+  "deadline": "",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "72000000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "negocjacyjny z ogłoszeniem",
+  "estimated_value": "4 800 000 DKK",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [],
+  "duration": "48 month",
+  "contract_date": "",
+  "framework": "tak",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "system + walidacja",
+  "score": 9.5,
+  "matched": [
+   "validation",
+   "GMP/GxP",
+   "PQS/QMS",
+   "pharma",
+   "CPV 72*"
+  ],
+  "key": "ted:21258-2025",
+  "first_seen": "2026-11-18"
+ },
+ "ted:301392-2025": {
+  "source": "ted",
+  "source_id": "301392-2025",
+  "title": "Document management systeem (eTMF en eISF) voor klinische studies",
+  "url": "https://ted.europa.eu/en/notice/-/detail/301392-2025",
+  "description": "UZ Leuven wenst een elektronisch Trial Master File (eTMF) en Investigator Site File (eISF) systeem te gebruiken om essentiële documenten gegenereerd door een 700-tal klinische studies per jaar (+/- 1.000 unieke gebruikers) op te slaan, te beheren en te archiveren. Met een dergelijke digitale oplossing wordt gestreefd naar naleving van de regelgeving en gereedheid voor inspecties, aanzienlijke kostenbesparingen ten opzichte van papieren archivering, efficiëntiewinst, verbeterd overzicht door sponsor/onderzoeker, vereenvoudigde samenwerking tussen verschillende (interne & externe) belanghebbenden, effectieve toegangscontrole tot documenten, rapportage en algeheel verbeterd studiebeheer. De opbouw van de eTMF/eISF dient het internationaal erkende (DIA) TMF Reference Model te volgen. Het eTMF/eISF-systeem moet voldoen aan de toepasselijke regelgeving en industriestandaarden voor klinisch onderzoek, inclusief maar niet beperkt tot: - EU 2016/679: General Data Protection Regulation (GDPR) - EMA/INS/GCP/112288/2023: EMA-Guideline on computerized systems and electronic data in clinical trials - SANCO/C8/AM/sl/ares(2010)1064599: EU rules governing medicinal products in the European Union - Volume 4: Good Manufacturing Practice (GMP) for medicinal products for human and veterinary use - Annex 11: Computerized Systems - FDA 21 CFR part 11: Electronic records and electronic signatures - ISO/IEC 27018:2019 certification: Information technology — Security techniques — Code of practice for protection of personally identifiable information (PII) in public clouds acting as PII processors - ISO/IEC 27001:2022 certification: Information security, cybersecurity and privacy protection — Information security management systems - Requirements - ICH Good Clinical Practice (GCP) E6",
+  "buyer": "UZ Leuven",
+  "country": "BEL",
+  "published": "2025-05-12",
+  "deadline": "",
+  "notice_type": "can-standard",
+  "cpv": [
+   "48000000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "negocjacyjny z ogłoszeniem",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "6",
+  "criteria": [
+   "quality",
+   "cost"
+  ],
+  "duration": "84 month",
+  "contract_date": "",
+  "framework": "nie",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "inne",
+  "score": 9.5,
+  "matched": [
+   "Annex 11",
+   "Part 11",
+   "GMP/GxP",
+   "CPV 48*"
+  ],
+  "key": "ted:301392-2025",
   "first_seen": "2026-11-18"
  },
  "ted:564895-2026": {
@@ -1516,6 +1693,90 @@
   "key": "oev:c8df9f04-934c-497e-b5c2-e755d565ae56-01",
   "first_seen": "2026-11-18"
  },
+ "ted:441347-2025": {
+  "source": "ted",
+  "source_id": "441347-2025",
+  "title": "Marché de services pour les prestations de formateurs externes pour formations spécifiques en Biopharmaceutique et Biotechnologie",
+  "url": "https://ted.europa.eu/en/notice/-/detail/441347-2025",
+  "description": "Formation (en français) GMP – Bases; Formation (en anglais) GMP – Bases; Formation (à distance) GMP – Bases; Formation (en français) GMP – Niveau Avancé; Formation (en anglais) GMP – Niveau Avancé; Formation (à distance) GMP – Niveau Avancé; Formation (en français) GMP Appliquée; Formation (en anglais) GMP Appliquée; Formation (en français) GMP – FOCUS sur les ATMP PARTIE IV; Formation (en anglais) GMP – FOCUS sur les ATMP PARTIE IV; Formation (à distance) GMP – FOCUS sur les ATMP PARTIE IV; Formation (en français) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (en anglais) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (à distance) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (en français) Audit; Formation (en anglais) Audit; Formation (à distance) Audit; Formation (en français) BPL-GLP (Bonnes pratiques de laboratoire); Formation (en anglais) BPL-GLP (Bonnes pratiques de laboratoire); Formation (à distance) BPL-GLP (Bonnes pratiques de laboratoire); Formation (en français) GDP-BPD (Bonnes pratiques de distribution); Formation (en anglais) GDP-BPD (Bonnes pratiques de distribution); Formation (à distance) GDP-BPD (Bonnes pratiques de distribution); Formation (en français) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (en anglais) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (à distance) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (en français) Validation des méthodes analytiques, transfert des méthodes et robustesse; Formation (en anglais) Validation des méthodes analytiques, transfert des méthodes et robustesse; Dispositifs médicaux : « Formation (en français) Système qualité - certification des dispositifs médicaux et mise sur le marché; Dispositifs médicaux : « Formation (en anglais) Système qualité - certification des dispositifs médicaux et mise sur le marché; Dispositifs médicaux : « Forma",
+  "buyer": "aptaskil asbl",
+  "country": "BEL",
+  "published": "2025-07-08",
+  "deadline": "2025-08-04",
+  "notice_type": "cn-social",
+  "cpv": [
+   "80500000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [
+   "cost"
+  ],
+  "duration": "",
+  "contract_date": "",
+  "framework": "tak",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "usługa CSV",
+  "score": 7.5,
+  "matched": [
+   "validation",
+   "GMP/GxP",
+   "pharma"
+  ],
+  "key": "ted:441347-2025",
+  "first_seen": "2026-11-18"
+ },
+ "ted:468509-2025": {
+  "source": "ted",
+  "source_id": "468509-2025",
+  "title": "Marché de services pour les prestations de formateurs externes pour formations spécifiques en Biopharmaceutique et Biotechnologie",
+  "url": "https://ted.europa.eu/en/notice/-/detail/468509-2025",
+  "description": "Formation (en français) GMP – Bases; Formation (en anglais) GMP – Bases; Formation (à distance) GMP – Bases; Formation (en français) GMP – Niveau Avancé; Formation (en anglais) GMP – Niveau Avancé; Formation (à distance) GMP – Niveau Avancé; Formation (en français) GMP Appliquée; Formation (en anglais) GMP Appliquée; Formation (en français) GMP – FOCUS sur les ATMP PARTIE IV; Formation (en anglais) GMP – FOCUS sur les ATMP PARTIE IV; Formation (à distance) GMP – FOCUS sur les ATMP PARTIE IV; Formation (en français) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (en anglais) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (à distance) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (en français) Audit; Formation (en anglais) Audit; Formation (à distance) Audit; Formation (en français) BPL-GLP (Bonnes pratiques de laboratoire); Formation (en anglais) BPL-GLP (Bonnes pratiques de laboratoire); Formation (à distance) BPL-GLP (Bonnes pratiques de laboratoire); Formation (en français) GDP-BPD (Bonnes pratiques de distribution); Formation (en anglais) GDP-BPD (Bonnes pratiques de distribution); Formation (à distance) GDP-BPD (Bonnes pratiques de distribution); Formation (en français) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (en anglais) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (à distance) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (en français) Validation des méthodes analytiques, transfert des méthodes et robustesse; Formation (en anglais) Validation des méthodes analytiques, transfert des méthodes et robustesse; Dispositifs médicaux : « Formation (en français) Système qualité - certification des dispositifs médicaux et mise sur le marché; Dispositifs médicaux : « Formation (en anglais) Système qualité - certification des dispositifs médicaux et mise sur le marché; Dispositifs médicaux : « Forma",
+  "buyer": "aptaskil asbl",
+  "country": "BEL",
+  "published": "2025-07-17",
+  "deadline": "2025-08-04",
+  "notice_type": "cn-social",
+  "cpv": [
+   "80500000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [
+   "cost"
+  ],
+  "duration": "",
+  "contract_date": "",
+  "framework": "tak",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "usługa CSV",
+  "score": 7.5,
+  "matched": [
+   "validation",
+   "GMP/GxP",
+   "pharma"
+  ],
+  "key": "ted:468509-2025",
+  "first_seen": "2026-11-18"
+ },
  "ted:523910-2026": {
   "source": "ted",
   "source_id": "523910-2026",
@@ -1694,6 +1955,180 @@
    "GMP/GxP"
   ],
   "key": "ted:688819-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:194547-2025": {
+  "source": "ted",
+  "source_id": "194547-2025",
+  "title": "Consultancy services for the Hospital Pharmacies in Norway",
+  "url": "https://ted.europa.eu/en/notice/-/detail/194547-2025",
+  "description": "Consultancy services Hire of, for example, technical director, professional manager, pharmacies and department manager. Temporary need for support or additional pharmacy competence Resources in a transition phase Help for restructuring Support for, for example, digital change processes (the list is not exhaustive).; Deviation Handling and ValidationResponse Management: Closing deviations after supervisor Validation: Validation Management Validation Manager shall manage the validation group and delegate responsibility for carrying out validation activities and make sure that minutes are written from group meetings. Prepare validation protocols (IQ, OQ, PQ, PV) and accompanying test scripts, contribute to the actual validation and preparation of validation reports, including VSR Facilitating and documenting ROS-analyses Consultancy for the validation process (the list is not exhaustive).",
+  "buyer": "SYKEHUSINNKJØP HF",
+  "country": "NOR",
+  "published": "2025-03-26",
+  "deadline": "2025-05-05",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "79400000",
+   "79410000",
+   "79420000",
+   "79421000",
+   "79620000",
+   "85149000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "16 000 000 NOK / 24 000 000 NOK",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [],
+  "duration": "",
+  "contract_date": "",
+  "framework": "tak",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "usługa CSV",
+  "score": 7.0,
+  "matched": [
+   "validation",
+   "IQ/OQ/PQ",
+   "pharma"
+  ],
+  "key": "ted:194547-2025",
+  "first_seen": "2026-11-18"
+ },
+ "ted:384734-2024": {
+  "source": "ted",
+  "source_id": "384734-2024",
+  "title": "Neubau KRH-Zentralapotheke, Pharmamonitoring",
+  "url": "https://ted.europa.eu/en/notice/-/detail/384734-2024",
+  "description": "Im Zuge des Projekts „Neubau Zentralapotheke“ werden die Bereiche Herstellung, Lagerung und Kommissionierung im KRH-Klinikum Hannover neu gebaut. Ziel des Projektes ist die Erteilung der Betriebserlaubnis. Apothekenräumlichkeiten werden komplett neu gebaut und ein GMP-Reinraum errichtet, welcher den aktuellen Anforderungen der Apothekenbetriebsordnung und des EG-GMP-Leitfadens entsprechen soll. Hierfür ist ein GMP konformes Monitoringsystem zu installieren und zu qualifizieren. Das Reinraum-Monitoringsystem hat die Aufgabe der Erfassung, Überwachung und Archivierung von qualitätsrelevanten Messwerten und Meldungen aus den Reinräumen, dem Laborequipment sowie der externen Alarmierung. Das System soll im Sinne der Anforderungen 21 CFR Part 11 die Grenzwertalarmierung und Messwerterfassung (Trendfunktionen) übernehmen und über geeignete Schnittstellen die notwendigen Alarmierungsaufgaben erfüllen.",
+  "buyer": "- Eigenerklärung zur Eignung FB 124 oder Präqualifikation - die im FB 124 geforderten Nachweise sind mit dem Angebot einzureichen",
+  "country": "DEU",
+  "published": "2024-06-28",
+  "deadline": "",
+  "notice_type": "can-standard",
+  "cpv": [
+   "45300000"
+  ],
+  "value": "",
+  "winners": [
+   "eNeG Gesellschaft f. wirtsch. Energieeinsatz mbH"
+  ],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "2",
+  "criteria": [
+   "price"
+  ],
+  "duration": "",
+  "contract_date": "",
+  "framework": "nie",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [
+   "DEU, medium"
+  ],
+  "kind": "inne",
+  "score": 7.0,
+  "matched": [
+   "Part 11",
+   "GMP/GxP",
+   "pharma",
+   "aseptic/cleanroom"
+  ],
+  "key": "ted:384734-2024",
+  "first_seen": "2026-11-18"
+ },
+ "ted:65248-2024": {
+  "source": "ted",
+  "source_id": "65248-2024",
+  "title": "Neubau KRH-Zentralapotheke, Pharmamonitoring",
+  "url": "https://ted.europa.eu/en/notice/-/detail/65248-2024",
+  "description": "Im Zuge des Projekts „Neubau Zentralapotheke“ werden die Bereiche Herstellung, Lagerung und Kommissionierung im KRH-Klinikum Hannover neu gebaut. Ziel des Projektes ist die Erteilung der Betriebserlaubnis. Apothekenräumlichkeiten werden komplett neu gebaut und ein GMP-Reinraum errichtet, welcher den aktuellen Anforderungen der Apothekenbetriebsordnung und des EG-GMP-Leitfadens entsprechen soll. Hierfür ist ein GMP konformes Monitoringsystem zu installieren und zu qualifizieren. Das Reinraum-Monitoringsystem hat die Aufgabe der Erfassung, Überwachung und Archivierung von qualitätsrelevanten Messwerten und Meldungen aus den Reinräumen, dem Laborequipment sowie der externen Alarmierung. Das System soll im Sinne der Anforderungen 21 CFR Part 11 die Grenzwertalarmierung und Messwerterfassung (Trendfunktionen) übernehmen und über geeignete Schnittstellen die notwendigen Alarmierungsaufgaben erfüllen.",
+  "buyer": "- Eigenerklärung zur Eignung FB 124 oder Präqualifikation - die im FB 124 geforderten Nachweise sind mit dem Angebot einzureichen",
+  "country": "DEU",
+  "published": "2024-01-31",
+  "deadline": "2024-03-04",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "45300000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [],
+  "duration": "",
+  "contract_date": "",
+  "framework": "nie",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "inne",
+  "score": 7.0,
+  "matched": [
+   "Part 11",
+   "GMP/GxP",
+   "pharma",
+   "aseptic/cleanroom"
+  ],
+  "key": "ted:65248-2024",
+  "first_seen": "2026-11-18"
+ },
+ "ted:87088-2024": {
+  "source": "ted",
+  "source_id": "87088-2024",
+  "title": "Neubau KRH-Zentralapotheke, Pharmamonitoring",
+  "url": "https://ted.europa.eu/en/notice/-/detail/87088-2024",
+  "description": "Im Zuge des Projekts „Neubau Zentralapotheke“ werden die Bereiche Herstellung, Lagerung und Kommissionierung im KRH-Klinikum Hannover neu gebaut. Ziel des Projektes ist die Erteilung der Betriebserlaubnis. Apothekenräumlichkeiten werden komplett neu gebaut und ein GMP-Reinraum errichtet, welcher den aktuellen Anforderungen der Apothekenbetriebsordnung und des EG-GMP-Leitfadens entsprechen soll. Hierfür ist ein GMP konformes Monitoringsystem zu installieren und zu qualifizieren. Das Reinraum-Monitoringsystem hat die Aufgabe der Erfassung, Überwachung und Archivierung von qualitätsrelevanten Messwerten und Meldungen aus den Reinräumen, dem Laborequipment sowie der externen Alarmierung. Das System soll im Sinne der Anforderungen 21 CFR Part 11 die Grenzwertalarmierung und Messwerterfassung (Trendfunktionen) übernehmen und über geeignete Schnittstellen die notwendigen Alarmierungsaufgaben erfüllen.",
+  "buyer": "- Eigenerklärung zur Eignung FB 124 oder Präqualifikation - die im FB 124 geforderten Nachweise sind mit dem Angebot einzureichen",
+  "country": "DEU",
+  "published": "2024-02-12",
+  "deadline": "2024-03-04",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "45300000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [],
+  "duration": "",
+  "contract_date": "",
+  "framework": "nie",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "inne",
+  "score": 7.0,
+  "matched": [
+   "Part 11",
+   "GMP/GxP",
+   "pharma",
+   "aseptic/cleanroom"
+  ],
+  "key": "ted:87088-2024",
   "first_seen": "2026-11-18"
  },
  "oev:046bf4e6-56fa-4b40-88ee-5fcb617a1a4a-01": {
@@ -1906,6 +2341,86 @@
   "key": "simap:38362-02",
   "first_seen": "2026-11-18"
  },
+ "ted:139726-2025": {
+  "source": "ted",
+  "source_id": "139726-2025",
+  "title": "Service, maintenance, calibration and validation of various equipment",
+  "url": "https://ted.europa.eu/en/notice/-/detail/139726-2025",
+  "description": "Service, maintenance, calibration, validation and verification of Genetic Analysts ABI 3500 Applied Biosystems; Service, maintenance and verification of instruments from the manufacturer Applied Biosystems; Service, maintenance, calibration, validation and verification of instruments from the manufacturer Qiagen; Service and maintenance of comparative microscopes and stereo microscopes from the manufacturer Leica; Service and maintenance of a refrigerator with ultra-low temperatures down to -86°C, with CO2 bottle, Model 700, Binder; Calibration of pipes; Calibration of Biosan thermomixers; Maintenance of the eQMS::D NA (DNA database) software system from the manufacturer Pardus doo; Service, maintenance, calibration, validation/verification of instruments from the manufacturer Perkin Elmer; Service, maintenance, calibration, validation/verification of the Gesan Chem 200 instrument; Digestor service and maintenance; Service and Maintenance of Scanning Electron Microscope with Energy Dispersive Detector Phenom XL G2 Particle Base + SED; Service and maintenance of the Scanning Electron Microscope (JEOL 6610 LV) with Energy Dispersion Detector (Oxford 50 mm2); Maintenance and maintenance of the instrument Regula 4307; Service and maintenance of the Evofinder system; Maintenance and maintenance of the ToolScan instrument; Service, maintenance, calibration, validation and verification of instruments from the manufacturer Biorad; Service, maintenance and verification of the BSD600 Ascent A2 semi-automatic puncher",
+  "buyer": "Ministry of internal affairs",
+  "country": "MKD",
+  "published": "2025-03-03",
+  "deadline": "2025-04-02",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "50000000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "6 000 000 MKD / 3 200 000 MKD / 2 360 000 MKD / 1 500 000 MKD / 600 000 MKD",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [],
+  "duration": "3 year",
+  "contract_date": "",
+  "framework": "tak",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "usługa CSV",
+  "score": 6.5,
+  "matched": [
+   "validation",
+   "PQS/QMS"
+  ],
+  "key": "ted:139726-2025",
+  "first_seen": "2026-11-18"
+ },
+ "ted:258246-2024": {
+  "source": "ted",
+  "source_id": "258246-2024",
+  "title": "Service, maintenance, calibration and validation of various equipment",
+  "url": "https://ted.europa.eu/en/notice/-/detail/258246-2024",
+  "description": "Service, maintenance, calibration, validation and verification of Genetic Analysts ABI 3500 Applied Biosystems; Service, maintenance and verification of instruments from the manufacturer Applied Biosystems; Service, maintenance, calibration, validation and verification of instruments by manufacturer Qiagen (Automatic DNA Insulation Robot- EZ2 Connect); Service, maintenance and verification of water purification system – ultraclean water Arium mini plus by manufacturer Sartorius; Service and maintenance of comparative microscopes and stereo microscopes by leica (Comparative microscope Leica FS CB 011/36-11-324 (DFC420)); Service and maintenance of security cabinet – laminar; Service and maintenance of germicidal UV chamber with UV lamp by manufacturer Germy Gima Plus; Service, maintenance and verification of instruments by Eppendorf; Service, maintenance and verification of biosan thermomixers; Service, maintenance and verification of centrifuge Biocen 22; Service, maintenance and verification of centrifuges by manufacturer Hettich-Germany; Service, maintenance and verification of refrigerators with ultra-low temperatures; Service and maintenance of the refrigerator with ultra low temperatures up to -86°C, with CO2 bottle, Model 700, Binder; Service and maintenance of refrigerators with temperatures up to +8°oC; Calibration of digital temperature and damp meters; Pipetori calibration; Calibration of thermomixers; Maintenance of eQMS::D NA (DNA database) from manufacturer Pardusdoo; Service, maintenance, calibration, validation and verification of instruments by manufacturer Biorad (PCR C1000Touch Polymerase Chain Reaction Instrument); Service, maintenance and verification of semi-automatic panther BSD600 Ascent A2; Calibration of electronic analytical scale; Service, maintenance, calibration, validation and verification of GC/MS QP 2020 – Shimadzu; Service, maintenance, calibration, validation and verification of GC/MS QP 2010 Plus – Shimadzu; Service and maintenance",
+  "buyer": "Ministry of internal affairs",
+  "country": "MKD",
+  "published": "2024-04-30",
+  "deadline": "2024-05-16",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "50000000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "5 000 000 MKD / 2 000 000 MKD / 750 000 MKD / 100 000 MKD / 1 700 000 MKD",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [
+   "price"
+  ],
+  "duration": "3 year",
+  "contract_date": "",
+  "framework": "tak",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "usługa CSV",
+  "score": 6.5,
+  "matched": [
+   "validation",
+   "PQS/QMS"
+  ],
+  "key": "ted:258246-2024",
+  "first_seen": "2026-11-18"
+ },
  "ted:434234-2026": {
   "source": "ted",
   "source_id": "434234-2026",
@@ -1948,6 +2463,47 @@
   "key": "ted:434234-2026",
   "first_seen": "2026-11-18"
  },
+ "ted:520840-2024": {
+  "source": "ted",
+  "source_id": "520840-2024",
+  "title": "Service, maintenance, calibration and validation of various equipment",
+  "url": "https://ted.europa.eu/en/notice/-/detail/520840-2024",
+  "description": "Service, maintenance, calibration, validation and verification of Genetic Analysts ABI 3500 Applied Biosystems; Service, maintenance and verification of instruments from the manufacturer Applied Biosystems; Service, maintenance, calibration, validation and verification of instruments by manufacturer Qiagen (Automatic DNA Insulation Robot- EZ2 Connect); Service, maintenance and verification of water purification system – ultraclean water Arium mini plus by manufacturer Sartorius; Service and maintenance of comparative microscopes and stereo microscopes by leica (Comparative microscope Leica FS CB 011/36-11-324 (DFC420)); Service and maintenance of security cabinet – laminar; Service and maintenance of germicidal UV chamber with UV lamp by manufacturer Germy Gima Plus; Service, maintenance and verification of instruments by Eppendorf; Service, maintenance and verification of biosan thermomixers; Service, maintenance and verification of centrifuge Biocen 22; Service, maintenance and verification of centrifuges by manufacturer Hettich-Germany; Service, maintenance and verification of refrigerators with ultra-low temperatures; Service and maintenance of the refrigerator with ultra low temperatures up to -86°C, with CO2 bottle, Model 700, Binder; Service and maintenance of refrigerators with temperatures up to +8°oC; Calibration of digital temperature and damp meters; Pipetori calibration; Calibration of thermomixers; Maintenance of eQMS::D NA (DNA database) from manufacturer Pardusdoo; Service, maintenance, calibration, validation and verification of instruments by manufacturer Biorad (PCR C1000Touch Polymerase Chain Reaction Instrument); Service, maintenance and verification of semi-automatic panther BSD600 Ascent A2; Calibration of electronic analytical scale; Service, maintenance, calibration, validation and verification of GC/MS QP 2020 – Shimadzu; Service, maintenance, calibration, validation and verification of GC/MS QP 2010 Plus – Shimadzu; Service and maintenance",
+  "buyer": "Ministry of internal affairs",
+  "country": "MKD",
+  "published": "2024-08-30",
+  "deadline": "2024-09-30",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "50000000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "5 000 000 MKD / 2 000 000 MKD / 750 000 MKD / 100 000 MKD / 1 700 000 MKD",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [
+   "price"
+  ],
+  "duration": "3 year",
+  "contract_date": "",
+  "framework": "tak",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "usługa CSV",
+  "score": 6.5,
+  "matched": [
+   "validation",
+   "PQS/QMS"
+  ],
+  "key": "ted:520840-2024",
+  "first_seen": "2026-11-18"
+ },
  "ted:571070-2026": {
   "source": "ted",
   "source_id": "571070-2026",
@@ -1988,6 +2544,45 @@
    "aseptic/cleanroom"
   ],
   "key": "ted:571070-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:677299-2025": {
+  "source": "ted",
+  "source_id": "677299-2025",
+  "title": "Service, maintenance, calibration and validation of various equipment",
+  "url": "https://ted.europa.eu/en/notice/-/detail/677299-2025",
+  "description": "Service, maintenance, and verification of instruments from the manufacturer Applied Biosystems; Service, maintenance, calibration, validation, and verification of instruments from the manufacturer Qiagen; Service and maintenance of comparative microscopes and stereo microscopes from the manufacturer Leica; Service and maintenance of a freezer with ultra-low temperatures down to -86°C, with a CO2 cylinder, Model 700, Binder; Pipette calibration; Calibration of Biosan thermomixers; Maintenance of the eQMS::DNA software system (DNA database) by the manufacturer Pardus Ltd.; Service and maintenance of fume hoods; Service and maintenance of Scanning Electron Microscope with Energy Dispersive Detector Phenom XL G2 Particle Base + SED; Service and maintenance of Scanning Electron Microscope (JEOL 6610 LV) with energy-dispersive detector (Oxford 50 mm²); Service and maintenance of the Regula 4307 instrument; Service and maintenance of the Evofinder system; Service and maintenance of the ToolScan instrument; Service, maintenance, calibration, validation, and verification of instruments from the manufacturer Biorad; Service, maintenance, and verification of the semi-automatic puncher BSD600 Ascent A2; Service, maintenance, calibration, validation/verification of instruments from the manufacturer Foster & Freeman; Service, maintenance, calibration of meters; Maintenance and procurement of hydrogen",
+  "buyer": "Ministry of internal affairs",
+  "country": "MKD",
+  "published": "2025-10-15",
+  "deadline": "2025-11-17",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "50000000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [],
+  "duration": "1 year",
+  "contract_date": "",
+  "framework": "tak",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "usługa CSV",
+  "score": 6.5,
+  "matched": [
+   "validation",
+   "PQS/QMS"
+  ],
+  "key": "ted:677299-2025",
   "first_seen": "2026-11-18"
  },
  "ted:747183-2026": {
@@ -2409,25 +3004,25 @@
   "key": "bk:286214",
   "first_seen": "2026-11-18"
  },
- "oev:4ea91059-b688-4df2-a3a6-c0f815b34eb1-01": {
-  "source": "oev",
-  "source_id": "4ea91059-b688-4df2-a3a6-c0f815b34eb1-01",
-  "title": "Deutsches Diabetes-Zentrum, Vergabe Pipettierroboter für Biobank",
-  "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4ea91059-b688-4df2-a3a6-c0f815b34eb1&noticeVersion=01",
-  "description": "Gegenstand der Beschaffung ist die Lieferung, Aufstellung und Inbetriebnahme eines vollautomatisierten Pipettierrobotersystems zur Aliquotierung und Fraktionierung von Biobank-Flüssigproben (u. a. Serum, Plasma, Vollblut, PBMC-relevante Fraktionen). Das System umfasst alle erforderlichen Hard- und Softwarekomponenten, einen geeigneten Labortisch sowie die vollständige technische Dokumentation (IQ/OQ). Die Inbetriebnahme erfolgt mit Durchführung eines Site Acceptance Tests (SAT) mit realen Proben. Das System muss bidirektional in das bestehende LIMS-System CentraXX integriert werden. Deutsches Diabetes-Zentrum, Vergabe Pipettierroboter für Biobank siehe Leistungsverzeichnis in den Vergabeunterlagen",
-  "buyer": "Deutsche Diabetes Forschungsgesellschaft e.V.",
-  "country": "DEU",
-  "published": "2026-08-22",
-  "deadline": "",
-  "notice_type": "tender",
+ "boamp:25-110252": {
+  "source": "boamp",
+  "source_id": "25-110252",
+  "title": "AOO - 20250097 - PRESTATIONS DE TRANSPORT D'ECHANTILLONS BIOLOGIQUES, PHARMACEUTIQUES ET DE PRODUITS SANGUINS LABILES POUR LES HOPITAUX HAINAUT-CAMBRESIS ET LE GCS SHAB",
+  "url": "https://www.boamp.fr/pages/avis/?q=idweb:25-110252",
+  "description": "Transport Centre hospitalier de Valenciennes Avenue Désandrouin - Pôle Services - Cellule des\nmarchés publics - B.P. 479 noulette-j@ch-valenciennes.fr Tribunal administratif de Lille 5, rue Geoffroy Saint-Hilaire Greffe du Tribunal administratif de Lille Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics de Nancy, Préfecture de Meurthe et Moselle 1, rue du préfet Claude Erignac caroline.page@meurtheetmoselle.gouv.fr 36f5676b-2f3e-41de-b45d-df7ec7f8b01d 9d5f11c4-4442-478d-8cfd-8ad36cfa8f0d procurement-procedure-type AOO - 20250097 - PRESTATIONS DE TRANSPORT D'ECHANTILLONS BIOLOGIQUES, PHARMACEUTIQUES ET DE PRODUITS SANGUINS LABILES POUR LES HOPITAUX HAINAUT-CAMBRESIS ET LE GCS SHAB Contexte : Face à un enjeu de réduction des délais de prise en charge des patients et dans un souhait de réduction de l'impact carbone, le laboratoire SHAB est en cours de validation technique et opérationnelle de l'utilisation de drones médicaux pour l'acheminement de ces échantillons. Dans les prochains mois et années, une montée en charge progressive des transports via les drones est prévue. De ce fait, le volume prévisionnel pour les tournées régulières du présent marché sera amené à diminuer. > Acheteur référent (en charge de la rédaction, de la passation, de la signature et de la notification du marché) : \n- Centre hospitalier de Valenciennes\n> Etablissements bénéficiaires : \n- Centre hospitalier d'Avesnes-sur-Helpe ;\n- Centre hospitalier de Denain ;\n- Centre hospitalier de Fourmies ;\n- Centre hospitalier de Le Quesnoy ;\n- Centre hospitalier de Maubeuge ;\n- Centre hospitalier de Valenciennes ;\n- GCS SHAB (sites de Denain, de Divion, d'Hénin-Beaumont, de Liévin, de Maubeuge et de Valenciennes). Les sommes dues au titulaire sont payées sur le budget propre de chaque établissement bénéficiaire, par mandat administratif, dans un délai global de 50 jours à compter de la date de réception des demandes de paiement.\nEn cas de retard de paiement, le titulaire a droit au versement d'intérêts moratoires, ainsi qu'à une indemnité forfaitaire pour frais de recouvrement d'un montant de 40 Euros. Le taux des intérêts moratoires est égal au taux d'intérêt appliqué par la Banque centrale européenne (BCE) à ses opérations principales de refinancement les plus récentes, en vigueur au premier jour du semestre de l'année civile au cours duquel les intérêts moratoires ont commencé à courir, majoré de 8 points de pourcentage. Les voies de recours ouvertes aux candidats sont les suivantes : \n- Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du code de justice administrative (CJA), et pouvant être exercé avant la signature du marché ; \n- Référé contractuel prévu aux articles L.551-13 à L.551-23 du code de justice administrative (CJA), et pouvant être exercé dans les délais prévus à l'article R. 551-7 du code de justice administrative (CJA) ; \n- Recours de pleine juridiction ouvert aux tiers justifiant d'un intérêt lésé",
+  "buyer": "Centre hospitalier de Valenciennes",
+  "country": "FRA",
+  "published": "2025-10-05",
+  "deadline": "2025-11-03 10:00",
+  "notice_type": "Avis de marché",
   "cpv": [
-   "38000000",
-   "38437000"
+   "20250097",
+   "60100000"
   ],
   "value": "",
   "winners": [],
-  "tender_id": "oev:2833be20-789c-4e2b-8ccf-df8b9be61087",
-  "procedure": "Open",
+  "tender_id": "boamp:9d5f11c4-4442-478d-8cfd-8ad36cfa8f0d",
+  "procedure": "Procédure Ouverte",
   "estimated_value": "",
   "award_value": "",
   "lowest_offer": "",
@@ -2440,98 +3035,55 @@
   "deposit": "",
   "conditions": "",
   "winner_info": [],
-  "kind": "system + walidacja",
+  "kind": "usługa CSV",
   "score": 5.0,
   "matched": [
-   "IQ/OQ/PQ",
-   "blood/biobank",
-   "LIMS/MES/CDS"
+   "validation",
+   "pharma"
   ],
-  "key": "oev:4ea91059-b688-4df2-a3a6-c0f815b34eb1-01",
+  "key": "boamp:25-110252",
   "first_seen": "2026-11-18"
  },
- "oev:65b0fe36-e0c3-4a46-9aab-90fe770a8cb3-01": {
-  "source": "oev",
-  "source_id": "65b0fe36-e0c3-4a46-9aab-90fe770a8cb3-01",
-  "title": "Deutsches Diabetes-Zentrum, Vergabe Pipettierroboter für Biobank",
-  "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=65b0fe36-e0c3-4a46-9aab-90fe770a8cb3&noticeVersion=01",
-  "description": "Gegenstand der Beschaffung ist die Lieferung, Aufstellung und Inbetriebnahme eines vollautomatisierten Pipettierrobotersystems zur Aliquotierung und Fraktionierung von Biobank-Flüssigproben (u. a. Serum, Plasma, Vollblut, PBMC-relevante Fraktionen). Das System umfasst alle erforderlichen Hard- und Softwarekomponenten, einen geeigneten Labortisch sowie die vollständige technische Dokumentation (IQ/OQ). Die Inbetriebnahme erfolgt mit Durchführung eines Site Acceptance Tests (SAT) mit realen Proben. Das System muss bidirektional in das bestehende LIMS-System CentraXX integriert werden. Deutsches Diabetes-Zentrum, Vergabe Pipettierroboter für Biobank siehe Leistungsverzeichnis in den Vergabeunterlagen",
-  "buyer": "Deutsche Diabetes Forschungsgesellschaft e.V.",
-  "country": "DEU",
-  "published": "2026-08-02",
+ "boamp:25-2129": {
+  "source": "boamp",
+  "source_id": "25-2129",
+  "title": "2024-0851 PRESTATION DE REPARATION, MAINTENANCE ET FOURNITURE DE PIECES DETACHEES, ACCESSOIRES ET CONSOMMABLES POUR EQUIPEMENT DE MARQUE DEENOVA - APHM",
+  "url": "https://www.boamp.fr/pages/avis/?q=idweb:25-2129",
+  "description": "Equipement industriel 2024-0851 Prestation De Reparation, Maintenance Et Fourniture De Pieces Detachees, Accessoires Et Consommables Pour Equipement De Marque Deenova - Aphm BE5E3914-01DF-D135-23784E6D86CD3A1C publications-joue@aws-france.com ASSISTANCE PUBLIQUE HÔPITAUX DE MARSEILLE correspondance@aws-france.com Tribunal administratif de Marseille 31, rue Jean-François Leca BE5E3934-B895-EDAD-97AF9CFCA5A80B91 greffe.ta-marseille@juradm.fr BE5E3944-D6EB-B4F4-CEA3FE75911FCE34 4d4963aa-2ea4-4c6e-8ca1-57ed2d8090ec 54c77335-41b7-4384-8e9a-a630a3e8bfd4 procurement-procedure-type direct-award-justification L'Ap-Hm a acquis deux automates de dispensation nominative avec sur-conditionnement via le marché du Resah 2017-028.\nIl s'agit d'une solution automatisée permettant la production de manière continue, sans rupture de flux et sans intervention humaine de prescription médicamenteuse unitaire sur-conditionnée nominative.\nLa solution choisie permet une identification claire et précise de la dose administrée (Dénomination médicament, N° de lot, date de péremption...etc.) ainsi que du patient destinataire (Nom et prénom du patient, service hébergeant le patient, heure de prise). Ces automates sont interconnectés à un logiciel de dispensation pour permettre aux différents services de l'établissement d'y envoyer directement les prescriptions qui vont subir l'étape de validation pharmaceutique avant d'être prises en charge par l'automate.\nIl s'agit dans ce marché de prévoir pour les automates :\n- La continuité de la maintenance préventive des équipements\n- La maintenance à l'attachement des équipements et accessoires\n- L'approvisionnement en accessoires, consommables\n- L'accès à la formation des utilisateurs selon différents niveaux d'accès et d'intervention au niveau des équipements\n- L'accès à des modules supplémentaires pour permettre une fluidification du processus de dispensation nominative.\n- L'accès à des équipements supplémentaires et paramétrage nécessaire à la prise en compte de nouveaux services du site à desservir 2024-0851 PRESTATION DE REPARATION, MAINTENANCE ET FOURNITURE DE PIECES DETACHEES, ACCESSOIRES ET CONSOMMABLES POUR EQUIPEMENT DE MARQUE DEENOVA - APHM L'accord-cadre sera exécuté par l'émission de bons de commande.\nLes prestations sont réglées par des prix unitaires.\nLe marché prévoit un maximum annuel fixé à 250 000  euro(s)  HT L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires. L'accord-cadre a été notifié le 02/01/2025. Le montant indiqué correspond au montant attribué H.T., selon les prix unitaires rapportés aux quantités estimatives non contractuelles sur la durée totale du marché. Le montant maximum sur la durée totale, tous lots confondus, est de 1.000.000  euro(s)  Ht. La consultation du contrat peut être effectuée à l'adresse de l'organisme acheteur sur rendez-vous dans le respect des informations communicables.\nVoies de recours : recours de pleine juridiction dev",
+  "buyer": "ASSISTANCE PUBLIQUE HÔPITAUX DE MARSEILLE",
+  "country": "FRA",
+  "published": "2025-01-10",
   "deadline": "",
-  "notice_type": "tender",
+  "notice_type": "Résultat de marché",
   "cpv": [
-   "38000000",
-   "38437000"
-  ],
-  "value": "",
-  "winners": [],
-  "tender_id": "oev:2833be20-789c-4e2b-8ccf-df8b9be61087",
-  "procedure": "Open",
-  "estimated_value": "",
-  "award_value": "",
-  "lowest_offer": "",
-  "highest_offer": "",
-  "offers": "",
-  "criteria": [],
-  "duration": "",
-  "contract_date": "",
-  "framework": "",
-  "deposit": "",
-  "conditions": "",
-  "winner_info": [],
-  "kind": "system + walidacja",
-  "score": 5.0,
-  "matched": [
-   "IQ/OQ/PQ",
-   "blood/biobank",
-   "LIMS/MES/CDS"
-  ],
-  "key": "oev:65b0fe36-e0c3-4a46-9aab-90fe770a8cb3-01",
-  "first_seen": "2026-11-18"
- },
- "oev:8232896d-80e5-4c19-b0d4-a69049663a1b-01": {
-  "source": "oev",
-  "source_id": "8232896d-80e5-4c19-b0d4-a69049663a1b-01",
-  "title": "Deutsches Diabetes-Zentrum, Vergabe Pipettierroboter für Biobank",
-  "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8232896d-80e5-4c19-b0d4-a69049663a1b&noticeVersion=01",
-  "description": "Gegenstand der Beschaffung ist die Lieferung, Aufstellung und Inbetriebnahme eines vollautomatisierten Pipettierrobotersystems zur Aliquotierung und Fraktionierung von Biobank-Flüssigproben (u. a. Serum, Plasma, Vollblut, PBMC-relevante Fraktionen). Das System umfasst alle erforderlichen Hard- und Softwarekomponenten, einen geeigneten Labortisch sowie die vollständige technische Dokumentation (IQ/OQ). Die Inbetriebnahme erfolgt mit Durchführung eines Site Acceptance Tests (SAT) mit realen Proben. Das System muss bidirektional in das bestehende LIMS-System CentraXX integriert werden. Deutsches Diabetes-Zentrum, Vergabe Pipettierroboter für Biobank siehe Leistungsverzeichnis in den Vergabeunterlagen",
-  "buyer": "Deutsche Diabetes Forschungsgesellschaft e.V.",
-  "country": "DEU",
-  "published": "2026-09-08",
-  "deadline": "",
-  "notice_type": "award",
-  "cpv": [
-   "38000000",
-   "38437000"
+   "20242168",
+   "50400000"
   ],
   "value": "",
   "winners": [
-   "Hamilton Germany GmbH"
+   "DEENOVA"
   ],
-  "tender_id": "oev:2833be20-789c-4e2b-8ccf-df8b9be61087",
-  "procedure": "Open",
+  "tender_id": "boamp:54c77335-41b7-4384-8e9a-a630a3e8bfd4",
+  "procedure": "Procédure Négociée",
   "estimated_value": "",
-  "award_value": "319 610 EUR",
+  "award_value": "",
   "lowest_offer": "",
   "highest_offer": "",
-  "offers": "1",
+  "offers": "",
   "criteria": [],
   "duration": "",
-  "contract_date": "2026-09-03",
+  "contract_date": "",
   "framework": "",
   "deposit": "",
   "conditions": "",
   "winner_info": [],
-  "kind": "system + walidacja",
+  "kind": "usługa CSV",
   "score": 5.0,
   "matched": [
-   "IQ/OQ/PQ",
-   "blood/biobank",
-   "LIMS/MES/CDS"
+   "validation",
+   "pharma"
   ],
-  "key": "oev:8232896d-80e5-4c19-b0d4-a69049663a1b-01",
+  "key": "boamp:25-2129",
   "first_seen": "2026-11-18"
  },
  "oev:a4611d64-d56c-4429-8fdc-2aa5e6b9e50e-01": {
@@ -3173,6 +3725,51 @@
   "key": "simap:33929-02",
   "first_seen": "2026-11-18"
  },
+ "ted:511763-2025": {
+  "source": "ted",
+  "source_id": "511763-2025",
+  "title": "Belieferung von Reinraumbekleidung und -mopps",
+  "url": "https://ted.europa.eu/en/notice/-/detail/511763-2025",
+  "description": "Die UM sucht einen Dienstleister, der folgende Dienstleistungen zuverlässig ausführt: Bereitstellung von Mehrweg-Reinraumbekleidung und Mopps für die Reinraumklassen B, C, D Wöchentliche Abholung der Bekleidung Reinigung, Dekontamination, Sterilisation und Verpackung der Bekleidung nach validierten Verfahren Dokumentation der Reinigung und Sterilisation gemäß GMP-Anforderungen Reparatur und Austausch beschädigter Bekleidung Bereitstellung von Notfallkontingenten bei erhöhtem Bedarf Sicherstellung der Chargenrückverfolgbarkeit",
+  "buyer": "Universitätsmedizin der Johannes Gutenberg-Universität Mainz",
+  "country": "DEU",
+  "published": "2025-08-05",
+  "deadline": "2025-09-04",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "98310000",
+   "98312000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [
+   "Angebotspreis",
+   "Ausfallkonzept",
+   "Qualität der Bekleidung / Mopps"
+  ],
+  "duration": "2 year",
+  "contract_date": "",
+  "framework": "nie",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "inne",
+  "score": 4.0,
+  "matched": [
+   "validation",
+   "GMP/GxP",
+   "aseptic/cleanroom"
+  ],
+  "key": "ted:511763-2025",
+  "first_seen": "2026-11-18"
+ },
  "ted:771418-2025": {
   "source": "ted",
   "source_id": "771418-2025",
@@ -3591,6 +4188,46 @@
   "key": "bk:296909",
   "first_seen": "2026-11-18"
  },
+ "boamp:25-72365": {
+  "source": "boamp",
+  "source_id": "25-72365",
+  "title": "Fourniture de trousses, générateurs, précurseurs et médicaments radiopharmaceutiques pour le service de médecine nucléaire du CHU d’Orléans",
+  "url": "https://www.boamp.fr/pages/avis/?q=idweb:25-72365",
+  "description": "Produits pharmaceutiques CH UNIVERSITAIRE D ORLEANS cellule.marches-dal@chu-orleans.fr Tribunal administratif d'Orléans greffe.taorleans@juradm.fr 65cdda05-be49-48f6-bb85-f81643c24baa a4d220b1-a9e7-4813-bb7f-640502d863f7 Code de la commande publique procurement-procedure-type Fourniture de trousses, générateurs, précurseurs et médicaments radiopharmaceutiques pour le service de médecine nucléaire du CHU d’Orléans. AO2025-18 Les lots 14 et 15 devront faire l’objet durant le marché, d’envoi d’échantillons gratuits pour training dans le cadre de formation du personnel, validation de radiomarquage lors de changement de générateur selon les quantités précisées par le fournisseur. 25 % (sauf 15 % pour les lots n° 6 et n° 17) marché mono attributaires du lot n° 1 à 22 et 24-28, de 30 à 36 lots mono attributaires (de 1 à 22 et 24-28 de 30 à 36) 1 ACIDE DIMERCAPTOSUCCINIQUE POUR MARQUAGE TC 99M /  2 AC ANTIGRANULOCYTE POUR MARQUAGE AU TC 99M / 3 ALBUMINE HUMAINE POUR MARQUAGE TC 99 M / 4 DTPA POUR MARQUAGE AU TC 99 M / 5 MACROAGREGATS D'ALBUMINE HUM / 6 NANOCOLLOIDES POUR LYMPHOSCINTIGRAPHIE / 7 OXIDRONATE POUR MARQUAGE AU TC 99 M / 8 SESTAMIBI POUR MARQUAGE AU TC 99 M / 9 MEBROFENINE POUR MARQUAGE AU TC99M / 10 TETROFOSMIN POUR MARQUAGE AU TC 99 M / 11 MERCAPTOACETYLTRIGLYCINE POUR MARQUAGE AU TC 99 M / 12 EXAMETAZIME POUR MARQUAGE AU TC 99 M / 13 PYROPHOSPHATE DE SODIUM / 14 GOZETOTIDE POUR MARQUAGE AU GALLIUM 68 / 15 EDETREOTIDE A MARQUERAU GALLIUM 68 / 16 GENERATEUR DE TC 99 M / 17 GENERATEUR DE GALLIUM 68 / 18 CHLORURE DE THALLIUM 201 / 19 IODE 123 IODURE DE SODIUM / 20 6 IODOMETHYLNORCHOLESTEROL IODE 131 / 21 IOFLUPANE MARQUE A L'IODE 123 / 22 MIBG MARQUEE A L'IODE 123 / 24 SOLUTION INJECTABLE DE FLUORURE DE SODIUM / 28 SOLUTION INJECTABLE DE FLUOROESTRADIOL / 30 IODURE DE SODIUM - IODE 131 GELULE / 31 SOLUTION INJECTABLE DE LEXIDRONAM MARQUE AU SAMARIUM 153 / 32 SOLUTION INJECTABLE DE VIPIVOTIDE TETRAXETAN MARQUE AU LUTECIUM 177 / 33 SOLUTION INJECTABLE DE OXODOTREOTIDE MARQUE AU LUTECIUM 177 / 34 ERBIUM 169 COLLOIDE / 35 RHENIUM 186 COLLOIDE / 36 YTTRIUM 90 COLLOIDE Le fournisseur classé en première position sera consulté en priorité.     •  Le fournisseur classé en deuxième position sera consulté en cas de défaut du premier, ou si son planning de production est plus adapté à une vacation particulière d'examens de médecine nucléaire. lots multi attributaires lots 23-25-26-27-29 lots multi attributaires lots 23-25-26-27-29 (attribués à 2 opérateurs économiques sous réserve d'un nombre suffisants de candidats) Lots multi attributaires (23-25-26-27-29) 23 SOLUTION INJECTABLE DE 18F PSMA / 25 SOLUTION INJECTABLE 18 FDG (Fludésoxyglucose) / 26 SOLUTION INJECTABLE DE FLUOROCHOLINE / 27 SOLUTION INJECTABLE DE FLUORODOPA / 29 TRACEUR FLUORE POUR L'IMAGERIE DES PLAQUES AMYLOIDES",
+  "buyer": "CH UNIVERSITAIRE D ORLEANS",
+  "country": "FRA",
+  "published": "2025-06-28",
+  "deadline": "2025-09-05 12:00",
+  "notice_type": "Avis de marché",
+  "cpv": [
+   "33600000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "boamp:a4d220b1-a9e7-4813-bb7f-640502d863f7",
+  "procedure": "Procédure Ouverte",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [],
+  "duration": "",
+  "contract_date": "",
+  "framework": "",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "sprzęt + IQ/OQ",
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "pharma",
+   "radiopharmacy"
+  ],
+  "key": "boamp:25-72365",
+  "first_seen": "2026-11-18"
+ },
  "freelancermap:3066812": {
   "source": "freelancermap",
   "source_id": "3066812",
@@ -3627,6 +4264,131 @@
    "-gig title off-topic"
   ],
   "key": "freelancermap:3066812",
+  "first_seen": "2026-11-18"
+ },
+ "oev:4ea91059-b688-4df2-a3a6-c0f815b34eb1-01": {
+  "source": "oev",
+  "source_id": "4ea91059-b688-4df2-a3a6-c0f815b34eb1-01",
+  "title": "Deutsches Diabetes-Zentrum, Vergabe Pipettierroboter für Biobank",
+  "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=4ea91059-b688-4df2-a3a6-c0f815b34eb1&noticeVersion=01",
+  "description": "Gegenstand der Beschaffung ist die Lieferung, Aufstellung und Inbetriebnahme eines vollautomatisierten Pipettierrobotersystems zur Aliquotierung und Fraktionierung von Biobank-Flüssigproben (u. a. Serum, Plasma, Vollblut, PBMC-relevante Fraktionen). Das System umfasst alle erforderlichen Hard- und Softwarekomponenten, einen geeigneten Labortisch sowie die vollständige technische Dokumentation (IQ/OQ). Die Inbetriebnahme erfolgt mit Durchführung eines Site Acceptance Tests (SAT) mit realen Proben. Das System muss bidirektional in das bestehende LIMS-System CentraXX integriert werden. Deutsches Diabetes-Zentrum, Vergabe Pipettierroboter für Biobank siehe Leistungsverzeichnis in den Vergabeunterlagen",
+  "buyer": "Deutsche Diabetes Forschungsgesellschaft e.V.",
+  "country": "DEU",
+  "published": "2026-08-22",
+  "deadline": "",
+  "notice_type": "tender",
+  "cpv": [
+   "38000000",
+   "38437000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "oev:2833be20-789c-4e2b-8ccf-df8b9be61087",
+  "procedure": "Open",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [],
+  "duration": "",
+  "contract_date": "",
+  "framework": "",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "system + walidacja",
+  "score": 3.0,
+  "matched": [
+   "IQ/OQ/PQ",
+   "blood/biobank",
+   "LIMS/MES/CDS"
+  ],
+  "key": "oev:4ea91059-b688-4df2-a3a6-c0f815b34eb1-01",
+  "first_seen": "2026-11-18"
+ },
+ "oev:65b0fe36-e0c3-4a46-9aab-90fe770a8cb3-01": {
+  "source": "oev",
+  "source_id": "65b0fe36-e0c3-4a46-9aab-90fe770a8cb3-01",
+  "title": "Deutsches Diabetes-Zentrum, Vergabe Pipettierroboter für Biobank",
+  "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=65b0fe36-e0c3-4a46-9aab-90fe770a8cb3&noticeVersion=01",
+  "description": "Gegenstand der Beschaffung ist die Lieferung, Aufstellung und Inbetriebnahme eines vollautomatisierten Pipettierrobotersystems zur Aliquotierung und Fraktionierung von Biobank-Flüssigproben (u. a. Serum, Plasma, Vollblut, PBMC-relevante Fraktionen). Das System umfasst alle erforderlichen Hard- und Softwarekomponenten, einen geeigneten Labortisch sowie die vollständige technische Dokumentation (IQ/OQ). Die Inbetriebnahme erfolgt mit Durchführung eines Site Acceptance Tests (SAT) mit realen Proben. Das System muss bidirektional in das bestehende LIMS-System CentraXX integriert werden. Deutsches Diabetes-Zentrum, Vergabe Pipettierroboter für Biobank siehe Leistungsverzeichnis in den Vergabeunterlagen",
+  "buyer": "Deutsche Diabetes Forschungsgesellschaft e.V.",
+  "country": "DEU",
+  "published": "2026-08-02",
+  "deadline": "",
+  "notice_type": "tender",
+  "cpv": [
+   "38000000",
+   "38437000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "oev:2833be20-789c-4e2b-8ccf-df8b9be61087",
+  "procedure": "Open",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [],
+  "duration": "",
+  "contract_date": "",
+  "framework": "",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "system + walidacja",
+  "score": 3.0,
+  "matched": [
+   "IQ/OQ/PQ",
+   "blood/biobank",
+   "LIMS/MES/CDS"
+  ],
+  "key": "oev:65b0fe36-e0c3-4a46-9aab-90fe770a8cb3-01",
+  "first_seen": "2026-11-18"
+ },
+ "oev:8232896d-80e5-4c19-b0d4-a69049663a1b-01": {
+  "source": "oev",
+  "source_id": "8232896d-80e5-4c19-b0d4-a69049663a1b-01",
+  "title": "Deutsches Diabetes-Zentrum, Vergabe Pipettierroboter für Biobank",
+  "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8232896d-80e5-4c19-b0d4-a69049663a1b&noticeVersion=01",
+  "description": "Gegenstand der Beschaffung ist die Lieferung, Aufstellung und Inbetriebnahme eines vollautomatisierten Pipettierrobotersystems zur Aliquotierung und Fraktionierung von Biobank-Flüssigproben (u. a. Serum, Plasma, Vollblut, PBMC-relevante Fraktionen). Das System umfasst alle erforderlichen Hard- und Softwarekomponenten, einen geeigneten Labortisch sowie die vollständige technische Dokumentation (IQ/OQ). Die Inbetriebnahme erfolgt mit Durchführung eines Site Acceptance Tests (SAT) mit realen Proben. Das System muss bidirektional in das bestehende LIMS-System CentraXX integriert werden. Deutsches Diabetes-Zentrum, Vergabe Pipettierroboter für Biobank siehe Leistungsverzeichnis in den Vergabeunterlagen",
+  "buyer": "Deutsche Diabetes Forschungsgesellschaft e.V.",
+  "country": "DEU",
+  "published": "2026-09-08",
+  "deadline": "",
+  "notice_type": "award",
+  "cpv": [
+   "38000000",
+   "38437000"
+  ],
+  "value": "",
+  "winners": [
+   "Hamilton Germany GmbH"
+  ],
+  "tender_id": "oev:2833be20-789c-4e2b-8ccf-df8b9be61087",
+  "procedure": "Open",
+  "estimated_value": "",
+  "award_value": "319 610 EUR",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "1",
+  "criteria": [],
+  "duration": "",
+  "contract_date": "2026-09-03",
+  "framework": "",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "system + walidacja",
+  "score": 3.0,
+  "matched": [
+   "IQ/OQ/PQ",
+   "blood/biobank",
+   "LIMS/MES/CDS"
+  ],
+  "key": "oev:8232896d-80e5-4c19-b0d4-a69049663a1b-01",
   "first_seen": "2026-11-18"
  },
  "oev:d2d5fa95-a74d-4fb8-a39f-3c6ba62247a1-01": {
@@ -3750,6 +4512,47 @@
    "Part 11"
   ],
   "key": "ted:446032-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:561083-2025": {
+  "source": "ted",
+  "source_id": "561083-2025",
+  "title": "„Доставка на медицински изделия и консумативи за нуждите на УМБАЛ „Александровска ЕАД“",
+  "url": "https://ted.europa.eu/en/notice/-/detail/561083-2025",
+  "description": "№       /  Наименование/                       Описание        /  мярка  /Прогнозно количество за 24 месеца 1. Кинетичен тест за определяне на Ендотоксини в инжекционни разтвори Минимален праг на чувствителност: от 0.005 ЕU/mL до 50 ЕU/mL Разфасовка: 192 теста/ за изработване на 48 проби Резултати: Количественни Стандарти за построяване на стандартна крива: от 3 до 5 точкова на пускане в повторение Отрицателна контрола – в повторение Вътрешна контрола: Минимум един набор от Спайкнати проби в повторение Теста да е съвместим с наличен в лабораторията отчитащ апарат ELx808LBS и софтуер за анализ WinKQCL в съответствие на програмния продукт по отношение на изискуемия фармакопеен 21 CFR Part 11 - ендотоксин детектиращ софтуер за анализ. Китът да съдържа: 8 x 24 теста Лизат,  2 епруветки Ендотоксин, 50 EU/ml, 3 x 30 ml епруветки  LAL вода ​​​​​​​  Навсякъде в Спецификацията, където се посочва конкретен модел, източник, процес, търговска марка, тип, произход или производство, което би довело до облагодетелстването или елиминирането на определени лица или продукти, да се чете и разбира „или еквивалент“.  Изисквания към доставяните медицински изделия и участниците: 1. Предлаганите медицински изделия да отговарят на изискванията на Закона за медицинските изделия /ЗМИ/ - декларира се в техническото предложение на участника; 2. Медицинските изделия да притежават Декларация за съответствие на предлаганите медицински изделия/Сертификат или еквивалентни документи за съответствие с приложимата Директива на ЕС / Регламент (ЕС) 2017/745 на Европейския парламент и на Съвета от 5 април 2017 година за медицинските изделия, Директива 93/42 EИО или Директива 98/79 ЕС за ин-витро диагностичните медицински продукти, издаден от нотифициран орган по смисъла на ЗМИ /или еквивалент/; 3. Медицинското изделие да притежава Сертификат за качество - СЕ маркировка, съгласно приложимата директива на ЕС /или еквивалент/;     Участникът декларира съответствието по т. 2 и 3 в техническото си предложение.",
+  "buyer": "УНИВЕРСИТЕТСКА МНОГОПРОФИЛНА БОЛНИЦА ЗА АКТИВНО ЛЕЧЕНИЕ \"АЛЕКСАНДРОВСКА\" ЕАД",
+  "country": "BGR",
+  "published": "2025-08-28",
+  "deadline": "",
+  "notice_type": "can-standard",
+  "cpv": [
+   "33140000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "574 080 BGN / 36 460 BGN / 4 200 BGN / 8 960 BGN / 5 040 BGN",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "0 / 0 / 0 / 0 / 0",
+  "criteria": [
+   "най- ниска цена",
+   "Най-ниска цена"
+  ],
+  "duration": "",
+  "contract_date": "",
+  "framework": "nie",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "sprzęt + IQ/OQ",
+  "score": 3.0,
+  "matched": [
+   "Part 11"
+  ],
+  "key": "ted:561083-2025",
   "first_seen": "2026-11-18"
  }
 }
