@@ -46,6 +46,8 @@ def classify(t: Tender) -> str:
     # fall back to the description
     if hit("RX_DEVICE_SERVICE", full):
         return config.KIND_DEVICE_SERVICE
+    if equip_cpv and not hit("RX_SYSTEM", title):
+        return config.KIND_EQUIPMENT   # lab-equipment CPV beats "integrated with LIMS" in the description
     if hit("RX_SYSTEM", full) and hit("RX_DELIVERY", full):
         return config.KIND_SYSTEM
     if equip_cpv or hit("RX_EQUIPMENT", full):

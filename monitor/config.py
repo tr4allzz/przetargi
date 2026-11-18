@@ -124,7 +124,7 @@ RX_SYSTEM = (r"\blims\b|\bmes\b|\bebr\b|electronic batch|\beqms\b|\bqms\b|qualit
 RX_EQUIPMENT = (r"aparatur\w*|urządze\w*|sprzęt\w*|equipment|apparatus|instrument\w*|gerät\w*|ausstattung|"
                 r"analizator|spektrofotometr|spectrophotometer|chromatograf|elektroporator|izolator|isolator|"
                 r"synthesizer|zellprozessierungssystem|wirów\w*|centrifug|zamrażar|lodówk|freezer|"
-                r"aqua purificata|water for injection|komor\w*|maszyn\w*|machine\w*")
+                r"aqua purificata|water for injection|komor\w*|maszyn\w*|machine\w*|roboter\w*|robot\b|pipettier\w*|laborautomat\w*")
 RX_SERVICE = (r"re-?qualifi\w*|qualifizierung|validierung|requalification|"
               r"prestations?|assistance|accompagnement|\busług\w*|dienstleistung\w*|\bservices?\b|consult\w*|beratung|doradztw\w*|"
               r"begleitung|wsparci\w*|^\s*walidacj|^\s*validation|^\s*validierung")

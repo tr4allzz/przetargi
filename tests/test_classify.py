@@ -41,3 +41,12 @@ CASES = [
 @pytest.mark.parametrize("title,cpv,expected", CASES)
 def test_classify(title, cpv, expected):
     assert classify(Tender(source="t", source_id="1", title=title, cpv=cpv)) == expected
+
+
+def test_pipetting_robot_with_lims_integration_is_equipment():
+    from monitor.models import Tender
+    from monitor.scoring import classify
+    t = Tender(source="oev", source_id="x", title="Deutsches Diabetes-Zentrum, Vergabe Pipettierroboter für Biobank",
+               description="Lieferung und Inbetriebnahme eines Pipettierrobotersystems inkl. IQ/OQ, Software, "
+                           "Integration in das bestehende LIMS-System", cpv=["38000000", "38437000"])
+    assert classify(t) == "sprzęt + IQ/OQ"
