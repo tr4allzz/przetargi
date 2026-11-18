@@ -113,7 +113,8 @@ KIND_SCORE_ADJ = {KIND_SERVICE: 2.0, KIND_SYSTEM: 1.0, KIND_EQUIPMENT: -1.0,
                   KIND_FREELANCE: 1.0}
 
 RX_DEVICE_SERVICE = (r"maintenance (des|d.)\s?(équipements|appareils|matériels)|przegląd\w* techniczn|serwis\w*|usuwania awarii|konserwacj|"
-                     r"maintenance of (equipment|devices)|wartung|instandhaltung")
+                     r"maintenance of (equipment|devices)|wartung|instandhaltung|reinigung|r[ée]paration|repair|"
+                     r"service,? maintenance|maintenance,? (calibration|and calibration)|calibration and validation of")
 RX_DELIVERY = (r"\bdostaw\w*|wdroż\w*|zakup\w*|wynaj\w*|leasing|lieferung|beschaffung|anschaffung|"
                r"fourniture\w*|acquisition|ersatzbeschaffung|\bsupply\b|purchase|procurement of|acquisition|delivery|aankoop|levering|закупуване|"
                r"implementation of (a|the)? ?(system|software)|installation of")
@@ -131,6 +132,7 @@ RX_SERVICE = (r"re-?qualifi\w*|qualifizierung|validierung|requalification|"
 RX_OTHER = (r"assurances?\b|insurance|versicherung\w*|neubau|ersatzneubau|bauleistung\w*|bauabschnitt|"
             r"construction d|travaux|logements|architekt\w*|architect\w*|bauleitung|gesamtleitung|generalplaner|planerleistung|"
             r"badawcz\w*|research|forschung|odczynnik\w*|reagent\w*|pożywk\w*|hodowl\w*|"
+            r"transport d|transport of|échantillons biologiques|formateurs?|formations?\b|training courses?|"
             r"pranie|wäsche|reinraumbekleidung|bekleidung|mopps|próbek|samples|antibody|przeciwciał")
 EQUIPMENT_CPV_PREFIXES = ("38", "33", "42", "39", "31", "44", "45")
 

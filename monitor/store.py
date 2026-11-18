@@ -38,7 +38,7 @@ class Store:
             if t.score < min_score:
                 drop.append(key)
             else:
-                d["score"], d["matched"] = t.score, t.matched
+                d["score"], d["matched"], d["kind"] = t.score, t.matched, t.kind
         for key in drop:
             del self.items[key]
         return len(drop)
