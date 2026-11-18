@@ -82,6 +82,58 @@
   "key": "ted:747183-2026",
   "first_seen": "2026-11-18"
  },
+ "ezamowienia:2026/BZP 00096268": {
+  "source": "ezamowienia",
+  "source_id": "2026/BZP 00096268",
+  "title": "Dostawa wraz z walidacją systemu służącego monitorowaniu sprzętu warunkującego wdrożenie w biobanku Systemu Zapewnienia Jakości zgodnie z normą ISO 20387:2021-02 oraz z normą PN-EN  ISO 17025:2018",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de648b-df20-df5e-056e-e50001ab1241",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2026/BZP 00096268 z dnia 2026-02-05 .normal { color: black; } h1.title { } Ogłoszenie o zamówieniu Dostawy Dostawa wraz z walidacją systemu służącego monitorowaniu sprzętu warunkującego wdrożenie w biobanku Systemu Zapewnienia Jakości zgodnie z normą ISO 20387:2021-02 oraz z normą PN-EN ISO 17025:2018 SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: INSTYTUT IMMUNOLOGII I TERAPII DOŚWIADCZALNEJ IM.LUDWIKA HIRSZFELDA PAN WE WROCŁAWIU 1.4) Krajowy Numer Identyfikacyjny: REGON 000325883 1.5) Adres zamawiającego 1.5.1.) Ulica: ul. Rudolfa Weigla 12 1.5.2.) Miejscowość: Wrocław 1.5.3.) Kod pocztowy: 53-114 1.5.4.) Województwo: dolnośląskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL514 - Miasto Wrocław 1.5.9.) Adres poczty elektronicznej: zp@hirszfeld.pl 1.5.10.) Adres strony internetowej zamawiającego: http://www.iitd.pan.wroc.pl/ 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - Polska Akademia Nauk i tworzone przez nią jednostki organizacyjne 1.7.) Przedmiot działalności zamawiającego: Inna działalność jednostka naukowa SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Dostawa wraz z walidacją systemu służącego monitorowaniu sprzętu warunkującego wdrożenie w biobanku Systemu Zapewnienia Jakości zgodnie z normą ISO 20387:2021-02 oraz z normą PN-EN ISO 17025:2018 2.4.) Identyfikator postępowania: ocds-148610-be546783-9377-4995-a0e0-d5da901d6fd9 2.5.) Numer ogłoszenia: 2026/BZP 00096268 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-02-05 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2026/BZP 00089423/01/P 2.10.) Identyfikator pozycji planu postępowań: 1.2.",
+  "buyer": "INSTYTUT IMMUNOLOGII I TERAPII DOŚWIADCZALNEJ IM.LUDWIKA HIRSZFELDA PAN WE WROCŁAWIU",
+  "country": "PL",
+  "published": "2026-02-05",
+  "deadline": "2026-02-17T11:00",
+  "notice_type": "ContractNotice",
+  "cpv": [
+   "38540000"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 7.0,
+  "matched": [
+   "walidacja systemu",
+   "validation",
+   "blood/biobank"
+  ],
+  "key": "ezamowienia:2026/BZP 00096268",
+  "first_seen": "2026-11-18"
+ },
+ "ezamowienia:2026/BZP 00153848": {
+  "source": "ezamowienia",
+  "source_id": "2026/BZP 00153848",
+  "title": "Dostawa wraz z walidacją systemu służącego monitorowaniu sprzętu warunkującego wdrożenie w biobanku Systemu Zapewnienia Jakości zgodnie z normą ISO 20387:2021-02 oraz z normą PN-EN  ISO 17025:2018",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de80e5-1c3f-c11b-056e-e50001ac87a3",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2026/BZP 00153848 z dnia 2026-03-13 .normal { color: black; } h1.title { } Ogłoszenie o wyniku postępowania Dostawy Dostawa wraz z walidacją systemu służącego monitorowaniu sprzętu warunkującego wdrożenie w biobanku Systemu Zapewnienia Jakości zgodnie z normą ISO 20387:2021-02 oraz z normą PN-EN ISO 17025:2018 SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: INSTYTUT IMMUNOLOGII I TERAPII DOŚWIADCZALNEJ IM.LUDWIKA HIRSZFELDA PAN WE WROCŁAWIU 1.4) Krajowy Numer Identyfikacyjny: REGON 000325883 1.5) Adres zamawiającego 1.5.1.) Ulica: ul. Rudolfa Weigla 12 1.5.2.) Miejscowość: Wrocław 1.5.3.) Kod pocztowy: 53-114 1.5.4.) Województwo: dolnośląskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL514 - Miasto Wrocław 1.5.9.) Adres poczty elektronicznej: zp@hirszfeld.pl 1.5.10.) Adres strony internetowej zamawiającego: http://www.iitd.pan.wroc.pl/ 1.6.) Adres strony internetowej prowadzonego postępowania: https://hirszfeld.ezamawiajacy.pl/pn/hirszfeld/demand/262968/notice/public/details 1.7.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - Polska Akademia Nauk i tworzone przez nią jednostki organizacyjne 1.8.) Przedmiot działalności zamawiającego: Inna działalność jednostka naukowa SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Dostawa wraz z walidacją systemu służącego monitorowaniu sprzętu warunkującego wdrożenie w biobanku Systemu Zapewnienia Jakości zgodnie z normą ISO 20387:2021-02 oraz z normą PN-EN ISO 17025:2018 2.4.) Identyfikator postępowania: ocds-148610-be546783-9377-4995-a0e0-d5da901d6fd9 2.5.) Numer ogłoszenia: 2026/BZP 00153848 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-03-13 2.8.) Zamówienie albo umowa ramow",
+  "buyer": "INSTYTUT IMMUNOLOGII I TERAPII DOŚWIADCZALNEJ IM.LUDWIKA HIRSZFELDA PAN WE WROCŁAWIU",
+  "country": "PL",
+  "published": "2026-03-13",
+  "deadline": "",
+  "notice_type": "TenderResultNotice",
+  "cpv": [
+   "38540000"
+  ],
+  "value": "",
+  "winners": [
+   "ProGrupa Technologie Sp. z o.o."
+  ],
+  "score": 7.0,
+  "matched": [
+   "walidacja systemu",
+   "validation",
+   "blood/biobank"
+  ],
+  "key": "ezamowienia:2026/BZP 00153848",
+  "first_seen": "2026-11-18"
+ },
  "ted:782263-2026": {
   "source": "ted",
   "source_id": "782263-2026",
@@ -106,6 +158,107 @@
    "validation"
   ],
   "key": "ted:782263-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ezamowienia:2025/BZP 00559236": {
+  "source": "ezamowienia",
+  "source_id": "2025/BZP 00559236",
+  "title": "Dostawa elektroporatora wraz z kwalifikacją IQ/OQ (produkcja) (zgodny z GMP, przeznaczony do wytwarzania produktów opartych na komórkach, genach lub tkankach ) - 1 sztuka, dla UJ CM  w Krakowie.",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de2d8f-fc93-6ace-0560-49000118fc78",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2025/BZP 00559236 z dnia 2025-11-27 .normal { color: black; } h1.title { } Ogłoszenie o wyniku postępowania Dostawy Dostawa elektroporatora wraz z kwalifikacją IQ/OQ (produkcja) (zgodny z GMP, przeznaczony do wytwarzania produktów opartych na komórkach, genach lub tkankach ) - 1 sztuka, dla UJ CM w Krakowie. SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Uniwersytet Jagielloński - Collegium Medicum 1.4) Krajowy Numer Identyfikacyjny: REGON 00000127000040 1.5) Adres zamawiającego 1.5.1.) Ulica: św. Anny 12 1.5.2.) Miejscowość: Kraków 1.5.3.) Kod pocztowy: 31-008 1.5.4.) Województwo: małopolskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL213 - Miasto Kraków 1.5.9.) Adres poczty elektronicznej: dzp@cm-uj.krakow.pl 1.5.10.) Adres strony internetowej zamawiającego: http://www.dzp.cm-uj.krakow.pl/ 1.6.) Adres strony internetowej prowadzonego postępowania: https://platformazakupowa.pl – adres profilu nabywcy https://platformazakupowa.pl/pn/cm-uj 1.7.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - uczelnia publiczna 1.8.) Przedmiot działalności zamawiającego: Edukacja SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Dostawa elektroporatora wraz z kwalifikacją IQ/OQ (produkcja) (zgodny z GMP, przeznaczony do wytwarzania produktów opartych na komórkach, genach lub tkankach ) - 1 sztuka, dla UJ CM w Krakowie. 2.4.) Identyfikator postępowania: ocds-148610-5a05269e-f318-4e31-a0da-30a09c1c6246 2.5.) Numer ogłoszenia: 2025/BZP 00559236 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2025-11-27 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Nie 2.11.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu",
+  "buyer": "Uniwersytet Jagielloński - Collegium Medicum",
+  "country": "PL",
+  "published": "2025-11-27",
+  "deadline": "",
+  "notice_type": "TenderResultNotice",
+  "cpv": [
+   "33158200"
+  ],
+  "value": "",
+  "winners": [
+   "Life Technologies Polska Sp. z o.o."
+  ],
+  "score": 4.5,
+  "matched": [
+   "IQ/OQ/PQ",
+   "GMP/GxP"
+  ],
+  "key": "ezamowienia:2025/BZP 00559236",
+  "first_seen": "2026-11-18"
+ },
+ "ezamowienia:2025/BZP 00550470": {
+  "source": "ezamowienia",
+  "source_id": "2025/BZP 00550470",
+  "title": "Walidacja i utrzymanie zainstalowanego automatycznego systemu monitorującego temperaturę oraz wilgotność w lodówkach, zamrażarkach i pomieszczeniach.",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de2b3b-4583-a817-8aeb-ba0001123800",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2025/BZP 00550470 z dnia 2025-11-24 .normal { color: black; } h1.title { } Ogłoszenie o wyniku postępowania Usługi Walidacja i utrzymanie zainstalowanego automatycznego systemu monitorującego temperaturę oraz wilgotność w lodówkach, zamrażarkach i pomieszczeniach. SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Wojskowe Centrum Krwiodawstwa i Krwiolecznictwa SP ZOZ 1.3.) Oddział zamawiającego: WCKiK SP ZOZ 1.4) Krajowy Numer Identyfikacyjny: REGON 140130346 1.5) Adres zamawiającego 1.5.1.) Ulica: Koszykowa 78 1.5.2.) Miejscowość: Warszawa 1.5.3.) Kod pocztowy: 00-671 1.5.4.) Województwo: mazowieckie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL911 - Miasto Warszawa 1.5.9.) Adres poczty elektronicznej: zp@wckik.pl 1.5.10.) Adres strony internetowej zamawiającego: www.wckik.pl 1.6.) Adres strony internetowej prowadzonego postępowania: https://platformazakupowa.pl/pn/wckik/proceedings 1.7.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - samodzielny publiczny zakład opieki zdrowotnej 1.8.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Walidacja i utrzymanie zainstalowanego automatycznego systemu monitorującego temperaturę oraz wilgotność w lodówkach, zamrażarkach i pomieszczeniach. 2.4.) Identyfikator postępowania: ocds-148610-76a1b0c1-179c-4389-8649-c945a119d6e8 2.5.) Numer ogłoszenia: 2025/BZP 00550470 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2025-11-24 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2025/BZP 00073931/02/P 2.10.) Identyfikator pozycji planu postępowań: 1.3.6 Abonament za monitoring temperatur ",
+  "buyer": "Wojskowe Centrum Krwiodawstwa i Krwiolecznictwa SP ZOZ",
+  "country": "PL",
+  "published": "2025-11-24",
+  "deadline": "",
+  "notice_type": "TenderResultNotice",
+  "cpv": [
+   "33120000"
+  ],
+  "value": "",
+  "winners": [
+   "FLUODATA Spółka z ograniczoną odpowiedzialnością"
+  ],
+  "score": 4.0,
+  "matched": [
+   "validation",
+   "blood/biobank",
+   "monitoring"
+  ],
+  "key": "ezamowienia:2025/BZP 00550470",
+  "first_seen": "2026-11-18"
+ },
+ "ezamowienia:2026/BZP 00412847": {
+  "source": "ezamowienia",
+  "source_id": "2026/BZP 00412847",
+  "title": "„PRZYGOTOWANIE I PRZEPROWADZENIE SZKOLEŃ PN. „ZOGA FACE”, „GAMP - GLOBALNA ANALIZA MIĘŚNIOWO-POWIĘZIOWA” ORAZ „DIAGNOSTYKA FUNKCJONALNA DLA MASAŻYSTÓW” W RAMACH PROJEKTU „AKTYWNA SZKOŁA 3”",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df04fe-baeb-b5dd-ab56-940001a6a6a1",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2026/BZP 00412847 z dnia 2026-08-28 .normal { color: black; } h1.title { } Ogłoszenie o zamówieniu Usługi „PRZYGOTOWANIE I PRZEPROWADZENIE SZKOLEŃ PN. „ZOGA FACE”, „GAMP - GLOBALNA ANALIZA MIĘŚNIOWO-POWIĘZIOWA” ORAZ „DIAGNOSTYKA FUNKCJONALNA DLA MASAŻYSTÓW” W RAMACH PROJEKTU „AKTYWNA SZKOŁA 3” SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: SZKOŁA POLICEALNA - MEDYCZNE STUDIUM ZAWODOWE im. DANUTY SIEDZIKÓWNY PS. &#34;INKA&#34; W BIAŁEJ PODLASKIEJ 1.4) Krajowy Numer Identyfikacyjny: REGON 000297490 1.5) Adres zamawiającego 1.5.1.) Ulica: ul. Warszawska 14 1.5.2.) Miejscowość: Biała Podlaska 1.5.3.) Kod pocztowy: 21-500 1.5.4.) Województwo: lubelskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL811 - Bialski 1.5.9.) Adres poczty elektronicznej: sekretariat@studiummedycznebp.pl 1.5.10.) Adres strony internetowej zamawiającego: www.studiummedycznebp.pl 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - jednostka budżetowa 1.7.) Przedmiot działalności zamawiającego: Edukacja SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Tak 2.3.) Nazwa zamówienia albo umowy ramowej: „PRZYGOTOWANIE I PRZEPROWADZENIE SZKOLEŃ PN. „ZOGA FACE”, „GAMP - GLOBALNA ANALIZA MIĘŚNIOWO-POWIĘZIOWA” ORAZ „DIAGNOSTYKA FUNKCJONALNA DLA MASAŻYSTÓW” W RAMACH PROJEKTU „AKTYWNA SZKOŁA 3” 2.4.) Identyfikator postępowania: ocds-148610-b07a3343-7ee6-4ad5-b1b2-dd6164d09c93 2.5.) Numer ogłoszenia: 2026/BZP 00412847 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-08-28 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2026/BZP 00031212/01/P 2.10.) Identyfikator pozycji planu postępowań: 1.3.2 przygotowanie i przeprowadzenie kursów „wizażysta/stylis",
+  "buyer": "SZKOŁA POLICEALNA - MEDYCZNE STUDIUM ZAWODOWE im. DANUTY SIEDZIKÓWNY PS. \"INKA\" W BIAŁEJ PODLASKIEJ",
+  "country": "PL",
+  "published": "2026-08-28",
+  "deadline": "2026-09-08T08:30",
+  "notice_type": "ContractNotice",
+  "cpv": [
+   "80500000"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 4.0,
+  "matched": [
+   "GAMP"
+  ],
+  "key": "ezamowienia:2026/BZP 00412847",
+  "first_seen": "2026-11-18"
+ },
+ "ezamowienia:2026/BZP 00438234": {
+  "source": "ezamowienia",
+  "source_id": "2026/BZP 00438234",
+  "title": "„PRZYGOTOWANIE I PRZEPROWADZENIE SZKOLEŃ PN. „ZOGA FACE”, „GAMP - GLOBALNA ANALIZA MIĘŚNIOWO-POWIĘZIOWA” ORAZ „DIAGNOSTYKA FUNKCJONALNA DLA MASAŻYSTÓW” W RAMACH PROJEKTU „AKTYWNA SZKOŁA 3”",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df130c-7daf-66d6-db89-6a0001709761",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2026/BZP 00438234 z dnia 2026-09-15 .normal { color: black; } h1.title { } Ogłoszenie o wyniku postępowania Usługi „PRZYGOTOWANIE I PRZEPROWADZENIE SZKOLEŃ PN. „ZOGA FACE”, „GAMP - GLOBALNA ANALIZA MIĘŚNIOWO-POWIĘZIOWA” ORAZ „DIAGNOSTYKA FUNKCJONALNA DLA MASAŻYSTÓW” W RAMACH PROJEKTU „AKTYWNA SZKOŁA 3” SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: SZKOŁA POLICEALNA - MEDYCZNE STUDIUM ZAWODOWE im. DANUTY SIEDZIKÓWNY PS. &#34;INKA&#34; W BIAŁEJ PODLASKIEJ 1.4) Krajowy Numer Identyfikacyjny: REGON 000297490 1.5) Adres zamawiającego 1.5.1.) Ulica: ul. Warszawska 14 1.5.2.) Miejscowość: Biała Podlaska 1.5.3.) Kod pocztowy: 21-500 1.5.4.) Województwo: lubelskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL811 - Bialski 1.5.9.) Adres poczty elektronicznej: sekretariat@studiummedycznebp.pl 1.5.10.) Adres strony internetowej zamawiającego: www.studiummedycznebp.pl 1.6.) Adres strony internetowej prowadzonego postępowania: https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-b07a3343-7ee6-4ad5-b1b2-dd6164d09c93 1.7.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - jednostka budżetowa 1.8.) Przedmiot działalności zamawiającego: Edukacja SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Tak 2.3.) Nazwa zamówienia albo umowy ramowej: „PRZYGOTOWANIE I PRZEPROWADZENIE SZKOLEŃ PN. „ZOGA FACE”, „GAMP - GLOBALNA ANALIZA MIĘŚNIOWO-POWIĘZIOWA” ORAZ „DIAGNOSTYKA FUNKCJONALNA DLA MASAŻYSTÓW” W RAMACH PROJEKTU „AKTYWNA SZKOŁA 3” 2.4.) Identyfikator postępowania: ocds-148610-b07a3343-7ee6-4ad5-b1b2-dd6164d09c93 2.5.) Numer ogłoszenia: 2026/BZP 00438234 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-09-15 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.",
+  "buyer": "SZKOŁA POLICEALNA - MEDYCZNE STUDIUM ZAWODOWE im. DANUTY SIEDZIKÓWNY PS. \"INKA\" W BIAŁEJ PODLASKIEJ",
+  "country": "PL",
+  "published": "2026-09-15",
+  "deadline": "",
+  "notice_type": "TenderResultNotice",
+  "cpv": [
+   "80500000"
+  ],
+  "value": "",
+  "winners": [
+   "Karol Sitarz Fizjoactiv"
+  ],
+  "score": 4.0,
+  "matched": [
+   "GAMP"
+  ],
+  "key": "ezamowienia:2026/BZP 00438234",
   "first_seen": "2026-11-18"
  },
  "ted:733033-2026": {
@@ -135,6 +288,195 @@
    "Annex 11"
   ],
   "key": "ted:733033-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ezamowienia:2025/BZP 00541470": {
+  "source": "ezamowienia",
+  "source_id": "2025/BZP 00541470",
+  "title": "Dostawa odczynników w 2 pakietach \"W kierunku lepszej diagnostyki: walidacja związków nukleozydowych i karnitynowych jako czułych i swoistych biomarkerów chorób cywilizacyjnych w medycynie i farmacji\"",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de2753-12a2-8e0c-592a-d100011513d9",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2025/BZP 00541470 z dnia 2025-11-19 .normal { color: black; } h1.title { } Ogłoszenie o wyniku postępowania Dostawy Dostawa odczynników w 2 pakietach &#34;W kierunku lepszej diagnostyki: walidacja związków nukleozydowych i karnitynowych jako czułych i swoistych biomarkerów chorób cywilizacyjnych w medycynie i farmacji&#34; SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Gdański Uniwersytet Medyczny 1.4) Krajowy Numer Identyfikacyjny: REGON 000288627 1.5) Adres zamawiającego 1.5.1.) Ulica: Marii Skłodowskiej-Curie 3a 1.5.2.) Miejscowość: Gdańsk 1.5.3.) Kod pocztowy: 80-210 1.5.4.) Województwo: pomorskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL633 - Trójmiejski 1.5.9.) Adres poczty elektronicznej: zp@gumed.edu.pl 1.5.10.) Adres strony internetowej zamawiającego: www.gumed.edu.pl 1.6.) Adres strony internetowej prowadzonego postępowania: https://platformazakupowa.pl/transakcja/1192637 1.7.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - uczelnia publiczna 1.8.) Przedmiot działalności zamawiającego: Edukacja SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Dostawa odczynników w 2 pakietach &#34;W kierunku lepszej diagnostyki: walidacja związków nukleozydowych i karnitynowych jako czułych i swoistych biomarkerów chorób cywilizacyjnych w medycynie i farmacji&#34; 2.4.) Identyfikator postępowania: ocds-148610-e337aefd-dc3c-4022-9397-924330345f42 2.5.) Numer ogłoszenia: 2025/BZP 00541470 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2025-11-19 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Nie 2.11.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europ",
+  "buyer": "Gdański Uniwersytet Medyczny",
+  "country": "PL",
+  "published": "2025-11-19",
+  "deadline": "",
+  "notice_type": "TenderResultNotice",
+  "cpv": [
+   "33696300"
+  ],
+  "value": "",
+  "winners": [
+   "Merck Life Science Sp. z o.o.",
+   "Symbios Sp. z o.o."
+  ],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "pharma"
+  ],
+  "key": "ezamowienia:2025/BZP 00541470",
+  "first_seen": "2026-11-18"
+ },
+ "ezamowienia:2025/BZP 00562373": {
+  "source": "ezamowienia",
+  "source_id": "2025/BZP 00562373",
+  "title": "Świadczenie usługi w zakresie przeglądów technicznych i walidacji wraz z gotowością do usuwania awarii urządzeń będących na wyposażeniu RCKiK w Poznaniu i w Oddziałach Terenowych.",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de2e5a-4cad-f814-0560-490001ac9171",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2025/BZP 00562373 z dnia 2025-11-28 .normal { color: black; } h1.title { } Ogłoszenie o zamówieniu Usługi Świadczenie usługi w zakresie przeglądów technicznych i walidacji wraz z gotowością do usuwania awarii urządzeń będących na wyposażeniu RCKiK w Poznaniu i w Oddziałach Terenowych. SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Regionalne Centrum Krwiodawstwa i Krwiolecznictwa w Poznaniu 1.4) Krajowy Numer Identyfikacyjny: REGON 000293835 1.5) Adres zamawiającego 1.5.1.) Ulica: Marcelińska 44 1.5.2.) Miejscowość: Poznań 1.5.3.) Kod pocztowy: 60-354 1.5.4.) Województwo: wielkopolskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL415 - Miasto Poznań 1.5.9.) Adres poczty elektronicznej: sekretariat@rckik.poznan.pl 1.5.10.) Adres strony internetowej zamawiającego: www.rckik.poznan.pl 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - samodzielny publiczny zakład opieki zdrowotnej 1.7.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Świadczenie usługi w zakresie przeglądów technicznych i walidacji wraz z gotowością do usuwania awarii urządzeń będących na wyposażeniu RCKiK w Poznaniu i w Oddziałach Terenowych. 2.4.) Identyfikator postępowania: ocds-148610-ac1e1fd6-cf2c-46e8-a97e-433028410cd8 2.5.) Numer ogłoszenia: 2025/BZP 00562373 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2025-11-28 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2025/BZP 00065697/04/P 2.10.) Identyfikator pozycji planu postępowań: 1.3.4 Usługa przeglądu i walidacji sprzętu medycznego 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie ",
+  "buyer": "Regionalne Centrum Krwiodawstwa i Krwiolecznictwa w Poznaniu",
+  "country": "PL",
+  "published": "2025-11-28",
+  "deadline": "2025-12-09T09:30",
+  "notice_type": "ContractNotice",
+  "cpv": [
+   "50421000"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "blood/biobank"
+  ],
+  "key": "ezamowienia:2025/BZP 00562373",
+  "first_seen": "2026-11-18"
+ },
+ "ezamowienia:2026/BZP 00046007": {
+  "source": "ezamowienia",
+  "source_id": "2026/BZP 00046007",
+  "title": "Świadczenie usług serwisowych dla urządzeń medycznych – przeglądy techniczne oraz  walidacje zgodnie z harmonogramem  dla RCKIK we Wrocławiu w okresie  12 miesięcy",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de573f-d55e-93b6-d6d3-f500016aae04",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2026/BZP 00046007 z dnia 2026-01-19 .normal { color: black; } h1.title { } Ogłoszenie o wyniku postępowania Usługi Świadczenie usług serwisowych dla urządzeń medycznych – przeglądy techniczne oraz walidacje zgodnie z harmonogramem dla RCKIK we Wrocławiu w okresie 12 miesięcy SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Regionalne Centrum Krwiodawstwa i Krwiolecznictwa im. prof. dr hab. Tadeusza Dorobisza we Wrocławiu 1.4) Krajowy Numer Identyfikacyjny: REGON 000291121 1.5) Adres zamawiającego 1.5.1.) Ulica: Czerwonego Krzyża 5/9 1.5.2.) Miejscowość: Wrocław 1.5.3.) Kod pocztowy: 50-345 1.5.4.) Województwo: dolnośląskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL514 - Miasto Wrocław 1.5.9.) Adres poczty elektronicznej: sekretariat@rckik.wroclaw.pl 1.5.10.) Adres strony internetowej zamawiającego: www.rckik.wroclaw.pl 1.7.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - samodzielny publiczny zakład opieki zdrowotnej 1.8.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Świadczenie usług serwisowych dla urządzeń medycznych – przeglądy techniczne oraz walidacje zgodnie z harmonogramem dla RCKIK we Wrocławiu w okresie 12 miesięcy 2.4.) Identyfikator postępowania: ocds-148610-8334fdec-1172-46ed-828b-e6c532ebc89c 2.5.) Numer ogłoszenia: 2026/BZP 00046007 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-01-19 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2025/BZP 00020619/02/P 2.10.) Identyfikator pozycji planu postępowań: 1.3.6 Usługi serwisowe urządzeń medycznych producenta Fresenius 2.11.) Czy zamówienie albo u",
+  "buyer": "Regionalne Centrum Krwiodawstwa i Krwiolecznictwa im. prof. dr hab. Tadeusza Dorobisza we Wrocławiu",
+  "country": "PL",
+  "published": "2026-01-19",
+  "deadline": "",
+  "notice_type": "TenderResultNotice",
+  "cpv": [
+   "50421000"
+  ],
+  "value": "",
+  "winners": [
+   "Fresenius Kabi Polska Sp. zo. o."
+  ],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "blood/biobank"
+  ],
+  "key": "ezamowienia:2026/BZP 00046007",
+  "first_seen": "2026-11-18"
+ },
+ "ezamowienia:2026/BZP 00069910": {
+  "source": "ezamowienia",
+  "source_id": "2026/BZP 00069910",
+  "title": "Świadczenie usługi w zakresie przeglądów technicznych i walidacji wraz z gotowością do usuwania awarii urządzeń będących na wyposażeniu RCKiK w Poznaniu i w Oddziałach Terenowych.",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de5d81-552f-aa72-d6d3-f500016b2d9d",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2026/BZP 00069910 z dnia 2026-01-27 .normal { color: black; } h1.title { } Ogłoszenie o wyniku postępowania Usługi Świadczenie usługi w zakresie przeglądów technicznych i walidacji wraz z gotowością do usuwania awarii urządzeń będących na wyposażeniu RCKiK w Poznaniu i w Oddziałach Terenowych. SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Regionalne Centrum Krwiodawstwa i Krwiolecznictwa w Poznaniu 1.4) Krajowy Numer Identyfikacyjny: REGON 000293835 1.5) Adres zamawiającego 1.5.1.) Ulica: Marcelińska 44 1.5.2.) Miejscowość: Poznań 1.5.3.) Kod pocztowy: 60-354 1.5.4.) Województwo: wielkopolskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL415 - Miasto Poznań 1.5.9.) Adres poczty elektronicznej: sekretariat@rckik.poznan.pl 1.5.10.) Adres strony internetowej zamawiającego: www.rckik.poznan.pl 1.6.) Adres strony internetowej prowadzonego postępowania: https://rckikpoznan.ezamawiajacy.pl/pn/rckikpoznan/demand/250538/notice/public/details 1.7.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - samodzielny publiczny zakład opieki zdrowotnej 1.8.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Świadczenie usługi w zakresie przeglądów technicznych i walidacji wraz z gotowością do usuwania awarii urządzeń będących na wyposażeniu RCKiK w Poznaniu i w Oddziałach Terenowych. 2.4.) Identyfikator postępowania: ocds-148610-ac1e1fd6-cf2c-46e8-a97e-433028410cd8 2.5.) Numer ogłoszenia: 2026/BZP 00069910 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-01-27 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2025/BZP 00065697/04/P 2.10",
+  "buyer": "Regionalne Centrum Krwiodawstwa i Krwiolecznictwa w Poznaniu",
+  "country": "PL",
+  "published": "2026-01-27",
+  "deadline": "",
+  "notice_type": "TenderResultNotice",
+  "cpv": [
+   "50421000"
+  ],
+  "value": "",
+  "winners": [
+   "Fresenius Kabi Polska Sp. z o.o.",
+   "Fresenius Kabi Sp. z o.o.",
+   "Fresenius Kabi Sp. zo.o."
+  ],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "blood/biobank"
+  ],
+  "key": "ezamowienia:2026/BZP 00069910",
+  "first_seen": "2026-11-18"
+ },
+ "ezamowienia:2026/BZP 00339519": {
+  "source": "ezamowienia",
+  "source_id": "2026/BZP 00339519",
+  "title": "Świadczenie usług serwisu pogwarancyjnego tj. przeglądy techniczne, walidacje, diagnostyka naprawy oprogramowania i  urządzeń innych niż urządzenia chłodnicze  Magazynu Składników Krwi dla RCKiK",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08dee0d2-fa99-d842-ebd1-650001a842dc",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2026/BZP 00339519 z dnia 2026-07-13 .normal { color: black; } h1.title { } Ogłoszenie o wyniku postępowania Usługi Świadczenie usług serwisu pogwarancyjnego tj. przeglądy techniczne, walidacje, diagnostyka naprawy oprogramowania i urządzeń innych niż urządzenia chłodnicze Magazynu Składników Krwi dla RCKiK SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Regionalne Centrum Krwiodawstwa i Krwiolecznictwa im. prof. dr hab. Tadeusza Dorobisza we Wrocławiu 1.4) Krajowy Numer Identyfikacyjny: REGON 000291121 1.5) Adres zamawiającego 1.5.1.) Ulica: Czerwonego Krzyża 5/9 1.5.2.) Miejscowość: Wrocław 1.5.3.) Kod pocztowy: 50-345 1.5.4.) Województwo: dolnośląskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL514 - Miasto Wrocław 1.5.9.) Adres poczty elektronicznej: sekretariat@rckik.wroclaw.pl 1.5.10.) Adres strony internetowej zamawiającego: www.rckik.wroclaw.pl 1.6.) Adres strony internetowej prowadzonego postępowania: www.rckik.wroclaw.pl / https://rckikwroclaw.ezamawiajacy.pl/ 1.7.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - samodzielny publiczny zakład opieki zdrowotnej 1.8.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Świadczenie usług serwisu pogwarancyjnego tj. przeglądy techniczne, walidacje, diagnostyka naprawy oprogramowania i urządzeń innych niż urządzenia chłodnicze Magazynu Składników Krwi dla RCKiK 2.4.) Identyfikator postępowania: ocds-148610-825aea86-4005-4891-aa8b-b467a4ba9fb9 2.5.) Numer ogłoszenia: 2026/BZP 00339519 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-07-13 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer pl",
+  "buyer": "Regionalne Centrum Krwiodawstwa i Krwiolecznictwa im. prof. dr hab. Tadeusza Dorobisza we Wrocławiu",
+  "country": "PL",
+  "published": "2026-07-13",
+  "deadline": "",
+  "notice_type": "TenderResultNotice",
+  "cpv": [
+   "50000000",
+   "50324100"
+  ],
+  "value": "",
+  "winners": [
+   "M2M Team Sp.z o. o."
+  ],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "blood/biobank"
+  ],
+  "key": "ezamowienia:2026/BZP 00339519",
+  "first_seen": "2026-11-18"
+ },
+ "ezamowienia:2026/BZP 00357057": {
+  "source": "ezamowienia",
+  "source_id": "2026/BZP 00357057",
+  "title": "Świadczenie usług w zakresie wykonywania okresowych przeglądów technicznych, kwalifikacji i walidacji serwisowych sprzętu i aparatury medycznej",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08dee812-cb63-5fe0-ebd1-650001da7916",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2026/BZP 00357057 z dnia 2026-07-22 .normal { color: black; } h1.title { } Ogłoszenie o zamówieniu Usługi Świadczenie usług w zakresie wykonywania okresowych przeglądów technicznych, kwalifikacji i walidacji serwisowych sprzętu i aparatury medycznej SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: REGIONALNE CENTRUM KRWIODAWSTWA I KRWIOLECZNICTWA W OPOLU 1.4) Krajowy Numer Identyfikacyjny: REGON 000292103 1.5) Adres zamawiającego 1.5.1.) Ulica: ul. Augustyna Kośnego 55 1.5.2.) Miejscowość: Opole 1.5.3.) Kod pocztowy: 45-372 1.5.4.) Województwo: opolskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL524 - Opolski 1.5.9.) Adres poczty elektronicznej: zamowienia@rckik-opole.com.pl 1.5.10.) Adres strony internetowej zamawiającego: www.rckik-opole.com.pl 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - samodzielny publiczny zakład opieki zdrowotnej 1.7.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Świadczenie usług w zakresie wykonywania okresowych przeglądów technicznych, kwalifikacji i walidacji serwisowych sprzętu i aparatury medycznej 2.4.) Identyfikator postępowania: ocds-148610-653396a8-b3aa-46c8-90ab-2689d7e3b8af 2.5.) Numer ogłoszenia: 2026/BZP 00357057 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-07-22 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2025/BZP 00003080/03/P 2.10.) Identyfikator pozycji planu postępowań: 1.3.1 Świadczenie usług w zakresie wykonania okresowych przeglądów technicznych, kwalifikacji i walidacji serwisowych sprzętu i aparatury medycznej 2.11.) O udzielenie zamówienia mogą ",
+  "buyer": "REGIONALNE CENTRUM KRWIODAWSTWA I KRWIOLECZNICTWA W OPOLU",
+  "country": "PL",
+  "published": "2026-07-22",
+  "deadline": "2026-08-03T07:00",
+  "notice_type": "ContractNotice",
+  "cpv": [
+   "50421000"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "blood/biobank"
+  ],
+  "key": "ezamowienia:2026/BZP 00357057",
+  "first_seen": "2026-11-18"
+ },
+ "ezamowienia:2026/BZP 00408468": {
+  "source": "ezamowienia",
+  "source_id": "2026/BZP 00408468",
+  "title": "Świadczenie usług w zakresie wykonywania okresowych przeglądów technicznych, kwalifikacji i walidacji serwisowych sprzętu i aparatury medycznej",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08df0368-481f-9ecf-ab56-940001283db5",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2026/BZP 00408468 z dnia 2026-08-26 .normal { color: black; } h1.title { } Ogłoszenie o wyniku postępowania Usługi Świadczenie usług w zakresie wykonywania okresowych przeglądów technicznych, kwalifikacji i walidacji serwisowych sprzętu i aparatury medycznej SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: REGIONALNE CENTRUM KRWIODAWSTWA I KRWIOLECZNICTWA W OPOLU 1.4) Krajowy Numer Identyfikacyjny: REGON 000292103 1.5) Adres zamawiającego 1.5.1.) Ulica: ul. Augustyna Kośnego 55 1.5.2.) Miejscowość: Opole 1.5.3.) Kod pocztowy: 45-372 1.5.4.) Województwo: opolskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL524 - Opolski 1.5.9.) Adres poczty elektronicznej: zamowienia@rckik-opole.com.pl 1.5.10.) Adres strony internetowej zamawiającego: www.rckik-opole.com.pl 1.6.) Adres strony internetowej prowadzonego postępowania: https://platformazakupowa.pl/transakcja/1347889 1.7.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - samodzielny publiczny zakład opieki zdrowotnej 1.8.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Świadczenie usług w zakresie wykonywania okresowych przeglądów technicznych, kwalifikacji i walidacji serwisowych sprzętu i aparatury medycznej 2.4.) Identyfikator postępowania: ocds-148610-653396a8-b3aa-46c8-90ab-2689d7e3b8af 2.5.) Numer ogłoszenia: 2026/BZP 00408468 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2026-08-26 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2025/BZP 00003080/03/P 2.10.) Identyfikator pozycji planu postępowań: 1.3.1 Świadczenie usług w zakresie wykonania okresowych przeglądów t",
+  "buyer": "REGIONALNE CENTRUM KRWIODAWSTWA I KRWIOLECZNICTWA W OPOLU",
+  "country": "PL",
+  "published": "2026-08-26",
+  "deadline": "",
+  "notice_type": "TenderResultNotice",
+  "cpv": [
+   "50421000"
+  ],
+  "value": "",
+  "winners": [
+   "DiaHem Diagnostic Products Sp. z o.o.",
+   "Fresenius Kabi Polska Sp. z o.o.",
+   "HAEMO Sp. z o.o.",
+   "HVD Holding AG Sp. z o.o.",
+   "Medservice Sztandar Spółka z o.o.",
+   "PLS SERVICES Spółka z o.o.",
+   "Sarstedt Spółka z ograniczoną odpowiedzialnością",
+   "Zakład Naprawy Sprzętu Medycznego Alfred Sokół Waldemar Żuk Spółka Cywilna"
+  ],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "blood/biobank"
+  ],
+  "key": "ezamowienia:2026/BZP 00408468",
   "first_seen": "2026-11-18"
  }
 }
