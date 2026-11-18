@@ -168,7 +168,7 @@ Nowe dziś (wszystkie przebiegi): **106**, w tym z ostatniego przebiegu: **0** (
 - **simap**: ok — przeskanowano 0, istotnych 0, nowych 0 (okno 2 dni)
 - **boamp**: ok — przeskanowano 23, istotnych 0, nowych 0 (okno 2 dni)
 - **contracts_finder**: ok — przeskanowano 199, istotnych 0, nowych 0 (okno 2 dni)
-- **ezamowienia**: ok — przeskanowano 3448, istotnych 0, nowych 0 (okno 2 dni)
+- **ezamowienia**: ok — przeskanowano 3458, istotnych 0, nowych 0 (okno 2 dni)
 - **bk**: ok — przeskanowano 105, istotnych 0, nowych 0 (okno 2 dni)
 
 </details>
