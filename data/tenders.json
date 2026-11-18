@@ -1,0 +1,140 @@
+{
+ "ted:747344-2026": {
+  "source": "ted",
+  "source_id": "747344-2026",
+  "title": "Germany – Medical equipments – Automatisiertes Zellprozessierungssystem",
+  "url": "https://ted.europa.eu/en/notice/-/detail/747344-2026",
+  "description": "Gegenstand der Beschaffung ist die Lieferung von vier vollautomatisierten Zellprozessierungssystemen CliniMACS Prodigy einschließlich sämtlicher für die Inbetriebnahme erforderlicher Leistungen. Hierzu zählen insbesondere Transport, Installation, Inbetriebnahme, technische Qualifizierung (IQ/OQ) sowie die Einweisung des zur Herstellung befugten Personals. Die Systeme dienen der GMP-konformen Herstellung von CAR-T-Zell-, TCR-T-Zell- und weiteren transgen modifizierten Zelltherapeutika aus patienteneigenen oder spenderbasierten Leukapheresaten. Erforderlich ist ein vollständig integriertes Zellprozessierungssystem, das sämtliche wesentlichen Herstellungsschritte innerhalb eines geschlossenen Einweg-Prozesssystems ohne manuelle Transferprozesse durchführen kann. Zu den zwingend erforderlichen Prozessschritten gehören insbesondere: - immunomagnetische Zellseparation einschließlich CD4- und CD8-Selektion, - T-Zell-Aktivierung, - genetische Modifikation bzw. lentivirale Transduktion, - Expansion der modifizierten Zellpopulation bis zur definierten Zielzellzahl, - GMP-konforme Prozessdokumentation und elektronische Chargenführung, - Betrieb innerhalb eines geschlossenen Einweg-Schlauchsystems zur Minimierung des Kontaminationsrisikos. Darüber hinaus muss das System die regulatorischen Anforderungen an die Herstellung von Arzneimitteln für neuartige Therapien (ATMP) erfüllen und eine Softwarelösung mit Audit-Trail-Funktionalität, rollenbasierter Benutzerverwaltung, elektronischer Protokollierung sowie Unterstützung der Anforderungen gemäß 21 CFR Part 11 bereitstellen. Die Systeme werden in bestehende GMP-validierte Herstellungsprozesse der CIT gGmbH integriert und dienen der Aufrechterhaltung sowie Erweiterung der Herstellungskapazitäten für klinische Zelltherapeutika. Die Beschaffung ist erforderlich, um die Herstellung patientenspezifischer Zellprodukte für bestehende und zukünftige klinische Anwendungen sicherzustellen.",
+  "buyer": "Universitätsklinikum Heidelberg",
+  "country": "DEU",
+  "published": "2026-10-28",
+  "deadline": "",
+  "notice_type": "can-standard",
+  "cpv": [
+   "33100000",
+   "38434540"
+  ],
+  "value": "",
+  "winners": [
+   "Miltenyi Biotec B.V. & Co.KG"
+  ],
+  "score": 10.0,
+  "matched": [
+   "Part 11",
+   "validation",
+   "IQ/OQ/PQ",
+   "GMP/GxP"
+  ],
+  "key": "ted:747344-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:740084-2026": {
+  "source": "ted",
+  "source_id": "740084-2026",
+  "title": "Austria – IT services: consulting, software development, Internet and support – IT- und QM-Dienstleistungen",
+  "url": "https://ted.europa.eu/en/notice/-/detail/740084-2026",
+  "description": "Die Beratungsleistung umfasst die ganzheitliche Planung, Steuerung und Überwachung des Projektfortschritts, das Controlling sowie die Durchführung von Risikoanalysen. Zusätzlich kann die Moderation von Projekt-Workshops und Lenkungsausschüssen möglich sein, um eine effiziente Kommunikation und Entscheidungsfindung sicherzustellen.; Mögliche Leistungen umfassen die Bedarfsanalyse, die Erstellung und Qualitätssicherung von Ausschreibungsunterlagen, die Koordination der Kommunikation mit potenziellen Anbietern, die Unterstützung bei Angebotsbewertungen sowie die Vorbereitung von Vertragsverhandlungen und Vergabeentscheidungen.; Die Unterstützung kann insbesondere die Analyse und Bewertung von IT-Systemen und Prozessen hinsichtlich relevanter Normen, gesetzlicher Anforderungen und interner Vorgaben umfassen. Dazu zählen beispielsweise GAMP, EN ISO 15189 oder vergleichbare Standards. Mögliche Leistungen sind die Entwicklung und Umsetzung standardisierter Validierungs- und Qualifizierungsframeworks, die Erstellung erforderlicher Nachweise und Dokumentationen sowie die Vorbereitung auf interne und externe Prüfungen.; Die Leistungen können insbesondere die Analyse der bestehenden Qualitätslage, die Konzeption und Implementierung standardisierter QM-Systeme gemäß nationalen, internationalen oder gleichwertigen Standards, die Begleitung von Zertifizierungsprozessen sowie die Vorbereitung auf externe Audits umfassen. Beispiele hierfür sind ISO 9001, OnkoZert, ISO 27001 oder vergleichbare Regelwerke. Darüber hinaus können bereits zertifizierte Bereiche durch Schulungen, Beratung und Unterstützung bei der Aufrechterhaltung und kontinuierlichen Verbesserung ihrer QM-Systeme begleitet werden.; Die Leistungen können insbesondere die Analyse der aktuellen Risiko- und Kontinuitätslage, die Konzeption und Implementierung geeigneter Managementsysteme, die Durchführung von Risiko-Assessments, die Identifikation kritischer Prozesse und Infrastrukturen sowie die Entwicklung von Notfallplä",
+  "buyer": "Tirol Kliniken GmbH",
+  "country": "AUT",
+  "published": "2026-10-26",
+  "deadline": "2026-11-23",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "72000000"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 8.5,
+  "matched": [
+   "GAMP",
+   "validation",
+   "IQ/OQ/PQ",
+   "CPV 72*"
+  ],
+  "key": "ted:740084-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:747183-2026": {
+  "source": "ted",
+  "source_id": "747183-2026",
+  "title": "Switzerland – Industrial machinery – 1 System Erzeugung, Lagerung und Verteilung von Aqua Purificata(AP) und Water for injection(WFI)",
+  "url": "https://ted.europa.eu/en/notice/-/detail/747183-2026",
+  "description": "Die Auftragnehmerin liefert einen mehrstufigen Reinstwasser Erzeuger zur Herstellung von Water For Injection (WFI). Die bestehenden System WFI und AP zur Lagerung / Verteilung des Wassers wird einem Retrofit unterzogen. Die Auftragnehmerin erstellt über das gesamte System die Automation neu und bindet den bestehenden Clean-Steam-Erzeuger mit ein. Die geltenden Bestimmungen für den Einsatz im pharmazeutischen GMP-Bereich wie auch die Richtlinien nach GAMP 5 hinsichtlich des Automatisierungssystems müssen erfüllt werden. Auftrag umfasst (Details siehe Lastenheft VVO / 111733 / 000 / 00): · Projektleitung und Projektplanung · Engineering, Konstruktion, Automatisation und Fertigung · Änderungsdienst · Designqualifikation · Risikoanalyse (Traceability-Matrix) · Werksabnahmeprüfung FAT (Factory Acceptance Test) · Verpackung, Verzollung, Transport · Zuständig für die Demontage / Entsorgung der bestehenden Anlagen · Einbringung, Montage, Installation · Inbetriebnahme · SAT (Site Acceptance Test) · Installationsqualifikation · Funktionsqualifikation · Kalibration · Technische Freigabe des Systems · Dokumentation / Schulung",
+  "buyer": "Logistikbasis der Armee / LBA ; Armeeapotheke",
+  "country": "CHE",
+  "published": "2026-10-28",
+  "deadline": "",
+  "notice_type": "can-standard",
+  "cpv": [
+   "42000000"
+  ],
+  "value": "",
+  "winners": [
+   "DE_Heinz Burkhalter AG",
+   "FR_Heinz Burkhalter AG"
+  ],
+  "score": 7.5,
+  "matched": [
+   "GAMP",
+   "GMP/GxP",
+   "pharma"
+  ],
+  "key": "ted:747183-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:782263-2026": {
+  "source": "ted",
+  "source_id": "782263-2026",
+  "title": "Poland – Computer equipment and supplies – Dostawa dwóch zestawów komputerowych na potrzeby realizacji projektu LIDER XV pt. „Nowy czuły system pomiarowy do termicznej charakteryzacji dielektrycznej płynów chłodzących na potrzeby energooszczędnych centrów danych nowej generacji” w ramach zadania nr 1 „Projekt, realizacja i walidacja systemu FPOR w temperaturze pokojowej”.",
+  "url": "https://ted.europa.eu/en/notice/-/detail/782263-2026",
+  "description": "Postępowanie prowadzone w trybie przetargu nieograniczonego zgodnie z art. 132 ustawy Pzp",
+  "buyer": "Politechnika Warszawska",
+  "country": "POL",
+  "published": "2026-11-10",
+  "deadline": "",
+  "notice_type": "can-standard",
+  "cpv": [
+   "30200000"
+  ],
+  "value": "",
+  "winners": [
+   "Eugeniusz Sienicki GIGA MULTIMEDIA"
+  ],
+  "score": 6.0,
+  "matched": [
+   "walidacja systemu",
+   "validation"
+  ],
+  "key": "ted:782263-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:733033-2026": {
+  "source": "ted",
+  "source_id": "733033-2026",
+  "title": "Norway – Office and computing machinery, equipment and supplies except furniture and software packages – Government joint agreement for the purchase of PC equipment",
+  "url": "https://ted.europa.eu/en/notice/-/detail/733033-2026",
+  "description": "The objective of the procurement is to establish a joint agreement that ensures government entities simple and efficient access to client equipment, including PC clients, PC monitors and Macs with the accompanying additional equipment and additional services, which support a secure and productive work surface for government employees. Based on consumption data from existing contracts and the number of employees in participating entities, the contract owner estimates that approx. 28,000 PC clients will be procured per annum, 19,000 PC monitors and 1,900 Macs under the agreement. The estimated annual turnover is approx. NOK 600 million, including the expected purchase of additional equipment and additional services. The contracting authority draws attention to the fact that this is an estimate that is not binding for the contract owner or the participating contracting authorities in regard to purchasing obligations. The maximum contract value for the entire contract period, including any option periods, is set at NOK 4,000,000,000. The participating entities/contracting authorities who participate in this joint contract are stated in annex 11: The contracting authorities included in the contract.",
+  "buyer": "Statens innkjøpssenter v/DFØ",
+  "country": "NOR",
+  "published": "2026-10-22",
+  "deadline": "",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "30000000",
+   "30200000",
+   "30210000",
+   "30213000",
+   "30213100",
+   "30213300",
+   "30231300"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 4.0,
+  "matched": [
+   "Annex 11"
+  ],
+  "key": "ted:733033-2026",
+  "first_seen": "2026-11-18"
+ }
+}
