@@ -9,10 +9,10 @@ Działa w GitHub Actions (raz dziennie), wyniki commituje do repo, a przy nowych
 | Źródło | Zakres | Metoda | Status |
 |---|---|---|---|
 | `ted` | UE (TED, powyżej progów UE) | Oficjalne Search API v3, wyszukiwanie pełnotekstowe | stabilne |
-| `fts` | UK Find a Tender | OCDS API, skan wszystkiego z okna + filtr lokalny | stabilne |
-| `contracts_finder` | UK poniżej progów | OCDS API, skan + filtr | stabilne |
-| `ezamowienia` | PL, BZP (ogłoszenia + wyniki) | API tablicy e-Zamówień, skan + filtr | do weryfikacji w 1. przebiegu |
-| `bk` | PL, Baza Konkurencyjności | nieudokumentowane API | eksperymentalne |
+| `ezamowienia` | PL, BZP (ogłoszenia + wyniki) | API tablicy e-Zamówień: pełny skan 7 dni (kursor `SearchAfter`) + wyszukiwanie w tytułach po stronie serwera dla całego okna | działa |
+| `bk` | PL, Baza Konkurencyjności | API wyszukiwarki BK (`query`, statusy PUBLISHED/CLOSED/RESOLVED) | działa |
+| `contracts_finder` | UK poniżej progów | OCDS API, skan + filtr | działa, ale paginacja/okno do sprawdzenia |
+| `fts` | UK Find a Tender | OCDS API, skan + filtr | bardzo wolne API (~2–3 min/stronę) — poza codziennym harmonogramem, tylko ręcznie |
 
 Każde źródło jest izolowane — awaria jednego nie zatrzymuje reszty; status jest w raporcie.
 
@@ -39,6 +39,10 @@ python -m monitor --days-back 365 --sources ted       # backfill historyczny TED
 Ręcznie w Actions: *Actions → Tender monitor → Run workflow* (pola: `days_back`, `sources`, `min_score`).
 
 Limity okna dla źródeł bez wyszukiwania po słowach: FTS/Contracts Finder 60 dni, e-Zamówienia/BK 365 dni (`monitor/sources/__init__.py`).
+
+## Diagnostyka
+
+Workflow *Probe (diagnostics)* uruchamia skrypty z `tools/` — tak zweryfikowano nieudokumentowane API e-Zamówień i BK.
 
 ## Planowane
 
