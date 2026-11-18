@@ -6,6 +6,7 @@ import statistics
 from datetime import date
 
 from . import config
+from .bidguide import guide, to_markdown
 from .models import Tender
 
 MERGE_FIELDS = ["estimated_value", "award_value", "lowest_offer", "highest_offer", "offers",
@@ -253,7 +254,8 @@ def sections(cases: list[dict], today: date, gig_days: int | None = FREELANCE_DA
 
 def render_full(items: list[Tender], today: date, title: str, intro: list[str] | None = None,
                 stats: dict[str, str] | None = None, gig_days: int | None = FREELANCE_DAYS) -> str:
-    sec = sections(merge_cases(items), today, gig_days)
+    cases = merge_cases(items)
+    sec = sections(cases, today, gig_days)
     open_, gigs, good_gigs, weak_gigs = sec["open"], sec["gigs"], sec["good_gigs"], sec["weak_gigs"]
     csv_cases, awarded, pending = sec["csv"], sec["awarded"], sec["pending"]
     adjacent, rest, week = sec["adjacent"], sec["rest"], sec["week"]
@@ -302,16 +304,17 @@ def render_full(items: list[Tender], today: date, title: str, intro: list[str] |
                           [f"- {_d(_date_of(c))} · {c['kind']} · **{_esc(c['buyer'], 50)}** — "
                            f"[{_esc(c['title'], 90)}]({c['url']})" for c in pending])
 
-    out += ["## 4. Sprzęt z IQ/OQ i serwis urządzeń", "",
+    out += ["## 4. Jak startować — wnioski z historii", ""] + to_markdown(guide(cases))
+    out += ["## 5. Sprzęt z IQ/OQ i serwis urządzeń", "",
             "<sub>Kwalifikację robi producent; kwoty to cena sprzętu — nie do wyceny CSV.</sub>", ""]
     out += _collapsed(f"Pokaż ({len(adjacent)})", [BENCH_HEADER, *(_bench_row(c) for c in adjacent)]) \
         if adjacent else ["_Brak._", ""]
 
-    out += ["## 5. Inne / prawdopodobny szum", ""]
+    out += ["## 6. Inne / prawdopodobny szum", ""]
     out += _collapsed(f"Pokaż ({len(rest)})", [BENCH_HEADER, *(_bench_row(c) for c in rest)]) \
         if rest else ["_Brak._", ""]
 
-    out += ["## 6. Kraje i źródła", ""]
+    out += ["## 7. Kraje i źródła", ""]
     table = _country_table({"Otwarte": open_, "Freelance": gigs, "CSV": csv_cases, "Sprzęt/serwis": adjacent,
                             "Inne": rest})
     body = (table or ["_Brak danych._"]) + [""]

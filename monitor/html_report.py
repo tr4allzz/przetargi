@@ -5,7 +5,7 @@ import html
 import json
 from datetime import date
 
-from . import report
+from . import bidguide, report
 from .models import Tender
 
 TABS = [  # (section key, hash id, label)
@@ -13,6 +13,7 @@ TABS = [  # (section key, hash id, label)
     ("gigs", "freelance", "Zlecenia freelance"),
     ("awarded", "wyniki", "Wyniki CSV"),
     ("pending", "bez-wyniku", "CSV bez wyniku"),
+    ("guide", "jak-startowac", "Jak startować"),
     ("adjacent", "sprzet", "Sprzęt i serwis"),
     ("rest", "inne", "Inne"),
 ]
@@ -39,7 +40,9 @@ def build(items: list[dict], today: date, title: str, stats: dict[str, str] | No
         "week": sec["week"],
         "recent": date.fromordinal(today.toordinal() - 2).isoformat(),
         "gigGood": report.GIG_GOOD,
-        "tabs": [{"key": k, "id": i, "label": lab, "rows": [_row(c, first_seen) for c in sec[k]]} for k, i, lab in TABS],
+        "tabs": [{"key": k, "id": i, "label": lab, "rows": [_row(c, first_seen) for c in sec.get(k, [])]}
+                 for k, i, lab in TABS],
+        "guideHtml": bidguide.to_html(bidguide.guide(cases)),
         "insights": report._insights(sec["awarded"]),
         "stats": stats or {},
     }
@@ -102,6 +105,7 @@ tr.det td{background:var(--bg);font-size:13px}
 .empty{padding:30px;text-align:center;color:var(--muted);background:var(--card);border:1px dashed var(--line);border-radius:10px}
 .foot{margin-top:28px;color:var(--muted);font-size:12.5px}
 .foot li{margin:2px 0}
+#view h3{font-size:15px;margin:18px 0 8px}#view table+h3{margin-top:22px}
 @media (max-width:700px){.hide-m{display:none}.det dl{grid-template-columns:1fr}}
 </style>
 </head>
@@ -149,6 +153,7 @@ const NOTES = {
   'bez-wyniku': 'Termin minął, ogłoszenia o wyniku jeszcze nie ma (Baza Konkurencyjności nie publikuje wyników).',
   sprzet: 'Dostawy aparatury z kwalifikacją producenta i serwis — kwoty to cena sprzętu, nie do wyceny CSV.',
   inne: 'Trafienia słów kluczowych, które najpewniej nie są usługą CSV.',
+  'jak-startowac': 'Wzorce z rozstrzygniętych postępowań: kwoty, liczba ofert, kryteria, warunki, zwycięzcy.',
 };
 
 function filtered(rows) {
@@ -217,7 +222,7 @@ function renderTable(id, rows) {
 
 function render() {
   const t = tabById[cur], rows = filtered(t.rows);
-  $('#tabs').innerHTML = D.tabs.map(x => `<button class="tab ${x.id === cur ? 'on' : ''}" data-id="${x.id}">${x.label}<span class="n">${filtered(x.rows).length}</span></button>`).join('');
+  $('#tabs').innerHTML = D.tabs.map(x => `<button class="tab ${x.id === cur ? 'on' : ''}" data-id="${x.id}">${x.label}${x.key === 'guide' ? '' : `<span class="n">${filtered(x.rows).length}</span>`}</button>`).join('');
   let h = `<p class="note">${NOTES[cur]}</p>`;
   if (cur === 'wyniki' && D.insights.length)
     h += '<div class="ins"><b>Wnioski do wyceny</b>' + D.insights.map(s => `<div>${esc(s.replace(/^- /, '')).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')}</div>`).join('') + '</div>';
@@ -225,7 +230,8 @@ function render() {
     const good = rows.filter(r => r.score >= D.gigGood), weak = rows.filter(r => r.score < D.gigGood);
     h += `<h3 style="font-size:15px">Trafne (${good.length})</h3>` + renderTable(cur, good);
     if (weak.length) h += `<details style="margin-top:14px"><summary class="muted">Słabiej dopasowane (${weak.length})</summary><div style="margin-top:8px">${renderTable(cur, weak)}</div></details>`;
-  } else h += cur === 'otwarte' ? renderOpen(rows) : renderTable(cur, rows);
+  } else if (cur === 'jak-startowac') h = `<p class="note">${NOTES[cur]}</p>` + D.guideHtml;
+  else h += cur === 'otwarte' ? renderOpen(rows) : renderTable(cur, rows);
   $('#view').innerHTML = h;
 }
 

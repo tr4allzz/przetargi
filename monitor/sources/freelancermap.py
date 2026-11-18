@@ -44,6 +44,9 @@ def to_tender(p: dict) -> Tender:
     skills = [s.get("de") or s.get("en") for s in (p.get("skills") or []) if isinstance(s, dict)]
     link = ((p.get("links") or {}).get("project")) or f"/projekt/{p.get('slug', '')}"
     dur = p.get("duration")
+    budget = p.get("budget") or {}
+    cents = budget.get("amountInCents") if isinstance(budget, dict) else None
+    cur = ((budget.get("currency") or {}).get("code") if isinstance(budget, dict) else "") or "EUR"
     return Tender(
         source="freelancermap",
         source_id=str(p.get("id")),
@@ -54,6 +57,7 @@ def to_tender(p: dict) -> Tender:
         country=((p.get("country") or {}).get("iso2") or ""),
         published=(p.get("created") or "")[:10],
         notice_type="zlecenie",
+        estimated_value=f"budżet {cents / 100:,.0f} {cur}".replace(",", " ") if cents else "",
         procedure=" · ".join(filter(None, [CONTRACT.get(pct.get("type"), pct.get("type") or ""), where])),
         duration=" · ".join(filter(None, [f"start: {p['beginningText']}" if p.get("beginningText") else "",
                                           f"{dur} mies." if dur else ""])),
