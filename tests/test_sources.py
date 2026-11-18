@@ -170,3 +170,39 @@ def test_ted_currency_falls_back_to_estimate_and_hides_minus_one_offers():
                                           "received-submissions-type-val": ["-1", "-1"]}))
     assert t.award_value == "4 800 000 DKK"
     assert t.offers == ""
+
+
+SIMAP_ITEM = {"id": "7ad8287e", "title": {"de": "Projekt «EP3» - Ersatzbeschaffung Paper Processing", "fr": None},
+              "publicationId": "214a5b07", "publicationNumber": "36360-02", "publicationDate": "2026-11-18",
+              "pubType": "award", "processType": "open",
+              "procOfficeName": {"de": "FD - Steueramt (SST)", "fr": None}}
+SIMAP_DETAIL = {
+    "procurement": {"orderDescription": {"de": "<p>Lieferung mehrerer Anlagen&nbsp;GMP</p>"},
+                    "cpvCode": {"code": "42991500"}, "additionalCpvCodes": [{"code": "50530000"}]},
+    "decision": {"vendors": [{"vendorName": "Müller Martini AG", "vendorAddress": {"countryId": "CH"},
+                              "price": {"currency": "chf", "price": 833915.0}}],
+                 "numberOfSubmissions": 1, "awardDecisionDate": "2026-11-12"},
+    "dates": {"offerDeadline": "2027-01-15T23:59:00+01:00"},
+    "criteria": {"awardCriteriaNote": {"de": "Kriterien sind in den Dokumenten hinterlegt"}},
+}
+
+
+def test_simap_to_tender():
+    from monitor.sources import simap
+    t = simap.to_tender(SIMAP_ITEM, SIMAP_DETAIL)
+    assert t.key == "simap:36360-02"
+    assert t.title.startswith("Projekt «EP3»")
+    assert t.description == "Lieferung mehrerer Anlagen GMP"
+    assert t.cpv == ["42991500", "50530000"]
+    assert t.winners == ["Müller Martini AG"] and t.winner_info == ["CH"]
+    assert t.award_value == "833 915 CHF" and t.offers == "1"
+    assert t.contract_date == "2026-11-12"
+    assert t.deadline == "2027-01-15 23:59"
+    assert t.procedure == "offen" and t.tender_id == "simap:7ad8287e"
+    assert t.criteria == ["Kriterien sind in den Dokumenten hinterlegt"]
+
+
+def test_simap_without_detail_keeps_search_hit():
+    from monitor.sources import simap
+    t = simap.to_tender(SIMAP_ITEM, None)
+    assert t.source_id == "36360-02" and t.buyer == "FD - Steueramt (SST)"

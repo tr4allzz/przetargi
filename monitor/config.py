@@ -111,7 +111,7 @@ KIND_SCORE_ADJ = {KIND_SERVICE: 2.0, KIND_SYSTEM: 1.0, KIND_EQUIPMENT: -1.0,
 RX_DEVICE_SERVICE = (r"przegląd\w* techniczn|serwis\w*|usuwania awarii|konserwacj|"
                      r"maintenance of (equipment|devices)|wartung|instandhaltung")
 RX_DELIVERY = (r"\bdostaw\w*|wdroż\w*|zakup\w*|wynaj\w*|leasing|lieferung|beschaffung|anschaffung|"
-               r"\bsupply\b|purchase|procurement of|acquisition|delivery|aankoop|levering|закупуване|"
+               r"ersatzbeschaffung|\bsupply\b|purchase|procurement of|acquisition|delivery|aankoop|levering|закупуване|"
                r"implementation of (a|the)? ?(system|software)|installation of")
 RX_SYSTEM = (r"\blims\b|\bmes\b|\bebr\b|electronic batch|\beqms\b|\bqms\b|quality management system|"
              r"system\w* (informatyczn|teleinformatyczn|monitor\w*|zarządzania)|monitoring\w* system|"
