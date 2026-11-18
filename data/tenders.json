@@ -1,4 +1,59 @@
 {
+ "ted:600505-2026": {
+  "source": "ted",
+  "source_id": "600505-2026",
+  "title": "Ireland – Machines and apparatus for testing and measuring – High-Resolution Particle and Cell Sizing, Counting and Distribution Device",
+  "url": "https://ted.europa.eu/en/notice/-/detail/600505-2026",
+  "description": "The system must be a benchtop instrument able to measure particles concentration and size profile in biological and other liquid samples as small as 200 nm without additional processing (i.e. operate using the coulter principle or equivalent and be able to measure large protein aggregates, blood platelets and characterise mammalian cells or spheroids without the need of using nucleus staining). It must deliver accurate, reproducible size and concentration measurements across 0.2–1,600 μm in samples of 10-2000 µL, support volumetric flow mode, data reprocessing and ISO 9276-1 reporting. The instrument must feature user-friendly software, mercury-free metering, robust quality control, and be EU Annex 11 of the Good Manufacturing Practice (GMP) Guideline compliant and or FDA 21 CFR Part 11 compliant.",
+  "buyer": "Trinity College Dublin the University of Dublin_336",
+  "country": "IRL",
+  "published": "2026-09-01",
+  "deadline": "",
+  "notice_type": "can-standard",
+  "cpv": [
+   "38434550",
+   "38540000"
+  ],
+  "value": "",
+  "winners": [
+   "Labplan Ltd."
+  ],
+  "score": 10.0,
+  "matched": [
+   "Annex 11",
+   "Part 11",
+   "GMP/GxP"
+  ],
+  "key": "ted:600505-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:676567-2026": {
+  "source": "ted",
+  "source_id": "676567-2026",
+  "title": "Germany – Medical equipments – Automatisiertes Zellprozessierungssystem",
+  "url": "https://ted.europa.eu/en/notice/-/detail/676567-2026",
+  "description": "Gegenstand der Beschaffung ist die Lieferung von vier vollautomatisierten Zellprozessierungssystemen CliniMACS Prodigy einschließlich sämtlicher für die Inbetriebnahme erforderlicher Leistungen. Hierzu zählen insbesondere Transport, Installation, Inbetriebnahme, technische Qualifizierung (IQ/OQ) sowie die Einweisung des zur Herstellung befugten Personals. Die Systeme dienen der GMP-konformen Herstellung von CAR-T-Zell-, TCR-T-Zell- und weiteren transgen modifizierten Zelltherapeutika aus patienteneigenen oder spenderbasierten Leukapheresaten. Erforderlich ist ein vollständig integriertes Zellprozessierungssystem, das sämtliche wesentlichen Herstellungsschritte innerhalb eines geschlossenen Einweg-Prozesssystems ohne manuelle Transferprozesse durchführen kann. Zu den zwingend erforderlichen Prozessschritten gehören insbesondere: - immunomagnetische Zellseparation einschließlich CD4- und CD8-Selektion, - T-Zell-Aktivierung, - genetische Modifikation bzw. lentivirale Transduktion, - Expansion der modifizierten Zellpopulation bis zur definierten Zielzellzahl, - GMP-konforme Prozessdokumentation und elektronische Chargenführung, - Betrieb innerhalb eines geschlossenen Einweg-Schlauchsystems zur Minimierung des Kontaminationsrisikos. Darüber hinaus muss das System die regulatorischen Anforderungen an die Herstellung von Arzneimitteln für neuartige Therapien (ATMP) erfüllen und eine Softwarelösung mit Audit-Trail-Funktionalität, rollenbasierter Benutzerverwaltung, elektronischer Protokollierung sowie Unterstützung der Anforderungen gemäß 21 CFR Part 11 bereitstellen. Die Systeme werden in bestehende GMP-validierte Herstellungsprozesse der CIT gGmbH integriert und dienen der Aufrechterhaltung sowie Erweiterung der Herstellungskapazitäten für klinische Zelltherapeutika. Die Beschaffung ist erforderlich, um die Herstellung patientenspezifischer Zellprodukte für bestehende und zukünftige klinische Anwendungen sicherzustellen.",
+  "buyer": "Universitätsklinikum Heidelberg",
+  "country": "DEU",
+  "published": "2026-10-01",
+  "deadline": "",
+  "notice_type": "veat",
+  "cpv": [
+   "33100000",
+   "38434540"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 10.0,
+  "matched": [
+   "Part 11",
+   "validation",
+   "IQ/OQ/PQ",
+   "GMP/GxP"
+  ],
+  "key": "ted:676567-2026",
+  "first_seen": "2026-11-18"
+ },
  "ted:747344-2026": {
   "source": "ted",
   "source_id": "747344-2026",
@@ -28,6 +83,172 @@
   "key": "ted:747344-2026",
   "first_seen": "2026-11-18"
  },
+ "ted:767582-2025": {
+  "source": "ted",
+  "source_id": "767582-2025",
+  "title": "Ireland – Machines and apparatus for testing and measuring – High-Resolution Particle and Cell Sizing, Counting and Distribution Device",
+  "url": "https://ted.europa.eu/en/notice/-/detail/767582-2025",
+  "description": "The system must be a benchtop instrument able to measure particles concentration and size profile in biological and other liquid samples as small as 200 nm without additional processing (i.e. operate using the coulter principle or equivalent and be able to measure large protein aggregates, blood platelets and characterise mammalian cells or spheroids without the need of using nucleus staining). It must deliver accurate, reproducible size and concentration measurements across 0.2–1,600 μm in samples of 10-2000 µL, support volumetric flow mode, data reprocessing and ISO 9276-1 reporting. The instrument must feature user-friendly software, mercury-free metering, robust quality control, and be EU Annex 11 of the Good Manufacturing Practice (GMP) Guideline compliant and or FDA 21 CFR Part 11 compliant.",
+  "buyer": "Trinity College Dublin the University of Dublin_336",
+  "country": "IRL",
+  "published": "2025-11-19",
+  "deadline": "2025-12-09",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "38434550",
+   "38540000"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 10.0,
+  "matched": [
+   "Annex 11",
+   "Part 11",
+   "GMP/GxP"
+  ],
+  "key": "ted:767582-2025",
+  "first_seen": "2026-11-18"
+ },
+ "ted:523910-2026": {
+  "source": "ted",
+  "source_id": "523910-2026",
+  "title": "Ireland – Research laboratory services – High Throughput Transient Antibody Production and Characterisation Services",
+  "url": "https://ted.europa.eu/en/notice/-/detail/523910-2026",
+  "description": "This Request for Tender (RFT) invites qualified contract research organisations (CROs) and antibody production vendors to submit a technical and commercial proposal for high-throughput antibody production and characterisation services in support of an active discovery programme. This is a research-use programme; GMP manufacture is not required, but the issuing organisation requires vendors to demonstrate data integrity practices aligned with 21 CFR Part 11 principles where reasonably achievable, in line with our internal data governance standards.",
+  "buyer": "National Institute for Bioprocessing Research and Training (NIBRT)",
+  "country": "IRL",
+  "published": "2026-07-29",
+  "deadline": "2026-08-28",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "71900000",
+   "73110000",
+   "73111000",
+   "73120000"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 9.0,
+  "matched": [
+   "Part 11",
+   "data integrity",
+   "GMP/GxP",
+   "CPV 73*"
+  ],
+  "key": "ted:523910-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:674744-2026": {
+  "source": "ted",
+  "source_id": "674744-2026",
+  "title": "Ireland – Research laboratory services – High Throughput Transient Antibody Production and Characterisation Services",
+  "url": "https://ted.europa.eu/en/notice/-/detail/674744-2026",
+  "description": "This Request for Tender (RFT) invites qualified contract research organisations (CROs) and antibody production vendors to submit a technical and commercial proposal for high-throughput antibody production and characterisation services in support of an active discovery programme. This is a research-use programme; GMP manufacture is not required, but the issuing organisation requires vendors to demonstrate data integrity practices aligned with 21 CFR Part 11 principles where reasonably achievable, in line with our internal data governance standards.",
+  "buyer": "National Institute for Bioprocessing Research and Training (NIBRT)",
+  "country": "IRL",
+  "published": "2026-10-01",
+  "deadline": "",
+  "notice_type": "can-standard",
+  "cpv": [
+   "71900000",
+   "73110000",
+   "73111000",
+   "73120000"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 9.0,
+  "matched": [
+   "Part 11",
+   "data integrity",
+   "GMP/GxP",
+   "CPV 73*"
+  ],
+  "key": "ted:674744-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:683167-2026": {
+  "source": "ted",
+  "source_id": "683167-2026",
+  "title": "Ireland – Research services – High Throughput Transient Antibody Production and Characterisation Services",
+  "url": "https://ted.europa.eu/en/notice/-/detail/683167-2026",
+  "description": "This Request for Tender (RFT) invites qualified contract research organisations (CROs) and antibody production vendors to submit a technical and commercial proposal for high-throughput antibody production and characterisation services in support of an active discovery programme. This is a research-use programme; GMP manufacture is not required, but the issuing organisation requires vendors to demonstrate data integrity practices aligned with 21 CFR Part 11 principles where reasonably achievable, in line with our internal data governance standards.",
+  "buyer": "National Institute for Bioprocessing Research and Training (NIBRT)",
+  "country": "IRL",
+  "published": "2026-10-05",
+  "deadline": "2026-11-04",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "71900000",
+   "73110000",
+   "73111000",
+   "73120000"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 9.0,
+  "matched": [
+   "Part 11",
+   "data integrity",
+   "GMP/GxP",
+   "CPV 73*"
+  ],
+  "key": "ted:683167-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:564895-2026": {
+  "source": "ted",
+  "source_id": "564895-2026",
+  "title": "Germany – Electrical wiring and fitting work – NUM RC - Pharma-Monitoring",
+  "url": "https://ted.europa.eu/en/notice/-/detail/564895-2026",
+  "description": "Errichtung eines Pharmamonitoring-Systems für den Bereich Radiopharmazie als Komplettleistung einschl. Feldgeräte, Schaltschränke und GMP-Monitoring-Software nach GAMP 5. Monitoring-Parameter sind: Raumdruck, Raumtemperatur und Raumluftfeuchte, Temperatur Kühlschränke, luftgetragene Partikel, Strömungsgeschwindigkeit im LF-Feld Lieferung und Installation von Sensoren und Integration von \"Fremd-Sensorik\" des Lieferanten der Heißzellen/ Isolatoren.",
+  "buyer": "Universitätsklinikum Essen AÖR",
+  "country": "DEU",
+  "published": "2026-08-14",
+  "deadline": "2026-09-15",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "31682210",
+   "45311000"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 8.5,
+  "matched": [
+   "GAMP",
+   "GMP/GxP",
+   "pharma",
+   "radiopharmacy"
+  ],
+  "key": "ted:564895-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:688819-2026": {
+  "source": "ted",
+  "source_id": "688819-2026",
+  "title": "Germany – Laboratory, optical and precision equipments (excl. glasses) – Beschaffung eines Peptidsynthesizers",
+  "url": "https://ted.europa.eu/en/notice/-/detail/688819-2026",
+  "description": "Beschafft werden soll ein GMP-konformer Parallel-Peptidsynthesizer für die Herstellung peptidbasierter Tumorvakzine im Rahmen des Aufbaus einer GMP-konformen Produktionsumgebung am Centrum für Innovative Therapien (CIT). Das System muss eine kontaminationsfreie Produktion durch den Einsatz geschlossener Reaktor- und Reagenziensysteme gewährleisten und die parallele Durchführung mehrerer Synthesen ermöglichen. Die Steuerungssoftware muss den Anforderungen des EU-GMP-Leitfadens, insbesondere Annex 11 für computergestützte Systeme, entsprechen. Weiterhin werden hohe Anforderungen an Kontaminationssicherheit, regulatorische Konformität, Wartungs- und Qualifizierungsunterstützung sowie betriebliche Flexibilität und Skalierbarkeit gestellt. Die Beschaffung umfasst Lieferung, Inbetriebnahme, Qualifizierungsunterstützung und Einweisung des Personals.",
+  "buyer": "Universitätsklinikum Heidelberg",
+  "country": "DEU",
+  "published": "2026-10-06",
+  "deadline": "2026-11-02",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "38000000",
+   "38434500"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 8.5,
+  "matched": [
+   "Annex 11",
+   "IQ/OQ/PQ",
+   "GMP/GxP"
+  ],
+  "key": "ted:688819-2026",
+  "first_seen": "2026-11-18"
+ },
  "ted:740084-2026": {
   "source": "ted",
   "source_id": "740084-2026",
@@ -52,6 +273,111 @@
    "CPV 72*"
   ],
   "key": "ted:740084-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:814489-2025": {
+  "source": "ted",
+  "source_id": "814489-2025",
+  "title": "Denmark – IT services: consulting, software development, Internet and support – Quality Management System",
+  "url": "https://ted.europa.eu/en/notice/-/detail/814489-2025",
+  "description": "The Hospital Pharmacy of Region North Denmark has initiated a process of selecting a new Quality Management System (QMS). The Hospital Pharmacy is looking for a solution integrating document management and training with the most important quality processes such as deviations and CAPA management, change management, and complaints management. Furthermore, the solution must present dashboard-type key figures graphically with drill-down functionality to single registrations. The Hospital Pharmacy is looking for an eQMS solution that acts as the sole reference point across the enterprise—connecting quality business processes for better visibility, access, and control. The solution must be a cost effective GxP-compliant cloud-based SaaS solution that supports scalability, flexibility and mobility allowing real-time access through a web browser from different devices. Moreover, updates, validation and maintenance should be managed by the software vendor, a robust infrastructure ensuring availability and reliable per",
+  "buyer": "AMGROS I/S",
+  "country": "DNK",
+  "published": "2025-12-09",
+  "deadline": "",
+  "notice_type": "can-standard",
+  "cpv": [
+   "72000000"
+  ],
+  "value": "",
+  "winners": [
+   "Dot Compliance UK Limited"
+  ],
+  "score": 8.5,
+  "matched": [
+   "validation",
+   "GMP/GxP",
+   "PQS/QMS",
+   "pharma",
+   "CPV 72*"
+  ],
+  "key": "ted:814489-2025",
+  "first_seen": "2026-11-18"
+ },
+ "bk:278862": {
+  "source": "bk",
+  "source_id": "278862",
+  "title": "Zapytanie ofertowe nr 1/2026 z dnia 22.05.2026 r. dotyczące dostawy, wdrożenia i walidacji systemu LIMS wspomagającego procesy kontroli jakości i produkcji w ramach projektu pt. „Automatyzacja i cyfryzacja procesu wytwarzania szczepionek krytycznych DTP, Clodivac, Tetana, DT, D, d i TyT, w celu wzmocnienia odporności łańcucha dostaw UE”, finansowanego ze środków programu Fundusze Europejskie dla Nowoczesnej Gospodarki 2021-2027, Priorytet FENG.05 Wsparcie projektów realizujących cele inicjatywy STEP, Działanie: Fundusz Wsparcia Technologii Krytycznych - Biotechnologie – Strategiczna niezależność UE - Ścieżka B",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/278862",
+  "description": "Przedmiotem zamówienia jest zakup, konfiguracja oraz wdrożenie skomputeryzowanego systemu klasy LIMS (Laboratory Information Management System), dedykowanego dla sektora farmaceutycznego",
+  "buyer": "INSTYTUT BIOTECHNOLOGII SUROWIC I SZCZEPIONEK BIOMED SPÓŁKA AKCYJNA",
+  "country": "PL",
+  "published": "2026-06-05",
+  "deadline": "2026-06-10 23:59",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 8.0,
+  "matched": [
+   "walidacja systemu",
+   "validation",
+   "pharma",
+   "LIMS/MES/CDS"
+  ],
+  "key": "bk:278862",
+  "first_seen": "2026-11-18"
+ },
+ "ted:434234-2026": {
+  "source": "ted",
+  "source_id": "434234-2026",
+  "title": "Switzerland – Industrial machinery – 1 System Erzeugung, Lagerung und Verteilung von Aqua Purificata(AP) und Water for injection(WFI)",
+  "url": "https://ted.europa.eu/en/notice/-/detail/434234-2026",
+  "description": "Die Auftragnehmerin liefert einen mehrstufigen Reinstwasser Erzeuger zur Herstellung von Water For Injection (WFI). Die bestehenden System WFI und AP zur Lagerung / Verteilung des Wassers wird einem Retrofit unterzogen. Die Auftragnehmerin erstellt über das gesamte System die Automation neu und bindet den bestehenden Clean-Steam-Erzeuger mit ein. Die geltenden Bestimmungen für den Einsatz im pharmazeutischen GMP-Bereich wie auch die Richtlinien nach GAMP 5 hinsichtlich des Automatisierungssystems müssen erfüllt werden. Auftrag umfasst (Details siehe Lastenheft VVO / 111733 / 000 / 00): · Projektleitung und Projektplanung · Engineering, Konstruktion, Automatisation und Fertigung · Änderungsdienst · Designqualifikation · Risikoanalyse (Traceability-Matrix) · Werksabnahmeprüfung FAT (Factory Acceptance Test) · Verpackung, Verzollung, Transport · Zuständig für die Demontage / Entsorgung der bestehenden Anlagen · Einbringung, Montage, Installation · Inbetriebnahme · SAT (Site Acceptance Test) · Installationsqualifikation · Funktionsqualifikation · Kalibration · Technische Freigabe des Systems · Dokumentation / Schulung",
+  "buyer": "Logistikbasis der Armee / LBA ; Armeeapotheke",
+  "country": "CHE",
+  "published": "2026-06-25",
+  "deadline": "2026-08-20",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "42000000"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 7.5,
+  "matched": [
+   "GAMP",
+   "GMP/GxP",
+   "pharma"
+  ],
+  "key": "ted:434234-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:571070-2026": {
+  "source": "ted",
+  "source_id": "571070-2026",
+  "title": "Germany – Laboratory, optical and precision equipments (excl. glasses) – Beschaffung von Laborausstattung einschließlich Service- und Wartungsleistungen für die GMP-konforme Herstellung von CAR-T-Zelltherapeutika und die zugehörige Qualitätskontrolle und Prozessvalidierung",
+  "url": "https://ted.europa.eu/en/notice/-/detail/571070-2026",
+  "description": "Gegenstand der Ausschreibung ist der Abschluss eines Projektvertrages über Liefe-rung, Aufstellung, Installation, Qualifizierung (IQ/OQ), Wartung und technischen Support einer GMP-konformen Laborausstattung sowie über die Erbringung von Schulungs- und Wissenstransferleistungen für den Aufbau und Betrieb der Herstellung von Arzneimitteln für neuartige Therapien (Advanced Therapy Medicinal Products, ATMP) im Sinne der Verordnung (EG) Nr. 1394/2007, insbesondere autologer CD19-CAR-T-Zellprodukte. Zur Beschaffung gehören u. a. automatisierte, geschlossene Zellprozessierungsplattformen, eine Elektroporations-/Gentransfer-Einheit, reinraumtaugliche Werkbänke, Durchflusszytometer sowie ein kartuschenbasierter Hochgeschwindigkeits-Zellsorter, ein Real-Time-PCR-System, ein mikrobiologisches Nachweissystem, ein Endotoxin-Nachweissystem, Thermomixer, UV/Vis-Spektralphotometer und PCR-Workstation nebst zugehörigen Verbrauchsmaterialien und Reagenzien. Der detaillierte, produkt- und herstellerneutral formulierte Leistungsumfang - einschließlich der funktionalen Mindestanforderungen sowie der Schulungs- und Wissenstransferbau-steine - ergibt sich abschließend aus Anlage 1 (Leistungsverzeichnis). Die Leistungs-erbringung ist für den Zeitraum 19.10.2026 bis 31.12.2028 vorgesehen; konkrete Be-stellmengen und Ausführungstermine werden über Einzelabrufe konkretisiert.",
+  "buyer": "Universitätsklinikum Aachen AöR",
+  "country": "DEU",
+  "published": "2026-08-18",
+  "deadline": "2026-09-17",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "38000000",
+   "50420000"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 7.5,
+  "matched": [
+   "validation",
+   "IQ/OQ/PQ",
+   "GMP/GxP",
+   "aseptic/cleanroom"
+  ],
+  "key": "ted:571070-2026",
   "first_seen": "2026-11-18"
  },
  "ted:747183-2026": {
@@ -80,6 +406,29 @@
    "pharma"
   ],
   "key": "ted:747183-2026",
+  "first_seen": "2026-11-18"
+ },
+ "bk:278867": {
+  "source": "bk",
+  "source_id": "278867",
+  "title": "Zapytanie ofertowe nr 2/2026 z dnia 22.05.2026 r. dotyczące dostawy, wdrożenia i walidacji systemu Electronic Batch Report (EBR) z funkcją MES w ramach projektu „Automatyzacja i cyfryzacja procesu wytwarzania szczepionek krytycznych DTP, Clodivac, Tetana, DT, D, d i TyT, w celu wzmocnienia odporności łańcucha dostaw UE”, finansowane ze środków programu Fundusze Europejskie dla Nowoczesnej Gospodarki 2021-2027, Priorytet FENG.05 Wsparcie projektów realizujących cele inicjatywy STEP, Działanie: Fundusz Wsparcia Technologii Krytycznych - Biotechnologie – Strategiczna niezależność UE - Ścieżka B",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/278867",
+  "description": "infrastrukturą informatyczną Zamawiającego oraz bezpośredniego pobierania danych z maszyn i linii produkcyjnych (IIoT), w tym w szczególności z użytkowanym systemem SIMPLE.ERP oraz systemami LIMS",
+  "buyer": "INSTYTUT BIOTECHNOLOGII SUROWIC I SZCZEPIONEK BIOMED SPÓŁKA AKCYJNA",
+  "country": "PL",
+  "published": "2026-06-08",
+  "deadline": "2026-06-15 23:59",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 7.0,
+  "matched": [
+   "walidacja systemu",
+   "validation",
+   "LIMS/MES/CDS"
+  ],
+  "key": "bk:278867",
   "first_seen": "2026-11-18"
  },
  "ezamowienia:2026/BZP 00096268": {
@@ -134,6 +483,75 @@
   "key": "ezamowienia:2026/BZP 00153848",
   "first_seen": "2026-11-18"
  },
+ "bk:267836": {
+  "source": "bk",
+  "source_id": "267836",
+  "title": "Prace badawcze nad opracowaniem hodowli komórkowej mającej potencjalne zastosowanie w zaawansowanej spersonalizowanej immunoterapii nowotworów jajnika w standardzie Dobrej Praktyki Wytwarzania (GMP) i Dobrej Praktyki Laboratoryjnej (GLP)",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/267836",
+  "description": "komórkowych ATMP wytwarzanych w standardzie GMP wyposażony w dwustopniowy reduktor CO2, otwór walidacyjny oraz sondę z wzorcowaniem wraz z przeprowadzeniem kwalifikacji instalacyjnej (IQ ) i operacyjnej (OQ). ).",
+  "buyer": "Narodowy Instytut Onkologii im. Marii Skłodowskiej-Curie - Państwowy Instytut Badawczy",
+  "country": "PL",
+  "published": "2026-03-19",
+  "deadline": "2026-03-30 23:59",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 6.5,
+  "matched": [
+   "validation",
+   "IQ/OQ/PQ",
+   "GMP/GxP"
+  ],
+  "key": "bk:267836",
+  "first_seen": "2026-11-18"
+ },
+ "bk:286211": {
+  "source": "bk",
+  "source_id": "286211",
+  "title": "Zapytanie ofertowe na wynajem aparatury GC-MS na potrzeby firmy ASLAB SCIENCE PROSTA SPÓŁKA AKCYJNA do realizacji projektu pt. „AAC – multifunkcjonalny, wielowarstwowy opatrunek medyczny, przyspieszający gojenie się ran, o szerokiej aktywności przeciwmikrobiologicznej” realizowanego w ramach Programu Fundusze Europejskie dla Nowoczesnej Gospodarki Działanie FENG.01.01 Ścieżka SMART.",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/286211",
+  "description": "zapewnienie zgodności z wymaganiami jakościowymi dla wyrobów medycznych, • prowadzenie analiz w konfiguracji zgodnej z zasadami GLP/GMP, z pełną ścieżką audytu i możliwością walidacji IQ /OQ/PQ.",
+  "buyer": "ASLab Science P.S.A.",
+  "country": "PL",
+  "published": "2026-07-24",
+  "deadline": "2026-08-03 23:59",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 6.5,
+  "matched": [
+   "validation",
+   "IQ/OQ/PQ",
+   "GMP/GxP"
+  ],
+  "key": "bk:286211",
+  "first_seen": "2026-11-18"
+ },
+ "bk:286214": {
+  "source": "bk",
+  "source_id": "286214",
+  "title": "Zapytanie ofertowe na wynajem zestawu LC-HRMS-MS/MS na potrzeby firmy ASLAB SCIENCE PROSTA SPÓŁKA AKCYJNA do realizacji projektu pt. „AAC – multifunkcjonalny, wielowarstwowy opatrunek medyczny, przyspieszający gojenie się ran, o szerokiej aktywności przeciwmikrobiologicznej” realizowanego w ramach Programu Fundusze Europejskie dla Nowoczesnej Gospodarki Działanie FENG.01.01 Ścieżka SMART.",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/286214",
+  "description": "Konfiguracja zestawu umożliwi prowadzenie analiz w warunkach zgodnych z GLP/GMP, wraz z walidacją instalacyjną IQ/OQ. B.",
+  "buyer": "ASLab Science P.S.A.",
+  "country": "PL",
+  "published": "2026-08-04",
+  "deadline": "2026-08-10 23:59",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 6.5,
+  "matched": [
+   "validation",
+   "IQ/OQ/PQ",
+   "GMP/GxP"
+  ],
+  "key": "bk:286214",
+  "first_seen": "2026-11-18"
+ },
  "ted:782263-2026": {
   "source": "ted",
   "source_id": "782263-2026",
@@ -160,6 +578,78 @@
   "key": "ted:782263-2026",
   "first_seen": "2026-11-18"
  },
+ "ted:771418-2025": {
+  "source": "ted",
+  "source_id": "771418-2025",
+  "title": "Germany – Washing and dry-cleaning services – Belieferung von Reinraumbekleidung und -mopps",
+  "url": "https://ted.europa.eu/en/notice/-/detail/771418-2025",
+  "description": "Die UM sucht einen Dienstleister, der folgende Dienstleistungen zuverlässig ausführt: Bereitstellung von Mehrweg-Reinraumbekleidung und Mopps für die Reinraumklassen B, C, D Wöchentliche Abholung der Bekleidung Reinigung, Dekontamination, Sterilisation und Verpackung der Bekleidung nach validierten Verfahren Dokumentation der Reinigung und Sterilisation gemäß GMP-Anforderungen Reparatur und Austausch beschädigter Bekleidung Bereitstellung von Notfallkontingenten bei erhöhtem Bedarf Sicherstellung der Chargenrückverfolgbarkeit",
+  "buyer": "Universitätsmedizin der Johannes Gutenberg-Universität Mainz",
+  "country": "DEU",
+  "published": "2025-11-20",
+  "deadline": "",
+  "notice_type": "can-standard",
+  "cpv": [
+   "98310000",
+   "98312000"
+  ],
+  "value": "",
+  "winners": [
+   "Elis Cleanroom GmbH"
+  ],
+  "score": 5.5,
+  "matched": [
+   "validation",
+   "GMP/GxP",
+   "aseptic/cleanroom"
+  ],
+  "key": "ted:771418-2025",
+  "first_seen": "2026-11-18"
+ },
+ "bk:266983": {
+  "source": "bk",
+  "source_id": "266983",
+  "title": "Zapytanie ofertowe nr ZO/FENG/2026/02/06 - wykonanie usług badawczych: wsparcia technologicznego procesu wytwarzania wyrobu medycznego klasy III oraz towarzyszących usług analitycznych. Zamawiający informuje o zmianach treści dokumentacji opublikowanej 27.02.20206 r w Bazie Konkurencyjności w sprawie w/w postepowania. Przedmiotem zamówienia jest wykonanie usług: wsparcia technologicznego procesu wytwarzania wyrobu medycznego klasy III oraz towarzyszących usług analitycznych wraz z opracowaniem i przekazaniem kompletnej dokumentacji technicznej i jakościowej niezbędnej do oceny zgodności wyrobu. Zamówienie zostało podzielone na 4 części: CZĘŚĆ I. Wsparcie technologiczne procesu produkcji i powiększania skali CZĘŚĆ II. Analiza składu płynu pod kątem zawartości składników CZĘŚĆ III. Kontrola właściwości fizykochemicznych (I) płynu perfuzyjnego CZĘŚĆ IV. Kontrola właściwości fizykochemicznych (II) płynu perfuzyjnego",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/266983",
+  "description": "Wsparcie technologiczne procesu produkcji i powiększania skali (Z5) - wytworzenie trzech powtarzalnych szarż walidacyjnych płynu perfuzyjnego NanOX 4 Kidney zgodnie ze standardem GMP Celem usługi jest zapewnienie komplek",
+  "buyer": "NanoSanguis SA",
+  "country": "PL",
+  "published": "2026-03-16",
+  "deadline": "2026-04-07 23:59",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 4.5,
+  "matched": [
+   "validation",
+   "GMP/GxP"
+  ],
+  "key": "bk:266983",
+  "first_seen": "2026-11-18"
+ },
+ "bk:296909": {
+  "source": "bk",
+  "source_id": "296909",
+  "title": "Usługa: Rozwój i optymalizacja pożywki wraz z testem procesowym min. 45 L (dalej: Usługa optymalizacji pożywki) na potrzeby firmy LABFARM Spółka z ograniczoną odpowiedzialnością w ramach realizacji projektu pt. „Opracowanie nowego produktu – mięsa komórkowego wraz z innowacyjną technologią wytwarzania.” realizowanego w ramach I Priorytet Programu Wsparcie dla przedsiębiorców, Działanie Ścieżka SMART, Fundusze Europejskie dla Nowoczesnej Gospodarki 2021–2027 (FENG). for the Service: Development and optimisation of a culture medium together with a process test at a scale of at least 45 L (hereinafter: the Medium Optimisation Service) for LABFARM Spółka z ograniczoną odpowiedzialnością, as part of the implementation of the project entitled “Development of a new product – cultivated meat together with an innovative production technology”, implemented under Priority I Support for Entrepreneurs, SMART Path measure, European Funds for a Modern Economy 2021–2027 (FENG).",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/296909",
+  "description": "Przedmiot zamówienia nie obejmuje produkcji komercyjnej, wdrożenia przemysłowego, rutynowej walidacji produkcyjnej, certyfikacji GMP/GLP, przygotowania pełnej dokumentacji rejestracyjnej",
+  "buyer": "LABFARM Spółka z ograniczoną odpowiedzialnością",
+  "country": "PL",
+  "published": "2026-11-03",
+  "deadline": "2026-11-12 23:59",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 4.5,
+  "matched": [
+   "validation",
+   "GMP/GxP"
+  ],
+  "key": "bk:296909",
+  "first_seen": "2026-11-18"
+ },
  "ezamowienia:2025/BZP 00559236": {
   "source": "ezamowienia",
   "source_id": "2025/BZP 00559236",
@@ -184,6 +674,54 @@
    "GMP/GxP"
   ],
   "key": "ezamowienia:2025/BZP 00559236",
+  "first_seen": "2026-11-18"
+ },
+ "ted:279664-2026": {
+  "source": "ted",
+  "source_id": "279664-2026",
+  "title": "Belgium – Medical equipments – Isolator voor cytotoxische en monoclonale bereidingen",
+  "url": "https://ted.europa.eu/en/notice/-/detail/279664-2026",
+  "description": "Voorwerp van deze leveringen: Isolator voor cytotoxische en monoclonale bereidingen voor de ziekenhuisapotheek van AZ Jan Portaels. Leveren, installeren, indienststelling (IQ/OQ/PQ) van isolator inclusief alle vereiste werken, dienstverlening en keuring. Toelichting: Het nieuwe ziekenhuis van AZ Jan Portaels is momenteel in volle opbouw, de oplevering en intrek wordt voorzien in 2027 (Range: 15/1/27 - 30/6/27). . De aanbieders in dit lastenboek houden rekening met levering en installatie in het nieuwe ziekenhuis op de Salyx-site, een voormalig industrieterrein aan de achterzijde van het station in Vilvoorde. Minstens onderstaande elementen zijn inbegrepen in deze opdracht (niet-limitatief): - intekening van de toestellen - levering en installatie van de toestellen - aansluiting en keuring van de toestellen - toestelgebonden aanpassingswerken - documentatie en opleiding - service en onderhoud Basis informatie over de gewenste Isolator, de gedetailleerde info volgt in 2de fase: -Volledig PIC/S & GMP conform -Monopost met 2 handschoenen -Energie efficiënt (HVAC, belichting, ...) -Binnenkant van de isolator volledig uit 316L roestvrij staal -Veiligheidsglas, geen plexi -RTP systeem voor veilige containers -Ingaand sas - werkruimte - uitgaand sas -5-6 bereidingen in ingaand sas, max 20 minuten decontaminatietijd gegarandeerd -3-4 bereidingen uitgaand sas, max 15 minuten decontaminatietijd gegarandeerd - Elke sas heeft een onafhankelijke VHP, H2O2 generator -H2O2 en andere consumables zijn vrij afneembaar, niet verplicht afnemen bij de deelnemer. -Autonomie is belangrijk: vb: gebruiker moet zelf positieve, negatieve druk kunnen instellen via parameters zonder tussenkomst technieker Inhoud H2O2 flessen kan zonder weegschaal gemonitored worden om continue kalibraties te vermijden -Unidirectionele luchtflow -Luchtschachten achteraan -Geschikt voor 12.500 - 15.000 bereidingen per jaar bij actieve werking -Verstelbaarvoor ergonomische werking vanwege langdurige bereidingen, vo",
+  "buyer": "AZ Jan Portaels vzw",
+  "country": "BEL",
+  "published": "2026-04-23",
+  "deadline": "",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "33100000"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 4.5,
+  "matched": [
+   "IQ/OQ/PQ",
+   "GMP/GxP"
+  ],
+  "key": "ted:279664-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:330414-2026": {
+  "source": "ted",
+  "source_id": "330414-2026",
+  "title": "Belgium – Medical equipments – Isolator voor cytotoxische en monoclonale bereidingen",
+  "url": "https://ted.europa.eu/en/notice/-/detail/330414-2026",
+  "description": "Voorwerp van deze leveringen: Isolator voor cytotoxische en monoclonale bereidingen voor de ziekenhuisapotheek van AZ Jan Portaels. Leveren, installeren, indienststelling (IQ/OQ/PQ) van isolator inclusief alle vereiste werken, dienstverlening en keuring. Toelichting: Het nieuwe ziekenhuis van AZ Jan Portaels is momenteel in volle opbouw, de oplevering en intrek wordt voorzien in 2027 (Range: 15/1/27 - 30/6/27). . De aanbieders in dit lastenboek houden rekening met levering en installatie in het nieuwe ziekenhuis op de Salyx-site, een voormalig industrieterrein aan de achterzijde van het station in Vilvoorde. Minstens onderstaande elementen zijn inbegrepen in deze opdracht (niet-limitatief): - intekening van de toestellen - levering en installatie van de toestellen - aansluiting en keuring van de toestellen - toestelgebonden aanpassingswerken - documentatie en opleiding - service en onderhoud Basis informatie over de gewenste Isolator, de gedetailleerde info volgt in 2de fase: -Volledig PIC/S & GMP conform -Monopost met 2 handschoenen -Energie efficiënt (HVAC, belichting, ...) -Werkvlak binnenin de isolator volledig uit 316L roestvrij staal -Veiligheidsglas, geen plexi -RTP systeem voor veilige containers -Ingaand sas - werkruimte - uitgaand sas -5-6 bereidingen in ingaand sas, max 20 minuten decontaminatietijd gegarandeerd -3-4 bereidingen uitgaand sas, max 15 minuten decontaminatietijd gegarandeerd - Elke sas heeft een onafhankelijke VHP, H2O2 generator -H2O2 en andere consumables zijn vrij afneembaar, niet verplicht afnemen bij de deelnemer. -Autonomie is belangrijk: vb: gebruiker moet zelf positieve, negatieve druk kunnen instellen via parameters zonder tussenkomst technieker Inhoud H2O2 flessen kan zonder weegschaal gemonitored worden om continue kalibraties te vermijden -Unidirectionele luchtflow -Luchtschachten achteraan -Geschikt voor 12.500 - 15.000 bereidingen per jaar bij actieve werking -Verstelbaarvoor ergonomische werking vanwege langdurige bereidingen,",
+  "buyer": "AZ Jan Portaels vzw",
+  "country": "BEL",
+  "published": "2026-05-13",
+  "deadline": "",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "33100000"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 4.5,
+  "matched": [
+   "IQ/OQ/PQ",
+   "GMP/GxP"
+  ],
+  "key": "ted:330414-2026",
   "first_seen": "2026-11-18"
  },
  "ezamowienia:2025/BZP 00550470": {
@@ -261,6 +799,78 @@
   "key": "ezamowienia:2026/BZP 00438234",
   "first_seen": "2026-11-18"
  },
+ "ted:31044-2026": {
+  "source": "ted",
+  "source_id": "31044-2026",
+  "title": "Bulgaria – Laboratory, optical and precision equipments (excl. glasses) – Закупуване на UV-Vis спектрофотометри за потребностите на НИГ 3.1.2 и закупуване на система за визуализация, заснемане и имунодетекция на протеини за потребностите на НИГ 3.1.12 в изпълнение на проект BG-RRP-2.004-0004-C01: „Стратегическа научноизследователска и иновационна програма за развитие на Медицински университет – София“, финансиран от НПВУ",
+  "url": "https://ted.europa.eu/en/notice/-/detail/31044-2026",
+  "description": "Предметът на настоящата обществената поръчка е доставка на UV-Visible Спектрофотометър за потребностите на научно изследователски групи НИГ 3.1.2 „Лекарствен дизайн, фармацевтична химия, органичен синтез, анализ, токсикология, биотрансформация, неврофармакология“ в изпълнение на проект BG-RRP-2.004-0004-C01: „Стратегическа научноизследователска и иновационна програма за развитие на Медицински университет – София“, финансиран от НПВУ. Прогнозната стойност и минималните технически изисквания са описани подробно в Техническата спецификация към документацията. 1Оптичен дизайн: двойнолъчев с позиции за изследвана и референтна проба и два детектора за съответната проба 2Светлинен източник: ксенонова лампа; Спектрален обхват: 190 – 1100 nm или по-широк 3Детектор: силикон фотодиоден 4Ширина на спектралната ивица: софтуерно избираеми стойности 0.5; 1.0; 1.5; 2.0 и 4.0 nm 5Режим на работа: минимум абсорбция, трансмисия, отражение, Log (Abs), Log (1/R), 1-4 производни, абсорбция х фактор, Kubelka-Munk, интензивност 6Точност по дължина на вълната:  ≤ ± 0.2 nm живачна линия 7Повторяемост по дължина на вълната: 4А 9Обхват на фотометричен дисплей: ≥ ± 6 А 10Фотометрична точност: ≤ ± 0.004А при 1А и 2А; ≤ ± 0.006А при 3А 11Фотометрична повторяемост: ≤ ± 0.0025 А при 1А 12Фотометричен шум: 2.3 А при 198 nm; ≥ 3.5 A при 220 nm; ≥ 4.0 A при 340 nm 16Гладкост на базовата линия: ≤ ± 0.0015 А 17Скорост на сканиране до минимум 6000 nm/min 18Спектрофотометърът трябва да има възможност за инстлиране вътре в него на живачна лампа за калибриране 19Софтуер, базиран на операционна система Windows 11 или еквивалентна. Пълно управление на спектрофотометъра, обработка и съхранение на данни 20Възможност за работа, съгласно регулаторните изискванията на 21 CFR Part 11. 21Спектрофотометърът трябва да покрива изискванията на Европейска, Японска и Американска фармакопеи. 22Дифузно-отражателна приставка за анализ на прахообразни проби със следните минимални изисквания: Възможност за анализ на проби с ра",
+  "buyer": "МЕДИЦИНСКИ УНИВЕРСИТЕТ",
+  "country": "BGR",
+  "published": "2026-01-16",
+  "deadline": "2026-02-16",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "38000000"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 4.0,
+  "matched": [
+   "Part 11"
+  ],
+  "key": "ted:31044-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:446032-2026": {
+  "source": "ted",
+  "source_id": "446032-2026",
+  "title": "Bulgaria – Laboratory, optical and precision equipments (excl. glasses) – Закупуване на UV-Vis спектрофотометри за потребностите на НИГ 3.1.2 и закупуване на система за визуализация, заснемане и имунодетекция на протеини за потребностите на НИГ 3.1.12 в изпълнение на проект BG-RRP-2.004-0004-C01: „Стратегическа научноизследователска и иновационна програма за развитие на Медицински университет – София“, финансиран от НПВУ",
+  "url": "https://ted.europa.eu/en/notice/-/detail/446032-2026",
+  "description": "Предметът на настоящата обществената поръчка е доставка на UV-Visible Спектрофотометър за потребностите на научно изследователски групи НИГ 3.1.2 „Лекарствен дизайн, фармацевтична химия, органичен синтез, анализ, токсикология, биотрансформация, неврофармакология“ в изпълнение на проект BG-RRP-2.004-0004-C01: „Стратегическа научноизследователска и иновационна програма за развитие на Медицински университет – София“, финансиран от НПВУ. Прогнозната стойност и минималните технически изисквания са описани подробно в Техническата спецификация към документацията. 1Оптичен дизайн: двойнолъчев с позиции за изследвана и референтна проба и два детектора за съответната проба 2Светлинен източник: ксенонова лампа; Спектрален обхват: 190 – 1100 nm или по-широк 3Детектор: силикон фотодиоден 4Ширина на спектралната ивица: софтуерно избираеми стойности 0.5; 1.0; 1.5; 2.0 и 4.0 nm 5Режим на работа: минимум абсорбция, трансмисия, отражение, Log (Abs), Log (1/R), 1-4 производни, абсорбция х фактор, Kubelka-Munk, интензивност 6Точност по дължина на вълната:  ≤ ± 0.2 nm живачна линия 7Повторяемост по дължина на вълната: 4А 9Обхват на фотометричен дисплей: ≥ ± 6 А 10Фотометрична точност: ≤ ± 0.004А при 1А и 2А; ≤ ± 0.006А при 3А 11Фотометрична повторяемост: ≤ ± 0.0025 А при 1А 12Фотометричен шум: 2.3 А при 198 nm; ≥ 3.5 A при 220 nm; ≥ 4.0 A при 340 nm 16Гладкост на базовата линия: ≤ ± 0.0015 А 17Скорост на сканиране до минимум 6000 nm/min 18Спектрофотометърът трябва да има възможност за инстлиране вътре в него на живачна лампа за калибриране 19Софтуер, базиран на операционна система Windows 11 или еквивалентна. Пълно управление на спектрофотометъра, обработка и съхранение на данни 20Възможност за работа, съгласно регулаторните изискванията на 21 CFR Part 11. 21Спектрофотометърът трябва да покрива изискванията на Европейска, Японска и Американска фармакопеи. 22Дифузно-отражателна приставка за анализ на прахообразни проби със следните минимални изисквания: Възможност за анализ на проби с ра",
+  "buyer": "МЕДИЦИНСКИ УНИВЕРСИТЕТ",
+  "country": "BGR",
+  "published": "2026-06-30",
+  "deadline": "",
+  "notice_type": "can-standard",
+  "cpv": [
+   "38000000"
+  ],
+  "value": "",
+  "winners": [
+   "АСМ 2 ЕООД"
+  ],
+  "score": 4.0,
+  "matched": [
+   "Part 11"
+  ],
+  "key": "ted:446032-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:706101-2026": {
+  "source": "ted",
+  "source_id": "706101-2026",
+  "title": "Poland – Laboratory, optical and precision equipments (excl. glasses) – Dostawa specjalistycznej aparatury badawczo-laboratoryjnej wraz z wyposażeniem i szkoleniem z podziałem na 7 części",
+  "url": "https://ted.europa.eu/en/notice/-/detail/706101-2026",
+  "description": "Dostawa wielodetekcyjnego czytnika mikropłytkowego (absorbancja, fluorescencja, luminescencja, TRF, FRET, polaryzacja fluorescencji) wyposażonego w dwukanałowy dyspenser odczynników, wbudowany inkubator z kontrolą temperatury i wytrząsarkę. W zestawie stacja sterująca z oprogramowaniem i pakietem licencji. Urządzenie posiadające status wyrobu do diagnostyki in vitro (CE-IVD/IVDR).; Dostawa zautomatyzowanej, kompaktowej stacji do izolacji DNA i RNA (w tym cfDNA/RNA) metodą kulek magnetycznych z różnorodnych matryc biologicznych (np. krew, tkanki, komórki, bloczki parafinowe FFPE z automatyczną deparafinizacją). System pracujący w oparciu o zamknięte kartridże (status IVD) wraz z zestawami startowymi do ekstrakcji i wbudowaną lampą UV.; Dostawa automatycznej płuczki mikropłytkowej przeznaczonej do płytek 96-dołkowych (płasko- i okrągłodennych) z wbudowanym ekranem dotykowym, modułem ultradźwiękowego czyszczenia głowicy, zewnętrzną pompą próżniową oraz kompletem butli na bufory i zlewki.; Dostawa zintegrowanego, automatycznego systemu cyfrowego PCR (typu „wszystko w jednym”) z wbudowanym termocyklerem wielostrefowym, modułem generacji partycji oraz systemem detekcji wielokanałowej (min. 7 kanałów detekcji). Zestaw zawiera stację sterującą zgodną z wymogami 21 CFR Part 11, pakiet startowy chipów/supermiksów oraz zestaw dedykowanych pipet laboratoryjnych.; Dostawa kompletnego zestawu do elektroforezy poziomej (flatbed) oraz ogniskowania izoelektrycznego białek (IEF) na paskach IPG, obejmującego: programowalny zasilacz wysokonapięciowy (do 3000 V), poziomą komorę elektroforetyczną z ceramiczną płytą chłodzącą i aktywnym chłodzeniem, tacę/kuwetę na paski IPG z elektrodami platynowymi oraz zestaw akcesoriów i materiałów do odlewania i przygotowywania żeli poliakrylamidowych; Dostawa zintegrowanego zestawu do odparowywania i zatężania próbek (koncentrator próżniowy/odparowywacz wirowy), w skład którego wchodzą: koncentrator z podgrzewaną komorą i rotorem, bezolejowa pompa pr",
+  "buyer": "Narodowy Instytut Zdrowia Publicznego PZH - Państwowy Instytut Badawczy (NIZP PZH-PIB)",
+  "country": "POL",
+  "published": "2026-10-13",
+  "deadline": "2026-11-09",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "38000000",
+   "38434000"
+  ],
+  "value": "",
+  "winners": [],
+  "score": 4.0,
+  "matched": [
+   "Part 11"
+  ],
+  "key": "ted:706101-2026",
+  "first_seen": "2026-11-18"
+ },
  "ted:733033-2026": {
   "source": "ted",
   "source_id": "733033-2026",
@@ -288,6 +898,248 @@
    "Annex 11"
   ],
   "key": "ted:733033-2026",
+  "first_seen": "2026-11-18"
+ },
+ "bk:255196": {
+  "source": "bk",
+  "source_id": "255196",
+  "title": "Realizacja usługi polegającej na opracowaniu i walidacji metody oznaczania nitrozoamin w produkcie gotowym oraz przeprowadzeniu kontroli produktu gotowego.",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/255196",
+  "description": "Przedmiotem zamówienia jest realizacja usługi polegającej na na opracowaniu i walidacji metody oznaczania nitrozoamin w produkcie gotowym oraz przeprowadzeniu kontroli produktu gotowego",
+  "buyer": "Przedsiębiorstwo Farmaceutyczne LEK-AM Sp. z o.o.",
+  "country": "PL",
+  "published": "2025-11-25",
+  "deadline": "2025-12-02 23:59",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "pharma"
+  ],
+  "key": "bk:255196",
+  "first_seen": "2026-11-18"
+ },
+ "bk:256285": {
+  "source": "bk",
+  "source_id": "256285",
+  "title": "Świadczenie usług zabezpieczania próbek z materiałem biologicznym (Część 1-4) w ramach projektu „W kierunku lepszej diagnostyki: walidacja związków nukleozydowych i karnitynowych jako czułych i swoistych biomarkerów chorób cywilizacyjnych w medycynie i farmacji” finansowanego w ramach Krajowego Planu Odbudowy i Zwiększania Odporności. Komponent D Efektywność, dostępność i jakość systemu zdrowia. Inwestycja D3.1.1 Kompleksowy rozwój badań w zakresie nauk medycznych i nauk o zdrowiu.",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/256285",
+  "description": "Przedmiotem zamówienia jest świadczenie usług zabezpieczania próbek z materiałem biologicznym w ramach projektu „W kierunku lepszej diagnostyki: walidacja związków nukleozydowych i Przedmiotem zamówienia jest świadczenie",
+  "buyer": "Gdański Uniwersytet Medyczny",
+  "country": "PL",
+  "published": "2025-12-03",
+  "deadline": "2025-12-11 10:00",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "pharma"
+  ],
+  "key": "bk:256285",
+  "first_seen": "2026-11-18"
+ },
+ "bk:257180": {
+  "source": "bk",
+  "source_id": "257180",
+  "title": "ZAPYTANIE OFERTOWE nr 21/2025/Z/KONGO2",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/257180",
+  "description": "obserwacje kliniczne, monitorowanie masy ciała i spożycia pokarmu, ocenę kliniczno-patologiczną oraz wstępne oceny histopatologiczne, 2) Analiza formulacji: • Opracowanie, wstępna walidacja",
+  "buyer": "Celon Pharma S.A.",
+  "country": "PL",
+  "published": "2025-12-09",
+  "deadline": "2025-12-17 23:59",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "pharma"
+  ],
+  "key": "bk:257180",
+  "first_seen": "2026-11-18"
+ },
+ "bk:258830": {
+  "source": "bk",
+  "source_id": "258830",
+  "title": "ZAPYTANIE OFERTOWE nr 22/2025/Z/KONGO2",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/258830",
+  "description": "badawczo-rozwojowych w zakresie badań toksykologicznych niezgodnych z GLP. 1) Toksykologia niezgodna z GLP 2) Opracowanie metody bioanalitycznej i analiza próbek biologicznych oraz wstępna walidacja",
+  "buyer": "Celon Pharma S.A.",
+  "country": "PL",
+  "published": "2025-12-22",
+  "deadline": "2025-12-31 23:59",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "pharma"
+  ],
+  "key": "bk:258830",
+  "first_seen": "2026-11-18"
+ },
+ "bk:260399": {
+  "source": "bk",
+  "source_id": "260399",
+  "title": "ZAPYTANIE OFERTOWE nr 3/2026/Z/KONGO2.0",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/260399",
+  "description": "Opracowanie metody bioanalitycznej i analiza próbek biologicznych: • Opracowanie, wstępna walidacja i zastosowanie odpowiedniej metody bioanalitycznej (LC/MS i ELISA) do oznaczania",
+  "buyer": "Celon Pharma S.A.",
+  "country": "PL",
+  "published": "2026-01-12",
+  "deadline": "2026-01-20 23:59",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "pharma"
+  ],
+  "key": "bk:260399",
+  "first_seen": "2026-11-18"
+ },
+ "bk:278143": {
+  "source": "bk",
+  "source_id": "278143",
+  "title": "ZAPYTANIE OFERTOWE nr 3/2026/Z/STEP7",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/278143",
+  "description": "w reżimie GLP mające na celu ocenę potencjału badanego kandydata na lek do blokowania kanału potasowego – test oddziaływania z kanałem hERG w warunkach in vitro • Opracowanie i walidacja",
+  "buyer": "Celon Pharma S.A.",
+  "country": "PL",
+  "published": "2026-05-18",
+  "deadline": "2026-05-25 23:59",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "pharma"
+  ],
+  "key": "bk:278143",
+  "first_seen": "2026-11-18"
+ },
+ "bk:286200": {
+  "source": "bk",
+  "source_id": "286200",
+  "title": "2000000414 Zakup i dostawa usługi / Purchase and delivery of service",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/286200",
+  "description": "Skrócony opis przedmiotu zamówienia/ Short description of the subject of the contract: 1) Opracowanie i walidacja metod analitycznych dla badania substancji wymywalnych dla worków",
+  "buyer": "Polpharma Biologics S.A.",
+  "country": "PL",
+  "published": "2026-07-24",
+  "deadline": "2026-08-24 23:59",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "pharma"
+  ],
+  "key": "bk:286200",
+  "first_seen": "2026-11-18"
+ },
+ "bk:295587": {
+  "source": "bk",
+  "source_id": "295587",
+  "title": "ZAPYTANIE OFERTOWE nr 16/2026/M/JARVIS",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/295587",
+  "description": "• Gromadzenie, walidacja oraz analiza danych dotyczących bezpieczeństwa i tolerancji badanego produktu. 3.",
+  "buyer": "Celon Pharma S.A.",
+  "country": "PL",
+  "published": "2026-10-21",
+  "deadline": "2026-11-20 23:59",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "pharma"
+  ],
+  "key": "bk:295587",
+  "first_seen": "2026-11-18"
+ },
+ "bk:295750": {
+  "source": "bk",
+  "source_id": "295750",
+  "title": "ZAPYTANIE OFERTOWE NR 23/2026/Z/KONGO3.0",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/295750",
+  "description": "Analiza formulacji:  Opracowanie, prewalidacja oraz pełna walidacja metody analitycznej umożliwiającej oznaczenie stężenia substancji testowej (TI), 4.Rozwój metody bioanalitycznej",
+  "buyer": "Celon Pharma S.A.",
+  "country": "PL",
+  "published": "2026-10-22",
+  "deadline": "2026-11-23 23:59",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "pharma"
+  ],
+  "key": "bk:295750",
+  "first_seen": "2026-11-18"
+ },
+ "bk:296078": {
+  "source": "bk",
+  "source_id": "296078",
+  "title": "2000000460 Zakup i dostawa usługi / Purchase and delivery of service",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/296078",
+  "description": "Skrócony opis przedmiotu zamówienia/ Short description of the subject of the contract: 1) Opracowanie i walidacja metod analitycznych dla badania substancji wymywalnych dla opakowania",
+  "buyer": "Polpharma Biologics S.A.",
+  "country": "PL",
+  "published": "2026-10-26",
+  "deadline": "2026-11-26 23:59",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "pharma"
+  ],
+  "key": "bk:296078",
+  "first_seen": "2026-11-18"
+ },
+ "bk:297358": {
+  "source": "bk",
+  "source_id": "297358",
+  "title": "SMART/RIF/2026/002 - Dostawa odczynników chemicznych, rozpuszczalników oraz materiałów eksploatacyjnych na potrzeby prac B+R",
+  "url": "https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/297358",
+  "description": "odczynników chemicznych, rozpuszczalników oraz materiałów eksploatacyjnych przeznaczonych do prowadzenia prac badawczo-rozwojowych, w szczególności do opracowania, optymalizacji i walidacji odczynników chemicznych, rozpu",
+  "buyer": "Tarchomińskie Zakłady Farmaceutyczne „Polfa\" S.A.",
+  "country": "PL",
+  "published": "2026-11-10",
+  "deadline": "2026-11-17 23:59",
+  "notice_type": "zapytanie ofertowe",
+  "cpv": [],
+  "value": "",
+  "winners": [],
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "pharma"
+  ],
+  "key": "bk:297358",
   "first_seen": "2026-11-18"
  },
  "ezamowienia:2025/BZP 00541470": {
