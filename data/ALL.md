@@ -1,6 +1,6 @@
 # Wszystkie trafienia — baza
 
-Otwarte: **2** · zamknięte CSV (usługa / system + walidacja): **12**, z czego z wynikiem: **6** · sprzęt i serwis urządzeń: **17** · inne: **10**
+Otwarte: **1** · zamknięte CSV (usługa / system + walidacja): **11**, z czego z wynikiem: **5** · sprzęt i serwis urządzeń: **16** · inne: **10**
 
 ## Otwarte — do rozważenia
 
@@ -11,18 +11,12 @@ Otwarte: **2** · zamknięte CSV (usługa / system + walidacja): **12**, z czego
 - **Kryteria oceny:** quality, price
 - _Dopasowania:_ GAMP, validation, IQ/OQ/PQ, CPV 72*
 
-### 5.0 · `usługa CSV` · [Prestations de services d'assurances pour les besoins du Conseil national de l'Ordre des pharmaciens](https://www.boamp.fr/pages/avis/?q=idweb:26-104229)
-
-- **Zamawiający:** Conseil National Ordre Des Pharmaciens (FRA) · źródło: boamp · publikacja 2026-10-28
-- **Termin ofert:** 2026-11-27 15:00 · **Tryb:** Procédure Ouverte
-- _Dopasowania:_ validation, pharma
-
 ## CSV: usługi walidacji i systemy z walidacją (zamknięte)
 
 _Jedyna część przydatna do wyceny usług CSV. W „system + walidacja” kwota obejmuje cały system; walidację zwykle robi dostawca/integrator — szansa na podwykonawstwo._
 
-**Wnioski do wyceny** (n=6 z wynikiem):
-- Liczba ofert: mediana **1**, jedna oferta w **5/6** postępowań (83%).
+**Wnioski do wyceny** (n=5 z wynikiem):
+- Liczba ofert: mediana **1**, jedna oferta w **4/5** postępowań (80%).
 - Kwota umowy / wartość szacunkowa: mediana **1.11** (min 1.00, max 1.22, n=2).
 - Wyłącznie cena jako kryterium: **1/2** postępowań ze znanymi kryteriami.
 
@@ -39,13 +33,12 @@ _Jedyna część przydatna do wyceny usług CSV. W „system + walidacja” kwot
 | system + walidacja | INSTYTUT IMMUNOLOGII I TERAPII DOŚWIADCZALNE… | [Dostawa wraz z walidacją systemu służącego monitorowaniu sprzętu warunkującego …](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de80e5-1c3f-c11b-056e-e50001ac87a3) | 200 000 PLN | 1 | 243 466 PLN – 243 466 PLN | 243 466 PLN | ProGrupa Technologie Sp. z o.o. | Cena 100 | 2026-03-09 |
 | usługa CSV | Wojskowe Centrum Krwiodawstwa i Krwiolecznic… | [Walidacja i utrzymanie zainstalowanego automatycznego systemu monitorującego te…](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de2b3b-4583-a817-8aeb-ba0001123800) | — | 1 | 244 425 PLN – 244 425 PLN | 244 425 PLN | FLUODATA Spółka z ograniczoną odpowiedzialnością | — | 2025-11-20 |
 | system + walidacja | AMGROS I/S | [Quality Management System](https://ted.europa.eu/en/notice/-/detail/814489-2025) | 4 800 000 DKK | 5 | 2 142 286 DKK – 9 315 420 DKK | 4 800 000 DKK | Dot Compliance UK Limited (GBR, medium) | Pris, Solution, Implementation plan, Vendor Servi… | 2025-09-02 |
-| usługa CSV | Staatsbetrieb Sächsisches Immobilien- und Ba… | [TU Chemnitz, Zentrum für Mikrotechnologien (ZFM), Reinraum Ersatzneubau](https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a911011f-d7b9-4b13-9397-8380ffc32627&noticeVersion=01) | — | 1 | — | 945 010 EUR | — | — | 2020-02-02 |
 
 ## Sprzęt z IQ/OQ i serwis urządzeń (zamknięte)
 
 _Kwalifikację robi producent/serwis na własnych protokołach; kwoty to głównie cena sprzętu — nie używać do wyceny CSV._
 
-<details><summary>Pokaż 17 pozycji</summary>
+<details><summary>Pokaż 16 pozycji</summary>
 
 | Typ | Zamawiający | Przedmiot | Szacunek | Ofert | Najniższa – najwyższa | Umowa | Zwycięzca | Kryteria | Data |
 |---|---|---|---:|---:|---|---:|---|---|---|
@@ -55,7 +48,6 @@ _Kwalifikację robi producent/serwis na własnych protokołach; kwoty to główn
 | sprzęt + IQ/OQ | Logistikbasis der Armee / LBA ; Armeeapotheke | [1 System Erzeugung, Lagerung und Verteilung von Aqua Purificata(AP) und Water f…](https://ted.europa.eu/en/notice/-/detail/747183-2026) | — | 2 | 1 281 257 CHF – 1 281 257 CHF | 1 281 257 CHF | DE_Heinz Burkhalter AG, FR_Heinz Burkhalter AG, Heinz Burkhalter AG (… | quality | 2026-10-27 |
 | serwis urządzeń | Universitätsklinikum Aachen AöR | [Beschaffung von Laborausstattung einschließlich Service- und Wartungsleistungen…](https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a6173763-9e59-45c5-ae02-20920515dfa1&noticeVersion=01) | — | 1 | — | — | Milteny Biotec GmbH | — | 2026-10-22 |
 | sprzęt + IQ/OQ | Universitätsklinikum Heidelberg | [Beschaffung eines Peptidsynthesizers](https://ted.europa.eu/en/notice/-/detail/688819-2026) | — | — | — | — | — | technische Wertung, Preis | 2026-10-06 |
-| sprzęt + IQ/OQ | RHONE SAONE HABITAT | [750 - SEVE : Construction d'un ensemble immobilier de 190 logements répartis da…](https://www.boamp.fr/pages/avis/?q=idweb:26-81144) | — | — | — | — | — | — | 2026-08-19 |
 | sprzęt + IQ/OQ | Medizinische Universität Lausitz - Carl Thie… | [3. Bauabschnitt Nuklearmedizin - Zyklotron](https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a4611d64-d56c-4429-8fdc-2aa5e6b9e50e&noticeVersion=01) | 8 000 000 EUR | — | — | — | — | — | 2026-08-06 |
 | sprzęt + IQ/OQ | ASLab Science P.S.A. | [Zapytanie ofertowe na wynajem aparatury GC-MS na potrzeby firmy ASLAB SCIENCE P…](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/286211) | — | — | — | — | — | — | 2026-07-24 |
 | sprzęt + IQ/OQ | AZ Jan Portaels vzw | [Isolator voor cytotoxische en monoclonale bereidingen](https://ted.europa.eu/en/notice/-/detail/330414-2026) | — | — | — | — | — | quality | 2026-05-13 |
@@ -76,6 +68,7 @@ _Kwalifikację robi producent/serwis na własnych protokołach; kwoty to główn
 | Typ | Zamawiający | Przedmiot | Szacunek | Ofert | Najniższa – najwyższa | Umowa | Zwycięzca | Kryteria | Data |
 |---|---|---|---:|---:|---|---:|---|---|---|
 | inne | National Institute for Bioprocessing Researc… | [High Throughput Transient Antibody Production and Characterisation Services](https://ted.europa.eu/en/notice/-/detail/683167-2026) | 375 000 EUR | 3 | — | — | — | Price, Technical Capability, Flexibility | 2026-10-05 |
+| inne | Medizinische Universität Lausitz - Carl Thie… | [Rahmenbetriebsvereinbarung für die Reinigung/Prüfung der Zu- und Abluftauslässe…](https://oeffentlichevergabe.de/ui/de/search/details?noticeId=046bf4e6-56fa-4b40-88ee-5fcb617a1a4a&noticeVersion=01) | — | 1 | — | — | AW Hygiene-Service | — | 2026-05-06 |
 | inne | Narodowy Instytut Onkologii im. Marii Skłodo… | [Prace badawcze nad opracowaniem hodowli komórkowej mającej potencjalne zastosow…](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/267836) | — | — | — | — | — | — | 2026-03-19 |
 | inne | ASLab Science P.S.A. | [Zapytanie ofertowe na wynajem zestawu LC-HRMS-MS/MS na potrzeby firmy ASLAB SCI…](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/286214) | — | — | — | — | — | — | 2026-08-04 |
 | inne | Universitätsmedizin der Johannes Gutenberg-U… | [Belieferung von Reinraumbekleidung und -mopps](https://ted.europa.eu/en/notice/-/detail/771418-2025) | — | 1 | — | — | Elis Cleanroom GmbH (DEU, medium) | Angebotspreis, Ausfallkonzept, Qualität der Bekle… | 2025-10-24 |
@@ -83,7 +76,6 @@ _Kwalifikację robi producent/serwis na własnych protokołach; kwoty to główn
 | inne | Rhein-Kreis Neuss - Die Landrätin - Amt ZS 5… | [ST 26017 Wettbewerblicher Dialog Planung, Bau und Betrieb der Medical Science C…](https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d6c7cac4-4146-4d62-a0e9-e44a0fe4660a&noticeVersion=01) | 155 000 000 EUR | — | — | — | — | — | 2026-08-08 |
 | inne | NanoSanguis SA | [Zapytanie ofertowe nr ZO/FENG/2026/02/06 - wykonanie usług badawczych: wsparcia…](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/266983) | — | — | — | — | — | — | 2026-03-16 |
 | inne | LABFARM Spółka z ograniczoną odpowiedzialnoś… | [Usługa: Rozwój i optymalizacja pożywki wraz z testem procesowym min. 45 L (dale…](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/296909) | — | — | — | — | — | — | 2026-11-03 |
-| inne | Medizinische Universität Lausitz - Carl Thie… | [Rahmenbetriebsvereinbarung für die Reinigung/Prüfung der Zu- und Abluftauslässe…](https://oeffentlichevergabe.de/ui/de/search/details?noticeId=046bf4e6-56fa-4b40-88ee-5fcb617a1a4a&noticeVersion=01) | — | 1 | — | — | AW Hygiene-Service | — | 2026-05-06 |
 | inne | BiconY Therapeutics GmbH | [Storage and labelling of GMP Goods](https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d2d5fa95-a74d-4fb8-a39f-3c6ba62247a1&noticeVersion=01) | — | — | — | — | — | — | 2026-03-23 |
 
 </details>
