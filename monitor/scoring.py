@@ -17,6 +17,8 @@ _K = {name: re.compile(getattr(config, name), re.I | re.S) for name in
 
 def classify(t: Tender) -> str:
     """Rule-based tender type. Title decides first; description only breaks ties."""
+    if t.source == "freelancermap":
+        return config.KIND_FREELANCE
     title = (t.title or "").lower()
     full = t.text()
     hit = lambda name, txt: bool(_K[name].search(txt))  # noqa: E731

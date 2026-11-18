@@ -14,6 +14,7 @@ Działa w GitHub Actions (raz dziennie), wyniki commituje do repo, a przy nowych
 | `simap` | Szwajcaria (simap.ch — większość przetargów CH nie trafia do TED) | REST API strony: wyszukiwanie + szczegóły (termin, zwycięzcy, ceny, liczba ofert) | działa |
 | `ezamowienia` | PL, BZP (ogłoszenia + wyniki) | API tablicy e-Zamówień: pełny skan 7 dni (kursor `SearchAfter`) + wyszukiwanie w tytułach po stronie serwera dla całego okna | działa |
 | `bk` | PL, Baza Konkurencyjności | API wyszukiwarki BK (`query`, statusy PUBLISHED/CLOSED/RESOLVED) | działa |
+| `freelancermap` | Zlecenia freelance/kontrakty (DE/AT/CH) — nie przetargi | strony słów kluczowych `/projekte/<słowo>` z osadzonym JSON (robots.txt zezwala), ~10 zapytań/dzień | działa |
 | `contracts_finder` | UK poniżej progów | OCDS API, skan + filtr | działa, ale paginacja/okno do sprawdzenia |
 | `fts` | UK Find a Tender | OCDS API, skan + filtr | bardzo wolne API (~2–3 min/stronę) — poza codziennym harmonogramem, tylko ręcznie |
 
@@ -28,9 +29,15 @@ Każde źródło jest izolowane — awaria jednego nie zatrzymuje reszty; status
 
 ## Co jest w raporcie
 
-- **Otwarte — do rozważenia:** karta dla każdego otwartego postępowania: termin, tryb, umowa ramowa, czas realizacji, wartość szacunkowa, kryteria oceny (z wagami, jeśli są), wadium, skrót warunków udziału.
-- **Rozstrzygnięte — benchmark:** zamawiający, przedmiot, wartość szacunkowa, liczba ofert, najniższa–najwyższa oferta, kwota umowy, zwycięzca (kraj, wielkość firmy), kryteria, data. Ogłoszenie o zamówieniu i ogłoszenie o wyniku z BZP są łączone po `tenderId` w jeden wiersz.
-- **Wnioski do wyceny:** mediana liczby ofert i odsetek postępowań z jedną ofertą, mediana relacji kwota umowy / wartość szacunkowa, udział postępowań „tylko cena”.
+Sekcje (w tej kolejności):
+
+1. **Podsumowanie wg kraju** — liczba pozycji per kraj w każdej sekcji.
+2. **Otwarte przetargi** — podzielone wg typu (usługi CSV, systemy z walidacją, sprzęt, serwis, inne); karta: termin, tryb, umowa ramowa, czas realizacji, wartość szacunkowa, kryteria, wadium, warunki udziału.
+3. **Zlecenia freelance / kontrakty** — freelancermap (w `ALL.md` z ostatnich 45 dni): firma/pośrednik, forma (kontrakt/ANÜ), remote, start, czas.
+4. **CSV — wyniki do wyceny** — zamknięte usługi CSV i systemy z walidacją: wartość szacunkowa, liczba ofert, najniższa–najwyższa, kwota umowy, zwycięzca, kryteria; plus wnioski (mediana ofert, kwota/szacunek, udział „tylko cena”).
+5. **Sprzęt z IQ/OQ i serwis urządzeń** (zwinięte).
+6. **Inne / szum** (zwinięte).
+7. **Status źródeł.**
 
 Źródła danych o wyniku: TED (pola eForms: BT-27, BT-710/711, BT-720, BT-759, zwycięzca) oraz treść ogłoszeń BZP (sekcje IV, VI, VIII). Baza Konkurencyjności nie udostępnia wyników przez API — tylko ogłoszenia.
 
@@ -45,6 +52,7 @@ Każde trafienie dostaje typ (`monitor/scoring.py: classify`, reguły w `config.
 | `sprzęt + IQ/OQ` | dostawa aparatury z kwalifikacją producenta | −1 |
 | `serwis urządzeń` | przeglądy techniczne + „walidacje” urządzeń | −1 |
 | `inne` | usługi badawcze, odczynniki, walidacja metod itp. | −1,5 |
+| `zlecenie freelance` | ogłoszenie z portalu freelance (osobna sekcja) | +1 |
 
 Wnioski do wyceny w raporcie liczone są tylko dla pierwszych dwóch typów.
 
@@ -69,8 +77,8 @@ Limity okna dla źródeł bez wyszukiwania po słowach: FTS/Contracts Finder 60 
 
 Workflow *Probe (diagnostics)* uruchamia skrypty z `tools/` — tak zweryfikowano nieudokumentowane API e-Zamówień i BK.
 
-## Planowane
+## Planowane / sprawdzone
 
-- freelancermap.de / Useme / Jobgether (zlecenia CSV) — po sprawdzeniu regulaminów
-- simap.ch, evergabe-online.de, service.bund.de
-- zapytania ofertowe z BIP 21 RCKiK
+- **Austria** — przetargi powyżej progów są w TED. Krajowe „Kerndaten” są rozproszone: każdy zamawiający ma własną Kerndatenquelle (od 10.2026 w eForms), a data.gv.at ma tylko metadane. Brak jednego API, więc na razie bez osobnego źródła.
+- **Czechy** — powyżej progów: TED. Open data ISVZ (`isvz.nipez.cz`) nie odpowiada z runnerów GitHub (timeout); publiczne API NEN wymaga dokumentacji, której jeszcze nie przejrzałem.
+- Useme / Jobgether, evergabe-online.de, service.bund.de, zapytania ofertowe z BIP 21 RCKiK.

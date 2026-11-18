@@ -90,7 +90,7 @@ def _is_open(c: dict, today: str) -> bool:
 
 
 def _card(c: dict) -> str:
-    lines = [f"### {c['score']:.1f} · `{c['kind']}` · [{_esc(c['title'], 160)}]({c['url']})", ""]
+    lines = [f"#### {c['score']:.1f} · `{c['kind']}` · [{_esc(c['title'], 160)}]({c['url']})", ""]
     lines.append(f"- **Zamawiający:** {_esc(c['buyer'], 100)} ({c['country']}) · źródło: {c['source']} · "
                  f"publikacja {c['published']}")
     row = []
@@ -159,15 +159,59 @@ def _insights(cases: list[dict]) -> list[str]:
     return out
 
 
+FREELANCE_DAYS = 45
+OPEN_ORDER = [config.KIND_SERVICE, config.KIND_SYSTEM, config.KIND_EQUIPMENT, config.KIND_DEVICE_SERVICE,
+              config.KIND_OTHER]
+OPEN_LABEL = {config.KIND_SERVICE: "Usługi walidacji CSV", config.KIND_SYSTEM: "Systemy z walidacją",
+              config.KIND_EQUIPMENT: "Sprzęt z IQ/OQ", config.KIND_DEVICE_SERVICE: "Serwis urządzeń",
+              config.KIND_OTHER: "Inne"}
+
+
+def _gig_row(c: dict) -> str:
+    return (f"| {c['score']:.1f} | [{_esc(c['title'], 90)}]({c['url']}) | {_esc(c['buyer'], 40) or '—'} | "
+            f"{c['country'] or '—'} | {_esc(c['procedure'], 60) or '—'} | {_esc(c['duration'], 40) or '—'} | "
+            f"{c['published']} |")
+
+
+GIG_HEADER = ("| Score | Zlecenie | Firma / pośrednik | Kraj | Forma · miejsce | Start · czas | Dodano |\n"
+              "|---:|---|---|---|---|---|---|")
+
+
+def _country_table(groups: dict[str, list[dict]]) -> list[str]:
+    cols = list(groups)
+    countries: dict[str, list[int]] = {}
+    for i, col in enumerate(cols):
+        for c in groups[col]:
+            row = countries.setdefault(c["country"] or "?", [0] * len(cols))
+            row[i] += 1
+    if not countries:
+        return []
+    out = ["| Kraj | " + " | ".join(cols) + " | Razem |", "|---|" + "---:|" * (len(cols) + 1)]
+    for k, row in sorted(countries.items(), key=lambda kv: -sum(kv[1])):
+        out.append(f"| {k} | " + " | ".join(str(x) if x else "·" for x in row) + f" | **{sum(row)}** |")
+    return out
+
+
+def _collapsed(rows: list[str], header: str) -> list[str]:
+    return ["<details><summary>Pokaż " + str(len(rows)) + " pozycji</summary>", "", header, *rows, "",
+            "</details>", ""]
+
+
 def render_full(items: list[Tender], today: date, title: str, intro: list[str] | None = None,
-                stats: dict[str, str] | None = None) -> str:
+                stats: dict[str, str] | None = None, gig_days: int | None = FREELANCE_DAYS) -> str:
     t_iso = today.isoformat()
     cases = merge_cases(items)
-    open_ = sorted([c for c in cases if _is_open(c, t_iso)], key=lambda c: (c["deadline"], -c["score"]))
+
     def _date(c):
         return c["contract_date"] or c["result_published"] or c["published"]
 
-    closed = [c for c in cases if c not in open_]
+    gigs_all = [c for c in cases if c["kind"] == config.KIND_FREELANCE]
+    cutoff = date.fromordinal(today.toordinal() - gig_days).isoformat() if gig_days else ""
+    gigs = sorted([c for c in gigs_all if c["published"] >= cutoff], key=lambda c: (c["published"], c["score"]),
+                  reverse=True)
+    tenders = [c for c in cases if c["kind"] != config.KIND_FREELANCE]
+    open_ = sorted([c for c in tenders if _is_open(c, t_iso)], key=lambda c: (c["deadline"], -c["score"]))
+    closed = [c for c in tenders if c not in open_]
     csv_cases = sorted([c for c in closed if c["kind"] in config.CSV_KINDS], key=_date, reverse=True)
     awarded = [c for c in csv_cases if c["winners"] or c["award_value"]]
     adjacent = sorted([c for c in closed if c["kind"] in (config.KIND_EQUIPMENT, config.KIND_DEVICE_SERVICE)],
@@ -176,13 +220,33 @@ def render_full(items: list[Tender], today: date, title: str, intro: list[str] |
 
     out = [f"# {title}", ""]
     out += intro or []
-    out += [f"Otwarte: **{len(open_)}** · zamknięte CSV (usługa / system + walidacja): **{len(csv_cases)}**, "
-            f"z czego z wynikiem: **{len(awarded)}** · sprzęt i serwis urządzeń: **{len(adjacent)}** · "
-            f"inne: **{len(rest)}**", ""]
-    out += ["## Otwarte — do rozważenia", ""]
-    out += ["\n\n".join(_card(c) for c in open_) if open_ else "_Brak otwartych._", ""]
+    out += [f"Otwarte: **{len(open_)}** · zlecenia freelance: **{len(gigs)}** · zamknięte CSV (usługa / system + "
+            f"walidacja): **{len(csv_cases)}**, z czego z wynikiem: **{len(awarded)}** · sprzęt i serwis urządzeń: "
+            f"**{len(adjacent)}** · inne: **{len(rest)}**", ""]
+    out += ["**Spis:** 1. Podsumowanie wg kraju · 2. Otwarte przetargi (wg typu) · 3. Zlecenia freelance · "
+            "4. CSV — wyniki do wyceny · 5. Sprzęt i serwis · 6. Inne · 7. Status źródeł", ""]
 
-    out += ["## CSV: usługi walidacji i systemy z walidacją (zamknięte)", "",
+    out += ["## 1. Podsumowanie wg kraju", ""]
+    table = _country_table({"Otwarte": open_, "CSV zamknięte": csv_cases, "Sprzęt/serwis": adjacent,
+                            "Inne": rest, "Freelance": gigs})
+    out += (table or ["_Brak danych._"]) + [""]
+
+    out += ["## 2. Otwarte przetargi — do rozważenia", ""]
+    if open_:
+        for kind in OPEN_ORDER:
+            sub = [c for c in open_ if c["kind"] == kind]
+            if sub:
+                out += [f"### {OPEN_LABEL[kind]} ({len(sub)})", "", "\n\n".join(_card(c) for c in sub), ""]
+    else:
+        out += ["_Brak otwartych._", ""]
+
+    span = f" z ostatnich {gig_days} dni" if gig_days else ""
+    out += [f"## 3. Zlecenia freelance / kontrakty{span}", "",
+            "_Ogłoszenia z portali freelance (nie przetargi publiczne): zwykle pośrednik, stawka do negocjacji, "
+            "brak terminu składania — liczy się szybka odpowiedź._", ""]
+    out += [GIG_HEADER, *(_gig_row(c) for c in gigs), ""] if gigs else ["_Brak._", ""]
+
+    out += ["## 4. CSV: usługi walidacji i systemy z walidacją (zamknięte)", "",
             "_Jedyna część przydatna do wyceny usług CSV. W „system + walidacja” kwota obejmuje cały system; "
             "walidację zwykle robi dostawca/integrator — szansa na podwykonawstwo._", ""]
     if csv_cases:
@@ -193,23 +257,15 @@ def render_full(items: list[Tender], today: date, title: str, intro: list[str] |
     else:
         out += ["_Brak._", ""]
 
-    out += ["## Sprzęt z IQ/OQ i serwis urządzeń (zamknięte)", "",
+    out += ["## 5. Sprzęt z IQ/OQ i serwis urządzeń (zamknięte)", "",
             "_Kwalifikację robi producent/serwis na własnych protokołach; kwoty to głównie cena sprzętu — "
             "nie używać do wyceny CSV._", ""]
-    if adjacent:
-        out += ["<details><summary>Pokaż " + str(len(adjacent)) + " pozycji</summary>", "", BENCH_HEADER,
-                *(_bench_row(c) for c in adjacent), "", "</details>", ""]
-    else:
-        out += ["_Brak._", ""]
+    out += _collapsed([_bench_row(c) for c in adjacent], BENCH_HEADER) if adjacent else ["_Brak._", ""]
 
-    out += ["## Inne / prawdopodobny szum", ""]
-    if rest:
-        out += ["<details><summary>Pokaż " + str(len(rest)) + " pozycji</summary>", "", BENCH_HEADER,
-                *(_bench_row(c) for c in rest), "", "</details>", ""]
-    else:
-        out += ["_Brak._", ""]
+    out += ["## 6. Inne / prawdopodobny szum", ""]
+    out += _collapsed([_bench_row(c) for c in rest], BENCH_HEADER) if rest else ["_Brak._", ""]
     if stats:
-        out += ["## Status źródeł (ostatni przebieg)", "", *[f"- **{k}**: {v}" for k, v in stats.items()], ""]
+        out += ["## 7. Status źródeł (ostatni przebieg)", "", *[f"- **{k}**: {v}" for k, v in stats.items()], ""]
     return "\n".join(out)
 
 
@@ -217,7 +273,7 @@ def render(new_today: list[Tender], run_new: int, stats: dict[str, str], today: 
     """Daily report: everything first seen today (across all of today's runs)."""
     intro = [f"Nowe dziś (wszystkie przebiegi): **{len(new_today)}**, w tym z ostatniego przebiegu: **{run_new}** "
              f"(okno {days_back} dni).", ""]
-    return render_full(new_today, today, f"Przetargi GxP/CSV — {today.isoformat()}", intro, stats)
+    return render_full(new_today, today, f"Przetargi GxP/CSV — {today.isoformat()}", intro, stats, gig_days=None)
 
 
 def render_all(items: list[dict]) -> str:

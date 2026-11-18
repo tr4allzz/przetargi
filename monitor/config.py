@@ -105,10 +105,12 @@ KIND_SYSTEM = "system + walidacja"
 KIND_EQUIPMENT = "sprzęt + IQ/OQ"
 KIND_DEVICE_SERVICE = "serwis urządzeń"
 KIND_OTHER = "inne"
+KIND_FREELANCE = "zlecenie freelance"
 # kinds that are a real fit for CSV work; pricing insights are computed only on these
 CSV_KINDS = {KIND_SERVICE, KIND_SYSTEM}
 KIND_SCORE_ADJ = {KIND_SERVICE: 2.0, KIND_SYSTEM: 1.0, KIND_EQUIPMENT: -1.0,
-                  KIND_DEVICE_SERVICE: -1.0, KIND_OTHER: -1.5}
+                  KIND_DEVICE_SERVICE: -1.0, KIND_OTHER: -1.5,
+                  KIND_FREELANCE: 1.0}
 
 RX_DEVICE_SERVICE = (r"maintenance (des|d.)\s?(équipements|appareils|matériels)|przegląd\w* techniczn|serwis\w*|usuwania awarii|konserwacj|"
                      r"maintenance of (equipment|devices)|wartung|instandhaltung")
