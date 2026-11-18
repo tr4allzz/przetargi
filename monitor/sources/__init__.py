@@ -13,8 +13,11 @@ SOURCES = {
 # cap their look-back so a historical backfill does not run for hours.
 MAX_DAYS_BACK = {
     "ted": 3650,
-    "fts": 60,
+    "fts": 7,
     "contracts_finder": 60,
     "ezamowienia": 365,
     "bk": 365,
 }
+
+# Sources run by the daily schedule (FTS is too slow for daily runs; see ocds.py).
+DEFAULT_SOURCES = ["ted", "contracts_finder", "ezamowienia", "bk"]

@@ -11,7 +11,7 @@ from .config import DEFAULT_MIN_SCORE
 from .http import session
 from .report import render, render_all
 from .scoring import score
-from .sources import MAX_DAYS_BACK, SOURCES
+from .sources import DEFAULT_SOURCES, MAX_DAYS_BACK, SOURCES
 from .store import Store
 
 log = logging.getLogger("monitor")
@@ -20,7 +20,7 @@ log = logging.getLogger("monitor")
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--days-back", type=int, default=2)
-    p.add_argument("--sources", default=",".join(SOURCES))
+    p.add_argument("--sources", default=",".join(DEFAULT_SOURCES))
     p.add_argument("--min-score", type=float, default=DEFAULT_MIN_SCORE)
     p.add_argument("--root", type=Path, default=Path("."))
     p.add_argument("--fail-if-all-sources-fail", action="store_true", default=True)

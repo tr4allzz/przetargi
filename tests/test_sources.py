@@ -90,3 +90,14 @@ def test_ezamowienia_follows_search_after_cursor(monkeypatch):
 def test_ezamowienia_winners():
     t = ezamowienia.to_tender({"bzpNumber": "1", "contractors": [{"contractorName": "ProGrupa"}]})
     assert t.winners == ["ProGrupa"]
+
+
+def test_bk_to_tender_strips_highlights():
+    from monitor.sources import bk
+    t = bk.to_tender({"id": 295750, "title": ["Opracowanie, pre<mark>walidacja</mark> metody"],
+                      "content": "pełna <mark>walidacja</mark> metody GMP", "advertiser_name": "Celon Pharma S.A.",
+                      "publication_date": "2026-10-22", "submission_deadline": "2026-11-23 23:59:59"})
+    assert t.title == "Opracowanie, prewalidacja metody"
+    assert "<mark>" not in t.description
+    assert t.url.endswith("/ogloszenia/295750")
+    assert t.deadline == "2026-11-23 23:59"

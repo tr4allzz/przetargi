@@ -28,7 +28,8 @@ def session() -> requests.Session:
 
 
 def get_json(s: requests.Session, url: str, **kw):
-    r = s.get(url, timeout=TIMEOUT, **kw)
+    kw.setdefault("timeout", TIMEOUT)
+    r = s.get(url, **kw)
     r.raise_for_status()
     return r.json()
 

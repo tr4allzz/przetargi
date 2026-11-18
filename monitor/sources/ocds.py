@@ -1,5 +1,8 @@
 """UK Find a Tender (FTS) and Contracts Finder, both publish OCDS JSON.
 
+FTS is SLOW (measured Nov 2026: ~90-180 s per page of 50 from GitHub runners), so it is
+not in the default daily source list; run it on demand with a short window.
+
 FTS:  GET https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages
       ?updatedFrom=YYYY-MM-DDTHH:MM:SS&updatedTo=...&limit=100   (cursor in links.next)
 CF:   GET https://www.contractsfinder.service.gov.uk/Published/Notices/OCDS/Search
@@ -73,10 +76,10 @@ def release_to_tender(rel: dict, source: str, url_base: str) -> Tender:
     )
 
 
-def _iter_pages(s, url: str, params: dict | None):
+def _iter_pages(s, url: str, params: dict | None, timeout: int | None = None):
     pages = 0
     while url and pages < MAX_PAGES:
-        data = get_json(s, url, params=params)
+        data = get_json(s, url, params=params, **({"timeout": timeout} if timeout else {}))
         params = None  # next links already carry the query
         pages += 1
         releases = data.get("releases")
@@ -92,11 +95,11 @@ def fetch_fts(s, since: date) -> list[Tender]:
     params = {
         "updatedFrom": datetime.combine(since, time.min).strftime("%Y-%m-%dT%H:%M:%S"),
         "updatedTo": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S"),
-        "limit": 100,
+        "limit": 50,
     }
     out: dict[str, Tender] = {}
     n = 0
-    for releases in _iter_pages(s, FTS_URL, params):
+    for releases in _iter_pages(s, FTS_URL, params, timeout=240):
         for rel in releases:
             t = release_to_tender(rel, "fts", "https://www.find-tender.service.gov.uk/Notice/")
             # FTS release ids look like "012345-2026"; keep only the notice part for the URL
