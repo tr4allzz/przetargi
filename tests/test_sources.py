@@ -70,22 +70,21 @@ def test_ezamowienia_defensive_mapping():
     assert t.published == "2026-02-05"
 
 
-def test_ezamowienia_splits_window_when_page_full(monkeypatch):
-    from datetime import datetime
-    calls = []
+def test_ezamowienia_follows_search_after_cursor(monkeypatch):
+    pages = {None: [{"bzpNumber": f"a{i}", "objectId": f"o{i}"} for i in range(ezamowienia.PAGE_SIZE)],
+             f"o{ezamowienia.PAGE_SIZE - 1}": [{"bzpNumber": "b1", "objectId": "x1"}]}
+    seen_cursors = []
 
-    def fake_call(self, nt, a, b):
-        calls.append((a, b))
-        hours = (b - a).total_seconds() / 3600
-        n = ezamowienia.PAGE_SIZE if hours > 6 else 3   # full page until slice <= 6h
-        return [{"bzpNumber": f"{a.isoformat()}-{i}", "orderObject": "x"} for i in range(n)]
+    def fake_page(self, params):
+        seen_cursors.append(params.get("SearchAfter"))
+        return pages[params.get("SearchAfter")]
 
-    monkeypatch.setattr(ezamowienia._Fetcher, "call", fake_call)
-    f = ezamowienia._Fetcher(None)
+    monkeypatch.setattr(ezamowienia._Client, "page", fake_page)
     out = {}
-    f.window("ContractNotice", datetime(2026, 11, 1), datetime(2026, 11, 2), out)
-    assert len(out) == 4 * 3          # 24h -> 12h -> 6h slices (4 of them), 3 records each
-    assert len(calls) == 1 + 2 + 4
+    n = ezamowienia._Client(None).all_pages({"NoticeType": "ContractNotice"}, out)
+    assert n == ezamowienia.PAGE_SIZE + 1
+    assert len(out) == ezamowienia.PAGE_SIZE + 1
+    assert seen_cursors == [None, f"o{ezamowienia.PAGE_SIZE - 1}"]
 
 
 def test_ezamowienia_winners():
