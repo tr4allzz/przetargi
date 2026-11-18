@@ -1,4 +1,4 @@
-# gxp-tender-monitor
+# przetargi — GxP/CSV tender monitor
 
 Codzienny monitoring przetargów publicznych pod kątem walidacji systemów skomputeryzowanych (CSV/CSA), GxP i powiązanych systemów (LIMS, eQMS, monitoring, MES) — dla Valready.
 

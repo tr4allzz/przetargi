@@ -9,7 +9,7 @@ from urllib3.util.retry import Retry
 
 log = logging.getLogger(__name__)
 
-USER_AGENT = "gxp-tender-monitor/0.1 (+https://github.com/tr4allzz/gxp-tender-monitor)"
+USER_AGENT = "gxp-tender-monitor/0.1 (+https://github.com/tr4allzz/przetargi)"
 TIMEOUT = 45
 
 
