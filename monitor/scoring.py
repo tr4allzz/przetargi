@@ -84,10 +84,11 @@ def score(t: Tender) -> Tender:
     if "-analytical method validation" in matched:
         t.kind = config.KIND_OTHER   # walidacja metod analitycznych to nie CSV
     raw += config.KIND_SCORE_ADJ.get(t.kind, 0.0)
-    if t.kind == config.KIND_FREELANCE and not _GIG_TITLE.search(t.title or ""):
-        raw -= config.GIG_TITLE_PENALTY
-        matched.append("-gig title off-topic")
 
-    t.score = round(max(0.0, min(10.0, raw)), 1)
+    raw = min(10.0, raw)
+    if t.kind == config.KIND_FREELANCE and not _GIG_TITLE.search(t.title or ""):
+        raw -= config.GIG_TITLE_PENALTY   # after the cap: long recruiter texts saturate the score
+        matched.append("-gig title off-topic")
+    t.score = round(max(0.0, raw), 1)
     t.matched = matched
     return t
