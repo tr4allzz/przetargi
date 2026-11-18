@@ -29,6 +29,20 @@ class Store:
         self.items[t.key] = d
         return True
 
+    def rescore(self, score_fn, min_score: float) -> int:
+        """Re-apply scoring to stored items; drop those now below min_score."""
+        drop = []
+        for key, d in self.items.items():
+            t = Tender(**{k: v for k, v in d.items() if k in Tender.__dataclass_fields__})
+            t = score_fn(t)
+            if t.score < min_score:
+                drop.append(key)
+            else:
+                d["score"], d["matched"] = t.score, t.matched
+        for key in drop:
+            del self.items[key]
+        return len(drop)
+
     def save(self) -> None:
         self.path.parent.mkdir(parents=True, exist_ok=True)
         ordered = dict(sorted(self.items.items(), key=lambda kv: (-kv[1]["score"], kv[0])))

@@ -78,3 +78,9 @@ def test_it_system_validation_without_gxp_context_rejected():
 def test_physio_gamp_course_rejected():
     t = s("Przygotowanie szkoleń „GAMP - GLOBALNA ANALIZA MIĘŚNIOWO-POWIĘZIOWA”")
     assert t.score < DEFAULT_MIN_SCORE, t.matched
+
+
+def test_analytical_method_validation_is_not_csv():
+    t = s("ZAPYTANIE OFERTOWE NR 23/2026", "Opracowanie, prewalidacja oraz pełna walidacja metody analitycznej",
+          "Celon Pharma S.A.")
+    assert t.score < DEFAULT_MIN_SCORE, t.matched

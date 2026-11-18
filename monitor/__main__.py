@@ -57,6 +57,11 @@ def main(argv: list[str] | None = None) -> int:
                        f"nowych {n_new} (okno {days} dni)")
         log.info("%s: %s", name, stats[name])
 
+    # Re-score everything already stored with the current config, so tuning config.py
+    # also cleans out earlier false positives.
+    dropped = store.rescore(score, a.min_score)
+    if dropped:
+        log.info("rescore: dropped %d stored items now below %.1f", dropped, a.min_score)
     store.save()
     reports = a.root / "reports"
     reports.mkdir(parents=True, exist_ok=True)

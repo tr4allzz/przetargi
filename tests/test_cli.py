@@ -36,3 +36,15 @@ def test_cli_end_to_end(tmp_path, monkeypatch):
 def test_cli_all_sources_fail_returns_2(tmp_path, monkeypatch):
     monkeypatch.setattr(cli, "SOURCES", {"bad": fake_fail})
     assert cli.main(["--sources", "bad", "--root", str(tmp_path)]) == 2
+
+
+def test_rescore_drops_items_that_no_longer_match(tmp_path, monkeypatch):
+    import json as _json
+    (tmp_path / "data").mkdir()
+    (tmp_path / "data" / "tenders.json").write_text(_json.dumps({
+        "old:1": {"source": "old", "source_id": "1", "title": "Szkolenie GAMP - analiza mięśniowo-powięziowa",
+                  "score": 4.0, "matched": ["GAMP"], "first_seen": "2026-11-01"}}))
+    monkeypatch.setattr(cli, "SOURCES", {"ok": fake_ok})
+    cli.main(["--sources", "ok", "--root", str(tmp_path)])
+    data = _json.loads((tmp_path / "data" / "tenders.json").read_text())
+    assert "old:1" not in data and "fake:1" in data
