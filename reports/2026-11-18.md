@@ -1,6 +1,6 @@
 # Przetargi GxP/CSV — 2026-11-18
 
-Nowe dziś (wszystkie przebiegi): **106**, w tym z ostatniego przebiegu: **0** (okno 3 dni).
+Nowe dziś (wszystkie przebiegi): **106**, w tym z ostatniego przebiegu: **0** (okno 2 dni).
 
 > **W skrócie**
 > - Otwarte przetargi: **1** — najbliższy termin: **23.11.2026** (Tirol Kliniken GmbH)
@@ -163,6 +163,12 @@ Nowe dziś (wszystkie przebiegi): **106**, w tym z ostatniego przebiegu: **0** (
 
 **Status źródeł (ostatni przebieg):**
 
-- **freelancermap**: ok — przeskanowano 44, istotnych 6, nowych 0 (okno 3 dni)
+- **ted**: ok — przeskanowano 0, istotnych 0, nowych 0 (okno 2 dni)
+- **oev**: ok — przeskanowano 1085, istotnych 0, nowych 0 (okno 2 dni)
+- **simap**: ok — przeskanowano 0, istotnych 0, nowych 0 (okno 2 dni)
+- **boamp**: ok — przeskanowano 23, istotnych 0, nowych 0 (okno 2 dni)
+- **contracts_finder**: ok — przeskanowano 199, istotnych 0, nowych 0 (okno 2 dni)
+- **ezamowienia**: ok — przeskanowano 3448, istotnych 0, nowych 0 (okno 2 dni)
+- **bk**: ok — przeskanowano 105, istotnych 0, nowych 0 (okno 2 dni)
 
 </details>
