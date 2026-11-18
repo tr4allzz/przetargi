@@ -1693,90 +1693,6 @@
   "key": "oev:c8df9f04-934c-497e-b5c2-e755d565ae56-01",
   "first_seen": "2026-11-18"
  },
- "ted:441347-2025": {
-  "source": "ted",
-  "source_id": "441347-2025",
-  "title": "Marché de services pour les prestations de formateurs externes pour formations spécifiques en Biopharmaceutique et Biotechnologie",
-  "url": "https://ted.europa.eu/en/notice/-/detail/441347-2025",
-  "description": "Formation (en français) GMP – Bases; Formation (en anglais) GMP – Bases; Formation (à distance) GMP – Bases; Formation (en français) GMP – Niveau Avancé; Formation (en anglais) GMP – Niveau Avancé; Formation (à distance) GMP – Niveau Avancé; Formation (en français) GMP Appliquée; Formation (en anglais) GMP Appliquée; Formation (en français) GMP – FOCUS sur les ATMP PARTIE IV; Formation (en anglais) GMP – FOCUS sur les ATMP PARTIE IV; Formation (à distance) GMP – FOCUS sur les ATMP PARTIE IV; Formation (en français) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (en anglais) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (à distance) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (en français) Audit; Formation (en anglais) Audit; Formation (à distance) Audit; Formation (en français) BPL-GLP (Bonnes pratiques de laboratoire); Formation (en anglais) BPL-GLP (Bonnes pratiques de laboratoire); Formation (à distance) BPL-GLP (Bonnes pratiques de laboratoire); Formation (en français) GDP-BPD (Bonnes pratiques de distribution); Formation (en anglais) GDP-BPD (Bonnes pratiques de distribution); Formation (à distance) GDP-BPD (Bonnes pratiques de distribution); Formation (en français) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (en anglais) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (à distance) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (en français) Validation des méthodes analytiques, transfert des méthodes et robustesse; Formation (en anglais) Validation des méthodes analytiques, transfert des méthodes et robustesse; Dispositifs médicaux : « Formation (en français) Système qualité - certification des dispositifs médicaux et mise sur le marché; Dispositifs médicaux : « Formation (en anglais) Système qualité - certification des dispositifs médicaux et mise sur le marché; Dispositifs médicaux : « Forma",
-  "buyer": "aptaskil asbl",
-  "country": "BEL",
-  "published": "2025-07-08",
-  "deadline": "2025-08-04",
-  "notice_type": "cn-social",
-  "cpv": [
-   "80500000"
-  ],
-  "value": "",
-  "winners": [],
-  "tender_id": "",
-  "procedure": "otwarty",
-  "estimated_value": "",
-  "award_value": "",
-  "lowest_offer": "",
-  "highest_offer": "",
-  "offers": "",
-  "criteria": [
-   "cost"
-  ],
-  "duration": "",
-  "contract_date": "",
-  "framework": "tak",
-  "deposit": "",
-  "conditions": "",
-  "winner_info": [],
-  "kind": "usługa CSV",
-  "score": 7.5,
-  "matched": [
-   "validation",
-   "GMP/GxP",
-   "pharma"
-  ],
-  "key": "ted:441347-2025",
-  "first_seen": "2026-11-18"
- },
- "ted:468509-2025": {
-  "source": "ted",
-  "source_id": "468509-2025",
-  "title": "Marché de services pour les prestations de formateurs externes pour formations spécifiques en Biopharmaceutique et Biotechnologie",
-  "url": "https://ted.europa.eu/en/notice/-/detail/468509-2025",
-  "description": "Formation (en français) GMP – Bases; Formation (en anglais) GMP – Bases; Formation (à distance) GMP – Bases; Formation (en français) GMP – Niveau Avancé; Formation (en anglais) GMP – Niveau Avancé; Formation (à distance) GMP – Niveau Avancé; Formation (en français) GMP Appliquée; Formation (en anglais) GMP Appliquée; Formation (en français) GMP – FOCUS sur les ATMP PARTIE IV; Formation (en anglais) GMP – FOCUS sur les ATMP PARTIE IV; Formation (à distance) GMP – FOCUS sur les ATMP PARTIE IV; Formation (en français) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (en anglais) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (à distance) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (en français) Audit; Formation (en anglais) Audit; Formation (à distance) Audit; Formation (en français) BPL-GLP (Bonnes pratiques de laboratoire); Formation (en anglais) BPL-GLP (Bonnes pratiques de laboratoire); Formation (à distance) BPL-GLP (Bonnes pratiques de laboratoire); Formation (en français) GDP-BPD (Bonnes pratiques de distribution); Formation (en anglais) GDP-BPD (Bonnes pratiques de distribution); Formation (à distance) GDP-BPD (Bonnes pratiques de distribution); Formation (en français) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (en anglais) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (à distance) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (en français) Validation des méthodes analytiques, transfert des méthodes et robustesse; Formation (en anglais) Validation des méthodes analytiques, transfert des méthodes et robustesse; Dispositifs médicaux : « Formation (en français) Système qualité - certification des dispositifs médicaux et mise sur le marché; Dispositifs médicaux : « Formation (en anglais) Système qualité - certification des dispositifs médicaux et mise sur le marché; Dispositifs médicaux : « Forma",
-  "buyer": "aptaskil asbl",
-  "country": "BEL",
-  "published": "2025-07-17",
-  "deadline": "2025-08-04",
-  "notice_type": "cn-social",
-  "cpv": [
-   "80500000"
-  ],
-  "value": "",
-  "winners": [],
-  "tender_id": "",
-  "procedure": "otwarty",
-  "estimated_value": "",
-  "award_value": "",
-  "lowest_offer": "",
-  "highest_offer": "",
-  "offers": "",
-  "criteria": [
-   "cost"
-  ],
-  "duration": "",
-  "contract_date": "",
-  "framework": "tak",
-  "deposit": "",
-  "conditions": "",
-  "winner_info": [],
-  "kind": "usługa CSV",
-  "score": 7.5,
-  "matched": [
-   "validation",
-   "GMP/GxP",
-   "pharma"
-  ],
-  "key": "ted:468509-2025",
-  "first_seen": "2026-11-18"
- },
  "ted:523910-2026": {
   "source": "ted",
   "source_id": "523910-2026",
@@ -2131,47 +2047,6 @@
   "key": "ted:87088-2024",
   "first_seen": "2026-11-18"
  },
- "oev:046bf4e6-56fa-4b40-88ee-5fcb617a1a4a-01": {
-  "source": "oev",
-  "source_id": "046bf4e6-56fa-4b40-88ee-5fcb617a1a4a-01",
-  "title": "Rahmenbetriebsvereinbarung für die Reinigung/Prüfung der Zu- und Abluftauslässe an Lüftungs- und Klimaanlagen, die RE-Qualifizierung der Reinräume sowie der intervallmäßige Filtertausch der H13/H14-Fi",
-  "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=046bf4e6-56fa-4b40-88ee-5fcb617a1a4a&noticeVersion=01",
-  "description": "- Jährliche Reinigung der Zu- und Abluftauslässe an Lüftungs- und Klimaanlagen\n- Periodische Prüfung nach DIN1946 Teil 4\n- RE-Qualifizierung Reinräume DIN ISO 14644-3 und EU-GMP-ANNEX1\n- intervallmäßiger Filtertausch der H13/H14 Filter Rahmenbetriebsvereinbarung für die Reinigung/Prüfung der Zu- und Abluftauslässe an Lüftungs- und Klimaanlagen, die RE-Qualifizierung der Reinräume sowie der intervallmäßige Filtertausch der H13/H14-Fi Siehe Leistungsbeschreibung",
-  "buyer": "Medizinische Universität Lausitz - Carl Thiem KdöR",
-  "country": "DEU",
-  "published": "2026-05-06",
-  "deadline": "",
-  "notice_type": "award",
-  "cpv": [
-   "50700000"
-  ],
-  "value": "",
-  "winners": [
-   "AW Hygiene-Service"
-  ],
-  "tender_id": "oev:8fb95ebd-8447-4d17-9af6-2f1f52395170",
-  "procedure": "Open",
-  "estimated_value": "",
-  "award_value": "",
-  "lowest_offer": "",
-  "highest_offer": "",
-  "offers": "1",
-  "criteria": [],
-  "duration": "",
-  "contract_date": "",
-  "framework": "",
-  "deposit": "",
-  "conditions": "",
-  "winner_info": [],
-  "kind": "inne",
-  "score": 6.5,
-  "matched": [
-   "IQ/OQ/PQ",
-   "GMP/GxP"
-  ],
-  "key": "oev:046bf4e6-56fa-4b40-88ee-5fcb617a1a4a-01",
-  "first_seen": "2026-11-18"
- },
  "oev:0940f489-c585-483d-b5ab-c0f2ae41bc3b-01": {
   "source": "oev",
   "source_id": "0940f489-c585-483d-b5ab-c0f2ae41bc3b-01",
@@ -2212,45 +2087,6 @@
    "aseptic/cleanroom"
   ],
   "key": "oev:0940f489-c585-483d-b5ab-c0f2ae41bc3b-01",
-  "first_seen": "2026-11-18"
- },
- "oev:8a6038ce-84fd-4c68-8247-e1acc285614a-01": {
-  "source": "oev",
-  "source_id": "8a6038ce-84fd-4c68-8247-e1acc285614a-01",
-  "title": "Rahmenbetriebsvereinbarung für die Reinigung/Prüfung der Zu- und Abluftauslässe an Lüftungs- und Klimaanlagen, die RE-Qualifizierung der Reinräume sowie der intervallmäßige Filtertausch der H13/H14-Fi",
-  "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8a6038ce-84fd-4c68-8247-e1acc285614a&noticeVersion=01",
-  "description": "- Jährliche Reinigung der Zu- und Abluftauslässe an Lüftungs- und Klimaanlagen\n- Periodische Prüfung nach DIN1946 Teil 4\n- RE-Qualifizierung Reinräume DIN ISO 14644-3 und EU-GMP-ANNEX1\n- intervallmäßiger Filtertausch der H13/H14 Filter Rahmenbetriebsvereinbarung für die Reinigung/Prüfung der Zu- und Abluftauslässe an Lüftungs- und Klimaanlagen, die RE-Qualifizierung der Reinräume sowie der intervallmäßige Filtertausch der H13/H14-Fi Siehe Leistungsbeschreibung",
-  "buyer": "Medizinische Universität Lausitz - Carl Thiem KdöR",
-  "country": "DEU",
-  "published": "2026-03-05",
-  "deadline": "",
-  "notice_type": "tender",
-  "cpv": [
-   "50700000"
-  ],
-  "value": "",
-  "winners": [],
-  "tender_id": "oev:8fb95ebd-8447-4d17-9af6-2f1f52395170",
-  "procedure": "Open",
-  "estimated_value": "",
-  "award_value": "",
-  "lowest_offer": "",
-  "highest_offer": "",
-  "offers": "",
-  "criteria": [],
-  "duration": "",
-  "contract_date": "",
-  "framework": "",
-  "deposit": "",
-  "conditions": "",
-  "winner_info": [],
-  "kind": "inne",
-  "score": 6.5,
-  "matched": [
-   "IQ/OQ/PQ",
-   "GMP/GxP"
-  ],
-  "key": "oev:8a6038ce-84fd-4c68-8247-e1acc285614a-01",
   "first_seen": "2026-11-18"
  },
  "oev:a6173763-9e59-45c5-ae02-20920515dfa1-01": {
@@ -2341,86 +2177,6 @@
   "key": "simap:38362-02",
   "first_seen": "2026-11-18"
  },
- "ted:139726-2025": {
-  "source": "ted",
-  "source_id": "139726-2025",
-  "title": "Service, maintenance, calibration and validation of various equipment",
-  "url": "https://ted.europa.eu/en/notice/-/detail/139726-2025",
-  "description": "Service, maintenance, calibration, validation and verification of Genetic Analysts ABI 3500 Applied Biosystems; Service, maintenance and verification of instruments from the manufacturer Applied Biosystems; Service, maintenance, calibration, validation and verification of instruments from the manufacturer Qiagen; Service and maintenance of comparative microscopes and stereo microscopes from the manufacturer Leica; Service and maintenance of a refrigerator with ultra-low temperatures down to -86°C, with CO2 bottle, Model 700, Binder; Calibration of pipes; Calibration of Biosan thermomixers; Maintenance of the eQMS::D NA (DNA database) software system from the manufacturer Pardus doo; Service, maintenance, calibration, validation/verification of instruments from the manufacturer Perkin Elmer; Service, maintenance, calibration, validation/verification of the Gesan Chem 200 instrument; Digestor service and maintenance; Service and Maintenance of Scanning Electron Microscope with Energy Dispersive Detector Phenom XL G2 Particle Base + SED; Service and maintenance of the Scanning Electron Microscope (JEOL 6610 LV) with Energy Dispersion Detector (Oxford 50 mm2); Maintenance and maintenance of the instrument Regula 4307; Service and maintenance of the Evofinder system; Maintenance and maintenance of the ToolScan instrument; Service, maintenance, calibration, validation and verification of instruments from the manufacturer Biorad; Service, maintenance and verification of the BSD600 Ascent A2 semi-automatic puncher",
-  "buyer": "Ministry of internal affairs",
-  "country": "MKD",
-  "published": "2025-03-03",
-  "deadline": "2025-04-02",
-  "notice_type": "cn-standard",
-  "cpv": [
-   "50000000"
-  ],
-  "value": "",
-  "winners": [],
-  "tender_id": "",
-  "procedure": "otwarty",
-  "estimated_value": "6 000 000 MKD / 3 200 000 MKD / 2 360 000 MKD / 1 500 000 MKD / 600 000 MKD",
-  "award_value": "",
-  "lowest_offer": "",
-  "highest_offer": "",
-  "offers": "",
-  "criteria": [],
-  "duration": "3 year",
-  "contract_date": "",
-  "framework": "tak",
-  "deposit": "",
-  "conditions": "",
-  "winner_info": [],
-  "kind": "usługa CSV",
-  "score": 6.5,
-  "matched": [
-   "validation",
-   "PQS/QMS"
-  ],
-  "key": "ted:139726-2025",
-  "first_seen": "2026-11-18"
- },
- "ted:258246-2024": {
-  "source": "ted",
-  "source_id": "258246-2024",
-  "title": "Service, maintenance, calibration and validation of various equipment",
-  "url": "https://ted.europa.eu/en/notice/-/detail/258246-2024",
-  "description": "Service, maintenance, calibration, validation and verification of Genetic Analysts ABI 3500 Applied Biosystems; Service, maintenance and verification of instruments from the manufacturer Applied Biosystems; Service, maintenance, calibration, validation and verification of instruments by manufacturer Qiagen (Automatic DNA Insulation Robot- EZ2 Connect); Service, maintenance and verification of water purification system – ultraclean water Arium mini plus by manufacturer Sartorius; Service and maintenance of comparative microscopes and stereo microscopes by leica (Comparative microscope Leica FS CB 011/36-11-324 (DFC420)); Service and maintenance of security cabinet – laminar; Service and maintenance of germicidal UV chamber with UV lamp by manufacturer Germy Gima Plus; Service, maintenance and verification of instruments by Eppendorf; Service, maintenance and verification of biosan thermomixers; Service, maintenance and verification of centrifuge Biocen 22; Service, maintenance and verification of centrifuges by manufacturer Hettich-Germany; Service, maintenance and verification of refrigerators with ultra-low temperatures; Service and maintenance of the refrigerator with ultra low temperatures up to -86°C, with CO2 bottle, Model 700, Binder; Service and maintenance of refrigerators with temperatures up to +8°oC; Calibration of digital temperature and damp meters; Pipetori calibration; Calibration of thermomixers; Maintenance of eQMS::D NA (DNA database) from manufacturer Pardusdoo; Service, maintenance, calibration, validation and verification of instruments by manufacturer Biorad (PCR C1000Touch Polymerase Chain Reaction Instrument); Service, maintenance and verification of semi-automatic panther BSD600 Ascent A2; Calibration of electronic analytical scale; Service, maintenance, calibration, validation and verification of GC/MS QP 2020 – Shimadzu; Service, maintenance, calibration, validation and verification of GC/MS QP 2010 Plus – Shimadzu; Service and maintenance",
-  "buyer": "Ministry of internal affairs",
-  "country": "MKD",
-  "published": "2024-04-30",
-  "deadline": "2024-05-16",
-  "notice_type": "cn-standard",
-  "cpv": [
-   "50000000"
-  ],
-  "value": "",
-  "winners": [],
-  "tender_id": "",
-  "procedure": "otwarty",
-  "estimated_value": "5 000 000 MKD / 2 000 000 MKD / 750 000 MKD / 100 000 MKD / 1 700 000 MKD",
-  "award_value": "",
-  "lowest_offer": "",
-  "highest_offer": "",
-  "offers": "",
-  "criteria": [
-   "price"
-  ],
-  "duration": "3 year",
-  "contract_date": "",
-  "framework": "tak",
-  "deposit": "",
-  "conditions": "",
-  "winner_info": [],
-  "kind": "usługa CSV",
-  "score": 6.5,
-  "matched": [
-   "validation",
-   "PQS/QMS"
-  ],
-  "key": "ted:258246-2024",
-  "first_seen": "2026-11-18"
- },
  "ted:434234-2026": {
   "source": "ted",
   "source_id": "434234-2026",
@@ -2463,47 +2219,6 @@
   "key": "ted:434234-2026",
   "first_seen": "2026-11-18"
  },
- "ted:520840-2024": {
-  "source": "ted",
-  "source_id": "520840-2024",
-  "title": "Service, maintenance, calibration and validation of various equipment",
-  "url": "https://ted.europa.eu/en/notice/-/detail/520840-2024",
-  "description": "Service, maintenance, calibration, validation and verification of Genetic Analysts ABI 3500 Applied Biosystems; Service, maintenance and verification of instruments from the manufacturer Applied Biosystems; Service, maintenance, calibration, validation and verification of instruments by manufacturer Qiagen (Automatic DNA Insulation Robot- EZ2 Connect); Service, maintenance and verification of water purification system – ultraclean water Arium mini plus by manufacturer Sartorius; Service and maintenance of comparative microscopes and stereo microscopes by leica (Comparative microscope Leica FS CB 011/36-11-324 (DFC420)); Service and maintenance of security cabinet – laminar; Service and maintenance of germicidal UV chamber with UV lamp by manufacturer Germy Gima Plus; Service, maintenance and verification of instruments by Eppendorf; Service, maintenance and verification of biosan thermomixers; Service, maintenance and verification of centrifuge Biocen 22; Service, maintenance and verification of centrifuges by manufacturer Hettich-Germany; Service, maintenance and verification of refrigerators with ultra-low temperatures; Service and maintenance of the refrigerator with ultra low temperatures up to -86°C, with CO2 bottle, Model 700, Binder; Service and maintenance of refrigerators with temperatures up to +8°oC; Calibration of digital temperature and damp meters; Pipetori calibration; Calibration of thermomixers; Maintenance of eQMS::D NA (DNA database) from manufacturer Pardusdoo; Service, maintenance, calibration, validation and verification of instruments by manufacturer Biorad (PCR C1000Touch Polymerase Chain Reaction Instrument); Service, maintenance and verification of semi-automatic panther BSD600 Ascent A2; Calibration of electronic analytical scale; Service, maintenance, calibration, validation and verification of GC/MS QP 2020 – Shimadzu; Service, maintenance, calibration, validation and verification of GC/MS QP 2010 Plus – Shimadzu; Service and maintenance",
-  "buyer": "Ministry of internal affairs",
-  "country": "MKD",
-  "published": "2024-08-30",
-  "deadline": "2024-09-30",
-  "notice_type": "cn-standard",
-  "cpv": [
-   "50000000"
-  ],
-  "value": "",
-  "winners": [],
-  "tender_id": "",
-  "procedure": "otwarty",
-  "estimated_value": "5 000 000 MKD / 2 000 000 MKD / 750 000 MKD / 100 000 MKD / 1 700 000 MKD",
-  "award_value": "",
-  "lowest_offer": "",
-  "highest_offer": "",
-  "offers": "",
-  "criteria": [
-   "price"
-  ],
-  "duration": "3 year",
-  "contract_date": "",
-  "framework": "tak",
-  "deposit": "",
-  "conditions": "",
-  "winner_info": [],
-  "kind": "usługa CSV",
-  "score": 6.5,
-  "matched": [
-   "validation",
-   "PQS/QMS"
-  ],
-  "key": "ted:520840-2024",
-  "first_seen": "2026-11-18"
- },
  "ted:571070-2026": {
   "source": "ted",
   "source_id": "571070-2026",
@@ -2544,45 +2259,6 @@
    "aseptic/cleanroom"
   ],
   "key": "ted:571070-2026",
-  "first_seen": "2026-11-18"
- },
- "ted:677299-2025": {
-  "source": "ted",
-  "source_id": "677299-2025",
-  "title": "Service, maintenance, calibration and validation of various equipment",
-  "url": "https://ted.europa.eu/en/notice/-/detail/677299-2025",
-  "description": "Service, maintenance, and verification of instruments from the manufacturer Applied Biosystems; Service, maintenance, calibration, validation, and verification of instruments from the manufacturer Qiagen; Service and maintenance of comparative microscopes and stereo microscopes from the manufacturer Leica; Service and maintenance of a freezer with ultra-low temperatures down to -86°C, with a CO2 cylinder, Model 700, Binder; Pipette calibration; Calibration of Biosan thermomixers; Maintenance of the eQMS::DNA software system (DNA database) by the manufacturer Pardus Ltd.; Service and maintenance of fume hoods; Service and maintenance of Scanning Electron Microscope with Energy Dispersive Detector Phenom XL G2 Particle Base + SED; Service and maintenance of Scanning Electron Microscope (JEOL 6610 LV) with energy-dispersive detector (Oxford 50 mm²); Service and maintenance of the Regula 4307 instrument; Service and maintenance of the Evofinder system; Service and maintenance of the ToolScan instrument; Service, maintenance, calibration, validation, and verification of instruments from the manufacturer Biorad; Service, maintenance, and verification of the semi-automatic puncher BSD600 Ascent A2; Service, maintenance, calibration, validation/verification of instruments from the manufacturer Foster & Freeman; Service, maintenance, calibration of meters; Maintenance and procurement of hydrogen",
-  "buyer": "Ministry of internal affairs",
-  "country": "MKD",
-  "published": "2025-10-15",
-  "deadline": "2025-11-17",
-  "notice_type": "cn-standard",
-  "cpv": [
-   "50000000"
-  ],
-  "value": "",
-  "winners": [],
-  "tender_id": "",
-  "procedure": "otwarty",
-  "estimated_value": "",
-  "award_value": "",
-  "lowest_offer": "",
-  "highest_offer": "",
-  "offers": "",
-  "criteria": [],
-  "duration": "1 year",
-  "contract_date": "",
-  "framework": "tak",
-  "deposit": "",
-  "conditions": "",
-  "winner_info": [],
-  "kind": "usługa CSV",
-  "score": 6.5,
-  "matched": [
-   "validation",
-   "PQS/QMS"
-  ],
-  "key": "ted:677299-2025",
   "first_seen": "2026-11-18"
  },
  "ted:747183-2026": {
@@ -3004,88 +2680,6 @@
   "key": "bk:286214",
   "first_seen": "2026-11-18"
  },
- "boamp:25-110252": {
-  "source": "boamp",
-  "source_id": "25-110252",
-  "title": "AOO - 20250097 - PRESTATIONS DE TRANSPORT D'ECHANTILLONS BIOLOGIQUES, PHARMACEUTIQUES ET DE PRODUITS SANGUINS LABILES POUR LES HOPITAUX HAINAUT-CAMBRESIS ET LE GCS SHAB",
-  "url": "https://www.boamp.fr/pages/avis/?q=idweb:25-110252",
-  "description": "Transport Centre hospitalier de Valenciennes Avenue Désandrouin - Pôle Services - Cellule des\nmarchés publics - B.P. 479 noulette-j@ch-valenciennes.fr Tribunal administratif de Lille 5, rue Geoffroy Saint-Hilaire Greffe du Tribunal administratif de Lille Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics de Nancy, Préfecture de Meurthe et Moselle 1, rue du préfet Claude Erignac caroline.page@meurtheetmoselle.gouv.fr 36f5676b-2f3e-41de-b45d-df7ec7f8b01d 9d5f11c4-4442-478d-8cfd-8ad36cfa8f0d procurement-procedure-type AOO - 20250097 - PRESTATIONS DE TRANSPORT D'ECHANTILLONS BIOLOGIQUES, PHARMACEUTIQUES ET DE PRODUITS SANGUINS LABILES POUR LES HOPITAUX HAINAUT-CAMBRESIS ET LE GCS SHAB Contexte : Face à un enjeu de réduction des délais de prise en charge des patients et dans un souhait de réduction de l'impact carbone, le laboratoire SHAB est en cours de validation technique et opérationnelle de l'utilisation de drones médicaux pour l'acheminement de ces échantillons. Dans les prochains mois et années, une montée en charge progressive des transports via les drones est prévue. De ce fait, le volume prévisionnel pour les tournées régulières du présent marché sera amené à diminuer. > Acheteur référent (en charge de la rédaction, de la passation, de la signature et de la notification du marché) : \n- Centre hospitalier de Valenciennes\n> Etablissements bénéficiaires : \n- Centre hospitalier d'Avesnes-sur-Helpe ;\n- Centre hospitalier de Denain ;\n- Centre hospitalier de Fourmies ;\n- Centre hospitalier de Le Quesnoy ;\n- Centre hospitalier de Maubeuge ;\n- Centre hospitalier de Valenciennes ;\n- GCS SHAB (sites de Denain, de Divion, d'Hénin-Beaumont, de Liévin, de Maubeuge et de Valenciennes). Les sommes dues au titulaire sont payées sur le budget propre de chaque établissement bénéficiaire, par mandat administratif, dans un délai global de 50 jours à compter de la date de réception des demandes de paiement.\nEn cas de retard de paiement, le titulaire a droit au versement d'intérêts moratoires, ainsi qu'à une indemnité forfaitaire pour frais de recouvrement d'un montant de 40 Euros. Le taux des intérêts moratoires est égal au taux d'intérêt appliqué par la Banque centrale européenne (BCE) à ses opérations principales de refinancement les plus récentes, en vigueur au premier jour du semestre de l'année civile au cours duquel les intérêts moratoires ont commencé à courir, majoré de 8 points de pourcentage. Les voies de recours ouvertes aux candidats sont les suivantes : \n- Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du code de justice administrative (CJA), et pouvant être exercé avant la signature du marché ; \n- Référé contractuel prévu aux articles L.551-13 à L.551-23 du code de justice administrative (CJA), et pouvant être exercé dans les délais prévus à l'article R. 551-7 du code de justice administrative (CJA) ; \n- Recours de pleine juridiction ouvert aux tiers justifiant d'un intérêt lésé",
-  "buyer": "Centre hospitalier de Valenciennes",
-  "country": "FRA",
-  "published": "2025-10-05",
-  "deadline": "2025-11-03 10:00",
-  "notice_type": "Avis de marché",
-  "cpv": [
-   "20250097",
-   "60100000"
-  ],
-  "value": "",
-  "winners": [],
-  "tender_id": "boamp:9d5f11c4-4442-478d-8cfd-8ad36cfa8f0d",
-  "procedure": "Procédure Ouverte",
-  "estimated_value": "",
-  "award_value": "",
-  "lowest_offer": "",
-  "highest_offer": "",
-  "offers": "",
-  "criteria": [],
-  "duration": "",
-  "contract_date": "",
-  "framework": "",
-  "deposit": "",
-  "conditions": "",
-  "winner_info": [],
-  "kind": "usługa CSV",
-  "score": 5.0,
-  "matched": [
-   "validation",
-   "pharma"
-  ],
-  "key": "boamp:25-110252",
-  "first_seen": "2026-11-18"
- },
- "boamp:25-2129": {
-  "source": "boamp",
-  "source_id": "25-2129",
-  "title": "2024-0851 PRESTATION DE REPARATION, MAINTENANCE ET FOURNITURE DE PIECES DETACHEES, ACCESSOIRES ET CONSOMMABLES POUR EQUIPEMENT DE MARQUE DEENOVA - APHM",
-  "url": "https://www.boamp.fr/pages/avis/?q=idweb:25-2129",
-  "description": "Equipement industriel 2024-0851 Prestation De Reparation, Maintenance Et Fourniture De Pieces Detachees, Accessoires Et Consommables Pour Equipement De Marque Deenova - Aphm BE5E3914-01DF-D135-23784E6D86CD3A1C publications-joue@aws-france.com ASSISTANCE PUBLIQUE HÔPITAUX DE MARSEILLE correspondance@aws-france.com Tribunal administratif de Marseille 31, rue Jean-François Leca BE5E3934-B895-EDAD-97AF9CFCA5A80B91 greffe.ta-marseille@juradm.fr BE5E3944-D6EB-B4F4-CEA3FE75911FCE34 4d4963aa-2ea4-4c6e-8ca1-57ed2d8090ec 54c77335-41b7-4384-8e9a-a630a3e8bfd4 procurement-procedure-type direct-award-justification L'Ap-Hm a acquis deux automates de dispensation nominative avec sur-conditionnement via le marché du Resah 2017-028.\nIl s'agit d'une solution automatisée permettant la production de manière continue, sans rupture de flux et sans intervention humaine de prescription médicamenteuse unitaire sur-conditionnée nominative.\nLa solution choisie permet une identification claire et précise de la dose administrée (Dénomination médicament, N° de lot, date de péremption...etc.) ainsi que du patient destinataire (Nom et prénom du patient, service hébergeant le patient, heure de prise). Ces automates sont interconnectés à un logiciel de dispensation pour permettre aux différents services de l'établissement d'y envoyer directement les prescriptions qui vont subir l'étape de validation pharmaceutique avant d'être prises en charge par l'automate.\nIl s'agit dans ce marché de prévoir pour les automates :\n- La continuité de la maintenance préventive des équipements\n- La maintenance à l'attachement des équipements et accessoires\n- L'approvisionnement en accessoires, consommables\n- L'accès à la formation des utilisateurs selon différents niveaux d'accès et d'intervention au niveau des équipements\n- L'accès à des modules supplémentaires pour permettre une fluidification du processus de dispensation nominative.\n- L'accès à des équipements supplémentaires et paramétrage nécessaire à la prise en compte de nouveaux services du site à desservir 2024-0851 PRESTATION DE REPARATION, MAINTENANCE ET FOURNITURE DE PIECES DETACHEES, ACCESSOIRES ET CONSOMMABLES POUR EQUIPEMENT DE MARQUE DEENOVA - APHM L'accord-cadre sera exécuté par l'émission de bons de commande.\nLes prestations sont réglées par des prix unitaires.\nLe marché prévoit un maximum annuel fixé à 250 000  euro(s)  HT L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires. L'accord-cadre a été notifié le 02/01/2025. Le montant indiqué correspond au montant attribué H.T., selon les prix unitaires rapportés aux quantités estimatives non contractuelles sur la durée totale du marché. Le montant maximum sur la durée totale, tous lots confondus, est de 1.000.000  euro(s)  Ht. La consultation du contrat peut être effectuée à l'adresse de l'organisme acheteur sur rendez-vous dans le respect des informations communicables.\nVoies de recours : recours de pleine juridiction dev",
-  "buyer": "ASSISTANCE PUBLIQUE HÔPITAUX DE MARSEILLE",
-  "country": "FRA",
-  "published": "2025-01-10",
-  "deadline": "",
-  "notice_type": "Résultat de marché",
-  "cpv": [
-   "20242168",
-   "50400000"
-  ],
-  "value": "",
-  "winners": [
-   "DEENOVA"
-  ],
-  "tender_id": "boamp:54c77335-41b7-4384-8e9a-a630a3e8bfd4",
-  "procedure": "Procédure Négociée",
-  "estimated_value": "",
-  "award_value": "",
-  "lowest_offer": "",
-  "highest_offer": "",
-  "offers": "",
-  "criteria": [],
-  "duration": "",
-  "contract_date": "",
-  "framework": "",
-  "deposit": "",
-  "conditions": "",
-  "winner_info": [],
-  "kind": "usługa CSV",
-  "score": 5.0,
-  "matched": [
-   "validation",
-   "pharma"
-  ],
-  "key": "boamp:25-2129",
-  "first_seen": "2026-11-18"
- },
  "oev:a4611d64-d56c-4429-8fdc-2aa5e6b9e50e-01": {
   "source": "oev",
   "source_id": "a4611d64-d56c-4429-8fdc-2aa5e6b9e50e-01",
@@ -3116,7 +2710,7 @@
   "deposit": "",
   "conditions": "",
   "winner_info": [],
-  "kind": "sprzęt + IQ/OQ",
+  "kind": "inne",
   "score": 5.0,
   "matched": [
    "IQ/OQ/PQ",
@@ -3176,7 +2770,7 @@
   "deposit": "",
   "conditions": "",
   "winner_info": [],
-  "kind": "sprzęt + IQ/OQ",
+  "kind": "inne",
   "score": 5.0,
   "matched": [
    "IQ/OQ/PQ",
@@ -3725,6 +3319,90 @@
   "key": "simap:33929-02",
   "first_seen": "2026-11-18"
  },
+ "ted:441347-2025": {
+  "source": "ted",
+  "source_id": "441347-2025",
+  "title": "Marché de services pour les prestations de formateurs externes pour formations spécifiques en Biopharmaceutique et Biotechnologie",
+  "url": "https://ted.europa.eu/en/notice/-/detail/441347-2025",
+  "description": "Formation (en français) GMP – Bases; Formation (en anglais) GMP – Bases; Formation (à distance) GMP – Bases; Formation (en français) GMP – Niveau Avancé; Formation (en anglais) GMP – Niveau Avancé; Formation (à distance) GMP – Niveau Avancé; Formation (en français) GMP Appliquée; Formation (en anglais) GMP Appliquée; Formation (en français) GMP – FOCUS sur les ATMP PARTIE IV; Formation (en anglais) GMP – FOCUS sur les ATMP PARTIE IV; Formation (à distance) GMP – FOCUS sur les ATMP PARTIE IV; Formation (en français) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (en anglais) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (à distance) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (en français) Audit; Formation (en anglais) Audit; Formation (à distance) Audit; Formation (en français) BPL-GLP (Bonnes pratiques de laboratoire); Formation (en anglais) BPL-GLP (Bonnes pratiques de laboratoire); Formation (à distance) BPL-GLP (Bonnes pratiques de laboratoire); Formation (en français) GDP-BPD (Bonnes pratiques de distribution); Formation (en anglais) GDP-BPD (Bonnes pratiques de distribution); Formation (à distance) GDP-BPD (Bonnes pratiques de distribution); Formation (en français) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (en anglais) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (à distance) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (en français) Validation des méthodes analytiques, transfert des méthodes et robustesse; Formation (en anglais) Validation des méthodes analytiques, transfert des méthodes et robustesse; Dispositifs médicaux : « Formation (en français) Système qualité - certification des dispositifs médicaux et mise sur le marché; Dispositifs médicaux : « Formation (en anglais) Système qualité - certification des dispositifs médicaux et mise sur le marché; Dispositifs médicaux : « Forma",
+  "buyer": "aptaskil asbl",
+  "country": "BEL",
+  "published": "2025-07-08",
+  "deadline": "2025-08-04",
+  "notice_type": "cn-social",
+  "cpv": [
+   "80500000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [
+   "cost"
+  ],
+  "duration": "",
+  "contract_date": "",
+  "framework": "tak",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "inne",
+  "score": 4.0,
+  "matched": [
+   "validation",
+   "GMP/GxP",
+   "pharma"
+  ],
+  "key": "ted:441347-2025",
+  "first_seen": "2026-11-18"
+ },
+ "ted:468509-2025": {
+  "source": "ted",
+  "source_id": "468509-2025",
+  "title": "Marché de services pour les prestations de formateurs externes pour formations spécifiques en Biopharmaceutique et Biotechnologie",
+  "url": "https://ted.europa.eu/en/notice/-/detail/468509-2025",
+  "description": "Formation (en français) GMP – Bases; Formation (en anglais) GMP – Bases; Formation (à distance) GMP – Bases; Formation (en français) GMP – Niveau Avancé; Formation (en anglais) GMP – Niveau Avancé; Formation (à distance) GMP – Niveau Avancé; Formation (en français) GMP Appliquée; Formation (en anglais) GMP Appliquée; Formation (en français) GMP – FOCUS sur les ATMP PARTIE IV; Formation (en anglais) GMP – FOCUS sur les ATMP PARTIE IV; Formation (à distance) GMP – FOCUS sur les ATMP PARTIE IV; Formation (en français) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (en anglais) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (à distance) GMP – zoom sur l’annexe 1 – la production de médicaments stériles; Formation (en français) Audit; Formation (en anglais) Audit; Formation (à distance) Audit; Formation (en français) BPL-GLP (Bonnes pratiques de laboratoire); Formation (en anglais) BPL-GLP (Bonnes pratiques de laboratoire); Formation (à distance) BPL-GLP (Bonnes pratiques de laboratoire); Formation (en français) GDP-BPD (Bonnes pratiques de distribution); Formation (en anglais) GDP-BPD (Bonnes pratiques de distribution); Formation (à distance) GDP-BPD (Bonnes pratiques de distribution); Formation (en français) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (en anglais) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (à distance) Bonnes pratiques validation (GMP – EudraLex vol 4 annexe 15); Formation (en français) Validation des méthodes analytiques, transfert des méthodes et robustesse; Formation (en anglais) Validation des méthodes analytiques, transfert des méthodes et robustesse; Dispositifs médicaux : « Formation (en français) Système qualité - certification des dispositifs médicaux et mise sur le marché; Dispositifs médicaux : « Formation (en anglais) Système qualité - certification des dispositifs médicaux et mise sur le marché; Dispositifs médicaux : « Forma",
+  "buyer": "aptaskil asbl",
+  "country": "BEL",
+  "published": "2025-07-17",
+  "deadline": "2025-08-04",
+  "notice_type": "cn-social",
+  "cpv": [
+   "80500000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [
+   "cost"
+  ],
+  "duration": "",
+  "contract_date": "",
+  "framework": "tak",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "inne",
+  "score": 4.0,
+  "matched": [
+   "validation",
+   "GMP/GxP",
+   "pharma"
+  ],
+  "key": "ted:468509-2025",
+  "first_seen": "2026-11-18"
+ },
  "ted:511763-2025": {
   "source": "ted",
   "source_id": "511763-2025",
@@ -3900,6 +3578,47 @@
   "key": "freelancermap:3070180",
   "first_seen": "2026-11-18"
  },
+ "oev:046bf4e6-56fa-4b40-88ee-5fcb617a1a4a-01": {
+  "source": "oev",
+  "source_id": "046bf4e6-56fa-4b40-88ee-5fcb617a1a4a-01",
+  "title": "Rahmenbetriebsvereinbarung für die Reinigung/Prüfung der Zu- und Abluftauslässe an Lüftungs- und Klimaanlagen, die RE-Qualifizierung der Reinräume sowie der intervallmäßige Filtertausch der H13/H14-Fi",
+  "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=046bf4e6-56fa-4b40-88ee-5fcb617a1a4a&noticeVersion=01",
+  "description": "- Jährliche Reinigung der Zu- und Abluftauslässe an Lüftungs- und Klimaanlagen\n- Periodische Prüfung nach DIN1946 Teil 4\n- RE-Qualifizierung Reinräume DIN ISO 14644-3 und EU-GMP-ANNEX1\n- intervallmäßiger Filtertausch der H13/H14 Filter Rahmenbetriebsvereinbarung für die Reinigung/Prüfung der Zu- und Abluftauslässe an Lüftungs- und Klimaanlagen, die RE-Qualifizierung der Reinräume sowie der intervallmäßige Filtertausch der H13/H14-Fi Siehe Leistungsbeschreibung",
+  "buyer": "Medizinische Universität Lausitz - Carl Thiem KdöR",
+  "country": "DEU",
+  "published": "2026-05-06",
+  "deadline": "",
+  "notice_type": "award",
+  "cpv": [
+   "50700000"
+  ],
+  "value": "",
+  "winners": [
+   "AW Hygiene-Service"
+  ],
+  "tender_id": "oev:8fb95ebd-8447-4d17-9af6-2f1f52395170",
+  "procedure": "Open",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "1",
+  "criteria": [],
+  "duration": "",
+  "contract_date": "",
+  "framework": "",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "serwis urządzeń",
+  "score": 3.5,
+  "matched": [
+   "IQ/OQ/PQ",
+   "GMP/GxP"
+  ],
+  "key": "oev:046bf4e6-56fa-4b40-88ee-5fcb617a1a4a-01",
+  "first_seen": "2026-11-18"
+ },
  "oev:27e7b301-ac75-4b33-8914-e03e777f9943-01": {
   "source": "oev",
   "source_id": "27e7b301-ac75-4b33-8914-e03e777f9943-01",
@@ -3942,6 +3661,45 @@
    "CPV 73*"
   ],
   "key": "oev:27e7b301-ac75-4b33-8914-e03e777f9943-01",
+  "first_seen": "2026-11-18"
+ },
+ "oev:8a6038ce-84fd-4c68-8247-e1acc285614a-01": {
+  "source": "oev",
+  "source_id": "8a6038ce-84fd-4c68-8247-e1acc285614a-01",
+  "title": "Rahmenbetriebsvereinbarung für die Reinigung/Prüfung der Zu- und Abluftauslässe an Lüftungs- und Klimaanlagen, die RE-Qualifizierung der Reinräume sowie der intervallmäßige Filtertausch der H13/H14-Fi",
+  "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=8a6038ce-84fd-4c68-8247-e1acc285614a&noticeVersion=01",
+  "description": "- Jährliche Reinigung der Zu- und Abluftauslässe an Lüftungs- und Klimaanlagen\n- Periodische Prüfung nach DIN1946 Teil 4\n- RE-Qualifizierung Reinräume DIN ISO 14644-3 und EU-GMP-ANNEX1\n- intervallmäßiger Filtertausch der H13/H14 Filter Rahmenbetriebsvereinbarung für die Reinigung/Prüfung der Zu- und Abluftauslässe an Lüftungs- und Klimaanlagen, die RE-Qualifizierung der Reinräume sowie der intervallmäßige Filtertausch der H13/H14-Fi Siehe Leistungsbeschreibung",
+  "buyer": "Medizinische Universität Lausitz - Carl Thiem KdöR",
+  "country": "DEU",
+  "published": "2026-03-05",
+  "deadline": "",
+  "notice_type": "tender",
+  "cpv": [
+   "50700000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "oev:8fb95ebd-8447-4d17-9af6-2f1f52395170",
+  "procedure": "Open",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [],
+  "duration": "",
+  "contract_date": "",
+  "framework": "",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "serwis urządzeń",
+  "score": 3.5,
+  "matched": [
+   "IQ/OQ/PQ",
+   "GMP/GxP"
+  ],
+  "key": "oev:8a6038ce-84fd-4c68-8247-e1acc285614a-01",
   "first_seen": "2026-11-18"
  },
  "oev:d6c7cac4-4146-4d62-a0e9-e44a0fe4660a-01": {
@@ -4032,6 +3790,86 @@
   "key": "oev:ffcb5407-de5f-4716-a0e8-0160763f6a35-01",
   "first_seen": "2026-11-18"
  },
+ "ted:139726-2025": {
+  "source": "ted",
+  "source_id": "139726-2025",
+  "title": "Service, maintenance, calibration and validation of various equipment",
+  "url": "https://ted.europa.eu/en/notice/-/detail/139726-2025",
+  "description": "Service, maintenance, calibration, validation and verification of Genetic Analysts ABI 3500 Applied Biosystems; Service, maintenance and verification of instruments from the manufacturer Applied Biosystems; Service, maintenance, calibration, validation and verification of instruments from the manufacturer Qiagen; Service and maintenance of comparative microscopes and stereo microscopes from the manufacturer Leica; Service and maintenance of a refrigerator with ultra-low temperatures down to -86°C, with CO2 bottle, Model 700, Binder; Calibration of pipes; Calibration of Biosan thermomixers; Maintenance of the eQMS::D NA (DNA database) software system from the manufacturer Pardus doo; Service, maintenance, calibration, validation/verification of instruments from the manufacturer Perkin Elmer; Service, maintenance, calibration, validation/verification of the Gesan Chem 200 instrument; Digestor service and maintenance; Service and Maintenance of Scanning Electron Microscope with Energy Dispersive Detector Phenom XL G2 Particle Base + SED; Service and maintenance of the Scanning Electron Microscope (JEOL 6610 LV) with Energy Dispersion Detector (Oxford 50 mm2); Maintenance and maintenance of the instrument Regula 4307; Service and maintenance of the Evofinder system; Maintenance and maintenance of the ToolScan instrument; Service, maintenance, calibration, validation and verification of instruments from the manufacturer Biorad; Service, maintenance and verification of the BSD600 Ascent A2 semi-automatic puncher",
+  "buyer": "Ministry of internal affairs",
+  "country": "MKD",
+  "published": "2025-03-03",
+  "deadline": "2025-04-02",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "50000000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "6 000 000 MKD / 3 200 000 MKD / 2 360 000 MKD / 1 500 000 MKD / 600 000 MKD",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [],
+  "duration": "3 year",
+  "contract_date": "",
+  "framework": "tak",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "serwis urządzeń",
+  "score": 3.5,
+  "matched": [
+   "validation",
+   "PQS/QMS"
+  ],
+  "key": "ted:139726-2025",
+  "first_seen": "2026-11-18"
+ },
+ "ted:258246-2024": {
+  "source": "ted",
+  "source_id": "258246-2024",
+  "title": "Service, maintenance, calibration and validation of various equipment",
+  "url": "https://ted.europa.eu/en/notice/-/detail/258246-2024",
+  "description": "Service, maintenance, calibration, validation and verification of Genetic Analysts ABI 3500 Applied Biosystems; Service, maintenance and verification of instruments from the manufacturer Applied Biosystems; Service, maintenance, calibration, validation and verification of instruments by manufacturer Qiagen (Automatic DNA Insulation Robot- EZ2 Connect); Service, maintenance and verification of water purification system – ultraclean water Arium mini plus by manufacturer Sartorius; Service and maintenance of comparative microscopes and stereo microscopes by leica (Comparative microscope Leica FS CB 011/36-11-324 (DFC420)); Service and maintenance of security cabinet – laminar; Service and maintenance of germicidal UV chamber with UV lamp by manufacturer Germy Gima Plus; Service, maintenance and verification of instruments by Eppendorf; Service, maintenance and verification of biosan thermomixers; Service, maintenance and verification of centrifuge Biocen 22; Service, maintenance and verification of centrifuges by manufacturer Hettich-Germany; Service, maintenance and verification of refrigerators with ultra-low temperatures; Service and maintenance of the refrigerator with ultra low temperatures up to -86°C, with CO2 bottle, Model 700, Binder; Service and maintenance of refrigerators with temperatures up to +8°oC; Calibration of digital temperature and damp meters; Pipetori calibration; Calibration of thermomixers; Maintenance of eQMS::D NA (DNA database) from manufacturer Pardusdoo; Service, maintenance, calibration, validation and verification of instruments by manufacturer Biorad (PCR C1000Touch Polymerase Chain Reaction Instrument); Service, maintenance and verification of semi-automatic panther BSD600 Ascent A2; Calibration of electronic analytical scale; Service, maintenance, calibration, validation and verification of GC/MS QP 2020 – Shimadzu; Service, maintenance, calibration, validation and verification of GC/MS QP 2010 Plus – Shimadzu; Service and maintenance",
+  "buyer": "Ministry of internal affairs",
+  "country": "MKD",
+  "published": "2024-04-30",
+  "deadline": "2024-05-16",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "50000000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "5 000 000 MKD / 2 000 000 MKD / 750 000 MKD / 100 000 MKD / 1 700 000 MKD",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [
+   "price"
+  ],
+  "duration": "3 year",
+  "contract_date": "",
+  "framework": "tak",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "serwis urządzeń",
+  "score": 3.5,
+  "matched": [
+   "validation",
+   "PQS/QMS"
+  ],
+  "key": "ted:258246-2024",
+  "first_seen": "2026-11-18"
+ },
  "ted:279664-2026": {
   "source": "ted",
   "source_id": "279664-2026",
@@ -4112,6 +3950,86 @@
    "GMP/GxP"
   ],
   "key": "ted:330414-2026",
+  "first_seen": "2026-11-18"
+ },
+ "ted:520840-2024": {
+  "source": "ted",
+  "source_id": "520840-2024",
+  "title": "Service, maintenance, calibration and validation of various equipment",
+  "url": "https://ted.europa.eu/en/notice/-/detail/520840-2024",
+  "description": "Service, maintenance, calibration, validation and verification of Genetic Analysts ABI 3500 Applied Biosystems; Service, maintenance and verification of instruments from the manufacturer Applied Biosystems; Service, maintenance, calibration, validation and verification of instruments by manufacturer Qiagen (Automatic DNA Insulation Robot- EZ2 Connect); Service, maintenance and verification of water purification system – ultraclean water Arium mini plus by manufacturer Sartorius; Service and maintenance of comparative microscopes and stereo microscopes by leica (Comparative microscope Leica FS CB 011/36-11-324 (DFC420)); Service and maintenance of security cabinet – laminar; Service and maintenance of germicidal UV chamber with UV lamp by manufacturer Germy Gima Plus; Service, maintenance and verification of instruments by Eppendorf; Service, maintenance and verification of biosan thermomixers; Service, maintenance and verification of centrifuge Biocen 22; Service, maintenance and verification of centrifuges by manufacturer Hettich-Germany; Service, maintenance and verification of refrigerators with ultra-low temperatures; Service and maintenance of the refrigerator with ultra low temperatures up to -86°C, with CO2 bottle, Model 700, Binder; Service and maintenance of refrigerators with temperatures up to +8°oC; Calibration of digital temperature and damp meters; Pipetori calibration; Calibration of thermomixers; Maintenance of eQMS::D NA (DNA database) from manufacturer Pardusdoo; Service, maintenance, calibration, validation and verification of instruments by manufacturer Biorad (PCR C1000Touch Polymerase Chain Reaction Instrument); Service, maintenance and verification of semi-automatic panther BSD600 Ascent A2; Calibration of electronic analytical scale; Service, maintenance, calibration, validation and verification of GC/MS QP 2020 – Shimadzu; Service, maintenance, calibration, validation and verification of GC/MS QP 2010 Plus – Shimadzu; Service and maintenance",
+  "buyer": "Ministry of internal affairs",
+  "country": "MKD",
+  "published": "2024-08-30",
+  "deadline": "2024-09-30",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "50000000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "5 000 000 MKD / 2 000 000 MKD / 750 000 MKD / 100 000 MKD / 1 700 000 MKD",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [
+   "price"
+  ],
+  "duration": "3 year",
+  "contract_date": "",
+  "framework": "tak",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "serwis urządzeń",
+  "score": 3.5,
+  "matched": [
+   "validation",
+   "PQS/QMS"
+  ],
+  "key": "ted:520840-2024",
+  "first_seen": "2026-11-18"
+ },
+ "ted:677299-2025": {
+  "source": "ted",
+  "source_id": "677299-2025",
+  "title": "Service, maintenance, calibration and validation of various equipment",
+  "url": "https://ted.europa.eu/en/notice/-/detail/677299-2025",
+  "description": "Service, maintenance, and verification of instruments from the manufacturer Applied Biosystems; Service, maintenance, calibration, validation, and verification of instruments from the manufacturer Qiagen; Service and maintenance of comparative microscopes and stereo microscopes from the manufacturer Leica; Service and maintenance of a freezer with ultra-low temperatures down to -86°C, with a CO2 cylinder, Model 700, Binder; Pipette calibration; Calibration of Biosan thermomixers; Maintenance of the eQMS::DNA software system (DNA database) by the manufacturer Pardus Ltd.; Service and maintenance of fume hoods; Service and maintenance of Scanning Electron Microscope with Energy Dispersive Detector Phenom XL G2 Particle Base + SED; Service and maintenance of Scanning Electron Microscope (JEOL 6610 LV) with energy-dispersive detector (Oxford 50 mm²); Service and maintenance of the Regula 4307 instrument; Service and maintenance of the Evofinder system; Service and maintenance of the ToolScan instrument; Service, maintenance, calibration, validation, and verification of instruments from the manufacturer Biorad; Service, maintenance, and verification of the semi-automatic puncher BSD600 Ascent A2; Service, maintenance, calibration, validation/verification of instruments from the manufacturer Foster & Freeman; Service, maintenance, calibration of meters; Maintenance and procurement of hydrogen",
+  "buyer": "Ministry of internal affairs",
+  "country": "MKD",
+  "published": "2025-10-15",
+  "deadline": "2025-11-17",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "50000000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "otwarty",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [],
+  "duration": "1 year",
+  "contract_date": "",
+  "framework": "tak",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "serwis urządzeń",
+  "score": 3.5,
+  "matched": [
+   "validation",
+   "PQS/QMS"
+  ],
+  "key": "ted:677299-2025",
   "first_seen": "2026-11-18"
  },
  "bk:266983": {
@@ -4297,7 +4215,7 @@
   "deposit": "",
   "conditions": "",
   "winner_info": [],
-  "kind": "system + walidacja",
+  "kind": "sprzęt + IQ/OQ",
   "score": 3.0,
   "matched": [
    "IQ/OQ/PQ",
@@ -4338,7 +4256,7 @@
   "deposit": "",
   "conditions": "",
   "winner_info": [],
-  "kind": "system + walidacja",
+  "kind": "sprzęt + IQ/OQ",
   "score": 3.0,
   "matched": [
    "IQ/OQ/PQ",
@@ -4381,7 +4299,7 @@
   "deposit": "",
   "conditions": "",
   "winner_info": [],
-  "kind": "system + walidacja",
+  "kind": "sprzęt + IQ/OQ",
   "score": 3.0,
   "matched": [
    "IQ/OQ/PQ",
