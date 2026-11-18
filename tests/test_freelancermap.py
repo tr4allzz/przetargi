@@ -37,11 +37,11 @@ def test_report_sections():
     tender = Tender(source="ted", source_id="1", title="Walidacja systemu GAMP 5", buyer="IITD", country="POL",
                     published="2026-11-01", deadline="2026-12-01", kind="usługa CSV", score=8)
     md = render_full([gig, tender], date(2026, 11, 18), "t")
-    assert "## 1. Podsumowanie wg kraju" in md and "| CH |" in md and "| PL |" in md
+    assert "## 6. Kraje i źródła" in md and "| CH |" in md and "| PL |" in md
     assert "### Usługi walidacji CSV (1)" in md
-    sec3 = md.split("## 3.")[1].split("## 4.")[0]
+    sec3 = md.split("## 2.")[1].split("## 3.")[0]
     assert "CSV Experte Pharma" in sec3
-    assert "CSV Experte Pharma" not in md.split("## 4.")[1]
+    assert "CSV Experte Pharma" not in md.split("## 3.")[1]
 
 
 def test_offtopic_gig_title_penalized():

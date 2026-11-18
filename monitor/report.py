@@ -89,47 +89,62 @@ def _is_open(c: dict, today: str) -> bool:
     return bool(c["deadline"]) and c["deadline"][:10] >= today and not c["winners"] and not c["award_value"]
 
 
-def _card(c: dict) -> str:
-    lines = [f"#### {c['score']:.1f} · `{c['kind']}` · [{_esc(c['title'], 160)}]({c['url']})", ""]
-    lines.append(f"- **Zamawiający:** {_esc(c['buyer'], 100)} ({c['country']}) · źródło: {c['source']} · "
-                 f"publikacja {c['published']}")
-    row = []
-    if c["deadline"]:
-        row.append(f"**Termin ofert:** {c['deadline']}")
-    if c["procedure"]:
-        row.append(f"**Tryb:** {_esc(c['procedure'], 90)}")
-    if c["framework"]:
-        row.append(f"**Umowa ramowa:** {c['framework']}")
-    if c["duration"]:
-        row.append(f"**Realizacja:** {c['duration']}")
-    if row:
-        lines.append("- " + " · ".join(row))
-    if c["estimated_value"]:
-        lines.append(f"- **Wartość szacunkowa:** {c['estimated_value']}")
-    if c["criteria"]:
-        lines.append(f"- **Kryteria oceny:** {', '.join(c['criteria'])}")
-    if c["deposit"]:
-        lines.append(f"- **Wadium:** {_esc(c['deposit'], 200)}")
-    if c["conditions"]:
-        lines.append(f"- **Warunki udziału (skrót):** {_esc(c['conditions'], 450)}")
-    lines.append(f"- _Dopasowania:_ {', '.join(c['matched'])}")
+def _d(iso: str) -> str:
+    """2026-11-23 / 2026-11-23T10:00 -> 23.11.2026 (10:00)."""
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})(?:[T ](\d{2}:\d{2}))?", iso or "")
+    if not m:
+        return iso or ""
+    return f"{m.group(3)}.{m.group(2)}.{m.group(1)}" + (f" {m.group(4)}" if m.group(4) and m.group(4) != "00:00" else "")
+
+
+def _days_left(iso: str, today: date) -> str:
+    try:
+        n = (date.fromisoformat(iso[:10]) - today).days
+    except ValueError:
+        return ""
+    return "dziś" if n == 0 else ("jutro" if n == 1 else f"za {n} dni")
+
+
+def _card(c: dict, today: date | None = None) -> str:
+    left = f" (**{_days_left(c['deadline'], today)}**)" if today and c["deadline"] else ""
+    lines = [f"#### [{_esc(c['title'], 120)}]({c['url']})", "",
+             f"**{_esc(c['buyer'], 80)}** · {_cc(c['country'])} · termin ofert: **{_d(c['deadline'])}**{left} · "
+             f"score {c['score']:.1f}", ""]
+    facts = [("Wartość szacunkowa", c["estimated_value"]), ("Tryb", _esc(c["procedure"], 90)),
+             ("Umowa ramowa", c["framework"]), ("Realizacja", c["duration"]),
+             ("Kryteria", ", ".join(c["criteria"])), ("Wadium", _esc(c["deposit"], 160)),
+             ("Warunki udziału", _esc(c["conditions"], 300))]
+    lines += [f"- {k}: {v}" for k, v in facts if v]
+    lines.append(f"- <sub>dopasowania: {', '.join(c['matched'])} · źródło: {c['source']} · "
+                 f"publikacja {_d(c['published'])}</sub>")
     return "\n".join(lines)
 
 
-BENCH_HEADER = ("| Typ | Zamawiający | Przedmiot | Szacunek | Ofert | Najniższa – najwyższa | Umowa | Zwycięzca | Kryteria | Data |\n"
-                "|---|---|---|---:|---:|---|---:|---|---|---|")
+RESULT_HEADER = ("| Data | Zamawiający | Przedmiot | Szacunek | Ofert (rozpiętość) | Umowa | Zwycięzca | Kryteria |\n"
+                 "|---|---|---|---:|---|---:|---|---|")
+BENCH_HEADER = ("| Data | Typ | Zamawiający | Przedmiot | Umowa | Zwycięzca |\n"
+                "|---|---|---|---|---:|---|")
 
 
-def _bench_row(c: dict) -> str:
-    rng = ""
-    if c["lowest_offer"] or c["highest_offer"]:
-        rng = f"{c['lowest_offer'] or '?'} – {c['highest_offer'] or '?'}"
+def _date_of(c: dict) -> str:
+    return c["contract_date"] or c["result_published"] or c["published"]
+
+
+def _result_row(c: dict) -> str:
+    offers = c["offers"] or "—"
+    if c["lowest_offer"] and c["highest_offer"] and c["lowest_offer"] != c["highest_offer"]:
+        offers += f" ({c['lowest_offer']} – {c['highest_offer']})"
     win = ", ".join(c["winners"])
     if c["winner_info"]:
         win += f" ({'; '.join(c['winner_info'])})"
-    return (f"| {c['kind']} | {_esc(c['buyer'], 45)} | [{_esc(c['title'], 80)}]({c['url']}) | {c['estimated_value'] or '—'} | "
-            f"{c['offers'] or '—'} | {rng or '—'} | {c['award_value'] or '—'} | {_esc(win, 70) or '—'} | "
-            f"{_esc(', '.join(c['criteria']), 50) or '—'} | {c['contract_date'] or c['result_published'] or c['published']} |")
+    return (f"| {_d(_date_of(c))} | {_esc(c['buyer'], 35)} | [{_esc(c['title'], 60)}]({c['url']}) | "
+            f"{_esc(c['estimated_value'], 30) or '—'} | {offers} | {c['award_value'] or '—'} | {_esc(win, 45) or '—'} | "
+            f"{_esc(', '.join(c['criteria']), 40) or '—'} |")
+
+
+def _bench_row(c: dict) -> str:
+    return (f"| {_d(_date_of(c))} | {c['kind']} | {_esc(c['buyer'], 35)} | [{_esc(c['title'], 60)}]({c['url']}) | "
+            f"{c['award_value'] or '—'} | {_esc(', '.join(c['winners']), 40) or '—'} |")
 
 
 def _insights(cases: list[dict]) -> list[str]:
@@ -160,32 +175,36 @@ def _insights(cases: list[dict]) -> list[str]:
 
 
 FREELANCE_DAYS = 45
+GIG_GOOD = 7.0
 OPEN_ORDER = [config.KIND_SERVICE, config.KIND_SYSTEM, config.KIND_EQUIPMENT, config.KIND_DEVICE_SERVICE,
               config.KIND_OTHER]
 OPEN_LABEL = {config.KIND_SERVICE: "Usługi walidacji CSV", config.KIND_SYSTEM: "Systemy z walidacją",
               config.KIND_EQUIPMENT: "Sprzęt z IQ/OQ", config.KIND_DEVICE_SERVICE: "Serwis urządzeń",
               config.KIND_OTHER: "Inne"}
-
-
-def _gig_row(c: dict) -> str:
-    return (f"| {c['score']:.1f} | [{_esc(c['title'], 90)}]({c['url']}) | {_esc(c['buyer'], 40) or '—'} | "
-            f"{c['country'] or '—'} | {_esc(c['procedure'], 60) or '—'} | {_esc(c['duration'], 40) or '—'} | "
-            f"{c['published']} |")
-
-
-GIG_HEADER = ("| Score | Zlecenie | Firma / pośrednik | Kraj | Forma · miejsce | Start · czas | Dodano |\n"
-              "|---:|---|---|---|---|---|---|")
-
-
 ISO3 = {"DEU": "DE", "POL": "PL", "CHE": "CH", "AUT": "AT", "FRA": "FR", "GBR": "GB", "IRL": "IE", "DNK": "DK",
         "BEL": "BE", "BGR": "BG", "CZE": "CZ", "NLD": "NL", "ITA": "IT", "ESP": "ES", "SWE": "SE", "FIN": "FI",
         "NOR": "NO", "HUN": "HU", "SVK": "SK", "SVN": "SI", "ROU": "RO", "HRV": "HR", "LTU": "LT", "LVA": "LV",
-        "EST": "EE", "PRT": "PT", "GRC": "GR", "LUX": "LU", "MLT": "MT", "CYP": "CY", "UK": "GB"}
+        "EST": "EE", "PRT": "PT", "GRC": "GR", "LUX": "LU", "MLT": "MT", "CYP": "CY", "UK": "GB", "MKD": "MK"}
 
 
 def _cc(code: str) -> str:
     code = (code or "").strip().upper()
     return ISO3.get(code, code) or "?"
+
+
+GIG_HEADER = ("| Zlecenie | Firma / pośrednik | Gdzie · forma | Start · czas | Dodano |\n"
+              "|---|---|---|---|---|")
+
+
+def _gig_where(proc: str) -> str:
+    proc = re.sub(r",? ?remote 0%", "", proc or "")
+    proc = proc.replace("kontrakt (freelance)", "kontrakt").replace("ANÜ (leasing pracownika)", "ANÜ")
+    return re.sub(r"remote, (.*?),? ?100% remote", r"\g<1>, 100% remote", proc).replace("· , ", "· ").strip(" ·,")
+
+
+def _gig_row(c: dict) -> str:
+    return (f"| [{_esc(c['title'], 70)}]({c['url']}) | {_esc(c['buyer'], 30) or '—'} | "
+            f"{_esc(_gig_where(c['procedure']), 50) or '—'} | {_esc(c['duration'], 35) or '—'} | {_d(c['published'])} |")
 
 
 def _country_table(groups: dict[str, list[dict]]) -> list[str]:
@@ -203,9 +222,8 @@ def _country_table(groups: dict[str, list[dict]]) -> list[str]:
     return out
 
 
-def _collapsed(rows: list[str], header: str) -> list[str]:
-    return ["<details><summary>Pokaż " + str(len(rows)) + " pozycji</summary>", "", header, *rows, "",
-            "</details>", ""]
+def _collapsed(summary: str, body: list[str]) -> list[str]:
+    return [f"<details><summary>{summary}</summary>", "", *body, "", "</details>", ""]
 
 
 def render_full(items: list[Tender], today: date, title: str, intro: list[str] | None = None,
@@ -213,70 +231,82 @@ def render_full(items: list[Tender], today: date, title: str, intro: list[str] |
     t_iso = today.isoformat()
     cases = merge_cases(items)
 
-    def _date(c):
-        return c["contract_date"] or c["result_published"] or c["published"]
-
-    gigs_all = [c for c in cases if c["kind"] == config.KIND_FREELANCE]
     cutoff = date.fromordinal(today.toordinal() - gig_days).isoformat() if gig_days else ""
-    gigs = sorted([c for c in gigs_all if c["published"] >= cutoff],
-                  key=lambda c: (c["score"] >= 7, c["published"], c["score"]), reverse=True)
+    gigs = sorted([c for c in cases if c["kind"] == config.KIND_FREELANCE and c["published"] >= cutoff],
+                  key=lambda c: (c["published"], c["score"]), reverse=True)
+    good_gigs = [c for c in gigs if c["score"] >= GIG_GOOD]
+    weak_gigs = [c for c in gigs if c["score"] < GIG_GOOD]
+    week = date.fromordinal(today.toordinal() - 7).isoformat()
     tenders = [c for c in cases if c["kind"] != config.KIND_FREELANCE]
     open_ = sorted([c for c in tenders if _is_open(c, t_iso)], key=lambda c: (c["deadline"], -c["score"]))
     closed = [c for c in tenders if c not in open_]
-    csv_cases = sorted([c for c in closed if c["kind"] in config.CSV_KINDS], key=_date, reverse=True)
+    csv_cases = sorted([c for c in closed if c["kind"] in config.CSV_KINDS], key=_date_of, reverse=True)
     awarded = [c for c in csv_cases if c["winners"] or c["award_value"]]
+    pending = [c for c in csv_cases if c not in awarded]
     adjacent = sorted([c for c in closed if c["kind"] in (config.KIND_EQUIPMENT, config.KIND_DEVICE_SERVICE)],
-                      key=_date, reverse=True)
+                      key=_date_of, reverse=True)
     rest = sorted([c for c in closed if c not in csv_cases and c not in adjacent], key=lambda c: -c["score"])
 
     out = [f"# {title}", ""]
     out += intro or []
-    out += [f"Otwarte: **{len(open_)}** · zlecenia freelance: **{len(gigs)}** · zamknięte CSV (usługa / system + "
-            f"walidacja): **{len(csv_cases)}**, z czego z wynikiem: **{len(awarded)}** · sprzęt i serwis urządzeń: "
-            f"**{len(adjacent)}** · inne: **{len(rest)}**", ""]
-    out += ["**Spis:** 1. Podsumowanie wg kraju · 2. Otwarte przetargi (wg typu) · 3. Zlecenia freelance · "
-            "4. CSV — wyniki do wyceny · 5. Sprzęt i serwis · 6. Inne · 7. Status źródeł", ""]
+    nxt = f" — najbliższy termin: **{_d(open_[0]['deadline'])}** ({_esc(open_[0]['buyer'], 40)})" if open_ else ""
+    out += ["> **W skrócie**",
+            f"> - Otwarte przetargi: **{len(open_)}**{nxt}",
+            f"> - Trafne zlecenia freelance: **{len(good_gigs)}** (z ostatnich 7 dni: "
+            f"**{sum(1 for c in good_gigs if c['published'] >= week)}**)",
+            f"> - Wyniki CSV do wyceny: **{len(awarded)}** · czeka na wynik: **{len(pending)}**",
+            "",
+            f"<sub>Otwarte: **{len(open_)}** · zlecenia freelance: **{len(gigs)}** · zamknięte CSV: **{len(csv_cases)}**, "
+            f"z czego z wynikiem: **{len(awarded)}** · sprzęt i serwis: **{len(adjacent)}** · inne: **{len(rest)}**</sub>",
+            ""]
 
-    out += ["## 1. Podsumowanie wg kraju", ""]
-    table = _country_table({"Otwarte": open_, "CSV zamknięte": csv_cases, "Sprzęt/serwis": adjacent,
-                            "Inne": rest, "Freelance": gigs})
-    out += (table or ["_Brak danych._"]) + [""]
-
-    out += ["## 2. Otwarte przetargi — do rozważenia", ""]
+    out += ["## 1. Otwarte przetargi", ""]
     if open_:
         for kind in OPEN_ORDER:
             sub = [c for c in open_ if c["kind"] == kind]
             if sub:
-                out += [f"### {OPEN_LABEL[kind]} ({len(sub)})", "", "\n\n".join(_card(c) for c in sub), ""]
+                out += [f"### {OPEN_LABEL[kind]} ({len(sub)})", "", "\n\n".join(_card(c, today) for c in sub), ""]
     else:
         out += ["_Brak otwartych._", ""]
 
-    span = f" z ostatnich {gig_days} dni" if gig_days else ""
-    out += [f"## 3. Zlecenia freelance / kontrakty{span}", "",
-            "_Ogłoszenia z portali freelance (nie przetargi publiczne): zwykle pośrednik, stawka do negocjacji, "
-            "brak terminu składania — liczy się szybka odpowiedź._", ""]
-    out += [GIG_HEADER, *(_gig_row(c) for c in gigs), ""] if gigs else ["_Brak._", ""]
-
-    out += ["## 4. CSV: usługi walidacji i systemy z walidacją (zamknięte)", "",
-            "_Jedyna część przydatna do wyceny usług CSV. W „system + walidacja” kwota obejmuje cały system; "
-            "walidację zwykle robi dostawca/integrator — szansa na podwykonawstwo._", ""]
-    if csv_cases:
-        ins = _insights(awarded)
-        if ins:
-            out += [f"**Wnioski do wyceny** (n={len(awarded)} z wynikiem):", *ins, ""]
-        out += [BENCH_HEADER, *(_bench_row(c) for c in csv_cases), ""]
-    else:
+    span = f" (ostatnie {gig_days} dni)" if gig_days else ""
+    out += [f"## 2. Zlecenia freelance{span}", "",
+            "<sub>Ogłoszenia z portali freelance, nie przetargi: zwykle pośrednik, bez terminu — liczy się szybka "
+            "odpowiedź. Najnowsze na górze.</sub>", ""]
+    if good_gigs:
+        out += [f"### Trafne ({len(good_gigs)})", "", GIG_HEADER, *(_gig_row(c) for c in good_gigs), ""]
+    if weak_gigs:
+        out += _collapsed(f"Słabiej dopasowane ({len(weak_gigs)})", [GIG_HEADER, *(_gig_row(c) for c in weak_gigs)])
+    if not gigs:
         out += ["_Brak._", ""]
 
-    out += ["## 5. Sprzęt z IQ/OQ i serwis urządzeń (zamknięte)", "",
-            "_Kwalifikację robi producent/serwis na własnych protokołach; kwoty to głównie cena sprzętu — "
-            "nie używać do wyceny CSV._", ""]
-    out += _collapsed([_bench_row(c) for c in adjacent], BENCH_HEADER) if adjacent else ["_Brak._", ""]
+    out += ["## 3. Wyniki CSV — do wyceny", "",
+            "<sub>Zamknięte usługi CSV i systemy z walidacją. Przy systemach kwota obejmuje cały system.</sub>", ""]
+    if awarded:
+        out += [*_insights(awarded), "", RESULT_HEADER, *(_result_row(c) for c in awarded), ""]
+    else:
+        out += ["_Brak wyników._", ""]
+    if pending:
+        out += _collapsed(f"Bez wyniku jeszcze ({len(pending)})",
+                          [f"- {_d(_date_of(c))} · {c['kind']} · **{_esc(c['buyer'], 50)}** — "
+                           f"[{_esc(c['title'], 90)}]({c['url']})" for c in pending])
 
-    out += ["## 6. Inne / prawdopodobny szum", ""]
-    out += _collapsed([_bench_row(c) for c in rest], BENCH_HEADER) if rest else ["_Brak._", ""]
+    out += ["## 4. Sprzęt z IQ/OQ i serwis urządzeń", "",
+            "<sub>Kwalifikację robi producent; kwoty to cena sprzętu — nie do wyceny CSV.</sub>", ""]
+    out += _collapsed(f"Pokaż ({len(adjacent)})", [BENCH_HEADER, *(_bench_row(c) for c in adjacent)]) \
+        if adjacent else ["_Brak._", ""]
+
+    out += ["## 5. Inne / prawdopodobny szum", ""]
+    out += _collapsed(f"Pokaż ({len(rest)})", [BENCH_HEADER, *(_bench_row(c) for c in rest)]) \
+        if rest else ["_Brak._", ""]
+
+    out += ["## 6. Kraje i źródła", ""]
+    table = _country_table({"Otwarte": open_, "Freelance": gigs, "CSV": csv_cases, "Sprzęt/serwis": adjacent,
+                            "Inne": rest})
+    body = (table or ["_Brak danych._"]) + [""]
     if stats:
-        out += ["## 7. Status źródeł (ostatni przebieg)", "", *[f"- **{k}**: {v}" for k, v in stats.items()], ""]
+        body += ["**Status źródeł (ostatni przebieg):**", "", *[f"- **{k}**: {v}" for k, v in stats.items()]]
+    out += _collapsed("Podsumowanie wg kraju i status źródeł", body)
     return "\n".join(out)
 
 
