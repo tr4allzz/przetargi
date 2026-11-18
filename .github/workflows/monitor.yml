@@ -43,7 +43,7 @@ jobs:
         run: |
           python -m monitor \
             --days-back "${{ inputs.days_back || '2' }}" \
-            --sources "${{ inputs.sources || 'ted,oev,simap,boamp,contracts_finder,ezamowienia,bk' }}" \
+            --sources "${{ inputs.sources || 'ted,oev,simap,boamp,contracts_finder,ezamowienia,bk,freelancermap' }}" \
             --min-score "${{ inputs.min_score || '3' }}"
 
       - name: Commit results
