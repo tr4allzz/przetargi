@@ -33,7 +33,7 @@ class Store:
         """Re-apply scoring to stored items; drop those now below min_score."""
         drop = []
         for key, d in self.items.items():
-            t = Tender(**{k: v for k, v in d.items() if k in Tender.__dataclass_fields__})
+            t = Tender.from_dict(d)
             t = score_fn(t)
             if t.score < min_score:
                 drop.append(key)

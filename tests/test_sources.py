@@ -101,3 +101,58 @@ def test_bk_to_tender_strips_highlights():
     assert "<mark>" not in t.description
     assert t.url.endswith("/ogloszenia/295750")
     assert t.deadline == "2026-11-23 23:59"
+
+
+RESULT_TEXT = ("Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy SEKCJA IV "
+               "4.3.) Wartość zamówienia: 200000,00 PLN 4.4.) Rodzaj zamówienia: Dostawy "
+               "SEKCJA VI OFERTY 6.1.) Liczba otrzymanych ofert lub wniosków: 1 6.1.1.) Liczba otrzymanych ofert wariantowych: 0 "
+               "6.2.) Cena lub koszt oferty z najniższą ceną lub kosztem: 243466,20 PLN "
+               "6.3.) Cena lub koszt oferty z najwyższą ceną lub kosztem: 243466,20 PLN "
+               "6.4.) Cena lub koszt oferty wykonawcy, któremu udzielono zamówienia: 243466,20 PLN "
+               "SEKCJA VIII UMOWA 8.1.) Data zawarcia umowy: 2026-03-09 8.2.) Wartość umowy/umowy ramowej: 243466,20 PLN "
+               "8.3.) Okres realizacji zamówienia albo umowy ramowej: 35 dni 2026-03-13")
+NOTICE_TEXT = ("2.16.) Tryb udzielenia zamówienia wraz z podstawą prawną Zamówienie udzielane jest w trybie podstawowym "
+               "na podstawie: art. 275 pkt 1 ustawy SEKCJA III 4.3.3.) Stosowane kryteria oceny ofert: Wyłącznie kryterium ceny "
+               "Kryterium 1 4.3.5.) Nazwa kryterium: Cena 4.3.6.) Waga: 100 4.3.10.) Zamawiający określa "
+               "6.4.) Zamawiający wymaga wadium: Nie 6.5.) Zamawiający wymaga zabezpieczenia")
+
+
+def test_ezamowienia_parse_result_notice():
+    d = ezamowienia.parse_details(RESULT_TEXT)
+    assert d["estimated_value"] == "200 000 PLN"
+    assert d["award_value"] == "243 466 PLN"
+    assert d["lowest_offer"] == d["highest_offer"] == "243 466 PLN"
+    assert d["offers"] == "1"
+    assert d["contract_date"] == "2026-03-09"
+    assert d["duration"].startswith("35 dni")
+
+
+def test_ezamowienia_parse_contract_notice():
+    d = ezamowienia.parse_details(NOTICE_TEXT)
+    assert d["criteria"] == ["Cena 100"]
+    assert d["deposit"] == "Nie"
+    assert "art. 275 pkt 1" in d["procedure"]
+
+
+def test_ted_bid_fields():
+    n = dict(TED_NOTICE, **{"estimated-value-lot": ["4800000.00"], "estimated-value-cur-lot": ["DKK"],
+                            "tender-value-lowest": ["2142286.00"], "tender-value-highest": ["9315420.00"],
+                            "tender-value-cur": ["DKK"], "received-submissions-type-val": ["5"],
+                            "received-submissions-type-code": ["tenders"], "procedure-type": "neg-w-call",
+                            "award-criterion-name-lot": {"dan": ["Pris", "Solution"]},
+                            "winner-country": ["GBR"], "winner-size": ["medium"],
+                            "duration-period-value-lot": ["48"], "duration-period-unit-lot": ["MONTH"],
+                            "framework-agreement-lot": ["fa-mix"]})
+    t = ted.to_tender(n)
+    assert t.estimated_value == "4 800 000 DKK"
+    assert t.lowest_offer == "2 142 286 DKK" and t.highest_offer == "9 315 420 DKK"
+    assert t.offers == "5"
+    assert t.procedure == "negocjacyjny z ogłoszeniem"
+    assert t.criteria == ["Pris", "Solution"]
+    assert t.winner_info == ["GBR, medium"]
+    assert t.duration == "48 month" and t.framework == "tak"
+
+
+def test_ted_undisclosed_value():
+    t = ted.to_tender(dict(TED_NOTICE, **{"tender-value": ["-1"], "tender-value-cur": ["EUR"]}))
+    assert t.award_value == ""

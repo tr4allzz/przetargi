@@ -70,10 +70,68 @@ def _winners(v) -> list[str]:
     return sorted(set(out))[:10]
 
 
+_MONEY = r"([\d][\d \u00a0]*(?:[,.]\d{1,2})?\s?(?:PLN|EUR|USD|zł))"
+_RX = {
+    "estimated_value": re.compile(r"Wartość zamówienia(?: \(?ta wartość[^:]*\)?)?:\s*" + _MONEY),
+    "award_value": re.compile(r"Wartość umowy(?:/umowy ramowej)?:\s*" + _MONEY),
+    "winner_price": re.compile(r"któremu udzielono zamówienia:\s*" + _MONEY),
+    "lowest_offer": re.compile(r"z najniższą ceną lub kosztem:\s*" + _MONEY),
+    "highest_offer": re.compile(r"z najwyższą ceną lub kosztem:\s*" + _MONEY),
+    "offers": re.compile(r"Liczba otrzymanych ofert lub wniosków:\s*(\d+)"),
+    "duration": re.compile(r"Okres realizacji zamówienia albo umowy ramowej:\s*(\d+\s*\w+|do \d{4}-\d{2}-\d{2}|\d{4}-\d{2}-\d{2}[^\d]{1,8}\d{4}-\d{2}-\d{2})"),
+    "contract_date": re.compile(r"Data zawarcia umowy:\s*(\d{4}-\d{2}-\d{2})"),
+    "procedure": re.compile(r"Tryb udzielenia zamówienia wraz z podstawą prawną\s*(.{5,160}?)(?:\s+SEKCJA|\s+\d+\.\d+\.?\))"),
+    "deposit": re.compile(r"Zamawiający wymaga wadium:\s*(Tak|Nie)"),
+    "deposit_info": re.compile(r"Informacje dotyczące wadium:\s*(.{5,200}?)(?:\s+\d+\.\d+\.?\))"),
+    "conditions": re.compile(r"(?:Warunki udziału w postępowaniu|Nazwa i opis warunków udziału w postępowaniu\.?)\s*:?\s*(.{20,700}?)(?:\s+\d+\.\d+\.?\)|\s+SEKCJA)"),
+    "framework": re.compile(r"(?:Ogłoszenie dotyczy|zawarcie) umowy ramowej:\s*(Tak|Nie)"),
+}
+_CRIT = re.compile(r"Nazwa kryterium:\s*(.{2,120}?)\s*\d+\.\d+\.\d+\.?\)\s*Waga:\s*([\d,\.]+)")
+
+
+def _norm_money(v: str) -> str:
+    v = v.replace("\u00a0", " ").replace("zł", "PLN").strip()
+    m = re.match(r"([\d ]+)(?:[,.](\d{1,2}))?\s?([A-Z]{3})", v)
+    if not m:
+        return v
+    whole = int(m.group(1).replace(" ", ""))
+    return f"{whole:,}".replace(",", " ") + f" {m.group(3)}"
+
+
+def parse_details(text: str) -> dict:
+    """Extract bid-intelligence fields from the plain text of a BZP notice."""
+    out: dict = {}
+    for k, rx in _RX.items():
+        hits = [h.strip() for h in rx.findall(text)]
+        if not hits:
+            continue
+        if k in ("estimated_value", "award_value", "winner_price", "lowest_offer", "highest_offer"):
+            hits = list(dict.fromkeys(_norm_money(h) for h in hits))
+            out[k] = " / ".join(hits[:5])
+        elif k == "offers":
+            out[k] = " / ".join(hits[:5])
+        else:
+            out[k] = hits[0]
+    crit = [f"{n.strip()} {w.rstrip('.,')}" for n, w in _CRIT.findall(text)]
+    if crit:
+        out["criteria"] = list(dict.fromkeys(crit))[:8]
+    if not out.get("award_value") and out.get("winner_price"):
+        out["award_value"] = out["winner_price"]
+    out.pop("winner_price", None)
+    dep = out.pop("deposit_info", "")
+    if out.get("deposit") == "Tak" and dep:
+        out["deposit"] = f"Tak — {dep}"
+    if "framework" in out:
+        out["framework"] = out["framework"].lower()
+    return out
+
+
 def to_tender(n: dict) -> Tender:
     number = str(_first(n, "bzpNumber", "noticeNumber", "objectId", "id"))
     html = _first(n, "htmlBody", "body", default="")
     desc = TAG_RE.sub(" ", html) if isinstance(html, str) else ""
+    desc = " ".join(desc.split())
+    details = parse_details(desc)
     cpv_raw = _first(n, "cpvCode", "cpvCodes", "mainCpvCode", default="")
     cpv = re.findall(r"\d{8}", str(cpv_raw))
     object_id = _first(n, "objectId", "id", default="")
@@ -84,7 +142,7 @@ def to_tender(n: dict) -> Tender:
         source_id=number,
         title=str(_first(n, "orderObject", "title", "subject", "name")),
         url=url,
-        description=" ".join(desc.split())[:3000],
+        description=desc[:3000],
         buyer=str(_first(n, "organizationName", "buyerName", "ordererName")),
         country="PL",
         published=str(_first(n, "publicationDate", "publishedDate"))[:10],
@@ -92,6 +150,19 @@ def to_tender(n: dict) -> Tender:
         notice_type=str(_first(n, "noticeType", "type")),
         cpv=sorted(set(cpv)),
         winners=_winners(n.get("contractors")),
+        tender_id=str(n.get("tenderId") or ""),
+        procedure=details.get("procedure", ""),
+        estimated_value=details.get("estimated_value", ""),
+        award_value=details.get("award_value", ""),
+        lowest_offer=details.get("lowest_offer", ""),
+        highest_offer=details.get("highest_offer", ""),
+        offers=details.get("offers", ""),
+        criteria=details.get("criteria", []),
+        duration=details.get("duration", ""),
+        contract_date=details.get("contract_date", ""),
+        framework=details.get("framework", ""),
+        deposit=details.get("deposit", ""),
+        conditions=details.get("conditions", "")[:600],
     )
 
 

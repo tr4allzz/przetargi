@@ -65,7 +65,9 @@ def main(argv: list[str] | None = None) -> int:
     store.save()
     reports = a.root / "reports"
     reports.mkdir(parents=True, exist_ok=True)
-    md = render(new, stats, today, a.days_back)
+    from .models import Tender
+    new_today = [Tender.from_dict(d) for d in store.items.values() if d.get("first_seen") == today.isoformat()]
+    md = render(new_today, len(new), stats, today, a.days_back)
     (reports / f"{today.isoformat()}.md").write_text(md, encoding="utf-8")
     (reports / "latest.md").write_text(md, encoding="utf-8")
     (a.root / "data" / "ALL.md").write_text(render_all(list(store.items.values())), encoding="utf-8")

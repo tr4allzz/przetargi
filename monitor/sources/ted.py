@@ -28,7 +28,32 @@ FIELDS = [
     "description-lot",
     "winner-name",
     "links",
+    # bid intelligence — all verified with tools/probe_details.py (Nov 2026)
+    "estimated-value-lot",
+    "estimated-value-cur-lot",
+    "estimated-value-proc",
+    "tender-value",
+    "tender-value-cur",
+    "tender-value-lowest",
+    "tender-value-highest",
+    "total-value",
+    "received-submissions-type-val",
+    "received-submissions-type-code",
+    "winner-country",
+    "winner-size",
+    "procedure-type",
+    "award-criterion-type-lot",
+    "award-criterion-name-lot",
+    "framework-agreement-lot",
+    "duration-period-value-lot",
+    "duration-period-unit-lot",
+    "contract-conclusion-date",
 ]
+PROCEDURE_NAMES = {
+    "open": "otwarty", "restricted": "ograniczony", "neg-w-call": "negocjacyjny z ogłoszeniem",
+    "neg-wo-call": "negocjacyjny bez ogłoszenia (z wolnej ręki)", "comp-dial": "dialog konkurencyjny",
+    "innovation": "partnerstwo innowacyjne", "oth-single": "inny (jednoetapowy)", "oth-mult": "inny (wieloetapowy)",
+}
 LANG_PREF = ["eng", "pol", "deu", "ENG", "POL", "DEU"]
 PAGE_LIMIT = 100
 MAX_PAGES_PER_QUERY = 20
@@ -85,9 +110,35 @@ def _iso(d: str) -> str:
     return (d or "")[:10]
 
 
+def _money(values, currencies) -> str:
+    """Join per-lot amounts with their currency; TED uses -1 for 'not disclosed'."""
+    vals = [v for v in _list(values) if v not in ("", "-1", "-1.00")]
+    if not vals:
+        return ""
+    cur = _list(currencies)
+    c = cur[0] if cur else ""
+    uniq = list(dict.fromkeys(vals))
+    return " / ".join(f"{float(v):,.0f}".replace(",", " ") + (f" {c}" if c else "") for v in uniq[:5])
+
+
+def _offers(n: dict) -> str:
+    vals, codes = _list(n.get("received-submissions-type-val")), _list(n.get("received-submissions-type-code"))
+    if codes and len(codes) == len(vals):
+        vals = [v for v, c in zip(vals, codes) if c == "tenders"]
+    return " / ".join(vals[:5])
+
+
 def to_tender(n: dict) -> Tender:
     pn = n.get("publication-number") or ""
     deadline = _list(n.get("deadline-receipt-tender-date-lot"))
+    cur = n.get("tender-value-cur")
+    dur_v, dur_u = _list(n.get("duration-period-value-lot")), _list(n.get("duration-period-unit-lot"))
+    crit_names = _list(n.get("award-criterion-name-lot")) or _list(n.get("award-criterion-type-lot"))
+    sizes, ctry = _list(n.get("winner-size")), _list(n.get("winner-country"))
+    winner_info = [", ".join(x for x in pair if x) for pair in zip(ctry, sizes)] if ctry else []
+    fw = _list(n.get("framework-agreement-lot"))
+    estimated = _money(n.get("estimated-value-lot"), n.get("estimated-value-cur-lot")) or \
+        _money(n.get("estimated-value-proc"), n.get("estimated-value-cur-lot"))
     return Tender(
         source="ted",
         source_id=pn,
@@ -101,6 +152,17 @@ def to_tender(n: dict) -> Tender:
         notice_type=_pick(n.get("notice-type")),
         cpv=sorted(set(_list(n.get("classification-cpv")))),
         winners=sorted(set(_list(n.get("winner-name"))))[:10],
+        procedure=PROCEDURE_NAMES.get(_pick(n.get("procedure-type")), _pick(n.get("procedure-type"))),
+        estimated_value=estimated,
+        award_value=_money(n.get("tender-value") or n.get("total-value"), cur),
+        lowest_offer=_money(n.get("tender-value-lowest"), cur),
+        highest_offer=_money(n.get("tender-value-highest"), cur),
+        offers=_offers(n),
+        criteria=list(dict.fromkeys(crit_names))[:8],
+        duration=f"{dur_v[0]} {dur_u[0].lower()}" if dur_v and dur_u else "",
+        contract_date=_iso(_list(n.get("contract-conclusion-date"))[0]) if n.get("contract-conclusion-date") else "",
+        framework="tak" if any(x not in ("none", "") for x in fw) else ("nie" if fw else ""),
+        winner_info=winner_info[:5],
     )
 
 
