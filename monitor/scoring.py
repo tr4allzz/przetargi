@@ -8,7 +8,7 @@ from .models import Tender
 
 _TERMS = [(w, label, re.compile(rx, re.I | re.S)) for w, label, rx in config.TERMS]
 _NEG = [(w, label, re.compile(rx, re.I | re.S)) for w, label, rx in config.NEGATIVE]
-_STRONG_LABELS = {label for w, label, _ in config.TERMS if w == config.STRONG}
+_STRONG_LABELS = config.SELF_SUFFICIENT_LABELS
 
 
 def score(t: Tender) -> Tender:

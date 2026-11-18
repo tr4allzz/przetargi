@@ -75,7 +75,13 @@ REQUIRE_ANY_LABEL = {
     "Computersystemvalidierung", "CSV/CSA", "paperless validation",
     "validation", "IQ/OQ/PQ", "data integrity",
 }
-# ... and at least one GxP/domain hit, unless a STRONG term matched.
+# Strong terms that are unambiguous on their own. "Annex 11" (any contract annex) and
+# "walidacja systemu" (any IT acceptance test) still need GxP/domain context.
+SELF_SUFFICIENT_LABELS = {
+    "computer system validation", "GAMP", "Part 11", "Computersystemvalidierung",
+    "CSV/CSA", "paperless validation",
+}
+# ... and at least one GxP/domain hit, unless a self-sufficient term matched.
 CONTEXT_LABELS = {"GMP/GxP", "PQS/QMS", "pharma", "radiopharmacy", "blood/biobank",
                   "aseptic/cleanroom", "LIMS/MES/CDS", "monitoring"}
 

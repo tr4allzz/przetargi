@@ -68,3 +68,26 @@ def test_ezamowienia_defensive_mapping():
     assert t.cpv == ["38430000", "72225000"]
     assert "GAMP 5" in t.description
     assert t.published == "2026-02-05"
+
+
+def test_ezamowienia_splits_window_when_page_full(monkeypatch):
+    from datetime import datetime
+    calls = []
+
+    def fake_call(self, nt, a, b):
+        calls.append((a, b))
+        hours = (b - a).total_seconds() / 3600
+        n = ezamowienia.PAGE_SIZE if hours > 6 else 3   # full page until slice <= 6h
+        return [{"bzpNumber": f"{a.isoformat()}-{i}", "orderObject": "x"} for i in range(n)]
+
+    monkeypatch.setattr(ezamowienia._Fetcher, "call", fake_call)
+    f = ezamowienia._Fetcher(None)
+    out = {}
+    f.window("ContractNotice", datetime(2026, 11, 1), datetime(2026, 11, 2), out)
+    assert len(out) == 4 * 3          # 24h -> 12h -> 6h slices (4 of them), 3 records each
+    assert len(calls) == 1 + 2 + 4
+
+
+def test_ezamowienia_winners():
+    t = ezamowienia.to_tender({"bzpNumber": "1", "contractors": [{"contractorName": "ProGrupa"}]})
+    assert t.winners == ["ProGrupa"]

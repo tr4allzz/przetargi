@@ -62,3 +62,14 @@ def test_cpv_bonus_for_system_qa():
     a = s("Validation services for GMP pharmacy software")
     b = s("Validation services for GMP pharmacy software", cpv=["72225000"])
     assert b.score > a.score
+
+
+def test_contract_annex_11_alone_rejected():
+    t = s("Government joint agreement for PCs", "See Annex 11 for price schedule")
+    assert t.score < DEFAULT_MIN_SCORE, t.matched
+
+
+def test_it_system_validation_without_gxp_context_rejected():
+    t = s("Dostawa dwóch zestawów komputerowych na potrzeby projektu LIDER",
+          "walidacja systemu pomiarowego w laboratorium politechniki")
+    assert t.score < DEFAULT_MIN_SCORE, t.matched
