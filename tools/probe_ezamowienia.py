@@ -11,30 +11,26 @@ import requests
 URL = "https://ezamowienia.gov.pl/mo-board/api/v1/notice"
 H = {"User-Agent": "przetargi-probe/0.1", "Accept": "application/json"}
 
+BASE = {"NoticeType": "ContractNotice", "PublicationDateFrom": "2026-11-16",
+        "PublicationDateTo": "2026-11-16", "PageSize": 50}
 VARIANTS = {
-    "A day T00 size50": {"NoticeType": "ContractNotice", "PublicationDateFrom": "2026-11-16T00:00:00",
-                         "PublicationDateTo": "2026-11-17T00:00:00", "PageSize": 50},
-    "B same page2": {"NoticeType": "ContractNotice", "PublicationDateFrom": "2026-11-16T00:00:00",
-                     "PublicationDateTo": "2026-11-17T00:00:00", "PageSize": 50, "PageNumber": 2},
-    "C date only": {"NoticeType": "ContractNotice", "PublicationDateFrom": "2026-11-16",
-                    "PublicationDateTo": "2026-11-17", "PageSize": 50},
-    "D no date": {"NoticeType": "ContractNotice", "PageSize": 50},
-    "E 6h size500": {"NoticeType": "ContractNotice", "PublicationDateFrom": "2026-11-16T00:00:00",
-                     "PublicationDateTo": "2026-11-16T06:00:00", "PageSize": 500},
-    "F day size500": {"NoticeType": "ContractNotice", "PublicationDateFrom": "2026-11-16T00:00:00",
-                      "PublicationDateTo": "2026-11-17T00:00:00", "PageSize": 500},
-    "G camelCase": {"noticeType": "ContractNotice", "publicationDateFrom": "2026-11-16T00:00:00",
-                    "publicationDateTo": "2026-11-17T00:00:00", "pageSize": 50, "pageNumber": 2},
-    "H SearchAfter": {"NoticeType": "ContractNotice", "PublicationDateFrom": "2026-11-16T00:00:00",
-                      "PublicationDateTo": "2026-11-17T00:00:00", "PageSize": 50,
-                      "SearchAfter": "2026-11-16T12:00:00"},
-    "I OrderObject": {"NoticeType": "ContractNotice", "PublicationDateFrom": "2026-10-01T00:00:00",
-                      "PublicationDateTo": "2026-11-17T00:00:00", "PageSize": 50,
-                      "OrderObject": "walidacja"},
+    "A base": dict(BASE),
+    "J SearchAfter=last objectId": "AFTER_OBJECTID",
+    "K SearchAfter=last bzpNumber": "AFTER_BZP",
+    "L OrderObject=Dostawa": {**BASE, "OrderObject": "Dostawa"},
+    "M OrderObject=walidacji (Oct-Nov)": {**BASE, "PublicationDateFrom": "2026-09-01",
+                                         "PublicationDateTo": "2026-11-17", "OrderObject": "walidacj"},
+    "N CpvCode=72225000 (Jan-Nov)": {**BASE, "PublicationDateFrom": "2026-01-01",
+                                    "PublicationDateTo": "2026-11-17", "CpvCode": "72225000-8"},
+    "O From=To same day count500": {**BASE, "PageSize": 500},
 }
 
+last = None
 for name, params in VARIANTS.items():
     time.sleep(2)
+    if params in ("AFTER_OBJECTID", "AFTER_BZP"):
+        key = "objectId" if params == "AFTER_OBJECTID" else "bzpNumber"
+        params = {**BASE, "SearchAfter": (last or {}).get(key)}
     try:
         r = requests.get(URL, params=params, headers=H, timeout=60)
         if r.status_code != 200:
@@ -44,6 +40,9 @@ for name, params in VARIANTS.items():
         a = j if isinstance(j, list) else (j.get("items") or [])
         ds = sorted((x.get("publicationDate") or "")[:16] for x in a)
         first = a[0].get("bzpNumber") if a else None
+        if name.startswith("A") and a:
+            last = a[-1]
+            print(f"   last record objectId={last.get('objectId')} bzp={last.get('bzpNumber')}")
         titles = [x.get("orderObject", "")[:60] for x in a[:3]]
         print(f"{name}: n={len(a)} min={ds[0] if ds else None} max={ds[-1] if ds else None} "
               f"first={first} titles={json.dumps(titles, ensure_ascii=False)}")
