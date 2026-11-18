@@ -123,9 +123,11 @@ RX_EQUIPMENT = (r"aparatur\w*|urządze\w*|sprzęt\w*|equipment|apparatus|instrum
                 r"analizator|spektrofotometr|spectrophotometer|chromatograf|elektroporator|izolator|isolator|"
                 r"synthesizer|zellprozessierungssystem|wirów\w*|centrifug|zamrażar|lodówk|freezer|"
                 r"aqua purificata|water for injection|komor\w*|maszyn\w*|machine\w*")
-RX_SERVICE = (r"prestations?|assistance|accompagnement|\busług\w*|dienstleistung\w*|\bservices?\b|consult\w*|beratung|doradztw\w*|"
+RX_SERVICE = (r"re-?qualifi\w*|qualifizierung|validierung|requalification|"
+              r"prestations?|assistance|accompagnement|\busług\w*|dienstleistung\w*|\bservices?\b|consult\w*|beratung|doradztw\w*|"
               r"begleitung|wsparci\w*|^\s*walidacj|^\s*validation|^\s*validierung")
-RX_OTHER = (r"architekt\w*|architect\w*|bauleitung|gesamtleitung|generalplaner|planerleistung|"
+RX_OTHER = (r"assurances?\b|insurance|versicherung\w*|neubau|ersatzneubau|bauleistung\w*|bauabschnitt|"
+            r"construction d|travaux|logements|architekt\w*|architect\w*|bauleitung|gesamtleitung|generalplaner|planerleistung|"
             r"badawcz\w*|research|forschung|odczynnik\w*|reagent\w*|pożywk\w*|hodowl\w*|"
             r"pranie|wäsche|reinraumbekleidung|bekleidung|mopps|próbek|samples|antibody|przeciwciał")
 EQUIPMENT_CPV_PREFIXES = ("38", "33", "42", "39", "31", "44", "45")

@@ -32,6 +32,9 @@ CASES = [
     ("Usługa: Rozwój i optymalizacja pożywki wraz z testem procesowym", [], "inne"),
     ("Closed Loop Medication Management (CLMM), Architekt mit Gesamtleitung", ["71000000"], "inne"),
     ("249 Qualifizierung und Requalifizierung Reinräume", ["71600000"], "usługa CSV"),
+    ("Prestations de services d'assurances pour les besoins du Conseil national de l'Ordre des pharmaciens", [], "inne"),
+    ("TU Chemnitz, Zentrum für Mikrotechnologien (ZFM), Reinraum Ersatzneubau", ["45000000"], "inne"),
+    ("Wiederkehrende GMP-Requalifizierung des Monitoringsystems in der Universitätsapotheke", [], "usługa CSV"),
 ]
 
 
