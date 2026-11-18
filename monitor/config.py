@@ -90,6 +90,7 @@ NEGATIVE: list[tuple[float, str, str]] = [
     (3.0, "ML/finance", r"machine learning|uczeni\w* maszynow|strategi\w* inwestycyjn|trading"),
     (3.0, "exams/education", r"egzamin\w*|kwalifikacj\w* zawodow|szkoleni\w* zawodow"),
     (2.0, "data validation (NHS PAS)", r"patient administration system|\bpas\b.*migrat"),
+    (5.0, "physio GAMP course", r"mięśniowo|powięziow|fizjoterap|zoga face"),
 ]
 
 DEFAULT_MIN_SCORE = 3.0

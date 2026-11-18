@@ -73,3 +73,8 @@ def test_it_system_validation_without_gxp_context_rejected():
     t = s("Dostawa dwóch zestawów komputerowych na potrzeby projektu LIDER",
           "walidacja systemu pomiarowego w laboratorium politechniki")
     assert t.score < DEFAULT_MIN_SCORE, t.matched
+
+
+def test_physio_gamp_course_rejected():
+    t = s("Przygotowanie szkoleń „GAMP - GLOBALNA ANALIZA MIĘŚNIOWO-POWIĘZIOWA”")
+    assert t.score < DEFAULT_MIN_SCORE, t.matched
