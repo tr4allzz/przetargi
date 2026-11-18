@@ -19,7 +19,7 @@ MAX_DAYS_BACK = {
     "ted": 3650,
     "fts": 7,
     "contracts_finder": 60,
-    "ezamowienia": 365,
+    "ezamowienia": 2150,   # new BZP (e-Zamówienia) starts 2021-01-01
     "bk": 365,
     "simap": 730,
     "oev": 400,

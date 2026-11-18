@@ -33,7 +33,7 @@ NOTICE_TYPES = ["ContractNotice", "TenderResultNotice"]
 PAGE_SIZE = 500
 FULL_SCAN_DAYS = 7
 SLEEP = 1.0
-MAX_CALLS = 400
+MAX_CALLS = 600
 TAG_RE = re.compile(r"<[^>]+>")
 
 # Title stems for server-side search (OrderObject is a substring match on the title).
