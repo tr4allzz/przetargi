@@ -28,11 +28,40 @@ def _amount(v: str) -> float | None:
         return None
 
 
-def merge_cases(items: list[Tender]) -> list[dict]:
-    """Group notices of one procedure (BZP: shared tenderId) into a single case."""
+def _norm(s: str, n: int) -> str:
+    return re.sub(r"[^a-z0-9ąćęłńóśźżäöüß]", "", (s or "").lower())[:n]
+
+
+def _group(items: list[Tender]) -> dict[str, list[Tender]]:
+    """Union notices that share a procedure id, or the same title + buyer (also across sources,
+    e.g. the same German tender in TED and on oeffentlichevergabe.de)."""
+    parent = list(range(len(items)))
+
+    def find(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    seen: dict[str, int] = {}
+    for i, t in enumerate(items):
+        keys = [f"id:{t.tender_id}"] if t.tender_id else []
+        if len(_norm(t.title, 60)) >= 12:
+            keys.append(f"tb:{_norm(t.title, 60)}|{_norm(t.buyer, 20)}")
+        for k in keys:
+            if k in seen:
+                parent[find(i)] = find(seen[k])
+            else:
+                seen[k] = i
     groups: dict[str, list[Tender]] = {}
-    for t in items:
-        groups.setdefault(t.tender_id or t.key, []).append(t)
+    for i, t in enumerate(items):
+        groups.setdefault(str(find(i)), []).append(t)
+    return groups
+
+
+def merge_cases(items: list[Tender]) -> list[dict]:
+    """Group notices of one procedure into a single case (see _group)."""
+    groups = _group(items)
     cases = []
     for ts in groups.values():
         # newest first: result notices carry offers/winners, older ones the notice details
@@ -40,7 +69,8 @@ def merge_cases(items: list[Tender]) -> list[dict]:
         main = max(ts, key=lambda t: t.score)
         c = {
             "title": main.title, "url": main.url, "buyer": main.buyer, "country": main.country,
-            "source": main.source, "score": max(t.score for t in ts), "matched": main.matched,
+            "source": ", ".join(sorted({t.source for t in ts})), "score": max(t.score for t in ts),
+            "matched": main.matched,
             "published": min((t.published for t in ts if t.published), default=""),
             "result_published": ts[0].published if len(ts) > 1 else "",
             "links": [(t.notice_type or t.source, t.url) for t in ts if t.url],

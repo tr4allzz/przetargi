@@ -29,11 +29,11 @@ QUERIES = [
     '"systèmes informatisés"',
     '"système informatisé"',
     '"GAMP"',
-    '"annexe 11"',
-    '"21 CFR"',
+    '"annexe 11" AND ("BPF" OR "GMP" OR "pharmaceutique")',
+    '"21 CFR" AND "part 11"',
     '"validation" AND ("BPF" OR "bonnes pratiques de fabrication" OR "pharmaceutique")',
     '"qualification" AND ("BPF" OR "bonnes pratiques de fabrication")',
-    '"LIMS"',
+    '"LIMS" AND ("validation" OR "BPF" OR "pharmac")',
     '"radiopharmacie"',
 ]
 _STRIP = re.compile(r"[{}\[\]\"]|\b[A-Za-z_]+:\s")

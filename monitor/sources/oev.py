@@ -45,7 +45,8 @@ def to_tender(rel: dict, notice_id: str, version: str) -> Tender:
     t.country = "DEU"
     t.tender_id = f"oev:{tender.get('id') or rel.get('ocid') or notice_id}"
     t.procedure = tender.get("procurementMethodDetails") or tender.get("procurementMethod") or ""
-    if tender.get("numberOfTenderers") is not None:
+    is_award = "award" in (rel.get("tag") or []) or bool(rel.get("awards"))
+    if is_award and tender.get("numberOfTenderers"):
         t.offers = str(tender["numberOfTenderers"])
     amounts = [(c.get("value") or {}) for c in rel.get("contracts") or []]
     total = sum(a.get("amount") or 0 for a in amounts)

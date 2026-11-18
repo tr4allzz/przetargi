@@ -65,3 +65,13 @@ def test_report_merges_notice_and_result_into_benchmark():
     assert "200 000 PLN" in row and "243 466 PLN" in row and "Cena 100" in row
     assert "jedna oferta w **1/1**" in md
     assert "mediana **1.22**" in md
+
+
+def test_same_tender_in_ted_and_oev_is_merged():
+    from monitor.report import merge_cases
+    a = Tender(source="ted", source_id="747344-2026", title="Automatisiertes Zellprozessierungssystem",
+               buyer="Universitätsklinikum Heidelberg", winners=["Miltenyi"], score=9)
+    b = Tender(source="oev", source_id="x-01", title="Automatisiertes Zellprozessierungssystem",
+               buyer="Universitätsklinikum Heidelberg", offers="1", score=9.5)
+    cases = merge_cases([a, b])
+    assert len(cases) == 1 and cases[0]["source"] == "oev, ted" and cases[0]["offers"] == "1"

@@ -129,6 +129,12 @@ def _offers(n: dict) -> str:
     return " / ".join(vals[:5])
 
 
+def _clean_title(title: str) -> str:
+    """TED titles look like 'Germany – Medical equipments – <real title>'; keep the real title."""
+    parts = title.split(" – ")
+    return " – ".join(parts[2:]) if len(parts) >= 3 else title
+
+
 def to_tender(n: dict) -> Tender:
     pn = n.get("publication-number") or ""
     deadline = _list(n.get("deadline-receipt-tender-date-lot"))
@@ -146,7 +152,7 @@ def to_tender(n: dict) -> Tender:
     return Tender(
         source="ted",
         source_id=pn,
-        title=_pick(n.get("notice-title")),
+        title=_clean_title(_pick(n.get("notice-title"))),
         url=_url(n),
         description=_pick(n.get("description-lot"))[:2000],
         buyer=_pick(n.get("buyer-name")),

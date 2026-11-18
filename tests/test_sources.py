@@ -21,6 +21,7 @@ def test_ted_to_tender():
     t = ted.to_tender(TED_NOTICE)
     assert t.key == "ted:123456-2026"
     assert t.title.startswith("Validation")
+    assert ted._clean_title("Germany – Medical equipments – Automatisiertes System") == "Automatisiertes System"
     assert t.buyer == "Szpital Kliniczny"
     assert t.published == "2026-11-13"
     assert t.deadline == "2026-12-14"
