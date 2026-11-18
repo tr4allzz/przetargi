@@ -3,9 +3,9 @@
 > **W skrócie**
 > - Otwarte przetargi: **1** — najbliższy termin: **23.11.2026** (Tirol Kliniken GmbH)
 > - Trafne zlecenia freelance: **15** (z ostatnich 7 dni: **4**)
-> - Wyniki CSV do wyceny: **4** · czeka na wynik: **7**
+> - Wyniki CSV do wyceny: **5** · czeka na wynik: **7**
 
-<sub>Otwarte: **1** · zlecenia freelance: **23** · zamknięte CSV: **11**, z czego z wynikiem: **4** · sprzęt i serwis: **19** · inne: **15**</sub>
+<sub>Otwarte: **1** · zlecenia freelance: **23** · zamknięte CSV: **12**, z czego z wynikiem: **5** · sprzęt i serwis: **20** · inne: **15**</sub>
 
 ## 1. Otwarte przetargi
 
@@ -64,16 +64,17 @@
 
 <sub>Zamknięte usługi CSV i systemy z walidacją. Przy systemach kwota obejmuje cały system.</sub>
 
-- Liczba ofert: mediana **1**, jedna oferta w **3/4** postępowań (75%).
+- Liczba ofert: mediana **1**, jedna oferta w **3/5** postępowań (60%).
 - Kwota umowy / wartość szacunkowa: mediana **1.11** (min 1.00, max 1.22, n=2).
-- Wyłącznie cena jako kryterium: **1/2** postępowań ze znanymi kryteriami.
+- Wyłącznie cena jako kryterium: **3/4** postępowań ze znanymi kryteriami.
 
 | Data | Zamawiający | Przedmiot | Szacunek | Ofert (rozpiętość) | Umowa | Zwycięzca | Kryteria |
 |---|---|---|---:|---|---:|---|---|
 | 21.10.2026 | Universitätsklinikum Jena | [RV Re-Qualifizierung GMP- und OP-Bereiche](https://oeffentlichevergabe.de/ui/de/search/details?noticeId=821dd76f-79f7-48e4-8c68-ca5b55d3bf94&noticeVersion=01) | — | 1 | — | RAS Reinraum-und Anlagenservice Jens Hünger | — |
 | 09.03.2026 | INSTYTUT IMMUNOLOGII I TERAPII DOŚ… | [Dostawa wraz z walidacją systemu służącego monitorowaniu sp…](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de80e5-1c3f-c11b-056e-e50001ac87a3) | 200 000 PLN | 1 | 243 466 PLN | ProGrupa Technologie Sp. z o.o. | Cena 100 |
-| 20.11.2025 | Wojskowe Centrum Krwiodawstwa i Kr… | [Walidacja i utrzymanie zainstalowanego automatycznego syste…](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de2b3b-4583-a817-8aeb-ba0001123800) | — | 1 | 244 425 PLN | FLUODATA Spółka z ograniczoną odpowiedzialno… | — |
+| 20.11.2025 | Wojskowe Centrum Krwiodawstwa i Kr… | [Walidacja i utrzymanie zainstalowanego automatycznego syste…](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de2b3b-4583-a817-8aeb-ba0001123800) | — | 1 | 244 425 PLN | FLUODATA Spółka z ograniczoną odpowiedzialno… | Cena 100 |
 | 02.09.2025 | AMGROS I/S | [Quality Management System](https://ted.europa.eu/en/notice/-/detail/814489-2025) | 4 800 000 DKK | 5 (2 142 286 DKK – 9 315 420 DKK) | 4 800 000 DKK | Dot Compliance UK Limited (GBR, medium) | Pris, Solution, Implementation plan, Ve… |
+| 29.12.2023 | Rządowa Agencja Rezerw Strategiczn… | [Usługa wykonania walidacji systemów skomputeryzowanych wspi…](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08dc18ce-6962-1bd1-6929-350011fa3145) | — | 5 (307 500 PLN – 358 600 PLN) | 307 500 PLN | eConsulting Sp. z o.o. | Cena 100 |
 
 <details><summary>Bez wyniku jeszcze (7)</summary>
 
@@ -91,7 +92,7 @@
 
 <sub>Kwalifikację robi producent; kwoty to cena sprzętu — nie do wyceny CSV.</sub>
 
-<details><summary>Pokaż (19)</summary>
+<details><summary>Pokaż (20)</summary>
 
 | Data | Typ | Zamawiający | Przedmiot | Umowa | Zwycięzca |
 |---|---|---|---|---:|---|
@@ -114,6 +115,7 @@
 | 28.08.2025 | sprzęt + IQ/OQ | УНИВЕРСИТЕТСКА МНОГОПРОФИЛНА БОЛНИ… | [„Доставка на медицински изделия и консумативи за нуждите на…](https://ted.europa.eu/en/notice/-/detail/561083-2025) | — | — |
 | 28.06.2025 | sprzęt + IQ/OQ | CH UNIVERSITAIRE D ORLEANS | [Fourniture de trousses, générateurs, précurseurs et médicam…](https://www.boamp.fr/pages/avis/?q=idweb:25-72365) | — | — |
 | 16.01.2025 | serwis urządzeń | Logistikbasis der Armee / LBA ; Ar… | [Erneuerung der Steuerungen in den 3 bestehenden GMP Sterili…](https://www.simap.ch/de/project-detail/f3e8968d-4c88-4d0b-9af1-470408705017) | 771 094 CHF | Belimed Life Science AG |
+| 06.08.2021 | serwis urządzeń | Regionalne Centrum Krwiodawstwa i … | [Rekwalifikacja  pomieszczeń strefy kontrolowanej Banku Tkan…](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08dc2ffd-6e1e-a812-02ca-ff0001c26d58) | 252 283 PLN / 251 224 PLN | SPIE Building Solutions Sp.z o.o., STRA… |
 
 </details>
 
@@ -148,7 +150,7 @@
 | Kraj | Otwarte | Freelance | CSV | Sprzęt/serwis | Inne | Razem |
 |---|---:|---:|---:|---:|---:|---:|
 | DE | · | 23 | 4 | 9 | 7 | **43** |
-| PL | · | · | 4 | 2 | 4 | **10** |
+| PL | · | · | 5 | 3 | 4 | **12** |
 | CH | · | · | 1 | 2 | 1 | **4** |
 | BE | · | · | · | 1 | 2 | **3** |
 | BG | · | · | · | 2 | · | **2** |

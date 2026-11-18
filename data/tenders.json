@@ -757,6 +757,178 @@
   "key": "ted:740084-2026",
   "first_seen": "2026-11-18"
  },
+ "ezamowienia:2023/BZP 00414258": {
+  "source": "ezamowienia",
+  "source_id": "2023/BZP 00414258",
+  "title": "Usługa wykonania walidacji systemów skomputeryzowanych wspierających procesy realizowane w Hurtowniach Farmaceutycznych RARS.",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08dbbe89-ce26-ee0b-fa1e-600010f78fc9",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2023/BZP 00414258 z dnia 2023-09-26 .normal { color: black; } h1.title { } Ogłoszenie o zamówieniu Usługi Usługa wykonania walidacji systemów skomputeryzowanych wspierających procesy realizowane w Hurtowniach Farmaceutycznych RARS. SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Rządowa Agencja Rezerw Strategicznych 1.4) Krajowy Numer Identyfikacyjny: REGON 012199305 1.5) Adres zamawiającego 1.5.1.) Ulica: Grzybowska 45 1.5.2.) Miejscowość: Warszawa 1.5.3.) Kod pocztowy: 00-844 1.5.4.) Województwo: mazowieckie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL911 - Miasto Warszawa 1.5.9.) Adres poczty elektronicznej: zp@rars.gov.pl 1.5.10.) Adres strony internetowej zamawiającego: www.rars.gov.pl 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - agencja wykonawcza 1.7.) Przedmiot działalności zamawiającego: Inna działalność rezerwy strategiczne SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Usługa wykonania walidacji systemów skomputeryzowanych wspierających procesy realizowane w Hurtowniach Farmaceutycznych RARS. 2.4.) Identyfikator postępowania: ocds-148610-711db676-5b83-11ee-9aa3-96d3b4440790 2.5.) Numer ogłoszenia: 2023/BZP 00414258 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2023-09-26 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Nie 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Nie 2.16.) Tryb udzielenia zamówienia wraz z podstawą prawną Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 u",
+  "buyer": "Rządowa Agencja Rezerw Strategicznych",
+  "country": "PL",
+  "published": "2023-09-26",
+  "deadline": "2023-10-06T08:00",
+  "notice_type": "ContractNotice",
+  "cpv": [
+   "72250000",
+   "72510000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "ocds-148610-711db676-5b83-11ee-9aa3-96d3b4440790",
+  "procedure": "Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [
+   "Cena 100"
+  ],
+  "duration": "do 2024-06-30",
+  "contract_date": "",
+  "framework": "",
+  "deposit": "Nie",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "usługa CSV",
+  "score": 9.5,
+  "matched": [
+   "walidacja systemu",
+   "validation",
+   "pharma",
+   "CPV 72*"
+  ],
+  "key": "ezamowienia:2023/BZP 00414258",
+  "first_seen": "2026-11-18"
+ },
+ "ezamowienia:2023/BZP 00440184": {
+  "source": "ezamowienia",
+  "source_id": "2023/BZP 00440184",
+  "title": "Usługa wykonania walidacji systemów skomputeryzowanych wspierających procesy realizowane w Hurtowniach Farmaceutycznych RARS.",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08dbcaf8-3e6d-ae4c-fa1e-600010f7acb6",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2023/BZP 00440184 z dnia 2023-10-12 .normal { color: black; } h1.title { } Ogłoszenie o wyniku postępowania Usługi Usługa wykonania walidacji systemów skomputeryzowanych wspierających procesy realizowane w Hurtowniach Farmaceutycznych RARS. SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Rządowa Agencja Rezerw Strategicznych 1.4) Krajowy Numer Identyfikacyjny: REGON 012199305 1.5) Adres zamawiającego 1.5.1.) Ulica: Grzybowska 45 1.5.2.) Miejscowość: Warszawa 1.5.3.) Kod pocztowy: 00-844 1.5.4.) Województwo: mazowieckie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL911 - Miasto Warszawa 1.5.9.) Adres poczty elektronicznej: zp@rars.gov.pl 1.5.10.) Adres strony internetowej zamawiającego: www.rars.gov.pl 1.6.) Adres strony internetowej prowadzonego postępowania: https://platformazakupowa.pl/pn/rars 1.7.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - agencja wykonawcza 1.8.) Przedmiot działalności zamawiającego: Inna działalność rezerwy strategiczne SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Usługa wykonania walidacji systemów skomputeryzowanych wspierających procesy realizowane w Hurtowniach Farmaceutycznych RARS. 2.4.) Identyfikator postępowania: ocds-148610-711db676-5b83-11ee-9aa3-96d3b4440790 2.5.) Numer ogłoszenia: 2023/BZP 00440184 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2023-10-12 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Nie 2.11.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Nie 2.13.) Zamówienie/umowa ramowa było poprzedzone ogłoszeniem o zamówieniu/ogłoszeniem o zamiarze zawarcia umowy: Tak 2.14.) Numer ogłosz",
+  "buyer": "Rządowa Agencja Rezerw Strategicznych",
+  "country": "PL",
+  "published": "2023-10-12",
+  "deadline": "",
+  "notice_type": "TenderResultNotice",
+  "cpv": [
+   "72250000",
+   "72510000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "ocds-148610-711db676-5b83-11ee-9aa3-96d3b4440790",
+  "procedure": "Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "466 170 PLN",
+  "highest_offer": "466 170 PLN",
+  "offers": "1",
+  "criteria": [],
+  "duration": "",
+  "contract_date": "",
+  "framework": "",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "usługa CSV",
+  "score": 9.5,
+  "matched": [
+   "walidacja systemu",
+   "validation",
+   "pharma",
+   "CPV 72*"
+  ],
+  "key": "ezamowienia:2023/BZP 00440184",
+  "first_seen": "2026-11-18"
+ },
+ "ezamowienia:2023/BZP 00502797": {
+  "source": "ezamowienia",
+  "source_id": "2023/BZP 00502797",
+  "title": "Usługa wykonania walidacji systemów skomputeryzowanych wspierających procesy realizowane w Hurtowniach Farmaceutycznych RARS",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08dbeb48-8677-5e51-fc69-9600104b1bc9",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2023/BZP 00502797 z dnia 2023-11-22 .normal { color: black; } h1.title { } Ogłoszenie o zamówieniu Usługi Usługa wykonania walidacji systemów skomputeryzowanych wspierających procesy realizowane w Hurtowniach Farmaceutycznych RARS SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Rządowa Agencja Rezerw Strategicznych 1.4) Krajowy Numer Identyfikacyjny: REGON 012199305 1.5) Adres zamawiającego 1.5.1.) Ulica: Grzybowska 45 1.5.2.) Miejscowość: Warszawa 1.5.3.) Kod pocztowy: 00-844 1.5.4.) Województwo: mazowieckie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL911 - Miasto Warszawa 1.5.9.) Adres poczty elektronicznej: zp@rars.gov.pl 1.5.10.) Adres strony internetowej zamawiającego: www.rars.gov.pl 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - agencja wykonawcza 1.7.) Przedmiot działalności zamawiającego: Inna działalność rezerwy strategiczne SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Usługa wykonania walidacji systemów skomputeryzowanych wspierających procesy realizowane w Hurtowniach Farmaceutycznych RARS 2.4.) Identyfikator postępowania: ocds-148610-03002c85-847f-11ee-a60c-9ec5599dddc1 2.5.) Numer ogłoszenia: 2023/BZP 00502797 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2023-11-22 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Nie 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Nie 2.16.) Tryb udzielenia zamówienia wraz z podstawą prawną Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ust",
+  "buyer": "Rządowa Agencja Rezerw Strategicznych",
+  "country": "PL",
+  "published": "2023-11-22",
+  "deadline": "2023-11-30T09:00",
+  "notice_type": "ContractNotice",
+  "cpv": [
+   "72510000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "ocds-148610-03002c85-847f-11ee-a60c-9ec5599dddc1",
+  "procedure": "Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [
+   "Cena 100"
+  ],
+  "duration": "6 miesiące",
+  "contract_date": "",
+  "framework": "",
+  "deposit": "Nie",
+  "conditions": "Tak 5.4.) Nazwa i opis warunków udziału w postępowaniu. 1. Zamawiający wymaga wykazania przez Wykonawcę spełnienia warunków określonych w art. 112 ust. 2 Ustawy dotyczących zdolności technicznej lub zawodowej. 2. Wykonawca spełni warunek, o którym mowa w pkt 1, jeżeli wykaże, że: 1) w okresie ostatnich 3 lat przed upływem terminu składania ofert, a jeżeli okres prowadzenia działalności jest krótszy – w tym okresie, wykonał należycie co najmniej 2 (dwie) usługi polegające na walidacji systemu skomputeryzowanego SAP w hurtowniach farmaceutycznych.",
+  "winner_info": [],
+  "kind": "usługa CSV",
+  "score": 9.5,
+  "matched": [
+   "walidacja systemu",
+   "validation",
+   "pharma",
+   "CPV 72*"
+  ],
+  "key": "ezamowienia:2023/BZP 00502797",
+  "first_seen": "2026-11-18"
+ },
+ "ezamowienia:2024/BZP 00051311": {
+  "source": "ezamowienia",
+  "source_id": "2024/BZP 00051311",
+  "title": "Usługa wykonania walidacji systemów skomputeryzowanych wspierających procesy realizowane w Hurtowniach Farmaceutycznych RARS",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08dc18ce-6962-1bd1-6929-350011fa3145",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2024/BZP 00051311 z dnia 2024-01-19 .normal { color: black; } h1.title { } Ogłoszenie o wyniku postępowania Usługi Usługa wykonania walidacji systemów skomputeryzowanych wspierających procesy realizowane w Hurtowniach Farmaceutycznych RARS SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Rządowa Agencja Rezerw Strategicznych 1.4) Krajowy Numer Identyfikacyjny: REGON 012199305 1.5) Adres zamawiającego 1.5.1.) Ulica: Grzybowska 45 1.5.2.) Miejscowość: Warszawa 1.5.3.) Kod pocztowy: 00-844 1.5.4.) Województwo: mazowieckie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL911 - Miasto Warszawa 1.5.9.) Adres poczty elektronicznej: zp@rars.gov.pl 1.5.10.) Adres strony internetowej zamawiającego: www.rars.gov.pl 1.6.) Adres strony internetowej prowadzonego postępowania: https://platformazakupowa.pl/pn/rars 1.7.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - agencja wykonawcza 1.8.) Przedmiot działalności zamawiającego: Inna działalność rezerwy strategiczne SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Usługa wykonania walidacji systemów skomputeryzowanych wspierających procesy realizowane w Hurtowniach Farmaceutycznych RARS 2.4.) Identyfikator postępowania: ocds-148610-03002c85-847f-11ee-a60c-9ec5599dddc1 2.5.) Numer ogłoszenia: 2024/BZP 00051311 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2024-01-19 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Nie 2.11.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Nie 2.13.) Zamówienie/umowa ramowa było poprzedzone ogłoszeniem o zamówieniu/ogłoszeniem o zamiarze zawarcia umowy: Tak 2.14.) Numer ogłoszen",
+  "buyer": "Rządowa Agencja Rezerw Strategicznych",
+  "country": "PL",
+  "published": "2024-01-19",
+  "deadline": "",
+  "notice_type": "TenderResultNotice",
+  "cpv": [
+   "72510000"
+  ],
+  "value": "",
+  "winners": [
+   "eConsulting Sp. z o.o."
+  ],
+  "tender_id": "ocds-148610-03002c85-847f-11ee-a60c-9ec5599dddc1",
+  "procedure": "Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy",
+  "estimated_value": "",
+  "award_value": "307 500 PLN",
+  "lowest_offer": "307 500 PLN",
+  "highest_offer": "358 600 PLN",
+  "offers": "5",
+  "criteria": [],
+  "duration": "6 miesiące",
+  "contract_date": "2023-12-29",
+  "framework": "",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "usługa CSV",
+  "score": 9.5,
+  "matched": [
+   "walidacja systemu",
+   "validation",
+   "pharma",
+   "CPV 72*"
+  ],
+  "key": "ezamowienia:2024/BZP 00051311",
+  "first_seen": "2026-11-18"
+ },
  "oev:9a23ca83-a71b-4881-9b79-ad4a1fa70eed-01": {
   "source": "oev",
   "source_id": "9a23ca83-a71b-4881-9b79-ad4a1fa70eed-01",
@@ -2308,6 +2480,48 @@
   "key": "ted:747183-2026",
   "first_seen": "2026-11-18"
  },
+ "ezamowienia:2025/BZP 00497191": {
+  "source": "ezamowienia",
+  "source_id": "2025/BZP 00497191",
+  "title": "Walidacja i utrzymanie zainstalowanego automatycznego systemu monitorującego temperaturę oraz wilgotność w lodówkach, zamrażarkach i pomieszczeniach.",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de153f-a24a-da38-6f2a-fc0001f5cc70",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2025/BZP 00497191 z dnia 2025-10-27 .normal { color: black; } h1.title { } Ogłoszenie o zamówieniu Usługi Walidacja i utrzymanie zainstalowanego automatycznego systemu monitorującego temperaturę oraz wilgotność w lodówkach, zamrażarkach i pomieszczeniach. SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Wojskowe Centrum Krwiodawstwa i Krwiolecznictwa SP ZOZ 1.3.) Oddział zamawiającego: WCKiK SP ZOZ 1.4) Krajowy Numer Identyfikacyjny: REGON 140130346 1.5) Adres zamawiającego 1.5.1.) Ulica: Koszykowa 78 1.5.2.) Miejscowość: Warszawa 1.5.3.) Kod pocztowy: 00-671 1.5.4.) Województwo: mazowieckie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL911 - Miasto Warszawa 1.5.9.) Adres poczty elektronicznej: zp@wckik.pl 1.5.10.) Adres strony internetowej zamawiającego: www.wckik.pl 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - samodzielny publiczny zakład opieki zdrowotnej 1.7.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Walidacja i utrzymanie zainstalowanego automatycznego systemu monitorującego temperaturę oraz wilgotność w lodówkach, zamrażarkach i pomieszczeniach. 2.4.) Identyfikator postępowania: ocds-148610-76a1b0c1-179c-4389-8649-c945a119d6e8 2.5.) Numer ogłoszenia: 2025/BZP 00497191 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2025-10-27 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2025/BZP 00073931/02/P 2.10.) Identyfikator pozycji planu postępowań: 1.3.6 Abonament za monitoring temperatur (M2M) wraz z legalizacją (II, 3.14) 1.3.8 Przeglądy i konserwacje urządzeń technicznych - klimatyzacji, wentylacji, mr",
+  "buyer": "Wojskowe Centrum Krwiodawstwa i Krwiolecznictwa SP ZOZ",
+  "country": "PL",
+  "published": "2025-10-27",
+  "deadline": "2025-11-05T08:00",
+  "notice_type": "ContractNotice",
+  "cpv": [
+   "33120000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "ocds-148610-76a1b0c1-179c-4389-8649-c945a119d6e8",
+  "procedure": "Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [
+   "Cena 100"
+  ],
+  "duration": "24 miesiące",
+  "contract_date": "",
+  "framework": "",
+  "deposit": "Nie",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "usługa CSV",
+  "score": 6.0,
+  "matched": [
+   "validation",
+   "blood/biobank",
+   "monitoring"
+  ],
+  "key": "ezamowienia:2025/BZP 00497191",
+  "first_seen": "2026-11-18"
+ },
  "ezamowienia:2025/BZP 00550470": {
   "source": "ezamowienia",
   "source_id": "2025/BZP 00550470",
@@ -3497,6 +3711,47 @@
   "key": "ted:771418-2025",
   "first_seen": "2026-11-18"
  },
+ "ezamowienia:2025/BZP 00421247": {
+  "source": "ezamowienia",
+  "source_id": "2025/BZP 00421247",
+  "title": "Dostawa elektroporatora wraz z kwalifikacją IQ/OQ (produkcja) (zgodny z GMP, przeznaczony do wytwarzania leków) - 1 sztuka, dla Uniwersytetu Jagiellońskiego Collegium Medicum w Krakowie.",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08ddf1f1-0e37-6c83-d903-3900014ebc8e",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2025/BZP 00421247 z dnia 2025-09-12 .normal { color: black; } h1.title { } Ogłoszenie o zamówieniu Dostawy Dostawa elektroporatora wraz z kwalifikacją IQ/OQ (produkcja) (zgodny z GMP, przeznaczony do wytwarzania leków) - 1 sztuka, dla Uniwersytetu Jagiellońskiego Collegium Medicum w Krakowie. SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Uniwersytet Jagielloński - Collegium Medicum 1.4) Krajowy Numer Identyfikacyjny: REGON 00000127000040 1.5) Adres zamawiającego 1.5.1.) Ulica: św. Anny 12 1.5.2.) Miejscowość: Kraków 1.5.3.) Kod pocztowy: 31-008 1.5.4.) Województwo: małopolskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL213 - Miasto Kraków 1.5.9.) Adres poczty elektronicznej: dzp@cm-uj.krakow.pl 1.5.10.) Adres strony internetowej zamawiającego: http://www.dzp.cm-uj.krakow.pl/ 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - uczelnia publiczna 1.7.) Przedmiot działalności zamawiającego: Edukacja SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Dostawa elektroporatora wraz z kwalifikacją IQ/OQ (produkcja) (zgodny z GMP, przeznaczony do wytwarzania leków) - 1 sztuka, dla Uniwersytetu Jagiellońskiego Collegium Medicum w Krakowie. 2.4.) Identyfikator postępowania: ocds-148610-5a05269e-f318-4e31-a0da-30a09c1c6246 2.5.) Numer ogłoszenia: 2025/BZP 00421247 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2025-09-12 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Nie 2.11.) O udzielenie zamówienia mogą ubiegać się wyłącznie wykonawcy, o których mowa w art. 94 ustawy: Nie 2.14.) Czy zamówienie albo umowa ramowa dotyczy projektu lub programu współfinansowanego ze środków Unii Europejskiej: Tak 2.15.) Nazwa ",
+  "buyer": "Uniwersytet Jagielloński - Collegium Medicum",
+  "country": "PL",
+  "published": "2025-09-12",
+  "deadline": "2025-10-01T08:00",
+  "notice_type": "ContractNotice",
+  "cpv": [
+   "33158200"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "ocds-148610-5a05269e-f318-4e31-a0da-30a09c1c6246",
+  "procedure": "Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 2 ustawy",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [
+   "Cena 100"
+  ],
+  "duration": "42 dni",
+  "contract_date": "",
+  "framework": "",
+  "deposit": "Nie",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "sprzęt + IQ/OQ",
+  "score": 3.5,
+  "matched": [
+   "IQ/OQ/PQ",
+   "GMP/GxP"
+  ],
+  "key": "ezamowienia:2025/BZP 00421247",
+  "first_seen": "2026-11-18"
+ },
  "ezamowienia:2025/BZP 00559236": {
   "source": "ezamowienia",
   "source_id": "2025/BZP 00559236",
@@ -4144,6 +4399,92 @@
    "radiopharmacy"
   ],
   "key": "boamp:25-72365",
+  "first_seen": "2026-11-18"
+ },
+ "ezamowienia:2021/BZP 00108239": {
+  "source": "ezamowienia",
+  "source_id": "2021/BZP 00108239",
+  "title": "Rekwalifikacja  pomieszczeń strefy kontrolowanej Banku Tkanek wraz z dostawą  filtrów HEPA ,serwis całodobowy BMS i RMS  oraz zakup filtrów G4,F7 i F9",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08dc2ff2-9877-0678-8219-c30001c8d760",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2021/BZP 00108239 z dnia 2021-07-08 .normal { color: black; } h1.title { } Ogłoszenie o zamówieniu Usługi Rekwalifikacja pomieszczeń strefy kontrolowanej Banku Tkanek wraz z dostawą filtrów HEPA ,serwis całodobowy BMS i RMS oraz zakup filtrów G4,F7 i F9 SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Regionalne Centrum Krwiodawstwa i Krwiolecznictwa w Katowicach 1.4) Krajowy Numer Identyfikacyjny: REGON 000296986 1.5) Adres zamawiającego 1.5.1.) Ulica: Raciborska 15 1.5.2.) Miejscowość: Katowice 1.5.3.) Kod pocztowy: 40-074 1.5.4.) Województwo: śląskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL22A - Katowicki 1.5.9.) Adres poczty elektronicznej: zam_publ@rckik-katowice.pl 1.5.10.) Adres strony internetowej zamawiającego: www.rckik-katowice.pl 1.6.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - samodzielny publiczny zakład opieki zdrowotnej 1.7.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Rekwalifikacja pomieszczeń strefy kontrolowanej Banku Tkanek wraz z dostawą filtrów HEPA ,serwis całodobowy BMS i RMS oraz zakup filtrów G4,F7 i F9 2.4.) Identyfikator postępowania: ocds-148610-70f6e47c-dfc2-11eb-b885-f28f91688073 2.5.) Numer ogłoszenia: 2021/BZP 00108239 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2021-07-08 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2021/BZP 00025757/02/P 2.10.) Identyfikator pozycji planu postępowań: 1.3.10 Serwis, walidacja i rekwalifikacja pomieszczeń strefy kontrolowanej Banku Tkanek. Dostawa filtrów HEPA oraz zakup filtrów G4,F7 i F9 2.11.) O udzielenie zamówienia mogą ubiega",
+  "buyer": "Regionalne Centrum Krwiodawstwa i Krwiolecznictwa w Katowicach",
+  "country": "PL",
+  "published": "2021-07-08",
+  "deadline": "2021-07-16T08:00",
+  "notice_type": "ContractNotice",
+  "cpv": [
+   "50730000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "ocds-148610-70f6e47c-dfc2-11eb-b885-f28f91688073",
+  "procedure": "Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [
+   "Cena 60",
+   "czas reakcji na zgłoszenie 40"
+  ],
+  "duration": "24 miesiące",
+  "contract_date": "",
+  "framework": "",
+  "deposit": "Nie",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "serwis urządzeń",
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "blood/biobank",
+   "LIMS/MES/CDS"
+  ],
+  "key": "ezamowienia:2021/BZP 00108239",
+  "first_seen": "2026-11-18"
+ },
+ "ezamowienia:2021/BZP 00159935": {
+  "source": "ezamowienia",
+  "source_id": "2021/BZP 00159935",
+  "title": "Rekwalifikacja  pomieszczeń strefy kontrolowanej Banku Tkanek wraz z dostawą  filtrów HEPA ,serwis całodobowy BMS i RMS  oraz zakup filtrów G4,F7 i F9",
+  "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08dc2ffd-6e1e-a812-02ca-ff0001c26d58",
+  "description": "body { font-family: \"Calibri\", sans-serif; } span.normal { font-weight: 400 } .text-center { text-align: center } .bg-light { background-color: #F2F2F2 } * { box-sizing: border-box } .h1, h1 { font-size: 1.75rem } .h3, h3 { font-size: 11pt; font-weight: 700; margin-bottom: 1.25rem } .h1, h1 { font-size: 11pt; font-family: \"Arial\",sans-serif; } .h2, h2 { font-size: 12pt; font-family: \"Arial\",sans-serif; font-weight: bold; margin-bottom: 1.25rem } .p-3 { border: solid windowtext 1.0pt; background: #BFBFBF; padding: 0cm 5.4pt 0cm 5.4pt; } .mb-0 { margin-bottom: 0 !important } .mb-1 { margin-bottom: .5rem !important } .mb-2 { margin-bottom: 1rem !important } .mb-3 { margin-bottom: 1.5rem !important } .mb-4 { margin-bottom: 2rem !important } .mb-5 { margin-bottom: 2.5rem !important } .mb-6 { margin-bottom: 3rem !important } .mb-7 { margin-bottom: 3.5rem !important } .mb-8 { margin-bottom: 4rem !important } .mb-9 { margin-bottom: 4.5rem !important } .mb-10 { margin-bottom: 5rem !important } .mb-auto { margin-bottom: auto !important } Ogłoszenie nr 2021/BZP 00159935 z dnia 2021-08-25 .normal { color: black; } h1.title { } Ogłoszenie o wyniku postępowania Usługi Rekwalifikacja pomieszczeń strefy kontrolowanej Banku Tkanek wraz z dostawą filtrów HEPA ,serwis całodobowy BMS i RMS oraz zakup filtrów G4,F7 i F9 SEKCJA I - ZAMAWIAJĄCY 1.1.) Rola zamawiającego Postępowanie prowadzone jest samodzielnie przez zamawiającego 1.2.) Nazwa zamawiającego: Regionalne Centrum Krwiodawstwa i Krwiolecznictwa w Katowicach 1.4) Krajowy Numer Identyfikacyjny: REGON 000296986 1.5) Adres zamawiającego 1.5.1.) Ulica: Raciborska 15 1.5.2.) Miejscowość: Katowice 1.5.3.) Kod pocztowy: 40-074 1.5.4.) Województwo: śląskie 1.5.5.) Kraj: Polska 1.5.6.) Lokalizacja NUTS 3: PL22A - Katowicki 1.5.9.) Adres poczty elektronicznej: zam_publ@rckik-katowice.pl 1.5.10.) Adres strony internetowej zamawiającego: www.rckik-katowice.pl 1.6.) Adres strony internetowej prowadzonego postępowania: https://rckik-katowice.ezamawiajacy.pl 1.7.) Rodzaj zamawiającego: Zamawiający publiczny - jednostka sektora finansów publicznych - samodzielny publiczny zakład opieki zdrowotnej 1.8.) Przedmiot działalności zamawiającego: Zdrowie SEKCJA II – INFORMACJE PODSTAWOWE 2.1.) Ogłoszenie dotyczy: Zamówienia publicznego 2.2.) Ogłoszenie dotyczy usług społecznych i innych szczególnych usług: Nie 2.3.) Nazwa zamówienia albo umowy ramowej: Rekwalifikacja pomieszczeń strefy kontrolowanej Banku Tkanek wraz z dostawą filtrów HEPA ,serwis całodobowy BMS i RMS oraz zakup filtrów G4,F7 i F9 2.4.) Identyfikator postępowania: ocds-148610-70f6e47c-dfc2-11eb-b885-f28f91688073 2.5.) Numer ogłoszenia: 2021/BZP 00159935 2.6.) Wersja ogłoszenia: 01 2.7.) Data ogłoszenia: 2021-08-25 2.8.) Zamówienie albo umowa ramowa zostały ujęte w planie postępowań: Tak 2.9.) Numer planu postępowań w BZP: 2021/BZP 00025757/03/P 2.10.) Identyfikator pozycji planu postępowań: 1.3.10 Serwis, walidacja i rekwalifikacja pomieszczeń strefy kontrolowanej ",
+  "buyer": "Regionalne Centrum Krwiodawstwa i Krwiolecznictwa w Katowicach",
+  "country": "PL",
+  "published": "2021-08-25",
+  "deadline": "",
+  "notice_type": "TenderResultNotice",
+  "cpv": [
+   "50730000"
+  ],
+  "value": "",
+  "winners": [
+   "SPIE Building Solutions Sp.z o.o.",
+   "STRABAG   PFS  Sp. z o.o."
+  ],
+  "tender_id": "ocds-148610-70f6e47c-dfc2-11eb-b885-f28f91688073",
+  "procedure": "Zamówienie udzielane jest w trybie podstawowym na podstawie: art. 275 pkt 1 ustawy",
+  "estimated_value": "",
+  "award_value": "252 283 PLN / 251 224 PLN",
+  "lowest_offer": "252 283 PLN / 251 224 PLN",
+  "highest_offer": "252 283 PLN / 251 224 PLN",
+  "offers": "0 / 1 / 1",
+  "criteria": [],
+  "duration": "24 miesiące",
+  "contract_date": "2021-08-06",
+  "framework": "",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "serwis urządzeń",
+  "score": 3.0,
+  "matched": [
+   "validation",
+   "blood/biobank",
+   "LIMS/MES/CDS"
+  ],
+  "key": "ezamowienia:2021/BZP 00159935",
   "first_seen": "2026-11-18"
  },
  "freelancermap:3066812": {
