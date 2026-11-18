@@ -1,6 +1,6 @@
 # Wszystkie trafienia — baza
 
-Otwarte: **1** · zamknięte CSV (usługa / system + walidacja): **6**, z czego z wynikiem: **3** · sprzęt i serwis urządzeń: **14** · inne: **8**
+Otwarte: **1** · zamknięte CSV (usługa / system + walidacja): **8**, z czego z wynikiem: **4** · sprzęt i serwis urządzeń: **15** · inne: **8**
 
 ## Otwarte — do rozważenia
 
@@ -15,16 +15,18 @@ Otwarte: **1** · zamknięte CSV (usługa / system + walidacja): **6**, z czego 
 
 _Jedyna część przydatna do wyceny usług CSV. W „system + walidacja” kwota obejmuje cały system; walidację zwykle robi dostawca/integrator — szansa na podwykonawstwo._
 
-**Wnioski do wyceny** (n=3 z wynikiem):
-- Liczba ofert: mediana **1**, jedna oferta w **2/3** postępowań (67%).
+**Wnioski do wyceny** (n=4 z wynikiem):
+- Liczba ofert: mediana **2**, jedna oferta w **2/4** postępowań (50%).
 - Kwota umowy / wartość szacunkowa: mediana **1.11** (min 1.00, max 1.22, n=2).
 - Wyłącznie cena jako kryterium: **1/2** postępowań ze znanymi kryteriami.
 
 | Typ | Zamawiający | Przedmiot | Szacunek | Ofert | Najniższa – najwyższa | Umowa | Zwycięzca | Kryteria | Data |
 |---|---|---|---:|---:|---|---:|---|---|---|
 | system + walidacja | Universitätsklinikum Essen AÖR | [Germany – Electrical wiring and fitting work – NUM RC - Pharma-Monitoring](https://ted.europa.eu/en/notice/-/detail/564895-2026) | — | — | — | — | — | — | 2026-08-14 |
+| usługa CSV | Universitätsspital Basel / Healthcare Infra … | [Closed Loop Medication Management (CLMM), Architekt mit Gesamtleitung](https://www.simap.ch/de/project-detail/39601933-618d-45c1-9a65-912cf8eb0f33) | — | 3 | — | 391 117 CHF | Wirth + Wirth AG (CH) | — | 2026-06-17 |
 | system + walidacja | INSTYTUT BIOTECHNOLOGII SUROWIC I SZCZEPIONE… | [Zapytanie ofertowe nr 2/2026 z dnia 22.05.2026 r. dotyczące dostawy, wdrożenia …](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/278867) | — | — | — | — | — | — | 2026-06-08 |
 | system + walidacja | INSTYTUT BIOTECHNOLOGII SUROWIC I SZCZEPIONE… | [Zapytanie ofertowe nr 1/2026 z dnia 22.05.2026 r. dotyczące dostawy, wdrożenia …](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/278862) | — | — | — | — | — | — | 2026-06-05 |
+| usługa CSV | Hochstrasser Glaus & Partner Consulting AG /… | [249 Qualifizierung und Requalifizierung Reinräume](https://www.simap.ch/de/project-detail/c10f4e46-4bc2-45b4-bfef-6111a380fd82) | — | — | — | — | — | — | 2026-04-24 |
 | system + walidacja | INSTYTUT IMMUNOLOGII I TERAPII DOŚWIADCZALNE… | [Dostawa wraz z walidacją systemu służącego monitorowaniu sprzętu warunkującego …](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de80e5-1c3f-c11b-056e-e50001ac87a3) | 200 000 PLN | 1 | 243 466 PLN – 243 466 PLN | 243 466 PLN | ProGrupa Technologie Sp. z o.o. | Cena 100 | 2026-03-09 |
 | usługa CSV | Wojskowe Centrum Krwiodawstwa i Krwiolecznic… | [Walidacja i utrzymanie zainstalowanego automatycznego systemu monitorującego te…](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de2b3b-4583-a817-8aeb-ba0001123800) | — | 1 | 244 425 PLN – 244 425 PLN | 244 425 PLN | FLUODATA Spółka z ograniczoną odpowiedzialnością | — | 2025-11-20 |
 | usługa CSV | AMGROS I/S | [Denmark – IT services: consulting, software development, Internet and support –…](https://ted.europa.eu/en/notice/-/detail/814489-2025) | 4 800 000 DKK | 5 | 2 142 286 DKK – 9 315 420 DKK | 4 800 000 DKK | Dot Compliance UK Limited (GBR, medium) | Pris, Solution, Implementation plan, Vendor Servi… | 2025-09-02 |
@@ -33,12 +35,13 @@ _Jedyna część przydatna do wyceny usług CSV. W „system + walidacja” kwot
 
 _Kwalifikację robi producent/serwis na własnych protokołach; kwoty to głównie cena sprzętu — nie używać do wyceny CSV._
 
-<details><summary>Pokaż 14 pozycji</summary>
+<details><summary>Pokaż 15 pozycji</summary>
 
 | Typ | Zamawiający | Przedmiot | Szacunek | Ofert | Najniższa – najwyższa | Umowa | Zwycięzca | Kryteria | Data |
 |---|---|---|---:|---:|---|---:|---|---|---|
 | sprzęt + IQ/OQ | Universitätsklinikum Heidelberg | [Germany – Medical equipments – Automatisiertes Zellprozessierungssystem](https://ted.europa.eu/en/notice/-/detail/747344-2026) | — | 1 | — | — | Miltenyi Biotec B.V. & Co.KG (DEU, large) | quality | 2026-10-27 |
 | sprzęt + IQ/OQ | Logistikbasis der Armee / LBA ; Armeeapotheke | [Switzerland – Industrial machinery – 1 System Erzeugung, Lagerung und Verteilun…](https://ted.europa.eu/en/notice/-/detail/747183-2026) | — | 2 | 1 281 257 CHF – 1 281 257 CHF | 1 281 257 CHF | DE_Heinz Burkhalter AG, FR_Heinz Burkhalter AG (CHE, medium) | quality | 2026-10-27 |
+| sprzęt + IQ/OQ | Logistikbasis der Armee / LBA ; Armeeapotheke | [1 System Erzeugung, Lagerung und Verteilung von Aqua Purificata(AP) und Water f…](https://www.simap.ch/de/project-detail/c3e0bd0f-b840-4e43-8483-58f36ac5261b) | — | 2 | — | 1 281 257 CHF | Heinz Burkhalter AG (CH) | — | 2026-10-13 |
 | sprzęt + IQ/OQ | Universitätsklinikum Heidelberg | [Germany – Laboratory, optical and precision equipments (excl. glasses) – Bescha…](https://ted.europa.eu/en/notice/-/detail/688819-2026) | — | — | — | — | — | technische Wertung, Preis | 2026-10-06 |
 | sprzęt + IQ/OQ | Universitätsklinikum Heidelberg | [Germany – Medical equipments – Automatisiertes Zellprozessierungssystem](https://ted.europa.eu/en/notice/-/detail/676567-2026) | — | — | — | — | — | quality | 2026-10-01 |
 | serwis urządzeń | Universitätsklinikum Aachen AöR | [Germany – Laboratory, optical and precision equipments (excl. glasses) – Bescha…](https://ted.europa.eu/en/notice/-/detail/571070-2026) | — | — | — | — | — | — | 2026-08-18 |

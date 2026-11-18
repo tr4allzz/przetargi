@@ -478,6 +478,50 @@
   "key": "ezamowienia:2026/BZP 00153848",
   "first_seen": "2026-11-18"
  },
+ "simap:33929-02": {
+  "source": "simap",
+  "source_id": "33929-02",
+  "title": "Closed Loop Medication Management (CLMM), Architekt mit Gesamtleitung",
+  "url": "https://www.simap.ch/de/project-detail/39601933-618d-45c1-9a65-912cf8eb0f33",
+  "description": "Im bestehenden Rossetti-Bau auf dem Areal des Universitätsspitals Basel soll das Closed Loop Medication Management (CLMM) mit GMP-gerechten Anforderungen umgesetzt werden. Das Projekt umfasst die Realisierung eines durchgängigen, automatisierten Systems für die Kommissionierung, Verteilung und patientenindividuelle Bereitstellung von Arzneimitteln. Das Vorhaben wird in zwei Etappen realisiert, um den Betrieb der Spitalapotheke während der Umbauphasen ohne Einschränkungen aufrechtzuerhalten. Sämtliche Arbeiten erfolgen auf der Grundlage der GMP-Vorgaben, die sowohl für das Projekt selbst als auch für die Umbauphasen verbindlich sind. Etappe 1: Realisierung der automatisierten Kommissionierung inklusive der erforderlichen Infrastruktur, Anbindung an das STA-System, Neubau des Kühlraums sowie Anpassung und Einrichtung der Lagerzonen. Etappe 2: Ausbau der Unit-Dose-Bereiche sowie der Warenannahme, einschliesslich der Anpassung und Umsetzung der vorgesehenen Ex-Schutzräume und der zugehörigen betrieblichen und technischen Anforderungen. Die Leistungen des Architekten mit Gesamtleitung umfassen die Planung und Koordination der erforderlichen baulichen Anpassungen im bestehenden Rossetti-Bau, die Integration der technischen Anlagen (inkl. HLKKS/E) sowie die Koordination mit dem GMP-Spezialisten zur Sicherstellung der GMP-gerechten Umsetzung und der Qualifizierung (DQ, IQ, OQ, PQ).",
+  "buyer": "Universitätsspital Basel / Healthcare Infra AG",
+  "country": "CHE",
+  "published": "2026-07-10",
+  "deadline": "",
+  "notice_type": "award",
+  "cpv": [
+   "71000000"
+  ],
+  "value": "",
+  "winners": [
+   "Wirth + Wirth AG"
+  ],
+  "tender_id": "simap:39601933-618d-45c1-9a65-912cf8eb0f33",
+  "procedure": "offen",
+  "estimated_value": "",
+  "award_value": "391 117 CHF",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "3",
+  "criteria": [],
+  "duration": "",
+  "contract_date": "2026-06-17",
+  "framework": "",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [
+   "CH"
+  ],
+  "kind": "usługa CSV",
+  "score": 7.5,
+  "matched": [
+   "IQ/OQ/PQ",
+   "GMP/GxP",
+   "pharma"
+  ],
+  "key": "simap:33929-02",
+  "first_seen": "2026-11-18"
+ },
  "ted:523910-2026": {
   "source": "ted",
   "source_id": "523910-2026",
@@ -656,6 +700,50 @@
    "GMP/GxP"
   ],
   "key": "ted:688819-2026",
+  "first_seen": "2026-11-18"
+ },
+ "simap:38362-02": {
+  "source": "simap",
+  "source_id": "38362-02",
+  "title": "1 System Erzeugung, Lagerung und Verteilung von Aqua Purificata(AP) und Water for injection(WFI)",
+  "url": "https://www.simap.ch/de/project-detail/c3e0bd0f-b840-4e43-8483-58f36ac5261b",
+  "description": "Die Auftragnehmerin liefert einen mehrstufigen Reinstwasser Erzeuger zur Herstellung von Water For Injection (WFI). Die bestehenden System WFI und AP zur Lagerung / Verteilung des Wassers wird einem Retrofit unterzogen. Die Auftragnehmerin erstellt über das gesamte System die Automation neu und bindet den bestehenden Clean-Steam-Erzeuger mit ein. Die geltenden Bestimmungen für den Einsatz im pharmazeutischen GMP-Bereich wie auch die Richtlinien nach GAMP 5 hinsichtlich des Automatisierungssystems müssen erfüllt werden. Auftrag umfasst (Details siehe Lastenheft VVO / 111733 / 000 / 00): · Projektleitung und Projektplanung · Engineering, Konstruktion, Automatisation und Fertigung · Änderungsdienst · Designqualifikation · Risikoanalyse (Traceability-Matrix) · Werksabnahmeprüfung FAT (Factory Acceptance Test) · Verpackung, Verzollung, Transport · Zuständig für die Demontage / Entsorgung der bestehenden Anlagen · Einbringung, Montage, Installation · Inbetriebnahme · SAT (Site Acceptance Test) · Installationsqualifikation · Funktionsqualifikation · Kalibration · Technische Freigabe des Systems · Dokumentation / Schulung",
+  "buyer": "Logistikbasis der Armee / LBA ; Armeeapotheke",
+  "country": "CHE",
+  "published": "2026-10-27",
+  "deadline": "",
+  "notice_type": "award",
+  "cpv": [
+   "42000000"
+  ],
+  "value": "",
+  "winners": [
+   "Heinz Burkhalter AG"
+  ],
+  "tender_id": "simap:c3e0bd0f-b840-4e43-8483-58f36ac5261b",
+  "procedure": "offen",
+  "estimated_value": "",
+  "award_value": "1 281 257 CHF",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "2",
+  "criteria": [],
+  "duration": "",
+  "contract_date": "2026-10-13",
+  "framework": "",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [
+   "CH"
+  ],
+  "kind": "sprzęt + IQ/OQ",
+  "score": 6.5,
+  "matched": [
+   "GAMP",
+   "GMP/GxP",
+   "pharma"
+  ],
+  "key": "simap:38362-02",
   "first_seen": "2026-11-18"
  },
  "ted:434234-2026": {
@@ -943,6 +1031,45 @@
    "GMP/GxP"
   ],
   "key": "bk:286214",
+  "first_seen": "2026-11-18"
+ },
+ "simap:35988-01": {
+  "source": "simap",
+  "source_id": "35988-01",
+  "title": "249 Qualifizierung und Requalifizierung Reinräume",
+  "url": "https://www.simap.ch/de/project-detail/c10f4e46-4bc2-45b4-bfef-6111a380fd82",
+  "description": "Alle Reinraummessungen für die Qualifizierung und Requalifizierung in den Stadtspitäler Waid, Triemli und Europaallee. Sämtliche Materiallieferungen sind in Etappen anzuliefern und direkt in Reinraumqualität in die messbaren Zonen zu verteilen. Es stehen keine Lagerräume zur Verfügung. Fachgerechte Entsorgung der demontierten Materialien. Während der Messungen müssen alle durchgeführten Arbeiten dokumentiert werden. Dies umfasst den Zeitpunkt der Messung, durchgeführte Reparaturen, andere relevante Informationen, damit diese im PQ-Programm eingetragen werden können. Die detaillierten Leistungen sind in der Ausschreibung aufgelistet.",
+  "buyer": "Hochstrasser Glaus & Partner Consulting AG / Stadtspital Zürich",
+  "country": "CHE",
+  "published": "2026-04-24",
+  "deadline": "2026-06-05 17:00",
+  "notice_type": "tender",
+  "cpv": [
+   "71000000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "simap:c10f4e46-4bc2-45b4-bfef-6111a380fd82",
+  "procedure": "offen",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [],
+  "duration": "",
+  "contract_date": "",
+  "framework": "",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "usługa CSV",
+  "score": 5.0,
+  "matched": [
+   "IQ/OQ/PQ",
+   "aseptic/cleanroom"
+  ],
+  "key": "simap:35988-01",
   "first_seen": "2026-11-18"
  },
  "ted:771418-2025": {
