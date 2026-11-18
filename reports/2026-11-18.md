@@ -1,8 +1,8 @@
 # Przetargi GxP/CSV — 2026-11-18
 
-Nowe dziś (wszystkie przebiegi): **33**, w tym z ostatniego przebiegu: **3** (okno 365 dni).
+Nowe dziś (wszystkie przebiegi): **30**, w tym z ostatniego przebiegu: **0** (okno 2 dni).
 
-Otwarte: **2** · zamknięte CSV (usługa / system + walidacja): **8**, z czego z wynikiem: **3** · sprzęt i serwis urządzeń: **14** · inne: **8**
+Otwarte: **1** · zamknięte CSV (usługa / system + walidacja): **6**, z czego z wynikiem: **3** · sprzęt i serwis urządzeń: **14** · inne: **8**
 
 ## Otwarte — do rozważenia
 
@@ -12,12 +12,6 @@ Otwarte: **2** · zamknięte CSV (usługa / system + walidacja): **8**, z czego 
 - **Termin ofert:** 2026-11-23 · **Tryb:** ograniczony · **Umowa ramowa:** tak · **Realizacja:** 48 month
 - **Kryteria oceny:** quality, price
 - _Dopasowania:_ GAMP, validation, IQ/OQ/PQ, CPV 72*
-
-### 3.5 · `usługa CSV` · [2000000460 Zakup i dostawa usługi / Purchase and delivery of service](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/296078)
-
-- **Zamawiający:** Polpharma Biologics S.A. (PL) · źródło: bk · publikacja 2026-10-26
-- **Termin ofert:** 2026-11-26 23:59
-- _Dopasowania:_ validation, pharma, -analytical method validation
 
 ## CSV: usługi walidacji i systemy z walidacją (zamknięte)
 
@@ -31,11 +25,9 @@ _Jedyna część przydatna do wyceny usług CSV. W „system + walidacja” kwot
 | Typ | Zamawiający | Przedmiot | Szacunek | Ofert | Najniższa – najwyższa | Umowa | Zwycięzca | Kryteria | Data |
 |---|---|---|---:|---:|---|---:|---|---|---|
 | system + walidacja | Universitätsklinikum Essen AÖR | [Germany – Electrical wiring and fitting work – NUM RC - Pharma-Monitoring](https://ted.europa.eu/en/notice/-/detail/564895-2026) | — | — | — | — | — | — | 2026-08-14 |
-| usługa CSV | Polpharma Biologics S.A. | [2000000414 Zakup i dostawa usługi / Purchase and delivery of service](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/286200) | — | — | — | — | — | — | 2026-07-24 |
 | system + walidacja | INSTYTUT BIOTECHNOLOGII SUROWIC I SZCZEPIONE… | [Zapytanie ofertowe nr 2/2026 z dnia 22.05.2026 r. dotyczące dostawy, wdrożenia …](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/278867) | — | — | — | — | — | — | 2026-06-08 |
 | system + walidacja | INSTYTUT BIOTECHNOLOGII SUROWIC I SZCZEPIONE… | [Zapytanie ofertowe nr 1/2026 z dnia 22.05.2026 r. dotyczące dostawy, wdrożenia …](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/278862) | — | — | — | — | — | — | 2026-06-05 |
 | system + walidacja | INSTYTUT IMMUNOLOGII I TERAPII DOŚWIADCZALNE… | [Dostawa wraz z walidacją systemu służącego monitorowaniu sprzętu warunkującego …](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de80e5-1c3f-c11b-056e-e50001ac87a3) | 200 000 PLN | 1 | 243 466 PLN – 243 466 PLN | 243 466 PLN | ProGrupa Technologie Sp. z o.o. | Cena 100 | 2026-03-09 |
-| usługa CSV | Przedsiębiorstwo Farmaceutyczne LEK-AM Sp. z… | [Realizacja usługi polegającej na opracowaniu i walidacji metody oznaczania nitr…](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/255196) | — | — | — | — | — | — | 2025-11-25 |
 | usługa CSV | Wojskowe Centrum Krwiodawstwa i Krwiolecznic… | [Walidacja i utrzymanie zainstalowanego automatycznego systemu monitorującego te…](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08de2b3b-4583-a817-8aeb-ba0001123800) | — | 1 | 244 425 PLN – 244 425 PLN | 244 425 PLN | FLUODATA Spółka z ograniczoną odpowiedzialnością | — | 2025-11-20 |
 | usługa CSV | AMGROS I/S | [Denmark – IT services: consulting, software development, Internet and support –…](https://ted.europa.eu/en/notice/-/detail/814489-2025) | 4 800 000 DKK | 5 | 2 142 286 DKK – 9 315 420 DKK | 4 800 000 DKK | Dot Compliance UK Limited (GBR, medium) | Pris, Solution, Implementation plan, Vendor Servi… | 2025-09-02 |
 
@@ -83,7 +75,4 @@ _Kwalifikację robi producent/serwis na własnych protokołach; kwoty to główn
 
 ## Status źródeł (ostatni przebieg)
 
-- **ted**: ok — przeskanowano 125, istotnych 19, nowych 0 (okno 365 dni)
-- **contracts_finder**: ok — przeskanowano 0, istotnych 0, nowych 0 (okno 60 dni)
-- **ezamowienia**: ok — przeskanowano 6218, istotnych 4, nowych 0 (okno 365 dni)
-- **bk**: ok — przeskanowano 750, istotnych 10, nowych 3 (okno 365 dni)
+- **ted**: ok — przeskanowano 0, istotnych 0, nowych 0 (okno 2 dni)
