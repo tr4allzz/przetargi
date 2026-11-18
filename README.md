@@ -24,6 +24,7 @@ Każde źródło jest izolowane — awaria jednego nie zatrzymuje reszty; status
 
 - `reports/latest.md` — nowe trafienia z ostatniego przebiegu (+ status źródeł)
 - `reports/YYYY-MM-DD.md` — archiwum dzienne
+- `data/ALL.html` — interaktywny raport (zakładki, filtry: kraj, score, nowe; wyszukiwarka; rozwijane szczegóły) — jeden plik, otwiera się offline w przeglądarce
 - `data/ALL.md` — wszystkie trafienia: otwarte i zamknięte (z wygranymi, jeśli są)
 - `data/tenders.json` — baza (klucz `źródło:id`, `first_seen`, score, dopasowania)
 

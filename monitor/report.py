@@ -74,6 +74,7 @@ def merge_cases(items: list[Tender]) -> list[dict]:
             "published": min((t.published for t in ts if t.published), default=""),
             "result_published": ts[0].published if len(ts) > 1 else "",
             "links": [(t.notice_type or t.source, t.url) for t in ts if t.url],
+            "keys": [t.key for t in ts],
             "winners": sorted({w for t in ts for w in t.winners}),
             "winner_info": next((t.winner_info for t in ts if t.winner_info), []),
             "criteria": next((t.criteria for t in ts if t.criteria), []),
@@ -226,10 +227,9 @@ def _collapsed(summary: str, body: list[str]) -> list[str]:
     return [f"<details><summary>{summary}</summary>", "", *body, "", "</details>", ""]
 
 
-def render_full(items: list[Tender], today: date, title: str, intro: list[str] | None = None,
-                stats: dict[str, str] | None = None, gig_days: int | None = FREELANCE_DAYS) -> str:
+def sections(cases: list[dict], today: date, gig_days: int | None = FREELANCE_DAYS) -> dict:
+    """Split merged cases into report sections (shared by the Markdown and HTML reports)."""
     t_iso = today.isoformat()
-    cases = merge_cases(items)
 
     cutoff = date.fromordinal(today.toordinal() - gig_days).isoformat() if gig_days else ""
     gigs = sorted([c for c in cases if c["kind"] == config.KIND_FREELANCE and c["published"] >= cutoff],
@@ -246,6 +246,17 @@ def render_full(items: list[Tender], today: date, title: str, intro: list[str] |
     adjacent = sorted([c for c in closed if c["kind"] in (config.KIND_EQUIPMENT, config.KIND_DEVICE_SERVICE)],
                       key=_date_of, reverse=True)
     rest = sorted([c for c in closed if c not in csv_cases and c not in adjacent], key=lambda c: -c["score"])
+
+    return {"open": open_, "gigs": gigs, "good_gigs": good_gigs, "weak_gigs": weak_gigs, "csv": csv_cases,
+            "awarded": awarded, "pending": pending, "adjacent": adjacent, "rest": rest, "week": week}
+
+
+def render_full(items: list[Tender], today: date, title: str, intro: list[str] | None = None,
+                stats: dict[str, str] | None = None, gig_days: int | None = FREELANCE_DAYS) -> str:
+    sec = sections(merge_cases(items), today, gig_days)
+    open_, gigs, good_gigs, weak_gigs = sec["open"], sec["gigs"], sec["good_gigs"], sec["weak_gigs"]
+    csv_cases, awarded, pending = sec["csv"], sec["awarded"], sec["pending"]
+    adjacent, rest, week = sec["adjacent"], sec["rest"], sec["week"]
 
     out = [f"# {title}", ""]
     out += intro or []

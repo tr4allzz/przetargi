@@ -71,6 +71,9 @@ def main(argv: list[str] | None = None) -> int:
     (reports / f"{today.isoformat()}.md").write_text(md, encoding="utf-8")
     (reports / "latest.md").write_text(md, encoding="utf-8")
     (a.root / "data" / "ALL.md").write_text(render_all(list(store.items.values())), encoding="utf-8")
+    from .html_report import build as build_html
+    page = build_html(list(store.items.values()), today, "Przetargi i zlecenia GxP/CSV", stats)
+    (a.root / "data" / "ALL.html").write_text(page, encoding="utf-8")
     # marker file for the workflow: issue only when there is something new
     (reports / "NEW_COUNT").write_text(str(len(new)), encoding="utf-8")
     print(md)

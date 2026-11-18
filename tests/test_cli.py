@@ -75,3 +75,17 @@ def test_same_tender_in_ted_and_oev_is_merged():
                buyer="Universitätsklinikum Heidelberg", offers="1", score=9.5)
     cases = merge_cases([a, b])
     assert len(cases) == 1 and cases[0]["source"] == "oev, ted" and cases[0]["offers"] == "1"
+
+
+def test_html_report_is_self_contained():
+    import json
+    from datetime import date
+    from monitor.html_report import build
+    item = {"source": "ted", "source_id": "1", "key": "ted:1", "first_seen": "2026-11-18", "title": "Walidacja </script> GAMP",
+            "buyer": "IITD", "country": "POL", "published": "2026-11-01", "deadline": "2026-12-01", "kind": "usługa CSV",
+            "score": 8.0}
+    page = build([item], date(2026, 11, 18), "t", {"ted": "ok"})
+    assert page.startswith("<!DOCTYPE html>") and "http://" not in page.split("<script id")[0]
+    blob = page.split('<script id="data" type="application/json">')[1].split("</script>")[0]
+    data = json.loads(blob)
+    assert data["tabs"][0]["rows"][0]["country"] == "PL" and data["tabs"][0]["rows"][0]["first_seen"] == "2026-11-18"
