@@ -123,6 +123,7 @@ RX_EQUIPMENT = (r"aparatur\w*|urządze\w*|sprzęt\w*|equipment|apparatus|instrum
                 r"aqua purificata|water for injection|komor\w*|maszyn\w*|machine\w*")
 RX_SERVICE = (r"\busług\w*|dienstleistung\w*|\bservices?\b|consult\w*|beratung|doradztw\w*|"
               r"begleitung|wsparci\w*|^\s*walidacj|^\s*validation|^\s*validierung")
-RX_OTHER = (r"badawcz\w*|research|forschung|odczynnik\w*|reagent\w*|pożywk\w*|hodowl\w*|"
+RX_OTHER = (r"architekt\w*|architect\w*|bauleitung|gesamtleitung|generalplaner|planerleistung|"
+            r"badawcz\w*|research|forschung|odczynnik\w*|reagent\w*|pożywk\w*|hodowl\w*|"
             r"pranie|wäsche|reinraumbekleidung|bekleidung|mopps|próbek|samples|antibody|przeciwciał")
 EQUIPMENT_CPV_PREFIXES = ("38", "33", "42", "39", "31", "44", "45")

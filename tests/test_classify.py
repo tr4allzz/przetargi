@@ -30,6 +30,8 @@ CASES = [
     ("Belieferung von Reinraumbekleidung und -mopps", ["98310000"], "inne"),
     ("Dostawa odczynników w 2 pakietach walidacja związków nukleozydowych", ["33690000"], "inne"),
     ("Usługa: Rozwój i optymalizacja pożywki wraz z testem procesowym", [], "inne"),
+    ("Closed Loop Medication Management (CLMM), Architekt mit Gesamtleitung", ["71000000"], "inne"),
+    ("249 Qualifizierung und Requalifizierung Reinräume", ["71600000"], "usługa CSV"),
 ]
 
 

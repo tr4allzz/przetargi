@@ -121,7 +121,7 @@ def fetch(s, since: date) -> list[Tender]:
     for q in QUERIES:
         last = None
         for _ in range(MAX_PAGES_PER_QUERY):
-            params = [("search", q), *LANGS] + ([("lastItem", last)] if last else [])
+            params = [("search", f"\"{q}\""), *LANGS] + ([("lastItem", last)] if last else [])
             time.sleep(SLEEP)
             calls += 1
             data = get_json(s, SEARCH, params=params)
