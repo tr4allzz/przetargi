@@ -1,13 +1,13 @@
 # Przetargi GxP/CSV — 2026-11-19
 
-Nowe dziś (wszystkie przebiegi): **0**, w tym z ostatniego przebiegu: **0** (okno 3 dni).
+Nowe dziś (wszystkie przebiegi): **2**, w tym z ostatniego przebiegu: **2** (okno 3 dni).
 
 > **W skrócie**
 > - Otwarte przetargi: **0**
 > - Trafne zlecenia freelance: **0** (z ostatnich 7 dni: **0**)
 > - Wyniki CSV do wyceny: **0** · czeka na wynik: **0**
 
-<sub>Otwarte: **0** · zlecenia freelance: **0** · zamknięte CSV: **0**, z czego z wynikiem: **0** · sprzęt i serwis: **0** · inne: **0**</sub>
+<sub>Otwarte: **0** · zlecenia freelance: **2** · zamknięte CSV: **0**, z czego z wynikiem: **0** · sprzęt i serwis: **0** · inne: **0**</sub>
 
 ## 1. Otwarte przetargi
 
@@ -17,7 +17,14 @@ _Brak otwartych._
 
 <sub>Ogłoszenia z portali freelance, nie przetargi: zwykle pośrednik, bez terminu — liczy się szybka odpowiedź. Najnowsze na górze.</sub>
 
-_Brak._
+<details><summary>Słabiej dopasowane (2)</summary>
+
+| Zlecenie | Firma / pośrednik | Gdzie · forma | Start · czas | Dodano |
+|---|---|---|---|---|
+| [Senior SAP PP-PI Consultant (m/w/d) – XSteps / S/4HANA Greenfield /](https://www.freelancermap.de/projekt/senior-sap-pp-pi-consultant-m-w-d-xsteps-s-4hana-greenfield) | Büllesbach & Plöntzke GmbH | kontrakt · München, 100% remote | 10 mies. | 19.11.2026 |
+| [SAP PP PI Consultant (w/m/d) X-Steps System](https://www.freelancermap.de/projekt/sap-pp-pi-consultant-w-m-d-x-steps-system) | Etengo GmbH | kontrakt · Heilbronn, 100% remote | start: 12/2026 · 10 mies. | 18.11.2026 |
+
+</details>
 
 ## 3. Wyniki CSV — do wyceny
 
@@ -44,16 +51,12 @@ _Brak._
 
 <details><summary>Podsumowanie wg kraju i status źródeł</summary>
 
-_Brak danych._
+| Kraj | Otwarte | Freelance | CSV | Sprzęt/serwis | Inne | Razem |
+|---|---:|---:|---:|---:|---:|---:|
+| DE | · | 2 | · | · | · | **2** |
 
 **Status źródeł (ostatni przebieg):**
 
-- **ted**: ok — przeskanowano 2, istotnych 0, nowych 0 (okno 3 dni)
-- **oev**: ok — przeskanowano 2282, istotnych 0, nowych 0 (okno 3 dni)
-- **simap**: ok — przeskanowano 1, istotnych 0, nowych 0 (okno 3 dni)
-- **boamp**: ok — przeskanowano 60, istotnych 0, nowych 0 (okno 3 dni)
-- **contracts_finder**: ok — przeskanowano 341, istotnych 0, nowych 0 (okno 3 dni)
-- **ezamowienia**: ok — przeskanowano 4584, istotnych 0, nowych 0 (okno 3 dni)
-- **bk**: ok — przeskanowano 130, istotnych 0, nowych 0 (okno 3 dni)
+- **freelancermap**: ok — przeskanowano 57, istotnych 8, nowych 2 (okno 3 dni)
 
 </details>
