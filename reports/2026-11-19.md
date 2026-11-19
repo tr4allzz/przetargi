@@ -1,6 +1,6 @@
 # Przetargi GxP/CSV — 2026-11-19
 
-Nowe dziś (wszystkie przebiegi): **2**, w tym z ostatniego przebiegu: **2** (okno 3 dni).
+Nowe dziś (wszystkie przebiegi): **2**, w tym z ostatniego przebiegu: **0** (okno 2 dni).
 
 > **W skrócie**
 > - Otwarte przetargi: **0**
@@ -57,6 +57,13 @@ _Brak._
 
 **Status źródeł (ostatni przebieg):**
 
-- **freelancermap**: ok — przeskanowano 57, istotnych 8, nowych 2 (okno 3 dni)
+- **ted**: ok — przeskanowano 2, istotnych 0, nowych 0 (okno 2 dni)
+- **oev**: ok — przeskanowano 2190, istotnych 0, nowych 0 (okno 2 dni)
+- **simap**: ok — przeskanowano 1, istotnych 0, nowych 0 (okno 2 dni)
+- **boamp**: ok — przeskanowano 53, istotnych 0, nowych 0 (okno 2 dni)
+- **contracts_finder**: ok — przeskanowano 283, istotnych 0, nowych 0 (okno 2 dni)
+- **ezamowienia**: ok — przeskanowano 3618, istotnych 0, nowych 0 (okno 2 dni)
+- **bk**: ok — przeskanowano 104, istotnych 0, nowych 0 (okno 2 dni)
+- **freelancermap**: ok — przeskanowano 49, istotnych 6, nowych 0 (okno 2 dni)
 
 </details>
