@@ -2,7 +2,7 @@
 
 > **W skrócie**
 > - Otwarte przetargi: **1** — najbliższy termin: **23.11.2026** (Tirol Kliniken GmbH)
-> - Trafne zlecenia freelance: **15** (z ostatnich 7 dni: **4**)
+> - Trafne zlecenia freelance: **15** (z ostatnich 7 dni: **2**)
 > - Wyniki CSV do wyceny: **5** · czeka na wynik: **7**
 
 <sub>Otwarte: **1** · zlecenia freelance: **23** · zamknięte CSV: **12**, z czego z wynikiem: **5** · sprzęt i serwis: **20** · inne: **15**</sub>
@@ -13,7 +13,7 @@
 
 #### [IT- und QM-Dienstleistungen](https://ted.europa.eu/en/notice/-/detail/740084-2026)
 
-**Tirol Kliniken GmbH** · AT · termin ofert: **23.11.2026** (**za 5 dni**) · score 10.0
+**Tirol Kliniken GmbH** · AT · termin ofert: **23.11.2026** (**za 4 dni**) · score 10.0
 
 - Tryb: ograniczony
 - Umowa ramowa: tak
