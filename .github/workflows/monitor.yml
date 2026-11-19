@@ -10,7 +10,7 @@ on:
         default: "2"
       sources:
         description: "Comma-separated sources (also available: fts — slow)"
-        default: "ted,oev,simap,boamp,contracts_finder,ezamowienia,bk"
+        default: "ted,oev,simap,boamp,contracts_finder,ezamowienia,bk,freelancermap"
       min_score:
         description: "Minimum relevance score (0-10)"
         default: "3"
