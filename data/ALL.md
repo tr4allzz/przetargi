@@ -11,9 +11,9 @@
 
 ### Usługi walidacji CSV (1)
 
-#### [IT- und QM-Dienstleistungen](https://ted.europa.eu/en/notice/-/detail/740084-2026)
+#### [IT- und QM-Dienstleistungen](https://ted.europa.eu/en/notice/-/detail/810008-2026)
 
-**Tirol Kliniken GmbH** · AT · termin ofert: **23.11.2026** (**za 4 dni**) · score 10.0
+**Tirol Kliniken GmbH** · AT · termin ofert: **23.11.2026** (**za 2 dni**) · score 10.0
 
 - Tryb: ograniczony
 - Umowa ramowa: tak

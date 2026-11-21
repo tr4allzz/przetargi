@@ -757,6 +757,50 @@
   "key": "ted:740084-2026",
   "first_seen": "2026-11-18"
  },
+ "ted:810008-2026": {
+  "source": "ted",
+  "source_id": "810008-2026",
+  "title": "IT- und QM-Dienstleistungen",
+  "url": "https://ted.europa.eu/en/notice/-/detail/810008-2026",
+  "description": "Die Beratungsleistung umfasst die ganzheitliche Planung, Steuerung und Überwachung des Projektfortschritts, das Controlling sowie die Durchführung von Risikoanalysen. Zusätzlich kann die Moderation von Projekt-Workshops und Lenkungsausschüssen möglich sein, um eine effiziente Kommunikation und Entscheidungsfindung sicherzustellen.; Mögliche Leistungen umfassen die Bedarfsanalyse, die Erstellung und Qualitätssicherung von Ausschreibungsunterlagen, die Koordination der Kommunikation mit potenziellen Anbietern, die Unterstützung bei Angebotsbewertungen sowie die Vorbereitung von Vertragsverhandlungen und Vergabeentscheidungen.; Die Unterstützung kann insbesondere die Analyse und Bewertung von IT-Systemen und Prozessen hinsichtlich relevanter Normen, gesetzlicher Anforderungen und interner Vorgaben umfassen. Dazu zählen beispielsweise GAMP, EN ISO 15189 oder vergleichbare Standards. Mögliche Leistungen sind die Entwicklung und Umsetzung standardisierter Validierungs- und Qualifizierungsframeworks, die Erstellung erforderlicher Nachweise und Dokumentationen sowie die Vorbereitung auf interne und externe Prüfungen.; Die Leistungen können insbesondere die Analyse der bestehenden Qualitätslage, die Konzeption und Implementierung standardisierter QM-Systeme gemäß nationalen, internationalen oder gleichwertigen Standards, die Begleitung von Zertifizierungsprozessen sowie die Vorbereitung auf externe Audits umfassen. Beispiele hierfür sind ISO 9001, OnkoZert, ISO 27001 oder vergleichbare Regelwerke. Darüber hinaus können bereits zertifizierte Bereiche durch Schulungen, Beratung und Unterstützung bei der Aufrechterhaltung und kontinuierlichen Verbesserung ihrer QM-Systeme begleitet werden.; Die Leistungen können insbesondere die Analyse der aktuellen Risiko- und Kontinuitätslage, die Konzeption und Implementierung geeigneter Managementsysteme, die Durchführung von Risiko-Assessments, die Identifikation kritischer Prozesse und Infrastrukturen sowie die Entwicklung von Notfallplä",
+  "buyer": "Tirol Kliniken GmbH",
+  "country": "AUT",
+  "published": "2026-11-20",
+  "deadline": "",
+  "notice_type": "cn-standard",
+  "cpv": [
+   "72000000"
+  ],
+  "value": "",
+  "winners": [],
+  "tender_id": "",
+  "procedure": "ograniczony",
+  "estimated_value": "",
+  "award_value": "",
+  "lowest_offer": "",
+  "highest_offer": "",
+  "offers": "",
+  "criteria": [
+   "quality",
+   "price"
+  ],
+  "duration": "48 month",
+  "contract_date": "",
+  "framework": "tak",
+  "deposit": "",
+  "conditions": "",
+  "winner_info": [],
+  "kind": "usługa CSV",
+  "score": 10.0,
+  "matched": [
+   "GAMP",
+   "validation",
+   "IQ/OQ/PQ",
+   "CPV 72*"
+  ],
+  "key": "ted:810008-2026",
+  "first_seen": "2026-11-21"
+ },
  "ezamowienia:2023/BZP 00414258": {
   "source": "ezamowienia",
   "source_id": "2023/BZP 00414258",
