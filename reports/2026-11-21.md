@@ -1,6 +1,6 @@
 # Przetargi GxP/CSV — 2026-11-21
 
-Nowe dziś (wszystkie przebiegi): **1**, w tym z ostatniego przebiegu: **1** (okno 4 dni).
+Nowe dziś (wszystkie przebiegi): **1**, w tym z ostatniego przebiegu: **0** (okno 2 dni).
 
 > **W skrócie**
 > - Otwarte przetargi: **0**
@@ -59,13 +59,13 @@ _Brak._
 
 **Status źródeł (ostatni przebieg):**
 
-- **ted**: ok — przeskanowano 3, istotnych 1, nowych 1 (okno 4 dni)
-- **oev**: ok — przeskanowano 4195, istotnych 0, nowych 0 (okno 4 dni)
-- **simap**: ok — przeskanowano 1, istotnych 0, nowych 0 (okno 4 dni)
-- **boamp**: ok — przeskanowano 93, istotnych 0, nowych 0 (okno 4 dni)
-- **contracts_finder**: ok — przeskanowano 519, istotnych 0, nowych 0 (okno 4 dni)
-- **ezamowienia**: ok — przeskanowano 4961, istotnych 0, nowych 0 (okno 4 dni)
-- **bk**: ok — przeskanowano 155, istotnych 0, nowych 0 (okno 4 dni)
-- **freelancermap**: ok — przeskanowano 63, istotnych 6, nowych 0 (okno 4 dni)
+- **ted**: ok — przeskanowano 3, istotnych 1, nowych 0 (okno 2 dni)
+- **oev**: ok — przeskanowano 2005, istotnych 0, nowych 0 (okno 2 dni)
+- **simap**: ok — przeskanowano 1, istotnych 0, nowych 0 (okno 2 dni)
+- **boamp**: ok — przeskanowano 53, istotnych 0, nowych 0 (okno 2 dni)
+- **contracts_finder**: ok — przeskanowano 236, istotnych 0, nowych 0 (okno 2 dni)
+- **ezamowienia**: ok — przeskanowano 2506, istotnych 0, nowych 0 (okno 2 dni)
+- **bk**: ok — przeskanowano 80, istotnych 0, nowych 0 (okno 2 dni)
+- **freelancermap**: ok — przeskanowano 43, istotnych 1, nowych 0 (okno 2 dni)
 
 </details>
