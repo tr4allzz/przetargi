@@ -1,13 +1,13 @@
-# Przetargi GxP/CSV — 2026-11-21
+# Przetargi GxP/CSV — 2026-11-22
 
-Nowe dziś (wszystkie przebiegi): **1**, w tym z ostatniego przebiegu: **0** (okno 2 dni).
+Nowe dziś (wszystkie przebiegi): **0**, w tym z ostatniego przebiegu: **0** (okno 2 dni).
 
 > **W skrócie**
 > - Otwarte przetargi: **0**
 > - Trafne zlecenia freelance: **0** (z ostatnich 7 dni: **0**)
-> - Wyniki CSV do wyceny: **0** · czeka na wynik: **1**
+> - Wyniki CSV do wyceny: **0** · czeka na wynik: **0**
 
-<sub>Otwarte: **0** · zlecenia freelance: **0** · zamknięte CSV: **1**, z czego z wynikiem: **0** · sprzęt i serwis: **0** · inne: **0**</sub>
+<sub>Otwarte: **0** · zlecenia freelance: **0** · zamknięte CSV: **0**, z czego z wynikiem: **0** · sprzęt i serwis: **0** · inne: **0**</sub>
 
 ## 1. Otwarte przetargi
 
@@ -25,19 +25,10 @@ _Brak._
 
 _Brak wyników._
 
-<details><summary>Bez wyniku jeszcze (1)</summary>
-
-- 20.11.2026 · usługa CSV · **Tirol Kliniken GmbH** — [IT- und QM-Dienstleistungen](https://ted.europa.eu/en/notice/-/detail/810008-2026)
-
-</details>
-
 ## 4. Jak startować — wnioski z historii
 
 <sub>Z 0 rozstrzygniętych postępowań (wszystkie typy, poza freelance). Mała próba — traktuj jako orientację, nie cennik.</sub>
 
-- Tylko cena: 0/1 postępowań ze znanymi kryteriami — przy pozostałych liczą się też jakość/doświadczenie/termin, więc warto przygotować opis metodyki i CV.
-
-**Kryteria** (n=1): tylko cena 0/1 · wagi ceny: — · inne kryteria: quality ×1
 
 ## 5. Sprzęt z IQ/OQ i serwis urządzeń
 
@@ -53,19 +44,17 @@ _Brak._
 
 <details><summary>Podsumowanie wg kraju i status źródeł</summary>
 
-| Kraj | Otwarte | Freelance | CSV | Sprzęt/serwis | Inne | Razem |
-|---|---:|---:|---:|---:|---:|---:|
-| AT | · | · | 1 | · | · | **1** |
+_Brak danych._
 
 **Status źródeł (ostatni przebieg):**
 
-- **ted**: ok — przeskanowano 3, istotnych 1, nowych 0 (okno 2 dni)
-- **oev**: ok — przeskanowano 2005, istotnych 0, nowych 0 (okno 2 dni)
-- **simap**: ok — przeskanowano 1, istotnych 0, nowych 0 (okno 2 dni)
-- **boamp**: ok — przeskanowano 53, istotnych 0, nowych 0 (okno 2 dni)
-- **contracts_finder**: ok — przeskanowano 236, istotnych 0, nowych 0 (okno 2 dni)
-- **ezamowienia**: ok — przeskanowano 2506, istotnych 0, nowych 0 (okno 2 dni)
-- **bk**: ok — przeskanowano 80, istotnych 0, nowych 0 (okno 2 dni)
-- **freelancermap**: ok — przeskanowano 43, istotnych 1, nowych 0 (okno 2 dni)
+- **ted**: ok — przeskanowano 1, istotnych 1, nowych 0 (okno 2 dni)
+- **oev**: ok — przeskanowano 0, istotnych 0, nowych 0 (okno 2 dni)
+- **simap**: ok — przeskanowano 0, istotnych 0, nowych 0 (okno 2 dni)
+- **boamp**: ok — przeskanowano 58, istotnych 0, nowych 0 (okno 2 dni)
+- **contracts_finder**: ok — przeskanowano 111, istotnych 0, nowych 0 (okno 2 dni)
+- **ezamowienia**: ok — przeskanowano 1226, istotnych 0, nowych 0 (okno 2 dni)
+- **bk**: ok — przeskanowano 39, istotnych 0, nowych 0 (okno 2 dni)
+- **freelancermap**: ok — przeskanowano 24, istotnych 0, nowych 0 (okno 2 dni)
 
 </details>
