@@ -2,10 +2,10 @@
 
 > **W skrócie**
 > - Otwarte przetargi: **1** — najbliższy termin: **23.11.2026** (Tirol Kliniken GmbH)
-> - Trafne zlecenia freelance: **15** (z ostatnich 7 dni: **2**)
+> - Trafne zlecenia freelance: **17** (z ostatnich 7 dni: **4**)
 > - Wyniki CSV do wyceny: **5** · czeka na wynik: **7**
 
-<sub>Otwarte: **1** · zlecenia freelance: **25** · zamknięte CSV: **12**, z czego z wynikiem: **5** · sprzęt i serwis: **20** · inne: **15**</sub>
+<sub>Otwarte: **1** · zlecenia freelance: **28** · zamknięte CSV: **12**, z czego z wynikiem: **5** · sprzęt i serwis: **20** · inne: **15**</sub>
 
 ## 1. Otwarte przetargi
 
@@ -13,7 +13,7 @@
 
 #### [IT- und QM-Dienstleistungen](https://ted.europa.eu/en/notice/-/detail/810008-2026)
 
-**Tirol Kliniken GmbH** · AT · termin ofert: **23.11.2026** (**jutro**) · score 10.0
+**Tirol Kliniken GmbH** · AT · termin ofert: **23.11.2026** (**dziś**) · score 10.0
 
 - Tryb: ograniczony
 - Umowa ramowa: tak
@@ -25,10 +25,12 @@
 
 <sub>Ogłoszenia z portali freelance, nie przetargi: zwykle pośrednik, bez terminu — liczy się szybka odpowiedź. Najnowsze na górze.</sub>
 
-### Trafne (15)
+### Trafne (17)
 
 | Zlecenie | Firma / pośrednik | Gdzie · forma | Start · czas | Dodano |
 |---|---|---|---|---|
+| [GxP specialist for software development](https://www.freelancermap.de/projekt/gxp-specialist-for-software-development) | Open Link Systems Ltd | kontrakt · Munich, 100% remote | start: asap | 23.11.2026 |
+| [GMP-Ingenieur / Qualifizierer](https://www.freelancermap.de/projekt/gmp-ingenieur-qualifizierer) | Invenda GmbH | kontrakt · Hamburg, 100% remote | start: ab sofort · 3 mies. | 23.11.2026 |
 | [Qualification Engineer (m/w/d)](https://www.freelancermap.de/projekt/qualification-engineer-m-w-d-3074239) | SThree_Germany | ANÜ · Singen (78224), remote 10% | — | 16.11.2026 |
 | [Freelance: Senior GMP Manufacturing & AI Advisor für KI-Initiative im…](https://www.freelancermap.de/projekt/freelance-senior-gmp-manufacturing-und-ai-advisor-fuer-ki-initiative-im-pharmaumfeld) | Halian GmbH | kontrakt · 100% remote | start: ab sofort · 1 mies. | 16.11.2026 |
 | [1085339 CSV-Experte (Pharma) (m/w/d)](https://www.freelancermap.de/projekt/1085339-csv-experte-pharma-m-w-d) | SOLCOM GmbH | kontrakt · Zell (Kanton Luzern) | start: 30.11.2026 | 11.11.2026 |
@@ -45,10 +47,11 @@
 | [Scrum Master (m/f/x) with LIMS](https://www.freelancermap.de/projekt/scrum-master-m-f-x-with-lims) | Rezolve AI Limited | kontrakt · Frankfurt, 100% remote | 6 mies. | 22.10.2026 |
 | [PharmaSuite MBR Designer](https://www.freelancermap.de/projekt/mbr-specialist) | JCW Search GmbH | kontrakt · Europe, 100% remote | 6 mies. | 09.10.2026 |
 
-<details><summary>Słabiej dopasowane (10)</summary>
+<details><summary>Słabiej dopasowane (11)</summary>
 
 | Zlecenie | Firma / pośrednik | Gdzie · forma | Start · czas | Dodano |
 |---|---|---|---|---|
+| [Projektingenieur für Automatisierung und Prozessleittechnik (m/w/d)](https://www.freelancermap.de/projekt/projektingenieur-fuer-automatisierung-und-prozessleittechnik-m-w-d) | Randstad Professional GmbH (v… | etat · Sandhausen, remote 40% | start: ab sofort | 23.11.2026 |
 | [Senior SAP PP-PI Consultant (m/w/d) – XSteps / S/4HANA Greenfield /](https://www.freelancermap.de/projekt/senior-sap-pp-pi-consultant-m-w-d-xsteps-s-4hana-greenfield) | Büllesbach & Plöntzke GmbH | kontrakt · München, 100% remote | 10 mies. | 19.11.2026 |
 | [SAP PP PI Consultant (w/m/d) X-Steps System](https://www.freelancermap.de/projekt/sap-pp-pi-consultant-w-m-d-x-steps-system) | Etengo GmbH | kontrakt · Heilbronn, 100% remote | start: 12/2026 · 10 mies. | 18.11.2026 |
 | [DP Expert - Aseptic Fill-Finish (m/f/d)](https://www.freelancermap.de/projekt/dp-expert-aseptic-fill-finish-m-f-d) | SThree Germany | ANÜ · Alzey (55232) | — | 17.11.2026 |
@@ -210,7 +213,7 @@
 
 | Kraj | Otwarte | Freelance | CSV | Sprzęt/serwis | Inne | Razem |
 |---|---:|---:|---:|---:|---:|---:|
-| DE | · | 25 | 4 | 9 | 7 | **45** |
+| DE | · | 28 | 4 | 9 | 7 | **48** |
 | PL | · | · | 5 | 3 | 4 | **12** |
 | CH | · | · | 1 | 2 | 1 | **4** |
 | BE | · | · | · | 1 | 2 | **3** |
