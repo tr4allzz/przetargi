@@ -1,25 +1,15 @@
 # Wszystkie trafienia — baza
 
 > **W skrócie**
-> - Otwarte przetargi: **1** — najbliższy termin: **23.11.2026** (Tirol Kliniken GmbH)
-> - Trafne zlecenia freelance: **17** (z ostatnich 7 dni: **4**)
-> - Wyniki CSV do wyceny: **5** · czeka na wynik: **7**
+> - Otwarte przetargi: **0**
+> - Trafne zlecenia freelance: **17** (z ostatnich 7 dni: **3**)
+> - Wyniki CSV do wyceny: **5** · czeka na wynik: **8**
 
-<sub>Otwarte: **1** · zlecenia freelance: **28** · zamknięte CSV: **12**, z czego z wynikiem: **5** · sprzęt i serwis: **20** · inne: **15**</sub>
+<sub>Otwarte: **0** · zlecenia freelance: **28** · zamknięte CSV: **13**, z czego z wynikiem: **5** · sprzęt i serwis: **20** · inne: **15**</sub>
 
 ## 1. Otwarte przetargi
 
-### Usługi walidacji CSV (1)
-
-#### [IT- und QM-Dienstleistungen](https://ted.europa.eu/en/notice/-/detail/810008-2026)
-
-**Tirol Kliniken GmbH** · AT · termin ofert: **23.11.2026** (**dziś**) · score 10.0
-
-- Tryb: ograniczony
-- Umowa ramowa: tak
-- Realizacja: 48 month
-- Kryteria: quality, price
-- <sub>dopasowania: GAMP, validation, IQ/OQ/PQ, CPV 72* · źródło: ted · publikacja 26.10.2026</sub>
+_Brak otwartych._
 
 ## 2. Zlecenia freelance (ostatnie 45 dni)
 
@@ -29,6 +19,7 @@
 
 | Zlecenie | Firma / pośrednik | Gdzie · forma | Start · czas | Dodano |
 |---|---|---|---|---|
+| [SAP Toolchain Expert _ GxP Validation & Traceability / Hamburg Area /…](https://www.freelancermap.de/projekt/sap-toolchain-expert-gxp-validation-und-traceability-hamburg-area-remote) | SATZ Software & Consulting Gm… | kontrakt · Hamburg Area / Remote | start: ASAP | 24.11.2026 |
 | [GxP specialist for software development](https://www.freelancermap.de/projekt/gxp-specialist-for-software-development) | Open Link Systems Ltd | kontrakt · Munich, 100% remote | start: asap | 23.11.2026 |
 | [GMP-Ingenieur / Qualifizierer](https://www.freelancermap.de/projekt/gmp-ingenieur-qualifizierer) | Invenda GmbH | kontrakt · Hamburg, 100% remote | start: ab sofort · 3 mies. | 23.11.2026 |
 | [Qualification Engineer (m/w/d)](https://www.freelancermap.de/projekt/qualification-engineer-m-w-d-3074239) | SThree_Germany | ANÜ · Singen (78224), remote 10% | — | 16.11.2026 |
@@ -45,7 +36,6 @@
 | [Key User LIMS-System LabWare](https://www.freelancermap.de/projekt/key-user-lims-system-labware) | A-SAP | kontrakt · frankfurt, remote 20% | start: asap · 6 mies. | 02.11.2026 |
 | [Freelancer Qualification / CSV Specialist (gn) – GMP / Pharma](https://www.freelancermap.de/projekt/freelancer-qualification-csv-specialist-gn-gmp-pharma) | ageneo Life Science Experts I… | kontrakt · Bremen | start: ab sofort · 12 mies. | 29.10.2026 |
 | [Scrum Master (m/f/x) with LIMS](https://www.freelancermap.de/projekt/scrum-master-m-f-x-with-lims) | Rezolve AI Limited | kontrakt · Frankfurt, 100% remote | 6 mies. | 22.10.2026 |
-| [PharmaSuite MBR Designer](https://www.freelancermap.de/projekt/mbr-specialist) | JCW Search GmbH | kontrakt · Europe, 100% remote | 6 mies. | 09.10.2026 |
 
 <details><summary>Słabiej dopasowane (11)</summary>
 
@@ -81,8 +71,9 @@
 | 02.09.2025 | AMGROS I/S | [Quality Management System](https://ted.europa.eu/en/notice/-/detail/814489-2025) | 4 800 000 DKK | 5 (2 142 286 DKK – 9 315 420 DKK) | 4 800 000 DKK | Dot Compliance UK Limited (GBR, medium) | Pris, Solution, Implementation plan, Ve… |
 | 29.12.2023 | Rządowa Agencja Rezerw Strategiczn… | [Usługa wykonania walidacji systemów skomputeryzowanych wspi…](https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/id/08dc18ce-6962-1bd1-6929-350011fa3145) | — | 5 (307 500 PLN – 358 600 PLN) | 307 500 PLN | eConsulting Sp. z o.o. | Cena 100 |
 
-<details><summary>Bez wyniku jeszcze (7)</summary>
+<details><summary>Bez wyniku jeszcze (8)</summary>
 
+- 20.11.2026 · usługa CSV · **Tirol Kliniken GmbH** — [IT- und QM-Dienstleistungen](https://ted.europa.eu/en/notice/-/detail/810008-2026)
 - 31.10.2026 · usługa CSV · **Universitätsklinikum Halle (Saale) AöR** — [Wiederkehrende GMP-Requalifizierung des Monitoringsystems in der Universitätsapotheke (LO…](https://oeffentlichevergabe.de/ui/de/search/details?noticeId=c8df9f04-934c-497e-b5c2-e755d565ae56&noticeVersion=01)
 - 25.10.2026 · system + walidacja · **Berliner Wasserbetriebe** — [Beschaffung, Implementierung und Einführung eines integrierten Cloud-LIMS (native SaaS) f…](https://oeffentlichevergabe.de/ui/de/search/details?noticeId=68096071-5c7e-4742-a7b9-ef6fe506dbaf&noticeVersion=01)
 - 14.08.2026 · system + walidacja · **Universitätsklinikum Essen AÖR** — [NUM RC - Pharma-Monitoring](https://oeffentlichevergabe.de/ui/de/search/details?noticeId=cce0a95a-93c3-4038-8dee-ccbddbc1bff9&noticeVersion=01)
@@ -219,7 +210,7 @@
 | BE | · | · | · | 1 | 2 | **3** |
 | BG | · | · | · | 2 | · | **2** |
 | IE | · | · | · | 1 | 1 | **2** |
-| AT | 1 | · | · | · | · | **1** |
+| AT | · | · | 1 | · | · | **1** |
 | DK | · | · | 1 | · | · | **1** |
 | NO | · | · | 1 | · | · | **1** |
 | MK | · | · | · | 1 | · | **1** |
