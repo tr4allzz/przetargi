@@ -5,7 +5,7 @@
 > - Trafne zlecenia freelance: **18** (z ostatnich 7 dni: **4**)
 > - Wyniki CSV do wyceny: **5** · czeka na wynik: **8**
 
-<sub>Otwarte: **0** · zlecenia freelance: **30** · zamknięte CSV: **13**, z czego z wynikiem: **5** · sprzęt i serwis: **20** · inne: **15**</sub>
+<sub>Otwarte: **0** · zlecenia freelance: **31** · zamknięte CSV: **13**, z czego z wynikiem: **5** · sprzęt i serwis: **20** · inne: **15**</sub>
 
 ## 1. Otwarte przetargi
 
@@ -38,10 +38,11 @@ _Brak otwartych._
 | [Freelancer Qualification / CSV Specialist (gn) – GMP / Pharma](https://www.freelancermap.de/projekt/freelancer-qualification-csv-specialist-gn-gmp-pharma) | ageneo Life Science Experts I… | kontrakt · Bremen | start: ab sofort · 12 mies. | 29.10.2026 |
 | [Scrum Master (m/f/x) with LIMS](https://www.freelancermap.de/projekt/scrum-master-m-f-x-with-lims) | Rezolve AI Limited | kontrakt · Frankfurt, 100% remote | 6 mies. | 22.10.2026 |
 
-<details><summary>Słabiej dopasowane (12)</summary>
+<details><summary>Słabiej dopasowane (13)</summary>
 
 | Zlecenie | Firma / pośrednik | Gdzie · forma | Start · czas | Dodano |
 |---|---|---|---|---|
+| [Senior SAP Program Director / IT Project Director – Warehouse Transfo…](https://www.freelancermap.de/projekt/senior-sap-program-director-it-project-director-warehouse-transformation-pharmabranche-m-w-d) | Tenth Revolution Group | kontrakt · Brandenburg, 100% remote | start: ab sofort · 4 mies. | 26.11.2026 |
 | [AWS Data Engineer / Data Pipeline](https://www.freelancermap.de/projekt/aws-data-engineer-data-pipeline) | Akkodis Germany Tech Freelanc… | kontrakt · frankfurt, remote 20% | 12 mies. | 25.11.2026 |
 | [Projektingenieur für Automatisierung und Prozessleittechnik (m/w/d)](https://www.freelancermap.de/projekt/projektingenieur-fuer-automatisierung-und-prozessleittechnik-m-w-d) | Randstad Professional GmbH (v… | etat · Sandhausen, remote 40% | start: ab sofort | 23.11.2026 |
 | [Senior SAP PP-PI Consultant (m/w/d) – XSteps / S/4HANA Greenfield /](https://www.freelancermap.de/projekt/senior-sap-pp-pi-consultant-m-w-d-xsteps-s-4hana-greenfield) | Büllesbach & Plöntzke GmbH | kontrakt · München, 100% remote | 10 mies. | 19.11.2026 |
@@ -206,7 +207,7 @@ _Brak otwartych._
 
 | Kraj | Otwarte | Freelance | CSV | Sprzęt/serwis | Inne | Razem |
 |---|---:|---:|---:|---:|---:|---:|
-| DE | · | 30 | 4 | 9 | 7 | **50** |
+| DE | · | 31 | 4 | 9 | 7 | **51** |
 | PL | · | · | 5 | 3 | 4 | **12** |
 | CH | · | · | 1 | 2 | 1 | **4** |
 | BE | · | · | · | 1 | 2 | **3** |
