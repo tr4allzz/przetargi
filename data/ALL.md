@@ -1,15 +1,21 @@
 # Wszystkie trafienia — baza
 
 > **W skrócie**
-> - Otwarte przetargi: **0**
+> - Otwarte przetargi: **1** — najbliższy termin: **04.12.2026 23:59** (Onpack sp. z o.o.)
 > - Trafne zlecenia freelance: **18** (z ostatnich 7 dni: **4**)
 > - Wyniki CSV do wyceny: **5** · czeka na wynik: **8**
 
-<sub>Otwarte: **0** · zlecenia freelance: **31** · zamknięte CSV: **13**, z czego z wynikiem: **5** · sprzęt i serwis: **20** · inne: **15**</sub>
+<sub>Otwarte: **1** · zlecenia freelance: **31** · zamknięte CSV: **13**, z czego z wynikiem: **5** · sprzęt i serwis: **20** · inne: **15**</sub>
 
 ## 1. Otwarte przetargi
 
-_Brak otwartych._
+### Usługi walidacji CSV (1)
+
+#### [OnPack – Zadanie 1: Projektowanie konstrukcyjne, prototypowanie, badania i walidacja oraz doradztwo technologiczno-mate…](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/298586)
+
+**Onpack sp. z o.o.** · PL · termin ofert: **04.12.2026 23:59** (**za 7 dni**) · score 5.0
+
+- <sub>dopasowania: validation, LIMS/MES/CDS · źródło: bk · publikacja 27.11.2026</sub>
 
 ## 2. Zlecenia freelance (ostatnie 45 dni)
 
@@ -89,10 +95,10 @@ _Brak otwartych._
 
 ## 4. Jak startować — wnioski z historii
 
-<sub>Z 18 rozstrzygniętych postępowań (wszystkie typy, poza freelance). Mała próba — traktuj jako orientację, nie cennik.</sub>
+<sub>Z 19 rozstrzygniętych postępowań (wszystkie typy, poza freelance). Mała próba — traktuj jako orientację, nie cennik.</sub>
 
 - W postępowaniach CSV zwykle wpływa mało ofert (mediana 1, n=5) — start z poprawną ofertą ma realną szansę; śledź ogłoszenia, bo konkurencja jest nieliczna.
-- Kwota umowy to mediana 1.00 × wartości szacunkowej (n=5, poniżej szacunku: 20%) — wartość szacunkowa z ogłoszenia jest dobrym pułapem ceny.
+- Kwota umowy to mediana 1.04 × wartości szacunkowej (n=6, poniżej szacunku: 17%) — wartość szacunkowa z ogłoszenia jest dobrym pułapem ceny.
 - Tylko cena: 8/21 postępowań ze znanymi kryteriami — przy pozostałych liczą się też jakość/doświadczenie/termin, więc warto przygotować opis metodyki i CV.
 - Najczęstszy warunek udziału to doświadczenie (wykonane usługi + referencje) — zbieraj protokoły odbioru i referencje z każdego projektu walidacyjnego.
 
@@ -140,6 +146,7 @@ _Brak otwartych._
 | ProGrupa Technologie | 1 | system + walidacja | PL | 243 466 PLN |
 | RAS Reinraum-und Anlagenservice Jens Hünger | 1 | usługa CSV | DEU | — |
 | SPIE Building Solutions Sp.z o.o. | 1 | serwis urządzeń | PL | 252 283 PLN / 251 224 PLN |
+| SPIE Life Science Engineering | 1 | inne | DEU | 8 618 000 EUR |
 | STRABAG   PFS | 1 | serwis urządzeń | PL | 252 283 PLN / 251 224 PLN |
 | Wirth + Wirth | 1 | inne | CHE | 391 117 CHF |
 | eConsulting | 1 | usługa CSV | PL | 307 500 PLN |
@@ -189,7 +196,7 @@ _Brak otwartych._
 | 28.06.2024 | inne | - Eigenerklärung zur Eignung FB 12… | [Neubau KRH-Zentralapotheke, Pharmamonitoring](https://ted.europa.eu/en/notice/-/detail/384734-2024) | — | eNeG Gesellschaft f. wirtsch. Energieei… |
 | 19.03.2026 | inne | Narodowy Instytut Onkologii im. Ma… | [Prace badawcze nad opracowaniem hodowli komórkowej mającej …](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/267836) | — | — |
 | 04.08.2026 | inne | ASLab Science P.S.A. | [Zapytanie ofertowe na wynajem zestawu LC-HRMS-MS/MS na potr…](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/286214) | — | — |
-| 06.08.2026 | inne | Medizinische Universität Lausitz -… | [3. Bauabschnitt Nuklearmedizin - Zyklotron](https://oeffentlichevergabe.de/ui/de/search/details?noticeId=a4611d64-d56c-4429-8fdc-2aa5e6b9e50e&noticeVersion=01) | — | — |
+| 23.11.2026 | inne | Medizinische Universität Lausitz -… | [3. Bauabschnitt Nuklearmedizin - Zyklotron](https://oeffentlichevergabe.de/ui/de/search/details?noticeId=6afdcaa2-e52a-43ea-bf64-57e115717f62&noticeVersion=01) | 8 618 000 EUR | SPIE Life Science Engineering GmbH |
 | 08.11.2026 | inne | GLG Werner Forßmann Klinikum Ebers… | [Neubau Ost Haus 18 WFK Eberswalde_Bauleistungen BA 1_Vorinf…](https://oeffentlichevergabe.de/ui/de/search/details?noticeId=d957b368-c372-4a3a-be27-ff87b0117415&noticeVersion=01) | — | — |
 | 24.10.2025 | inne | Universitätsmedizin der Johannes G… | [Belieferung von Reinraumbekleidung und -mopps](https://ted.europa.eu/en/notice/-/detail/771418-2025) | — | Elis Cleanroom GmbH |
 | 17.06.2026 | inne | Universitätsspital Basel / Healthc… | [Closed Loop Medication Management (CLMM), Architekt mit Ges…](https://www.simap.ch/de/project-detail/39601933-618d-45c1-9a65-912cf8eb0f33) | 391 117 CHF | Wirth + Wirth AG |
@@ -208,7 +215,7 @@ _Brak otwartych._
 | Kraj | Otwarte | Freelance | CSV | Sprzęt/serwis | Inne | Razem |
 |---|---:|---:|---:|---:|---:|---:|
 | DE | · | 31 | 4 | 9 | 7 | **51** |
-| PL | · | · | 5 | 3 | 4 | **12** |
+| PL | 1 | · | 5 | 3 | 4 | **13** |
 | CH | · | · | 1 | 2 | 1 | **4** |
 | BE | · | · | · | 1 | 2 | **3** |
 | BG | · | · | · | 2 | · | **2** |
