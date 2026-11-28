@@ -5,7 +5,7 @@
 > - Trafne zlecenia freelance: **18** (z ostatnich 7 dni: **4**)
 > - Wyniki CSV do wyceny: **5** · czeka na wynik: **8**
 
-<sub>Otwarte: **1** · zlecenia freelance: **31** · zamknięte CSV: **13**, z czego z wynikiem: **5** · sprzęt i serwis: **20** · inne: **15**</sub>
+<sub>Otwarte: **1** · zlecenia freelance: **34** · zamknięte CSV: **13**, z czego z wynikiem: **5** · sprzęt i serwis: **20** · inne: **15**</sub>
 
 ## 1. Otwarte przetargi
 
@@ -13,7 +13,7 @@
 
 #### [OnPack – Zadanie 1: Projektowanie konstrukcyjne, prototypowanie, badania i walidacja oraz doradztwo technologiczno-mate…](https://bazakonkurencyjnosci.funduszeeuropejskie.gov.pl/ogloszenia/298586)
 
-**Onpack sp. z o.o.** · PL · termin ofert: **04.12.2026 23:59** (**za 7 dni**) · score 5.0
+**Onpack sp. z o.o.** · PL · termin ofert: **04.12.2026 23:59** (**za 6 dni**) · score 5.0
 
 - <sub>dopasowania: validation, LIMS/MES/CDS · źródło: bk · publikacja 27.11.2026</sub>
 
@@ -44,10 +44,13 @@
 | [Freelancer Qualification / CSV Specialist (gn) – GMP / Pharma](https://www.freelancermap.de/projekt/freelancer-qualification-csv-specialist-gn-gmp-pharma) | ageneo Life Science Experts I… | kontrakt · Bremen | start: ab sofort · 12 mies. | 29.10.2026 |
 | [Scrum Master (m/f/x) with LIMS](https://www.freelancermap.de/projekt/scrum-master-m-f-x-with-lims) | Rezolve AI Limited | kontrakt · Frankfurt, 100% remote | 6 mies. | 22.10.2026 |
 
-<details><summary>Słabiej dopasowane (13)</summary>
+<details><summary>Słabiej dopasowane (16)</summary>
 
 | Zlecenie | Firma / pośrednik | Gdzie · forma | Start · czas | Dodano |
 |---|---|---|---|---|
+| [Apotheker / Naturwissenschaftler (m/w/d) im Bereich Qualitätskontrolle](https://www.freelancermap.de/projekt/apotheker-naturwissenschaftler-m-w-d-im-bereich-qualitaetskontrolle) | Peak One GmbH | kontrakt · Göttingen | start: ab sofort · 12 mies. | 27.11.2026 |
+| [SME Validation/Process expert (3 Positionen vakant)](https://www.freelancermap.de/projekt/sme-validation-process-expert-3-positionen-vakant) | Peak One GmbH | kontrakt · Göttingen | start: ab sofort · 6 mies. | 27.11.2026 |
+| [Ingenieur für Pharma Anlagen, Medienversorgung und Infrastruktur](https://www.freelancermap.de/projekt/ingenieur-fuer-pharma-anlagen-medienversorgung-und-infrastruktur) | Peak One GmbH | kontrakt · Göttingen | start: ab sofort · 6 mies. | 27.11.2026 |
 | [Senior SAP Program Director / IT Project Director – Warehouse Transfo…](https://www.freelancermap.de/projekt/senior-sap-program-director-it-project-director-warehouse-transformation-pharmabranche-m-w-d) | Tenth Revolution Group | kontrakt · Brandenburg, 100% remote | start: ab sofort · 4 mies. | 26.11.2026 |
 | [AWS Data Engineer / Data Pipeline](https://www.freelancermap.de/projekt/aws-data-engineer-data-pipeline) | Akkodis Germany Tech Freelanc… | kontrakt · frankfurt, remote 20% | 12 mies. | 25.11.2026 |
 | [Projektingenieur für Automatisierung und Prozessleittechnik (m/w/d)](https://www.freelancermap.de/projekt/projektingenieur-fuer-automatisierung-und-prozessleittechnik-m-w-d) | Randstad Professional GmbH (v… | etat · Sandhausen, remote 40% | start: ab sofort | 23.11.2026 |
@@ -214,7 +217,7 @@
 
 | Kraj | Otwarte | Freelance | CSV | Sprzęt/serwis | Inne | Razem |
 |---|---:|---:|---:|---:|---:|---:|
-| DE | · | 31 | 4 | 9 | 7 | **51** |
+| DE | · | 34 | 4 | 9 | 7 | **54** |
 | PL | 1 | · | 5 | 3 | 4 | **13** |
 | CH | · | · | 1 | 2 | 1 | **4** |
 | BE | · | · | · | 1 | 2 | **3** |
